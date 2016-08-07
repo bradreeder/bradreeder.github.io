@@ -13,13 +13,4 @@ module.exports = [{
       listing: true,
     },
   },
-}, {
-  path: '/resources/{file*}',
-  method: 'GET',
-  handler: {
-    directory: {
-      path: './resources',
-      listing: true,
-    },
-  },
 }];
