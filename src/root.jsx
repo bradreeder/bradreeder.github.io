@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Header from './header.jsx';
 import Menu from './menu.jsx';
 import Buffer from './buffer.jsx';
+import Content from './content.jsx';
 
 class Root extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Root extends React.Component {
         <Header />
         <Menu />
         <Buffer />
+        <Content />
       </div>
     );
   }
