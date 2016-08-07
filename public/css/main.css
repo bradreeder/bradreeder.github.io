@@ -38,6 +38,13 @@
   #menu a {
     color: #cfc7c7; }
 
+#buffer {
+  width: 90vw;
+  height: 26px;
+  margin: auto;
+  margin-top: 42px;
+  background-color: black; }
+
 body {
   background-image: url("/public/resources/background_image.jpg");
   margin: 0px;

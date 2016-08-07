@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './header.jsx';
 import Menu from './menu.jsx';
+import Buffer from './buffer.jsx';
 
 class Root extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class Root extends React.Component {
       <div>
         <Header />
         <Menu />
+        <Buffer />
       </div>
     );
   }
