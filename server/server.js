@@ -1,37 +1,16 @@
 const hapi = require('hapi');
+const plugins = require('./plugins/index');
+const routes = require('./routes/index');
 
 const server = new hapi.Server();
+
 server.connection({
   port: 4000,
   host: 'localhost',
 });
-server.register(require('inert'), (err) => {
+server.register(plugins, (err) => {
   if (err) throw err;
-  server.route([{
-    path: '/',
-    method: 'GET',
-    handler: (request, response) => {
-      response.file('./index.html');
-    },
-  }, {
-    path: '/public/{file*}',
-    method: 'GET',
-    handler: {
-      directory: {
-        path: './public',
-        listing: true,
-      },
-    },
-  }, {
-    path: '/resources/{file*}',
-    method: 'GET',
-    handler: {
-      directory: {
-        path: './resources',
-        listing: true,
-      },
-    },
-  }]);
+  server.route(routes);
 });
 
 server.start(() => {
