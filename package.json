@@ -1,0 +1,36 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A homepage for my portfolio and web development blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradreeder/Personal-Website.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Web-Development",
+    "Blog"
+  ],
+  "author": "Bradley Reeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradreeder/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/bradreeder/Personal-Website#readme",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0"
+  },
+  "dependencies": {
+    "hapi": "^14.1.0",
+    "inert": "^4.0.1"
+  }
+}
