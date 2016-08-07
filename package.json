@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "sass": "sass --watch public/sass/main.scss:public/main.css",
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",

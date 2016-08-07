@@ -1,11 +1,12 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './header.jsx';
 
 class Root extends React.Component {
   render() {
     return (
-      <h1>Hello World!</h1>
+      <Header />
     );
   }
 }
