@@ -1,0 +1,32 @@
+#header {
+  display: flex;
+  align-items: flex-end;
+  background-color: rgba(50, 50, 50, 0.9);
+  color: white;
+  width: 90vw;
+  height: 25vh;
+  margin: auto;
+  #header-me {
+    padding-left: 1.5vw;
+    padding-bottom: 1.5vh;
+    width: 50%;
+  }
+  #header-links {
+    padding-right: 1.5vw;
+    padding-bottom: 1.5vh;
+    width: 50%;
+    text-align: right;
+  }
+  #header-name {
+    font-size: 24pt;
+  }
+  a {
+    color: #00c8fa;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}

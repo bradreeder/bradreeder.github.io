@@ -8,13 +8,13 @@ class Header extends React.Component {
         <div id="header-me">
           <p id="header-name">bradley reeder</p>
           <p>full-stack javascript developer</p>
-          <a href="http://www.foundersandcoders.com">founders & coders</a>
+          <p><a href="http://www.foundersandcoders.com">founders & coders </a>london, uk</p>
         </div>
         <div id="header-links">
           <p>bradley @</p>
           <p>
-            <a href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin </a>
-            <a href="https://github.com/bradreeder">github </a>
+            <a href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin </a>&nbsp;
+            <a href="https://github.com/bradreeder">github </a>&nbsp;
             <a href="https://www.codewars.com/users/Aquila">codewars</a>
           </p>
         </div>

@@ -21522,9 +21522,14 @@
 	            "full-stack javascript developer"
 	          ),
 	          _react2.default.createElement(
-	            "a",
-	            { href: "http://www.foundersandcoders.com" },
-	            "founders & coders"
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "http://www.foundersandcoders.com" },
+	              "founders & coders "
+	            ),
+	            "london, uk"
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -21543,11 +21548,13 @@
 	              { href: "https://uk.linkedin.com/in/bradley-reeder-246623119" },
 	              "linkedin "
 	            ),
+	            " ",
 	            _react2.default.createElement(
 	              "a",
 	              { href: "https://github.com/bradreeder" },
 	              "github "
 	            ),
+	            " ",
 	            _react2.default.createElement(
 	              "a",
 	              { href: "https://www.codewars.com/users/Aquila" },
