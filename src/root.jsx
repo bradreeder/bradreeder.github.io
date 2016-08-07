@@ -2,11 +2,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './header.jsx';
+import Menu from './menu.jsx';
 
 class Root extends React.Component {
   render() {
     return (
-      <Header />
+      <div>
+        <Header />
+        <Menu />
+      </div>
     );
   }
 }

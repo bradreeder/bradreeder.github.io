@@ -25,6 +25,19 @@
     margin-bottom: 0px;
     margin-top: 0px; }
 
+#menu {
+  background-color: black;
+  width: 90vw;
+  margin: auto; }
+  #menu ul {
+    text-decoration: none;
+    padding: 0px; }
+  #menu li {
+    display: inline-block;
+    padding: 5px 10px 5px 10px; }
+  #menu a {
+    color: #cfc7c7; }
+
 body {
   background-image: url("/public/resources/background_image.jpg");
   margin: 0px;
