@@ -5,7 +5,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div id="portfolio">
-        <p>portfolio</p>
+        <h2>portfolio</h2>
         <p>placeholder text</p>
       </div>
     );

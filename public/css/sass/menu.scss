@@ -2,15 +2,32 @@
   background-color: black;
   width: 90vw;
   margin: auto;
-  ul {
-    text-decoration: none;
-    padding: 0px;
-  }
-  li {
+  margin-top: 14px;
+  .menu-item {
     display: inline-block;
-    padding: 5px 10px 5px 10px;
+    height: 100%;
+  }
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px 15px 5px 15px;
   }
   a {
     color: #cfc7c7;
   }
+  .menu-item:hover {
+    background-color: white;
+  }
+  a:hover {
+    color: black;
+  }
 }
+
+// ul {
+//   text-decoration: none;
+//   padding: 0px;
+// }
+// li {
+//   display: inline-block;
+//   padding: 5px 10px 5px 15px;
+// }

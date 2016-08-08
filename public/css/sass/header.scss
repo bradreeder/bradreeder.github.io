@@ -7,13 +7,13 @@
   height: 25vh;
   margin: auto;
   #header-me {
-    padding-left: 1.5vw;
-    padding-bottom: 1.5vh;
+    padding-left: 15px;
+    padding-bottom: 15px;
     width: 50%;
   }
   #header-links {
-    padding-right: 1.5vw;
-    padding-bottom: 1.5vh;
+    padding-right: 15px;
+    padding-bottom: 15px;
     width: 50%;
     text-align: right;
   }
@@ -24,6 +24,9 @@
     color: #00c8fa;
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+  a:hover {
+    color: #005E91;
   }
   p {
     margin-bottom: 0px;

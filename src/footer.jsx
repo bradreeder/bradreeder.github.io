@@ -4,7 +4,9 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <div id="footer"><p>bradley reeder © 2016</p></div>
+      <div id="footer">
+        <div id="footer-content"><p>bradley reeder © 2016</p></div>
+      </div>
     );
   }
 }

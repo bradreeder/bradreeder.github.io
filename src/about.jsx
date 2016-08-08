@@ -14,7 +14,8 @@ class About extends React.Component {
         </p>
         <h2>contact</h2>
         <p>You can reach me @ bradjohnreeder@gmail.com.</p>
-        <p>I am currently available for hire. My resume can be found <a href="/">here.</a></p>
+        <p className="last">I am currently available for hire. My resume can be
+          found <a href="/">here.</a></p>
       </div>
     );
   }

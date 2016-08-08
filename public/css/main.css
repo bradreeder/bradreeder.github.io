@@ -7,12 +7,12 @@
   height: 25vh;
   margin: auto; }
   #header #header-me {
-    padding-left: 1.5vw;
-    padding-bottom: 1.5vh;
+    padding-left: 15px;
+    padding-bottom: 15px;
     width: 50%; }
   #header #header-links {
-    padding-right: 1.5vw;
-    padding-bottom: 1.5vh;
+    padding-right: 15px;
+    padding-bottom: 15px;
     width: 50%;
     text-align: right; }
   #header #header-name {
@@ -21,6 +21,8 @@
     color: #00c8fa;
     margin-bottom: 0px;
     margin-top: 0px; }
+  #header a:hover {
+    color: #005E91; }
   #header p {
     margin-bottom: 0px;
     margin-top: 0px; }
@@ -28,28 +30,35 @@
 #menu {
   background-color: black;
   width: 90vw;
-  margin: auto; }
-  #menu ul {
-    text-decoration: none;
-    padding: 0px; }
-  #menu li {
+  margin: auto;
+  margin-top: 14px; }
+  #menu .menu-item {
     display: inline-block;
-    padding: 5px 10px 5px 10px; }
+    height: 100%; }
+  #menu p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px 15px 5px 15px; }
   #menu a {
     color: #cfc7c7; }
+  #menu .menu-item:hover {
+    background-color: white; }
+  #menu a:hover {
+    color: black; }
 
 #buffer {
   width: 90vw;
-  height: 26px;
+  height: 29px;
   margin: auto;
-  margin-top: 42px;
+  margin-top: 32px;
   background-color: black; }
 
 #content-container {
   display: flex;
   background-color: white;
+  opacity: 0.98;
   width: 90vw;
-  height: 50vh;
+  height: auto;
   margin: auto;
   margin-top: 14px;
   box-shadow: 0px 3px 14px -2px rgba(0, 0, 0, 0.75); }
@@ -61,33 +70,39 @@
   #content-container #portfolio {
     width: 50%; }
   #content-container h2 {
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 15px;
     font-weight: bold;
     font-size: 15pt;
     line-height: 1.4em; }
   #content-container p {
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px; }
+  #content-container p.last {
+    margin-bottom: 14px;
+    line-height: 1.4em; }
 
-#footer {
+#footer #footer-content {
   width: 90vw;
-  height: 26px;
   margin: auto;
   background-color: black;
   color: #cfc7c7;
   margin-top: 14px; }
-  #footer p {
-    padding: 5px 10px 5px 10px; }
+#footer p {
+  padding: 5px 10px 5px 15px; }
 
 body {
   background-image: url("/public/resources/background_image.jpg");
   margin: 0px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px; }
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px; }
 
 a {
   color: #0088cc;
   text-decoration: none; }
+
+a:hover {
+  color: #005E91;
+  text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

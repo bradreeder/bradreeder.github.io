@@ -21636,23 +21636,27 @@
 	        "div",
 	        { id: "menu" },
 	        _react2.default.createElement(
-	          "ul",
-	          null,
+	          "div",
+	          { className: "menu-item" },
 	          _react2.default.createElement(
-	            "li",
-	            null,
+	            "a",
+	            { href: "/" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "/" },
+	              "p",
+	              null,
 	              "home"
 	            )
-	          ),
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "menu-item" },
 	          _react2.default.createElement(
-	            "li",
-	            null,
+	            "a",
+	            { href: "/" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "/" },
+	              "p",
+	              null,
 	              "blog"
 	            )
 	          )
@@ -21665,6 +21669,11 @@
 	}(_react2.default.Component);
 	
 	exports.default = Menu;
+	
+	// <ul>
+	//   <li><a href="/">home</a></li>
+	//   <li><a href="/">blog</a></li>
+	// </ul>
 
 /***/ },
 /* 177 */
@@ -21839,7 +21848,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          null,
+	          { className: "last" },
 	          "I am currently available for hire. My resume can be found ",
 	          _react2.default.createElement(
 	            "a",
@@ -21897,7 +21906,7 @@
 	        "div",
 	        { id: "portfolio" },
 	        _react2.default.createElement(
-	          "p",
+	          "h2",
 	          null,
 	          "portfolio"
 	        ),
@@ -21956,9 +21965,13 @@
 	        "div",
 	        { id: "footer" },
 	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "bradley reeder © 2016"
+	          "div",
+	          { id: "footer-content" },
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "bradley reeder © 2016"
+	          )
 	        )
 	      );
 	    }

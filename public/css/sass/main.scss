@@ -7,11 +7,16 @@
 body {
   background-image: url('/public/resources/background_image.jpg');
   margin: 0px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
 }
 
 a {
   color: #0088cc;
   text-decoration: none;
+}
+
+a:hover {
+  color: #005E91;
+  text-decoration: underline;
 }
