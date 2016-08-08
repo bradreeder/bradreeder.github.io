@@ -13,8 +13,3 @@ class Menu extends React.Component {
 }
 
 export default Menu;
-
-// <ul>
-//   <li><a href="/">home</a></li>
-//   <li><a href="/">blog</a></li>
-// </ul>

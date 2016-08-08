@@ -21669,11 +21669,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = Menu;
-	
-	// <ul>
-	//   <li><a href="/">home</a></li>
-	//   <li><a href="/">blog</a></li>
-	// </ul>
 
 /***/ },
 /* 177 */
