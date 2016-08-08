@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './header.jsx';
 import Menu from './menu.jsx';
-import Buffer from './buffer.jsx';
+import Inspiration from './inspiration.jsx';
 import Content from './content.jsx';
 import Footer from './footer.jsx';
 
@@ -13,7 +13,7 @@ class Root extends React.Component {
       <div>
         <Header />
         <Menu />
-        <Buffer />
+        <Inspiration />
         <Content />
         <Footer />
       </div>

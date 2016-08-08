@@ -64,9 +64,9 @@
 	
 	var _menu2 = _interopRequireDefault(_menu);
 	
-	var _buffer = __webpack_require__(177);
+	var _inspiration = __webpack_require__(182);
 	
-	var _buffer2 = _interopRequireDefault(_buffer);
+	var _inspiration2 = _interopRequireDefault(_inspiration);
 	
 	var _content = __webpack_require__(178);
 	
@@ -102,7 +102,7 @@
 	        null,
 	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(_menu2.default, null),
-	        _react2.default.createElement(_buffer2.default, null),
+	        _react2.default.createElement(_inspiration2.default, null),
 	        _react2.default.createElement(_content2.default, null),
 	        _react2.default.createElement(_footer2.default, null)
 	      );
@@ -21671,52 +21671,7 @@
 	exports.default = Menu;
 
 /***/ },
-/* 177 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var Buffer = function (_React$Component) {
-	  _inherits(Buffer, _React$Component);
-	
-	  function Buffer() {
-	    _classCallCheck(this, Buffer);
-	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Buffer).apply(this, arguments));
-	  }
-	
-	  _createClass(Buffer, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2.default.createElement("div", { id: "buffer" });
-	    }
-	  }]);
-	
-	  return Buffer;
-	}(_react2.default.Component);
-	
-	exports.default = Buffer;
-
-/***/ },
+/* 177 */,
 /* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21976,6 +21931,61 @@
 	}(_react2.default.Component);
 	
 	exports.default = Footer;
+
+/***/ },
+/* 182 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
+	
+	
+	var Inspiration = function (_React$Component) {
+	  _inherits(Inspiration, _React$Component);
+	
+	  function Inspiration() {
+	    _classCallCheck(this, Inspiration);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Inspiration).apply(this, arguments));
+	  }
+	
+	  _createClass(Inspiration, [{
+	    key: 'render',
+	    value: function render() {
+	      var quote = '"but screw your courage to the sticking place and we’ll not fail" ' + '(Macbeth Act I Scene VII)';
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'inspiration' },
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          quote
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Inspiration;
+	}(_react2.default.Component);
+	
+	exports.default = Inspiration;
 
 /***/ }
 /******/ ]);

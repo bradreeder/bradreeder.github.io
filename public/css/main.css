@@ -46,12 +46,15 @@
   #menu a:hover {
     color: black; }
 
-#buffer {
+#inspiration {
   width: 90vw;
-  height: 29px;
   margin: auto;
   margin-top: 32px;
-  background-color: black; }
+  background-color: black;
+  color: #cfc7c7; }
+  #inspiration p {
+    padding: 5px 10px 5px 15px;
+    text-align: right; }
 
 #content-container {
   display: flex;
