@@ -1,14 +1,14 @@
 #content-container {
-  background-color: rgba(50, 50, 50, 0.9);
+  background-color: $main-background-colour;
   width: 90vw;
   height: auto;
   margin: auto;
   margin-top: 14px;
-  box-shadow: 0px 3px 14px -2px rgba(0,0,0,0.75);
+  box-shadow: $box-shadow;
   #portfolio {
-    .year {
-      font-family: 'Open Sans', sans-serif;
-      color: #888;
+    .year-text {
+      font-family: $secondary-font;
+      color: $secondary-font-colour;
     }
   }
   .text-wrapper {

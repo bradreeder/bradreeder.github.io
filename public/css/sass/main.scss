@@ -1,3 +1,4 @@
+@import 'variables';
 @import 'header';
 @import 'menu';
 @import 'inspiration';
@@ -7,16 +8,16 @@
 body {
   background-image: url('/public/resources/background_image.jpg');
   margin: 0px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: $main-font;
   font-size: 16px;
 }
 
 a {
-  color: #0088cc;
+  color: $link-colour;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005E91;
+  color: $link-colour-hover;
   text-decoration: underline;
 }

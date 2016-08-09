@@ -1,5 +1,5 @@
 #menu {
-  background-color: black;
+  background-color: $secondary-background-colour;
   width: 90vw;
   margin: auto;
   margin-top: 14px;
@@ -13,13 +13,13 @@
     padding: 5px 15px 5px 15px;
   }
   a {
-    color: #cfc7c7;
+    color: $main-font-colour;
   }
   .menu-item:hover {
-    background-color: white;
+    background-color: $menu-background-colour-hover;
   }
   a:hover {
-    color: black;
+    color: $menu-link-colour-hover;
     text-decoration: none;
   }
 }

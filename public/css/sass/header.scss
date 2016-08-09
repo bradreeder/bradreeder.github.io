@@ -1,8 +1,8 @@
 #header {
   display: flex;
   align-items: flex-end;
-  background-color: rgba(50, 50, 50, 0.9);
-  color: white;
+  background-color: $main-background-colour;
+  color: $header-font-colour;
   width: 90vw;
   margin: auto;
   #header-me {
@@ -11,25 +11,23 @@
     width: 50%;
   }
   #header-links {
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 50%;
+    @extend #header-me;
     text-align: right;
   }
   #header-name {
     font-size: 24pt;
   }
-  a {
-    color: #00c8fa;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-  a:hover {
-    color: #005E91;
-  }
   p {
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+  a {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: $link-colour-header;
+  }
+  a:hover {
+    color: $link-colour-hover;
   }
 }
 

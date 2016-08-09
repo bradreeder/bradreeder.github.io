@@ -5,26 +5,23 @@
   color: white;
   width: 90vw;
   margin: auto; }
-  #header #header-me {
+  #header #header-me, #header #header-links {
     padding-left: 15px;
     padding-bottom: 15px;
     width: 50%; }
   #header #header-links {
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 50%;
     text-align: right; }
   #header #header-name {
     font-size: 24pt; }
-  #header a {
-    color: #00c8fa;
-    margin-bottom: 0px;
-    margin-top: 0px; }
-  #header a:hover {
-    color: #005E91; }
   #header p {
     margin-bottom: 0px;
     margin-top: 0px; }
+  #header a {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #00c8fa; }
+  #header a:hover {
+    color: #005E91; }
 
 @media only screen and (max-width: 442px) {
   #header {
@@ -85,8 +82,8 @@
   margin: auto;
   margin-top: 14px;
   box-shadow: 0px 3px 14px -2px rgba(0, 0, 0, 0.75); }
-  #content-container #portfolio .year {
-    font-family: 'Open Sans', sans-serif;
+  #content-container #portfolio .year-text {
+    font-family: "Open Sans", sans-serif;
     color: #888; }
   #content-container .text-wrapper {
     background-color: #222222; }
@@ -132,7 +129,7 @@
 body {
   background-image: url("/public/resources/background_image.jpg");
   margin: 0px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 16px; }
 
 a {

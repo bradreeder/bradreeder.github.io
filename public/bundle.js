@@ -21984,7 +21984,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'year' },
+	            { className: 'year-text' },
 	            '2016 (3)'
 	          ),
 	          _react2.default.createElement(
