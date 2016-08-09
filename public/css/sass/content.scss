@@ -1,7 +1,6 @@
 #content-container {
   display: flex;
-  background-color: white;
-  opacity: 0.98;
+  background-color: rgba(50, 50, 50, 0.9);
   width: 90vw;
   height: auto;
   margin: auto;
@@ -11,7 +10,7 @@
     width: 50%;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: #EDF1F2;
+    border-right-color: rgba(34, 34, 34, 1);
   }
   #portfolio {
     width: 50%;
@@ -20,19 +19,23 @@
       color: #888;
     }
   }
+  .text-wrapper {
+    background-color: rgba(34, 34, 34, 1);
+  }
   h2 {
     padding: 5px 10px 5px 15px;
     font-weight: bold;
     font-size: 15pt;
     line-height: 1.4em;
+    color: white;
   }
   p {
     padding: 5px 10px 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #cfc7c7;
   }
-  p.last {
-    margin-bottom: 14px;
-    line-height: 1.4em;
+  li {
+    color: #cfc7c7;
   }
 }

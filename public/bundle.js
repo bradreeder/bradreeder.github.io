@@ -21776,20 +21776,33 @@
 	          "about"
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "I am a full-stack Javascript developer based in London, UK. I am currently studying and freelancing at ",
+	          "div",
+	          { className: "text-wrapper" },
 	          _react2.default.createElement(
-	            "a",
-	            { href: "http://www.foundersandcoders.com" },
-	            "Founders & Coders C.I.C"
-	          ),
-	          ", a highly-selective sixteen week coding bootcamp. I am a passionate learner and problem solver, eager to explore new languages and frameworks and learn with like-minded individuals."
+	            "p",
+	            null,
+	            "I am a full-stack Javascript developer based in London, UK. I am currently studying and freelancing at ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "http://www.foundersandcoders.com" },
+	              "Founders & Coders C.I.C"
+	            ),
+	            ", a highly-selective sixteen week coding bootcamp. I am a passionate learner and problem solver, eager to explore new languages and frameworks and learn with like-minded individuals."
+	          )
 	        ),
 	        _react2.default.createElement(
-	          "p",
+	          "h2",
 	          null,
-	          "I have an MA in English Literature with a special interest in web & hyper comics, electronic fiction, and location-based hypertext."
+	          "interests"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "text-wrapper" },
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I have an MA in English Literature and in my spare time enjoy experimenting with and researching web & hyper comics, electronic fiction, and location-based hypertext. I am keen to explore AR and IOT technologies in the near future."
+	          )
 	        ),
 	        _react2.default.createElement(
 	          "h2",
@@ -21797,18 +21810,28 @@
 	          "contact"
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "You can reach me @ bradjohnreeder@gmail.com."
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "last" },
-	          "I am currently available for hire and freelance consulting. My resume can be found ",
+	          "div",
+	          { className: "text-wrapper" },
 	          _react2.default.createElement(
-	            "a",
-	            { href: "/" },
-	            "here."
+	            "p",
+	            null,
+	            "You can reach me @ ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "mailto:bradjohnreeder@gmail.com" },
+	              "bradjohnreeder@gmail.com"
+	            ),
+	            "."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I am currently available for hire and freelance consulting. My resume can be found ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "/" },
+	              "here."
+	            )
 	          )
 	        )
 	      );
@@ -21866,50 +21889,114 @@
 	          "portfolio"
 	        ),
 	        _react2.default.createElement(
-	          "p",
-	          { className: "last" },
-	          "For a full list of my projects please see my ",
+	          "div",
+	          { className: "text-wrapper" },
 	          _react2.default.createElement(
-	            "a",
-	            { href: "https://github.com/bradreeder?tab=repositories" },
-	            "github page"
+	            "p",
+	            null,
+	            "For a full list of my projects please see my ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/bradreeder?tab=repositories" },
+	              "github page"
+	            ),
+	            "."
 	          ),
-	          "."
+	          _react2.default.createElement(
+	            "p",
+	            { className: "year" },
+	            "2016 (3)"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/bradreeder/Tile-game" },
+	              "Tile-Game"
+	            ),
+	            " TBC"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/saferTogether" },
+	              "SaferTogether"
+	            ),
+	            " TBC"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/SafeLives" },
+	              "SafeLives"
+	            ),
+	            " TBC"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "technologies"
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          { className: "year" },
-	          "2016 (3)"
+	          { className: "text-wrapper" },
+	          "html5"
 	        ),
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          _react2.default.createElement(
-	            "a",
-	            { href: "https://github.com/bradreeder/Tile-game" },
-	            "Tile-Game"
-	          ),
-	          " A tile-floor puzzle game (in progress)"
+	          "css3"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "text-wrapper" },
+	          "sass"
 	        ),
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          _react2.default.createElement(
-	            "a",
-	            { href: "https://github.com/saferTogether" },
-	            "SaferTogether"
-	          ),
-	          " TBC"
+	          "javascript"
 	        ),
 	        _react2.default.createElement(
 	          "p",
-	          { className: "last" },
-	          _react2.default.createElement(
-	            "a",
-	            { href: "https://github.com/SafeLives" },
-	            "SafeLives"
-	          ),
-	          " TBC"
+	          { className: "text-wrapper" },
+	          "jquery"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "react.js"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "text-wrapper" },
+	          "node.js"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "hapi.js"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "text-wrapper" },
+	          "postgresql"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "redis"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "text-wrapper" },
+	          "git"
 	        )
 	      );
 	    }

@@ -44,7 +44,8 @@
   #menu .menu-item:hover {
     background-color: white; }
   #menu a:hover {
-    color: black; }
+    color: black;
+    text-decoration: none; }
 
 #inspiration {
   width: 90vw;
@@ -58,8 +59,7 @@
 
 #content-container {
   display: flex;
-  background-color: white;
-  opacity: 0.98;
+  background-color: rgba(50, 50, 50, 0.9);
   width: 90vw;
   height: auto;
   margin: auto;
@@ -69,24 +69,27 @@
     width: 50%;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: #EDF1F2; }
+    border-right-color: #222222; }
   #content-container #portfolio {
     width: 50%; }
     #content-container #portfolio .year {
       font-family: 'Open Sans', sans-serif;
       color: #888; }
+  #content-container .text-wrapper {
+    background-color: #222222; }
   #content-container h2 {
     padding: 5px 10px 5px 15px;
     font-weight: bold;
     font-size: 15pt;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    color: white; }
   #content-container p {
     padding: 5px 10px 5px 15px;
     margin-top: 0px;
-    margin-bottom: 0px; }
-  #content-container p.last {
-    margin-bottom: 14px;
-    line-height: 1.4em; }
+    margin-bottom: 0px;
+    color: #cfc7c7; }
+  #content-container li {
+    color: #cfc7c7; }
 
 #footer #footer-content {
   width: 90vw;
