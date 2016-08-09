@@ -1,2 +1,3 @@
 # Personal-Website
-A homepage for my portfolio and web development blog
+
+A homepage for my professional portfolio and web development blog.
