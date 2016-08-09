@@ -72,6 +72,9 @@
     border-right-color: #EDF1F2; }
   #content-container #portfolio {
     width: 50%; }
+    #content-container #portfolio .year {
+      font-family: 'Open Sans', sans-serif;
+      color: #888; }
   #content-container h2 {
     padding: 5px 10px 5px 15px;
     font-weight: bold;

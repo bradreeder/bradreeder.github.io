@@ -21778,13 +21778,18 @@
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "I am a full-stack Javascript web developer based in London, UK. I am currently studying and freelancing at ",
+	          "I am a full-stack Javascript developer based in London, UK. I am currently studying and freelancing at ",
 	          _react2.default.createElement(
 	            "a",
 	            { href: "http://www.foundersandcoders.com" },
 	            "Founders & Coders C.I.C"
 	          ),
-	          ", a highly-selective sixteen week coding bootcamp. I am a passionate learner, eager to explore new languages and frameworks and learn with like-minded passionate individuals."
+	          ", a highly-selective sixteen week coding bootcamp. I am a passionate learner and problem solver, eager to explore new languages and frameworks and learn with like-minded individuals."
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "I have an MA in English Literature with a special interest in web & hyper comics, electronic fiction, and location-based hypertext."
 	        ),
 	        _react2.default.createElement(
 	          "h2",
@@ -21799,7 +21804,7 @@
 	        _react2.default.createElement(
 	          "p",
 	          { className: "last" },
-	          "I am currently available for hire. My resume can be found ",
+	          "I am currently available for hire and freelance consulting. My resume can be found ",
 	          _react2.default.createElement(
 	            "a",
 	            { href: "/" },
@@ -21862,8 +21867,49 @@
 	        ),
 	        _react2.default.createElement(
 	          "p",
+	          { className: "last" },
+	          "For a full list of my projects please see my ",
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/bradreeder?tab=repositories" },
+	            "github page"
+	          ),
+	          "."
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "year" },
+	          "2016 (3)"
+	        ),
+	        _react2.default.createElement(
+	          "p",
 	          null,
-	          "placeholder text"
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/bradreeder/Tile-game" },
+	            "Tile-Game"
+	          ),
+	          " A tile-floor puzzle game (in progress)"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/saferTogether" },
+	            "SaferTogether"
+	          ),
+	          " TBC"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          { className: "last" },
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/SafeLives" },
+	            "SafeLives"
+	          ),
+	          " TBC"
 	        )
 	      );
 	    }
