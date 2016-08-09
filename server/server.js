@@ -5,7 +5,7 @@ const routes = require('./routes/index');
 const server = new hapi.Server();
 
 server.connection({
-  port: 4000,
+  port: process.env.PORT || 4000,
   host: 'localhost',
 });
 server.register(plugins, (err) => {
