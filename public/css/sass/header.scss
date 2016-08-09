@@ -11,7 +11,9 @@
     width: 50%;
   }
   #header-links {
-    @extend #header-me;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 50%;
     text-align: right;
   }
   #header-name {
