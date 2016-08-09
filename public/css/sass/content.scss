@@ -1,19 +1,11 @@
 #content-container {
-  display: flex;
   background-color: rgba(50, 50, 50, 0.9);
   width: 90vw;
   height: auto;
   margin: auto;
   margin-top: 14px;
   box-shadow: 0px 3px 14px -2px rgba(0,0,0,0.75);
-  #about {
-    width: 50%;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: rgba(34, 34, 34, 1);
-  }
   #portfolio {
-    width: 50%;
     .year {
       font-family: 'Open Sans', sans-serif;
       color: #888;
@@ -37,5 +29,26 @@
   }
   li {
     color: #cfc7c7;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  #content-container {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 737px) {
+  #content-container {
+    display: flex;
+  }
+  #about {
+    width: 50%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgba(34, 34, 34, 1);
+  }
+  #portfolio {
+    width: 50%;
   }
 }

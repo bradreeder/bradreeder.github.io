@@ -4,7 +4,6 @@
   background-color: rgba(50, 50, 50, 0.9);
   color: white;
   width: 90vw;
-  height: 25vh;
   margin: auto; }
   #header #header-me {
     padding-left: 15px;
@@ -27,6 +26,12 @@
     margin-bottom: 0px;
     margin-top: 0px; }
 
+@media only screen and (max-width: 442px) {
+  #header {
+    height: 40vh; } }
+@media only screen and (min-width: 443px) {
+  #header {
+    height: 25vh; } }
 #menu {
   background-color: black;
   width: 90vw;
@@ -47,34 +52,42 @@
     color: black;
     text-decoration: none; }
 
-#inspiration {
-  width: 90vw;
-  margin: auto;
-  margin-top: 32px;
-  background-color: black;
-  color: #cfc7c7; }
-  #inspiration p {
-    padding: 5px 10px 5px 15px;
-    text-align: right; }
+@media only screen and (max-width: 634px) {
+  #inspiration-mobile {
+    width: 90vw;
+    margin: auto;
+    margin-top: 32px;
+    background-color: black;
+    color: #cfc7c7; }
+    #inspiration-mobile p {
+      padding: 5px 10px 5px 15px;
+      text-align: center; }
 
+  #inspiration {
+    display: none; } }
+@media only screen and (min-width: 635px) {
+  #inspiration {
+    width: 90vw;
+    margin: auto;
+    margin-top: 32px;
+    background-color: black;
+    color: #cfc7c7; }
+    #inspiration p {
+      padding: 5px 10px 5px 15px;
+      text-align: right; }
+
+  #inspiration-mobile {
+    display: none; } }
 #content-container {
-  display: flex;
   background-color: rgba(50, 50, 50, 0.9);
   width: 90vw;
   height: auto;
   margin: auto;
   margin-top: 14px;
   box-shadow: 0px 3px 14px -2px rgba(0, 0, 0, 0.75); }
-  #content-container #about {
-    width: 50%;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #222222; }
-  #content-container #portfolio {
-    width: 50%; }
-    #content-container #portfolio .year {
-      font-family: 'Open Sans', sans-serif;
-      color: #888; }
+  #content-container #portfolio .year {
+    font-family: 'Open Sans', sans-serif;
+    color: #888; }
   #content-container .text-wrapper {
     background-color: #222222; }
   #content-container h2 {
@@ -91,6 +104,21 @@
   #content-container li {
     color: #cfc7c7; }
 
+@media only screen and (max-width: 736px) {
+  #content-container {
+    display: block; } }
+@media only screen and (min-width: 737px) {
+  #content-container {
+    display: flex; }
+
+  #about {
+    width: 50%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #222222; }
+
+  #portfolio {
+    width: 50%; } }
 #footer #footer-content {
   width: 90vw;
   margin: auto;

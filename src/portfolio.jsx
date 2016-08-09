@@ -3,6 +3,14 @@ import React from 'react';
 
 class Portfolio extends React.Component {
   render() {
+    const technologies =
+    ['html5', 'css3', 'javascript', 'jquery', 'react.js', 'node.js',
+    'hapi.js', 'postgresql', 'redis', 'git']
+    .map((item, index) => {
+      if (index % 2 === 0) {
+        return <p className="text-wrapper" key={index}>{item}</p>;
+      } return <p key={index}>{item}</p>;
+    });
     return (
       <div id="portfolio">
         <h2>portfolio</h2>
@@ -15,17 +23,7 @@ class Portfolio extends React.Component {
           <p><a href="https://github.com/SafeLives">SafeLives</a> TBC</p>
         </div>
         <h2>technologies</h2>
-        <p className="text-wrapper">html5</p>
-        <p>css3</p>
-        <p className="text-wrapper">sass</p>
-        <p>javascript</p>
-        <p className="text-wrapper">jquery</p>
-        <p>react.js</p>
-        <p className="text-wrapper">node.js</p>
-        <p>hapi.js</p>
-        <p className="text-wrapper">postgresql</p>
-        <p>redis</p>
-        <p className="text-wrapper">git</p>
+        {technologies}
       </div>
     );
   }

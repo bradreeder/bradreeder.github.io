@@ -1,11 +1,33 @@
-#inspiration {
-  width: 90vw;
-  margin: auto;
-  margin-top: 32px;
-  background-color: black;
-  color: #cfc7c7;
-  p {
-    padding: 5px 10px 5px 15px;
-    text-align: right;
+@media only screen and (max-width: 634px) {
+  #inspiration-mobile {
+    width: 90vw;
+    margin: auto;
+    margin-top: 32px;
+    background-color: black;
+    color: #cfc7c7;
+    p {
+      padding: 5px 10px 5px 15px;
+      text-align: center;
+    }
+  }
+  #inspiration {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 635px) {
+  #inspiration {
+    width: 90vw;
+    margin: auto;
+    margin-top: 32px;
+    background-color: black;
+    color: #cfc7c7;
+    p {
+      padding: 5px 10px 5px 15px;
+      text-align: right;
+    }
+  }
+  #inspiration-mobile {
+    display: none;
   }
 }

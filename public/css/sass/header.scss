@@ -4,7 +4,6 @@
   background-color: rgba(50, 50, 50, 0.9);
   color: white;
   width: 90vw;
-  height: 25vh;
   margin: auto;
   #header-me {
     padding-left: 15px;
@@ -31,5 +30,17 @@
   p {
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  #header {
+    height: 40vh;
+  }
+}
+
+@media only screen and (min-width: 443px) {
+  #header {
+    height: 25vh;
   }
 }

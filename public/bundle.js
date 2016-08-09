@@ -64,7 +64,7 @@
 	
 	var _menu2 = _interopRequireDefault(_menu);
 	
-	var _inspiration = __webpack_require__(182);
+	var _inspiration = __webpack_require__(177);
 	
 	var _inspiration2 = _interopRequireDefault(_inspiration);
 	
@@ -21671,7 +21671,74 @@
 	exports.default = Menu;
 
 /***/ },
-/* 177 */,
+/* 177 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
+	
+	
+	var Inspiration = function (_React$Component) {
+	  _inherits(Inspiration, _React$Component);
+	
+	  function Inspiration() {
+	    _classCallCheck(this, Inspiration);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Inspiration).apply(this, arguments));
+	  }
+	
+	  _createClass(Inspiration, [{
+	    key: 'render',
+	    value: function render() {
+	      var quote = '"but screw your courage to the sticking place and we’ll not fail" ' + '(Macbeth Act I Scene VII)';
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'inspiration' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            quote
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'inspiration-mobile' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            '\'"but screw your courage to the sticking place and we\'ll not fail"\''
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Inspiration;
+	}(_react2.default.Component);
+	
+	exports.default = Inspiration;
+
+/***/ },
 /* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21847,7 +21914,7 @@
 /* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21878,126 +21945,85 @@
 	  }
 	
 	  _createClass(Portfolio, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
+	      var technologies = ['html5', 'css3', 'javascript', 'jquery', 'react.js', 'node.js', 'hapi.js', 'postgresql', 'redis', 'git'].map(function (item, index) {
+	        if (index % 2 === 0) {
+	          return _react2.default.createElement(
+	            'p',
+	            { className: 'text-wrapper', key: index },
+	            item
+	          );
+	        }return _react2.default.createElement(
+	          'p',
+	          { key: index },
+	          item
+	        );
+	      });
 	      return _react2.default.createElement(
-	        "div",
-	        { id: "portfolio" },
+	        'div',
+	        { id: 'portfolio' },
 	        _react2.default.createElement(
-	          "h2",
+	          'h2',
 	          null,
-	          "portfolio"
+	          'portfolio'
 	        ),
 	        _react2.default.createElement(
-	          "div",
-	          { className: "text-wrapper" },
+	          'div',
+	          { className: 'text-wrapper' },
 	          _react2.default.createElement(
-	            "p",
+	            'p',
 	            null,
-	            "For a full list of my projects please see my ",
+	            'For a full list of my projects please see my ',
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/bradreeder?tab=repositories" },
-	              "github page"
+	              'a',
+	              { href: 'https://github.com/bradreeder?tab=repositories' },
+	              'github page'
 	            ),
-	            "."
+	            '.'
 	          ),
 	          _react2.default.createElement(
-	            "p",
-	            { className: "year" },
-	            "2016 (3)"
+	            'p',
+	            { className: 'year' },
+	            '2016 (3)'
 	          ),
 	          _react2.default.createElement(
-	            "p",
+	            'p',
 	            null,
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/bradreeder/Tile-game" },
-	              "Tile-Game"
+	              'a',
+	              { href: 'https://github.com/bradreeder/Tile-game' },
+	              'Tile-Game'
 	            ),
-	            " TBC"
+	            ' TBC'
 	          ),
 	          _react2.default.createElement(
-	            "p",
+	            'p',
 	            null,
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/saferTogether" },
-	              "SaferTogether"
+	              'a',
+	              { href: 'https://github.com/saferTogether' },
+	              'SaferTogether'
 	            ),
-	            " TBC"
+	            ' TBC'
 	          ),
 	          _react2.default.createElement(
-	            "p",
+	            'p',
 	            null,
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/SafeLives" },
-	              "SafeLives"
+	              'a',
+	              { href: 'https://github.com/SafeLives' },
+	              'SafeLives'
 	            ),
-	            " TBC"
+	            ' TBC'
 	          )
 	        ),
 	        _react2.default.createElement(
-	          "h2",
+	          'h2',
 	          null,
-	          "technologies"
+	          'technologies'
 	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "text-wrapper" },
-	          "html5"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "css3"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "text-wrapper" },
-	          "sass"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "javascript"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "text-wrapper" },
-	          "jquery"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "react.js"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "text-wrapper" },
-	          "node.js"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "hapi.js"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "text-wrapper" },
-	          "postgresql"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "redis"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          { className: "text-wrapper" },
-	          "git"
-	        )
+	        technologies
 	      );
 	    }
 	  }]);
@@ -22064,61 +22090,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = Footer;
-
-/***/ },
-/* 182 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var Inspiration = function (_React$Component) {
-	  _inherits(Inspiration, _React$Component);
-	
-	  function Inspiration() {
-	    _classCallCheck(this, Inspiration);
-	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Inspiration).apply(this, arguments));
-	  }
-	
-	  _createClass(Inspiration, [{
-	    key: 'render',
-	    value: function render() {
-	      var quote = '"but screw your courage to the sticking place and we’ll not fail" ' + '(Macbeth Act I Scene VII)';
-	      return _react2.default.createElement(
-	        'div',
-	        { id: 'inspiration' },
-	        _react2.default.createElement(
-	          'p',
-	          null,
-	          quote
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Inspiration;
-	}(_react2.default.Component);
-	
-	exports.default = Inspiration;
 
 /***/ }
 /******/ ]);
