@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import React, { Component } from 'react';
 
-class Portfolio extends React.Component {
+class Portfolio extends Component {
   render() {
     const technologies =
     ['html5', 'css3', 'javascript', 'jquery', 'react.js', 'node.js',

@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import React, { Component } from 'react';
 
-class Inspiration extends React.Component {
+class Inspiration extends Component {
   render() {
     const quote = '"but screw your courage to the sticking place and we’ll not fail" ' +
     '(Macbeth Act I Scene VII)';

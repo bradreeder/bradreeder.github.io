@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import React, { Component } from 'react';
 
-class Footer extends React.Component {
+class Footer extends Component {
   render() {
     return (
       <div id="footer">

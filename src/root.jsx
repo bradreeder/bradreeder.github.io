@@ -1,13 +1,13 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header.jsx';
-import Menu from './menu.jsx';
-import Inspiration from './inspiration.jsx';
-import Content from './content.jsx';
-import Footer from './footer.jsx';
+import Header from './components/header.jsx';
+import Menu from './components/menu.jsx';
+import Inspiration from './components/inspiration.jsx';
+import Content from './components/content.jsx';
+import Footer from './components/footer.jsx';
 
-class Root extends React.Component {
+class Root extends Component {
   render() {
     return (
       <div>

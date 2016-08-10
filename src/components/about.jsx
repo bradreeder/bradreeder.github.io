@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import React, { Component } from 'react';
 
-class About extends React.Component {
+class About extends Component {
   render() {
     return (
       <div id="about">
