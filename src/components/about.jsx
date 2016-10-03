@@ -25,7 +25,7 @@ class About extends Component {
           <p>You can reach me @ <a href="mailto:bradjohnreeder@gmail.com">
           bradjohnreeder@gmail.com</a>.</p>
           <p>I am currently available for hire and freelance consulting.
-            My resume can be found <a href="/">here.</a></p>
+            My resume can be found <a href="https://github.com/bradreeder/CV">here.</a></p>
         </div>
       </div>
     );

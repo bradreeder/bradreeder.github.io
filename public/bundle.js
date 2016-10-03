@@ -21896,7 +21896,7 @@
 	            "I am currently available for hire and freelance consulting. My resume can be found ",
 	            _react2.default.createElement(
 	              "a",
-	              { href: "/" },
+	              { href: "https://github.com/bradreeder/CV" },
 	              "here."
 	            )
 	          )
