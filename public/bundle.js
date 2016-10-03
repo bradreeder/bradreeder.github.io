@@ -85,8 +85,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Root = function (_React$Component) {
-	  _inherits(Root, _React$Component);
+	var Root = function (_Component) {
+	  _inherits(Root, _Component);
 	
 	  function Root() {
 	    _classCallCheck(this, Root);
@@ -110,7 +110,7 @@
 	  }]);
 	
 	  return Root;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	_reactDom2.default.render(_react2.default.createElement(Root, null), document.getElementById('container'));
 
@@ -21517,8 +21517,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Header = function (_React$Component) {
-	  _inherits(Header, _React$Component);
+	var Header = function (_Component) {
+	  _inherits(Header, _Component);
 	
 	  function Header() {
 	    _classCallCheck(this, Header);
@@ -21591,7 +21591,7 @@
 	  }]);
 	
 	  return Header;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = Header;
 
@@ -21620,8 +21620,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Menu = function (_React$Component) {
-	  _inherits(Menu, _React$Component);
+	var Menu = function (_Component) {
+	  _inherits(Menu, _Component);
 	
 	  function Menu() {
 	    _classCallCheck(this, Menu);
@@ -21666,7 +21666,7 @@
 	  }]);
 	
 	  return Menu;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = Menu;
 
@@ -21695,8 +21695,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Inspiration = function (_React$Component) {
-	  _inherits(Inspiration, _React$Component);
+	var Inspiration = function (_Component) {
+	  _inherits(Inspiration, _Component);
 	
 	  function Inspiration() {
 	    _classCallCheck(this, Inspiration);
@@ -21707,7 +21707,7 @@
 	  _createClass(Inspiration, [{
 	    key: 'render',
 	    value: function render() {
-	      var quote = '"but screw your courage to the sticking place and we’ll not fail" ' + '(Macbeth Act I Scene VII)';
+	      var quote = 'New site coming soon...';
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -21726,7 +21726,7 @@
 	          _react2.default.createElement(
 	            'p',
 	            null,
-	            '\'"but screw your courage to the sticking place and we\'ll not fail"\''
+	            quote
 	          )
 	        )
 	      );
@@ -21734,7 +21734,7 @@
 	  }]);
 	
 	  return Inspiration;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = Inspiration;
 
@@ -21771,8 +21771,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Content = function (_React$Component) {
-	  _inherits(Content, _React$Component);
+	var Content = function (_Component) {
+	  _inherits(Content, _Component);
 	
 	  function Content() {
 	    _classCallCheck(this, Content);
@@ -21793,7 +21793,7 @@
 	  }]);
 	
 	  return Content;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = Content;
 
@@ -21822,8 +21822,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var About = function (_React$Component) {
-	  _inherits(About, _React$Component);
+	var About = function (_Component) {
+	  _inherits(About, _Component);
 	
 	  function About() {
 	    _classCallCheck(this, About);
@@ -21906,7 +21906,7 @@
 	  }]);
 	
 	  return About;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = About;
 
@@ -21935,8 +21935,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Portfolio = function (_React$Component) {
-	  _inherits(Portfolio, _React$Component);
+	var Portfolio = function (_Component) {
+	  _inherits(Portfolio, _Component);
 	
 	  function Portfolio() {
 	    _classCallCheck(this, Portfolio);
@@ -21985,7 +21985,7 @@
 	          _react2.default.createElement(
 	            'p',
 	            { className: 'year-text' },
-	            '2016 (3)'
+	            '2016 (4)'
 	          ),
 	          _react2.default.createElement(
 	            'p',
@@ -21995,27 +21995,37 @@
 	              { href: 'https://github.com/bradreeder/Tile-game' },
 	              'Tile-Game'
 	            ),
-	            ' TBC'
+	            ' A tile floor puzzle-game developed as a progressive web application. In progress.'
 	          ),
 	          _react2.default.createElement(
 	            'p',
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/saferTogether' },
+	              { href: 'https://github.com/CYPIAPT-LNDSE/breathing-with-kitty' },
+	              'Anna Freud Centre'
+	            ),
+	            ' A progressive web application aimed at young people with generalised anxiety disorders. The app improves resilience from stress by guiding the user through a variety of breathing and relaxation techniques, demonstrated using SVG and Greensock.js animations.'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/saferTogether/saferTogether' },
 	              'SaferTogether'
 	            ),
-	            ' TBC'
+	            ' A design prototype of a risk assessment survey targeted at victims of domestic abuse.'
 	          ),
 	          _react2.default.createElement(
 	            'p',
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/SafeLives' },
-	              'SafeLives'
+	              { href: 'https://github.com/worthwhile-charity/hack-day' },
+	              'Worthwhile'
 	            ),
-	            ' TBC'
+	            ' A design prototype for Worthwhile that automates the process of generating and issuing contracts and invoices for clients who find a job through the charity, using handlebars.js for templating.'
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -22029,7 +22039,7 @@
 	  }]);
 	
 	  return Portfolio;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = Portfolio;
 
@@ -22058,8 +22068,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
 	
 	
-	var Footer = function (_React$Component) {
-	  _inherits(Footer, _React$Component);
+	var Footer = function (_Component) {
+	  _inherits(Footer, _Component);
 	
 	  function Footer() {
 	    _classCallCheck(this, Footer);
@@ -22087,7 +22097,7 @@
 	  }]);
 	
 	  return Footer;
-	}(_react2.default.Component);
+	}(_react.Component);
 	
 	exports.default = Footer;
 
