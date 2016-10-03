@@ -12,23 +12,23 @@
     }
   }
   .text-wrapper {
-    background-color: rgba(34, 34, 34, 1);
+    background-color: $content-background-colour;
   }
   h2 {
     padding: 5px 10px 5px 15px;
     font-weight: bold;
     font-size: 15pt;
     line-height: 1.4em;
-    color: white;
+    color: $header-font-colour;
   }
   p {
     padding: 5px 10px 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #cfc7c7;
+    color: $main-font-colour;
   }
   li {
-    color: #cfc7c7;
+    color: $main-font-colour;
   }
 }
 
@@ -46,7 +46,7 @@
     width: 50%;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: rgba(34, 34, 34, 1);
+    border-right-color: $content-background-colour;
   }
   #portfolio {
     width: 50%;
