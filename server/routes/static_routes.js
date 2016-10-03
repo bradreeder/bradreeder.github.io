@@ -2,7 +2,7 @@ module.exports = [{
   path: '/',
   method: 'GET',
   handler: (request, response) => {
-    response.file('./public/index.html');
+    response.file('./index.html');
   },
 }, {
   path: '/public/{file*}',
