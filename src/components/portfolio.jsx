@@ -17,7 +17,7 @@ class Portfolio extends Component {
         <div className="text-wrapper">
           <p>For a full list of my projects please see my <a href="https://github.com/bradreeder?tab=repositories">
           github page</a>.</p>
-          <p className="year-text">2016 (3)</p>
+          <p className="year-text">2016 (4)</p>
           <p><a href="https://github.com/bradreeder/Tile-game">Tile-Game</a>A tile floor puzzle-game developed as a progressive web application. In progress.</p>
           <p><a href="https://github.com/CYPIAPT-LNDSE/breathing-with-kitty">Anna Freud Centre</a>I worked in a small team building a progressive web application aimed at young people with generalised anxiety disorders. The app improves resilience from stress by guiding the user through a variety of breathing and relaxation techniques, demonstrated using SVG and Greensock.js animations.</p>
           <p><a href="https://github.com/saferTogether/saferTogether">SaferTogether</a>I helped build a design prototype of a risk assessment survey targeted at victims of domestic abuse. As a project manager, my additional responsibilities included managing communications with the product owners, guiding them through user testing, and ensuring agile practices were followed.</p>
