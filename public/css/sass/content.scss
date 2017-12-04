@@ -46,6 +46,20 @@
     color: $tertiary-font-colour;
     text-align: center;
   }
+  .my-story {
+    .my-story-img {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    img {
+      width: 15%;
+      min-width: 150px;
+      height: auto;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
   .workshops {
     display: flex;
     flex-direction: row;
@@ -61,15 +75,16 @@
   }
   .contact {
     text-align: center;
-    h2 {
-      color: $main-font-colour;
-    }
     i {
       padding-right: 5px;
     }
   }
   #contact-header {
     margin-top: 0px;
+    color: $main-font-colour;
+  }
+  .footer-navigation {
+    text-align: center;
   }
 }
 

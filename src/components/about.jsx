@@ -8,13 +8,21 @@ class About extends Component {
         <div id="about"></div>
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
-          <p className="padding-top-40px">Hi, my name is Bradley, and I am a UX Researcher. I
-            graduated with a Master’s in Literature passionate about visual
-            storytelling, systems-thinking, and psychology.</p>
-          <p className="padding-bottom-80px">I went into web development to learn to build my own web comics, and
-            discovered my calling working on projects across user research, facilitation, service
-            design, community building and teaching. My goal is to master this process so I can
-            empower people to lead happier, safer, and healthier lives.</p>
+          <div className="my-story padding-top-40px padding-bottom-80px">
+            <div className="my-story-img">
+              <img src="../../public/resources/me.png"/>
+            </div>
+            <div className="my-story-section">
+            <p className="padding-top-40px">Hi, my name is Bradley, and I am a UX Researcher. I
+              graduated with a Master’s degree in Literature passionate about visual
+              storytelling, systems-thinking, and psychology.</p>
+            <p>I went into web development to learn to build my own web comics, and
+              discovered my calling working on projects across user research, facilitation, service
+              design, community building and teaching.</p>
+            <p>My goal is to master the design process so I can empower people to
+              lead happier, safer, and healthier lives.</p>
+          </div>
+          </div>
         </div>
         <div id="process"></div>
         <h2>my process</h2>
@@ -50,7 +58,7 @@ class About extends Component {
             <div className="my-process-column">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
               <h2><strong>Learn</strong></h2>
-              <p>Repeat this cycle, testing solutions with users to validate them and inform the direction of this unfolding design process.</p>
+              <p>Repeat this cycle, testing solutions with users to validate and inform the direction of this unfolding design process.</p>
             </div>
           </div>
         </div>
@@ -63,9 +71,9 @@ class About extends Component {
           <p></p>
           <p><strong>User Research:</strong> Design sprints, Ideation sessions, Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Secondary research.  </p>
           <p></p>
-          <p><strong>Solution Design:</strong> Affinity sorting, Storyboards, Empathy maps, Personas, POV statements & How might we’s, User Journeys, Rapid Prototyping.  </p>
+          <p><strong>Solution Design:</strong> Affinity diagramming, Storyboards, Empathy maps, Personas, POV statements & How might we’s, User Journeys & Stories, Rapid Prototyping, Wireframes.  </p>
           <p></p>
-          <p className="padding-bottom-80px"><strong>Software:</strong> Figma, Invision, Survey Monkey, Google Analytics, Google Docs.</p>
+          <p className="padding-bottom-80px"><strong>Software:</strong> Figma, Invision, Survey Monkey, Usability Hub, Google Analytics, Google Docs, Microsoft Office.</p>
         </div>
         <div id="work"></div>
         <h2>ux case studies</h2>
@@ -93,7 +101,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/cotech-assets/Services.png"/>
+                <img src="../../public/resources/founders-and-coders-assets/story-board.jpg"/>
               </div>
             </div>
           </div>
@@ -101,7 +109,7 @@ class About extends Component {
           <p className="section-title"><a target="_blank" href="http://www.annafreud.org/">Anna Freud Centre</a>, Aug 2016 - Nov 2016</p>
           <div className="case-study padding-top-40px">
             <div className="case-study-section">
-              <h4>Relieving anxiety through Breathe With Me</h4>
+              <h4>Relieve anxiety by Breathing With Me</h4>
               <p>Took a self-care themed design challenge through the design thinking
                 cycle of inspiration, ideation, and implementation. <a href="#breathe-with-me" onClick={() => this.props.changeContent('annaFreud')}>View case study.</a></p>
             </div>
@@ -117,7 +125,7 @@ class About extends Component {
           <p className="section-title"><a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> & <a target="_blank" href="https://www.rethink.org/">Rethink</a>, Jul 2017</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
-              <p>Facilitated a design sprint workshop ideating digital solutions to bullying
+              <p>Facilitated a design sprint workshop for NHS Digital and Rethink ideating digital solutions to bullying
                 in schools.</p>
             </div>
             <div className="case-study-section">
@@ -142,11 +150,12 @@ class About extends Component {
           <p className="section-title"><a target="_blank" href="https://foundersandcoders.com/">Founders & Coders</a>, Nov 2016 - Jun 2017</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
-              <p>Main contributor to open-source curriculum, designing and leading weeks on node.js and design thinking & agile build cycles for the school's 4 month web-development programme.</p>
+              <p>Main contributor to the school's 4 month web development <a target="_blank" href="https://github.com/foundersandcoders/master-reference">open-source curriculum</a>, co-designing and facilitating weeks on <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4">node.js</a> and <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12">design thinking & agile build cycles</a>.</p>
+              <p>See <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking</a> slidedeck</p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/FAC10-start.jpg"/>
+                <img src="../../public/resources/founders-and-coders-assets/FAC10-start.jpg"/>
               </div>
             </div>
           </div>
@@ -154,8 +163,9 @@ class About extends Component {
           <p className="section-title"><a target="_blank" href="http://www.annafreud.org/">Anna Freud Centre</a>, Jan 2017 - May 2017</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
-              <p>Facilitated a hackathon, design sprints, and ran training workshops on design thinking around themes of stigma & mental
-                health in young people, and scrum-mastered resulting MVPs.</p>
+              <p>Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental
+                health in young people, and scrum-mastered resulting MVPs <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
+              <p>See <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit">Hackathon</a> & <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">Workshop</a> slidedecks</p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -171,6 +181,7 @@ class About extends Component {
                 <a target="_blank" href="http://www.safelives.org.uk/"> SafeLives</a> and
                 <a target="_blank" href="http://www.worthwhile.org.uk/"> Worthwhile</a>, as a part of <a target="_blank" href="http://www.wearecast.org.uk/fuse">CAST's 2016 Digital Fuse Programme</a>.
               </p>
+              <p>See <a target="_blank" href="https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276"> Design sprint</a> slidedeck</p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
