@@ -11,7 +11,7 @@ class Outlandish extends Component {
           <p>During my time as a UX Researcher for Outlandish I performed user research for application ideas, diagnosed the growth potential, and gave strategic guidance to the network.</p>
           <p className="padding-top-40px"><strong>Services:</strong> UX Research, Usability Testing, Business Strategy</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/cotech-assets/CoTech.PNG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/cotech-assets/cotech.PNG"/>
           </div>
         </div>
         <h2>the challenge</h2>
@@ -20,7 +20,7 @@ class Outlandish extends Component {
           <blockquote><em>“How might we enable digital co-ops to collaborate on projects and share their human resources for hire with other co-ops?”</em></blockquote>
           <p>His idea he wanted me to do discovery phase research for was to build a ‘skills-finder’ extension to the <a target="_blank" href="https://www.coops.tech/">CoTech website</a> that would allow members to search and learn about each other’s businesses, people & skills to enable them to identify others to hire or go into collaborative bids with.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/cotech-assets/Services.PNG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/cotech-assets/services.PNG"/>
           </div>
         </div>
         <h2>the approach</h2>

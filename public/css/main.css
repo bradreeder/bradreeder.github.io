@@ -269,7 +269,7 @@
   padding: 5px 10px 5px 15px; }
 
 body {
-  background: url("../resources/glitch.png") no-repeat center center fixed;
+  background: url("../resources/glitch.PNG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

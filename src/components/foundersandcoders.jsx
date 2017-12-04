@@ -11,7 +11,7 @@ class FoundersAndCoders extends Component {
           <p>I joined as a student and became the facilitator of the programme after proposing and leading a re-design of the curriculum and its curriculum-planning process.</p>
           <p className="padding-top-40px"><strong>Services:</strong> UX Research, Service Design, Facilitation, Community Building</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/founders-and-coders-assets/FAC9_Start.JPG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/founders-and-coders-assets/fac9-start.JPG"/>
           </div>
         </div>
         <h2>the challenge</h2>
@@ -44,7 +44,7 @@ class FoundersAndCoders extends Component {
           <p className="padding-top-40px">The structure of the curriculum, the course facilitator role, and the curriculum-planning process we communally designed then remains in its core aspects. The master-reference has since been used to build other campuses and the programme continues to improve in quality.</p>
           <p>During the next programme we led a re-design of the second half of the programme. We modified weeks 10-12 to become a design & build sprint for student’s final projects taking them through the design thinking process from user research to rapid prototyping, testing and the agile build cycle. I’m currently the alumni maintainer for these weeks.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px" src="../../public/resources/founders-and-coders-assets/FAC9.JPG"/>
+            <img className="padding-top-40px" src="../../public/resources/founders-and-coders-assets/fac9.JPG"/>
           </div>
           <p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
         </div>
