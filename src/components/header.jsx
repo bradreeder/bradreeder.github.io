@@ -16,7 +16,7 @@ class Header extends Component {
             <a href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin </a>&nbsp;
             <a href="https://github.com/bradreeder">github </a>&nbsp;
             <a id="email" href="mailto:bradjohnreeder@gmail.com">bradjohnreeder@gmail.com </a>&nbsp;
-            <a href="../../public/resources/Bradley_Reeder_CV_UX.pdf" download>CV</a>&nbsp;
+            <a href="public/resources/bradley-reeder-cv-ux.PDF" download>CV</a>&nbsp;
           </p>
         </div>
       </div>
