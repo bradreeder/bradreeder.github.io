@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "description": "A homepage for my portfolio and web development blog",
+  "description": "A homepage for my professional portfolio",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
