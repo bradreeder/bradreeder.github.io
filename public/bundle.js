@@ -22091,64 +22091,68 @@
 	
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "menu" },
+	        { className: "menu-container" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "menu-item" },
+	          { className: "menu" },
 	          _react2.default.createElement(
-	            "a",
-	            { href: "index.html#about", onClick: function onClick() {
-	                return _this2.props.changeContent('about');
-	              } },
+	            "div",
+	            { className: "menu-item" },
 	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "about"
+	              "a",
+	              { href: "#about", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "about"
+	              )
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "menu-item" },
+	          ),
 	          _react2.default.createElement(
-	            "a",
-	            { href: "index.html#process", onClick: function onClick() {
-	                return _this2.props.changeContent('about');
-	              } },
+	            "div",
+	            { className: "menu-item" },
 	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "process"
+	              "a",
+	              { href: "#process", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "process"
+	              )
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "menu-item" },
+	          ),
 	          _react2.default.createElement(
-	            "a",
-	            { href: "index.html#skills", onClick: function onClick() {
-	                return _this2.props.changeContent('about');
-	              } },
+	            "div",
+	            { className: "menu-item" },
 	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "skills"
+	              "a",
+	              { href: "#skills", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "skills"
+	              )
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "menu-item" },
+	          ),
 	          _react2.default.createElement(
-	            "a",
-	            { href: "index.html#work", onClick: function onClick() {
-	                return _this2.props.changeContent('about');
-	              } },
+	            "div",
+	            { className: "menu-item" },
 	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "work"
+	              "a",
+	              { href: "#work", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "work"
+	              )
 	            )
 	          )
 	        )
