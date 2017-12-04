@@ -22097,7 +22097,7 @@
 	          { className: "menu-item" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#about", onClick: function onClick() {
+	            { href: "index.html#about", onClick: function onClick() {
 	                return _this2.props.changeContent('about');
 	              } },
 	            _react2.default.createElement(
@@ -22112,7 +22112,7 @@
 	          { className: "menu-item" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#process", onClick: function onClick() {
+	            { href: "index.html#process", onClick: function onClick() {
 	                return _this2.props.changeContent('about');
 	              } },
 	            _react2.default.createElement(
@@ -22127,7 +22127,7 @@
 	          { className: "menu-item" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#skills", onClick: function onClick() {
+	            { href: "index.html#skills", onClick: function onClick() {
 	                return _this2.props.changeContent('about');
 	              } },
 	            _react2.default.createElement(
@@ -22142,7 +22142,7 @@
 	          { className: "menu-item" },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#work", onClick: function onClick() {
+	            { href: "index.html#work", onClick: function onClick() {
 	                return _this2.props.changeContent('about');
 	              } },
 	            _react2.default.createElement(
