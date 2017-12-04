@@ -11,7 +11,7 @@ class FoundersAndCoders extends Component {
           <p>I joined as a student and became the facilitator of the programme after proposing and leading a re-design of the curriculum and its curriculum-planning process.</p>
           <p className="padding-top-40px"><strong>Services:</strong> UX Research, Service Design, Facilitation, Community Building</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/founders-and-coders-assets/FAC9_Start.jpg"/>
+            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/founders-and-coders-assets/FAC9_Start.JPG"/>
           </div>
         </div>
         <h2>the challenge</h2>
@@ -24,7 +24,7 @@ class FoundersAndCoders extends Component {
           <p className="padding-top-40px">Having recently mentored, I shared a survey around recent cohorts and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring.</p>
           <p>From this, I plotted out a storyboard depicting the student’s journey through curriculum planning and mentorship along with the pain-points at each stage.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px" src="../../public/resources/founders-and-coders-assets/story-board.jpg"/>
+            <img className="padding-top-40px" src="../../public/resources/founders-and-coders-assets/story-board.JPG"/>
           </div>
           <p className="section-header padding-top-40px">ideation</p>
           <p className="padding-top-40px">Me and a few others from the focus group met to ideate ways we could address these pain-points. The theme of adapting agile and user-centred methodologies to the way we run the school soon arose.</p>
@@ -35,7 +35,7 @@ class FoundersAndCoders extends Component {
           <p>We started with a curriculum draft we created with the school’s founders. I then ran a series of affinity sorting curriculum review sessions with alumni and students in which we reviewed it, grouped their feedback into themes and adapted their experience into the draft.</p>
           <p>We recruited alumni who would become maintainers for each week and help the assigned mentors to build it and in future iterations review the material with them and identify a few key areas for improvement. My role was to facilitate cross-week collaboration and cohesion.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/founders-and-coders-assets/master-reference.png"/>
+            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/founders-and-coders-assets/master-reference.PNG"/>
           </div>
         </div>
         <h2>the outcome</h2>
@@ -44,9 +44,9 @@ class FoundersAndCoders extends Component {
           <p className="padding-top-40px">The structure of the curriculum, the course facilitator role, and the curriculum-planning process we communally designed then remains in its core aspects. The master-reference has since been used to build other campuses and the programme continues to improve in quality.</p>
           <p>During the next programme we led a re-design of the second half of the programme. We modified weeks 10-12 to become a design & build sprint for student’s final projects taking them through the design thinking process from user research to rapid prototyping, testing and the agile build cycle. I’m currently the alumni maintainer for these weeks.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px" src="../../public/resources/founders-and-coders-assets/FAC9.jpg"/>
+            <img className="padding-top-40px" src="../../public/resources/founders-and-coders-assets/FAC9.JPG"/>
           </div>
-          <p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>Return to case studies</a></p>
+          <p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
         </div>
       </div>
     );
