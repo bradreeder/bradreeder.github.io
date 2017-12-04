@@ -22379,7 +22379,7 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "my-story-img" },
-	              _react2.default.createElement("img", { src: "../../public/resources/me.png" })
+	              _react2.default.createElement("img", { src: "../../public/resources/me.PNG" })
 	            ),
 	            _react2.default.createElement(
 	              "div",
@@ -22661,7 +22661,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/cotech-assets/Services.png" })
+	                _react2.default.createElement("img", { src: "../../public/resources/cotech-assets/Services.PNG" })
 	              )
 	            )
 	          ),
@@ -22705,7 +22705,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/founders-and-coders-assets/story-board.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/founders-and-coders-assets/story-board.JPG" })
 	              )
 	            )
 	          ),
@@ -22749,7 +22749,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/annafreud-assets/breathe-with-me-teamwork.png" })
+	                _react2.default.createElement("img", { src: "../../public/resources/annafreud-assets/breathe-with-me-teamwork.PNG" })
 	              )
 	            )
 	          )
@@ -22796,7 +22796,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/NHS_Digital_Design_Sprint.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/NHS_Digital_Design_Sprint.JPG" })
 	              )
 	            )
 	          ),
@@ -22828,7 +22828,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/mulberry-school.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/mulberry-school.JPG" })
 	              )
 	            )
 	          ),
@@ -22889,7 +22889,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/founders-and-coders-assets/FAC10-start.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/founders-and-coders-assets/FAC10-start.JPG" })
 	              )
 	            )
 	          ),
@@ -22950,7 +22950,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/annafreud-assets/Anna_Freud_Hackathon.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/annafreud-assets/Anna_Freud_Hackathon.JPG" })
 	              )
 	            )
 	          ),
@@ -23017,7 +23017,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/CAST_Design_Sprint.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/CAST_Design_Sprint.JPG" })
 	              )
 	            )
 	          )
@@ -23178,7 +23178,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/cotech-assets/CoTech.png" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/cotech-assets/CoTech.PNG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23217,7 +23217,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/cotech-assets/Services.png" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/cotech-assets/Services.PNG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23252,7 +23252,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/cotech-assets/discussion-forum.png" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/cotech-assets/discussion-forum.PNG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23412,7 +23412,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/cotech-assets/wortley-hall-post-its.jpg" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/cotech-assets/wortley-hall-post-its.JPG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23422,7 +23422,7 @@
 	              { href: "#work", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
-	              "Return to case studies"
+	              "return to case studies"
 	            )
 	          )
 	        )
@@ -23518,7 +23518,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px padding-bottom-80px", src: "../../public/resources/annafreud-assets/Breathe-with-me.png" })
+	            _react2.default.createElement("img", { className: "portrait padding-top-40px padding-bottom-80px", src: "../../public/resources/annafreud-assets/Breathe-with-me.PNG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23553,7 +23553,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/annafreud-assets/Anna_Freud_Hackathon.jpg" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/annafreud-assets/Anna_Freud_Hackathon.JPG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23597,7 +23597,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/annafreud-assets/breathe-with-me-teamwork.png" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/annafreud-assets/breathe-with-me-teamwork.PNG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23632,7 +23632,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "../../public/resources/annafreud-assets/breathing-avatar.png" })
+	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "../../public/resources/annafreud-assets/breathing-avatar.PNG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23706,7 +23706,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "../../public/resources/annafreud-assets/well-done.png" })
+	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "../../public/resources/annafreud-assets/well-done.PNG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23716,7 +23716,7 @@
 	              { href: "#work", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
-	              "Return to case studies"
+	              "return to case studies"
 	            )
 	          )
 	        )
@@ -23811,7 +23811,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/founders-and-coders-assets/FAC9_Start.jpg" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/founders-and-coders-assets/FAC9_Start.JPG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23854,7 +23854,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/founders-and-coders-assets/story-board.jpg" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/founders-and-coders-assets/story-board.JPG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23899,7 +23899,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/founders-and-coders-assets/master-reference.png" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/founders-and-coders-assets/master-reference.PNG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23928,7 +23928,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/founders-and-coders-assets/FAC9.jpg" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/founders-and-coders-assets/FAC9.JPG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23938,7 +23938,7 @@
 	              { href: "#work", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
-	              "Return to case studies"
+	              "return to case studies"
 	            )
 	          )
 	        )

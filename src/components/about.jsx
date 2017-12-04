@@ -10,7 +10,7 @@ class About extends Component {
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
             <div className="my-story-img">
-              <img src="../../public/resources/me.png"/>
+              <img src="../../public/resources/me.PNG"/>
             </div>
             <div className="my-story-section">
             <p className="padding-top-40px">Hi, my name is Bradley, and I am a UX Researcher. I
@@ -87,7 +87,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/cotech-assets/Services.png"/>
+                <img src="../../public/resources/cotech-assets/Services.PNG"/>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/founders-and-coders-assets/story-board.jpg"/>
+                <img src="../../public/resources/founders-and-coders-assets/story-board.JPG"/>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/annafreud-assets/breathe-with-me-teamwork.png"/>
+                <img src="../../public/resources/annafreud-assets/breathe-with-me-teamwork.PNG"/>
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/NHS_Digital_Design_Sprint.jpg"/>
+                <img src="../../public/resources/NHS_Digital_Design_Sprint.JPG"/>
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/mulberry-school.jpg"/>
+                <img src="../../public/resources/mulberry-school.JPG"/>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/founders-and-coders-assets/FAC10-start.jpg"/>
+                <img src="../../public/resources/founders-and-coders-assets/FAC10-start.JPG"/>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/annafreud-assets/Anna_Freud_Hackathon.jpg"/>
+                <img src="../../public/resources/annafreud-assets/Anna_Freud_Hackathon.JPG"/>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/CAST_Design_Sprint.jpg"/>
+                <img src="../../public/resources/CAST_Design_Sprint.JPG"/>
               </div>
             </div>
           </div>
