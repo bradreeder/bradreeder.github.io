@@ -1,4 +1,4 @@
-#menu {
+.menu {
   background-color: $secondary-background-colour;
   width: 90vw;
   margin: auto;
@@ -21,5 +21,15 @@
   a:hover {
     color: $menu-link-colour-hover;
     text-decoration: none;
+  }
+}
+
+.cloned {
+  text-align: center;
+}
+
+@media only screen and (min-width: 737px) {
+  .cloned {
+    font-size: 24px;
   }
 }

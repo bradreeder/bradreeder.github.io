@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class Inspiration extends Component {
   render() {
-    const quote = 'New site coming soon...';
+    const quote = '"Most of the wonderful places in the world were not made by architects but by the people" - Christopher Alexander';
     return (
       <div>
         <div id="inspiration"><p>{quote}</p></div>

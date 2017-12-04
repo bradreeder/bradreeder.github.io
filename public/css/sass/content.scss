@@ -1,54 +1,208 @@
 #content-container {
   background-color: $main-background-colour;
+  display: block;
   width: 90vw;
   height: auto;
   margin: auto;
   margin-top: 14px;
   box-shadow: $box-shadow;
-  #portfolio {
-    .year-text {
-      font-family: $secondary-font;
-      color: $secondary-font-colour;
-    }
-  }
-  .text-wrapper {
-    background-color: $content-background-colour;
-  }
-  h2 {
-    padding: 5px 10px 5px 15px;
-    font-weight: bold;
-    font-size: 15pt;
-    line-height: 1.4em;
-    color: $header-font-colour;
-  }
   p {
-    padding: 5px 10px 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: $main-font-colour;
   }
-  li {
+  h2 {
+    padding: 1em 15px 1em 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    line-height: 1.4em;
+    color: $header-font-colour;
+  }
+  blockquote {
+    padding-right: 150px;
+    padding-left: 150px;
     color: $main-font-colour;
+  }
+  img {
+    padding: 5px 15px 5px 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .content-background-colour {
+    background-color: $content-background-colour;
+  }
+  .padding-top-2em {
+    padding-top: 2em;
+  }
+  .padding-top-40px {
+    padding-top: 40px;
+  }
+  .section-title {
+    background-color: $main-background-colour;
+  }
+  .section-header {
+    font-family: $secondary-font;
+    color: $tertiary-font-colour;
+    text-align: center;
+  }
+  .workshops {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .workshops-column {
+    display: inline-block;
+    width: 50%;
+    p {
+      padding: 5px 150px 5px 15px;
+    }
+  }
+  .contact {
+    text-align: center;
+    h2 {
+      color: $main-font-colour;
+    }
+    i {
+      padding-right: 5px;
+    }
+  }
+  #contact-header {
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 736px) {
   #content-container {
-    display: block;
+    .case-study-img-container {
+      margin: 0 auto;
+      padding: 5px 15px 5px 15px;
+      text-align: center;
+      img {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+    .portrait {
+      width: 75% !important;
+      margin: 0 auto;
+    }
+    .img-container {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 0px;
+      img {
+        width: 90%;
+        height: auto;
+        text-align: center;
+      }
+    }
+    p {
+      padding: 5px 2em 5px 2em;
+    }
+    blockquote {
+      padding: 5px 2em 5px 2em;
+    }
+    .padding-bottom-80px {
+      padding-bottom: 40px;
+    }
+    .case-study {
+      padding-top: 30px;
+    }
+    .case-study-section {
+      h4 {
+        color: $tertiary-font-colour;
+        padding: 5px 2em 5px 2em;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 737px) {
   #content-container {
-    display: flex;
+    .case-study-img-container {
+      margin: 0 auto;
+      padding: 5px 150px 5px 150px;
+      text-align: center;
+      img {
+        width: 100%;
+        max-height: 30em;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+    .portrait {
+      width: 50% !important;
+      margin: 0 auto;
+    }
+    p {
+      padding: 5px 150px 5px 150px;
+    }
+    .padding-bottom-80px {
+      padding-bottom: 80px;
+    }
+    .my-process {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .my-process-column {
+      display: inline-block;
+      width: 20%;
+      h2 {
+        text-align: center;
+      }
+      p {
+        padding: 5px 10px 15px 15px;
+      }
+    }
+    .case-study {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .case-study-section {
+      display: inline-block;
+      width: 50%;
+      p {
+        padding: 5px 10px 5px 150px;
+      }
+      h4 {
+        padding: 5px 10px 5px 150px;
+        color: $tertiary-font-colour;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+      .img-container {
+        width: 75%;
+        height: auto;
+        float: left;
+        padding-right: 150px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
   }
-  #about {
-    width: 50%;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: $content-background-colour;
-  }
-  #portfolio {
-    width: 50%;
+}
+
+@media only screen and (min-width: 1350px) {
+  .case-study-img-container {
+    img {
+      max-height: 40em !important;
+    }
   }
 }

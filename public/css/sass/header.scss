@@ -16,8 +16,8 @@
     width: 50%;
     text-align: right;
   }
-  #header-name {
-    font-size: 24pt;
+  .header-name {
+    font-size: 32px;
   }
   p {
     margin-bottom: 0px;
@@ -37,10 +37,13 @@
   #header {
     height: 40vh;
   }
+  #email {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 443px) {
   #header {
-    height: 25vh;
+    height: 30vh;
   }
 }

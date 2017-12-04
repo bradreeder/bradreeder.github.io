@@ -6,17 +6,23 @@
 @import 'footer';
 
 body {
-  background-image: url('../resources/background-image.JPG');
+  background: url('../resources/glitch.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0px;
   font-family: $main-font;
-  font-size: 16px;
+  font-size: 18px;
 }
-
+strong {
+  font-weight: bolder;
+  color: $tertiary-font-colour;
+}
 a {
   color: $link-colour;
   text-decoration: none;
 }
-
 a:hover {
   color: $link-colour-hover;
   text-decoration: underline;
