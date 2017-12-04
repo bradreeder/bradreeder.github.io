@@ -4,12 +4,41 @@
     <title>bradley reeder :: professional page</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/6691c48adf.js"></script>
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id="container"></div>
-  <script type="text/javascript" src="public/bundle.js"></script>
+    <script type="text/javascript" src="public/bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      // This script makes the menu element stick to the header of the page once
+      // it is scrolled past.
+
+      $('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned')
+        .css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500')
+        .removeClass('original').hide();
+
+      scrollIntervalID = setInterval(stickIt, 10);
+
+      function stickIt() {
+        var orgElementPos = $('.original').offset();
+        orgElementTop = orgElementPos.top;
+        if ($(window).scrollTop() >= (orgElementTop)) {
+          orgElement = $('.original');
+          coordsOrgElement = orgElement.offset();
+          leftOrgElement = coordsOrgElement.left;
+          widthOrgElement = orgElement.css('width');
+          $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement)
+          .show();
+          $('.original').css('visibility','hidden');
+        } else {
+          $('.cloned').hide();
+          $('.original').css('visibility','visible');
+        }
+      }
+    </script>
   </body>
 </html>

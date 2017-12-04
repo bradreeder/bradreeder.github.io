@@ -8,13 +8,23 @@ import Content from './components/content.jsx';
 import Footer from './components/footer.jsx';
 
 class Root extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { activeSection: 'about' };
+  }
   render() {
     return (
       <div>
         <Header />
-        <Menu />
+        <Menu
+          changeContent={(section) => this.setState({ activeSection: section })}
+          activeSection={this.state.activeSection}
+        />
         <Inspiration />
-        <Content />
+        <Content
+          changeContent={(section) => this.setState({ activeSection: section })}
+          activeSection={this.state.activeSection}
+        />
         <Footer />
       </div>
     );

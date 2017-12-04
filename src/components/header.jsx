@@ -6,16 +6,17 @@ class Header extends Component {
     return (
       <div id="header">
         <div id="header-me">
-          <p id="header-name">bradley reeder</p>
-          <p>full-stack javascript developer</p>
-          <p><a href="http://www.foundersandcoders.com">founders & coders </a>london, uk</p>
+          <p className="header-name">bradley reeder</p>
+          <p>ux researcher</p>
+          <p>london, uk. <a href="tel:+447479507365">+44 7479 507365</a></p>
         </div>
         <div id="header-links">
           <p>bradley @</p>
           <p>
             <a href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin </a>&nbsp;
             <a href="https://github.com/bradreeder">github </a>&nbsp;
-            <a href="https://www.codewars.com/users/Aquila">codewars</a>
+            <a id="email" href="mailto:bradjohnreeder@gmail.com">bradjohnreeder@gmail.com </a>&nbsp;
+            <a href="../../public/resources/Bradley_Reeder_CV_UX.pdf" download>CV</a>&nbsp;
           </p>
         </div>
       </div>
