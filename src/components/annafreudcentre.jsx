@@ -12,7 +12,7 @@ class AnnaFreud extends Component {
 
           <p className="padding-top-40px"><strong>Services:</strong> Front-end Development, Rapid Prototyping, Usability Testing</p>
           <div className="case-study-img-container">
-            <img className="portrait padding-top-40px padding-bottom-80px" src="../../public/resources/annafreud-assets/Breathe-with-me.PNG"/>
+            <img className="portrait padding-top-40px padding-bottom-80px" src="../../public/resources/annafreud-assets/breathe-with-me.PNG"/>
           </div>
         </div>
         <h2>the challenge</h2>
@@ -21,7 +21,7 @@ class AnnaFreud extends Component {
           <p>We began with a discussion understanding the context of the problem, her organisational and user needs, and what is currently being done in the field to address them. We looked at a few relaxation apps to inspire us, then ran a brain-storming and ‘crazy-eights’ session to generate ideas and sketch some pages and flows.</p>
           <p>We all liked the app <a target="_blank" href="http://www.wired.co.uk/article/flowy">Flowy</a> and voted upon the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/annafreud-assets/Anna_Freud_Hackathon.JPG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
           </div>
         </div>
         <h2>the approach</h2>

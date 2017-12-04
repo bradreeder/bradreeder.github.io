@@ -87,7 +87,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/cotech-assets/Services.PNG"/>
+                <img src="../../public/resources/cotech-assets/services.PNG"/>
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/NHS_Digital_Design_Sprint.JPG"/>
+                <img src="../../public/resources/nhs-digital.JPG"/>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/founders-and-coders-assets/FAC10-start.JPG"/>
+                <img src="../../public/resources/founders-and-coders-assets/fac10-start.JPG"/>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/annafreud-assets/Anna_Freud_Hackathon.JPG"/>
+                <img src="../../public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="../../public/resources/CAST_Design_Sprint.JPG"/>
+                <img src="../../public/resources/cast.JPG"/>
               </div>
             </div>
           </div>
