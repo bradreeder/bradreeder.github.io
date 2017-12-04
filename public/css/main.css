@@ -55,11 +55,19 @@
     color: black;
     text-decoration: none; }
 
-.cloned {
-  text-align: center; }
+.fixed {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; }
+  .fixed .menu {
+    width: 90vw;
+    margin: 0 auto; }
 
 @media only screen and (min-width: 737px) {
-  .cloned {
+  .fixed {
     font-size: 24px; } }
 @media only screen and (max-width: 634px) {
   #inspiration-mobile {
