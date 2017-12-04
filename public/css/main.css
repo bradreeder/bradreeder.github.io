@@ -134,6 +134,16 @@
     font-family: "Open Sans", sans-serif;
     color: #EDEDED;
     text-align: center; }
+  #content-container .my-story .my-story-img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+  #content-container .my-story img {
+    width: 15%;
+    min-width: 150px;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px; }
   #content-container .workshops {
     display: flex;
     flex-direction: row;
@@ -146,12 +156,13 @@
       padding: 5px 150px 5px 15px; }
   #content-container .contact {
     text-align: center; }
-    #content-container .contact h2 {
-      color: #cfc7c7; }
     #content-container .contact i {
       padding-right: 5px; }
   #content-container #contact-header {
-    margin-top: 0px; }
+    margin-top: 0px;
+    color: #cfc7c7; }
+  #content-container .footer-navigation {
+    text-align: center; }
 
 @media only screen and (max-width: 736px) {
   #content-container .case-study-img-container {

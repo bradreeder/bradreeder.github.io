@@ -5,7 +5,7 @@ class Inspiration extends Component {
   render() {
     const quote = '"Most of the wonderful places in the world were not made by architects but by the people" - Christopher Alexander';
     return (
-      <div>
+      <div className="inspiration">
         <div id="inspiration"><p>{quote}</p></div>
         <div id="inspiration-mobile"><p>{quote}</p></div>
       </div>

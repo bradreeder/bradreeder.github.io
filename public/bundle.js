@@ -22205,7 +22205,7 @@
 	      var quote = '"Most of the wonderful places in the world were not made by architects but by the people" - Christopher Alexander';
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'inspiration' },
 	        _react2.default.createElement(
 	          'div',
 	          { id: 'inspiration' },
@@ -22374,14 +22374,32 @@
 	          "div",
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "Hi, my name is Bradley, and I am a UX Researcher. I graduated with a Master\u2019s in Literature passionate about\xA0visual storytelling, systems-thinking, and psychology."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-bottom-80px" },
-	            "I went into web development to learn to build my own web comics, and discovered my calling working on\xA0projects across\xA0user research, facilitation, service design, community building and teaching. My goal is to master this process so I can empower people to lead happier, safer, and healthier lives."
+	            "div",
+	            { className: "my-story padding-top-40px padding-bottom-80px" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "my-story-img" },
+	              _react2.default.createElement("img", { src: "../../public/resources/me.png" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "my-story-section" },
+	              _react2.default.createElement(
+	                "p",
+	                { className: "padding-top-40px" },
+	                "Hi, my name is Bradley, and I am a UX Researcher. I graduated with a Master\u2019s degree in Literature passionate about\xA0visual storytelling, systems-thinking, and psychology."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "I went into web development to learn to build my own web comics, and discovered my calling working on\xA0projects across\xA0user research, facilitation, service design, community building and teaching."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "My goal is to master the design process so I can empower people to lead happier, safer, and healthier lives."
+	              )
+	            )
 	          )
 	        ),
 	        _react2.default.createElement("div", { id: "process" }),
@@ -22519,7 +22537,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Repeat this cycle, testing solutions with users to validate them and inform the direction of this unfolding\xA0design process."
+	                "Repeat this cycle, testing solutions with users to validate and inform the direction of this unfolding\xA0design process."
 	              )
 	            )
 	          )
@@ -22580,7 +22598,7 @@
 	              null,
 	              "Solution Design:"
 	            ),
-	            " Affinity sorting, Storyboards, Empathy maps, Personas, POV statements & How might we\u2019s, User Journeys, Rapid Prototyping.\u2028\u2028"
+	            " Affinity diagramming, Storyboards, Empathy maps, Personas, POV statements & How might we\u2019s, User Journeys & Stories, Rapid Prototyping, Wireframes.\u2028\u2028"
 	          ),
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
@@ -22591,7 +22609,7 @@
 	              null,
 	              "Software:"
 	            ),
-	            " Figma, Invision, Survey Monkey, Google Analytics, Google Docs."
+	            " Figma, Invision, Survey Monkey, Usability Hub, Google Analytics, Google Docs, Microsoft Office."
 	          )
 	        ),
 	        _react2.default.createElement("div", { id: "work" }),
@@ -22687,7 +22705,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/cotech-assets/Services.png" })
+	                _react2.default.createElement("img", { src: "../../public/resources/founders-and-coders-assets/story-board.jpg" })
 	              )
 	            )
 	          ),
@@ -22710,7 +22728,7 @@
 	              _react2.default.createElement(
 	                "h4",
 	                null,
-	                "Relieving anxiety through Breathe With Me"
+	                "Relieve anxiety by Breathing With Me"
 	              ),
 	              _react2.default.createElement(
 	                "p",
@@ -22769,7 +22787,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Facilitated a design sprint workshop ideating digital solutions to bullying in schools."
+	                "Facilitated a design sprint workshop for NHS Digital and Rethink ideating digital solutions to bullying in schools."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22833,7 +22851,36 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Main contributor to open-source curriculum, designing and leading weeks on node.js and design thinking & agile build cycles for the school's 4 month web-development programme."
+	                "Main contributor to the school's 4 month web development ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
+	                  "open-source curriculum"
+	                ),
+	                ", co-designing and facilitating weeks on ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4" },
+	                  "node.js"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12" },
+	                  "design thinking & agile build cycles"
+	                ),
+	                "."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "See ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00" },
+	                  "Design thinking"
+	                ),
+	                " slidedeck"
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22842,7 +22889,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "../../public/resources/FAC10-start.jpg" })
+	                _react2.default.createElement("img", { src: "../../public/resources/founders-and-coders-assets/FAC10-start.jpg" })
 	              )
 	            )
 	          ),
@@ -22865,7 +22912,36 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Facilitated a hackathon, design sprints, and ran training workshops on design thinking around themes of stigma & mental health in young people, and scrum-mastered resulting MVPs."
+	                "Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental health in young people, and scrum-mastered resulting MVPs ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://growgoals.co.uk/login" },
+	                  "Grow"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://welcome-in.herokuapp.com/" },
+	                  "Getting to Know You"
+	                ),
+	                "."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "See ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit" },
+	                  "Hackathon"
+	                ),
+	                " & ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
+	                  "Workshop"
+	                ),
+	                " slidedecks"
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22922,6 +22998,17 @@
 	                  "CAST's 2016 Digital Fuse Programme"
 	                ),
 	                "."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "See ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276" },
+	                  " Design sprint"
+	                ),
+	                " slidedeck"
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -23040,6 +23127,8 @@
 	  _createClass(Outlandish, [{
 	    key: "render",
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "outlandish", className: "main-article" },
@@ -23123,7 +23212,7 @@
 	              { target: "_blank", href: "https://www.coops.tech/" },
 	              "CoTech website"
 	            ),
-	            " for members to search and learn about each other\u2019s businesses, people & skills to enable them to identify others to hire or go into collaborative bids with."
+	            " that would allow members to search and learn about each other\u2019s businesses, people & skills to enable them to identify others to hire or go into collaborative bids with."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23147,7 +23236,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "While my task was specific, the underlying goal related to broader questions of how to enable the network\u2019s core purpose and so I started by learning all I could about the network."
+	            "While my task was specific, the underlying goal related to broader questions of how to enable the network\u2019s core purpose of collaboration. So I started by learning all I could about the network."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23188,7 +23277,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "When I met with the development team for the web extension, we agreed I should conduct a focused research sprint in order to answer: that there was a use-case before building, how members currently handle contracting and partnerships, and the kind of information they would be looking for prior to working together."
+	            "After the initial secondary research, I met with the development team for the web extension. We agreed I should conduct a focused research sprint in order to answer: that there was a use-case before building, how members currently handle contracting and partnerships, and the kind of information they would be looking for prior to working together."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23313,17 +23402,28 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "My report also detailed insights into the core barriers the network was facing from the perception of its members. This was well received by the organiser for the network\u2019s AGM and he invited me to present my findings at its planning meeting."
+	            "I took initiative in using the report to also detail insights into the core barriers the network was facing from the perception of its members. This was well received by the organiser for the network\u2019s AGM and he invited me to present my findings at its planning meeting."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "My suggestions had a positive outcome on the proposed structure for the event and its agenda. I was invited to attend the AGM and applied my insights there towards aiding the formulation of the network's constitution."
+	            "My suggestions had a positive outcome on the proposed structure for the event and its agenda. Afterwards, I was invited to attend the AGM and applied my research insights there towards aiding the formulation of the network's constitution."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/cotech-assets/wortley-hall-post-its.jpg" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/cotech-assets/wortley-hall-post-its.jpg" })
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "footer-navigation padding-bottom-80px padding-top-40px" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#work", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              "Return to case studies"
+	            )
 	          )
 	        )
 	      );
@@ -23372,6 +23472,8 @@
 	  _createClass(AnnaFreud, [{
 	    key: "render",
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "breathe-with-me", className: "main-article" },
@@ -23520,7 +23622,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "The last phase of our challenge was to usability test the prototype with the same young people. Watching their delight playing with it stands out among my rewarding memories in UX."
+	            "The last phase of our challenge was to test the prototype with the same young people. Watching their delight playing with it stands out as among my fondest memories with usability testing."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23565,7 +23667,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Breathe With Me continues to be used by counsellors and youth workers as a tool for teaching young people deep breathing and has been put forward for bids for further development."
+	            "Breathe With Me continues to be used by counsellors and youth workers as a tool for teaching young people relaxation techniques and has been put forward for bids for further development."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23593,12 +23695,29 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I continue to be passionate about mental health and facilitate participatory design workshops on the design thinking process with young people and Anna Freud staff."
+	            "I continue to be passionate about mental health and facilitate participatory design workshops (see ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
+	              "slidedeck"
+	            ),
+	            ") on the design thinking process with young people and Anna Freud staff."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px padding-bottom-80px", src: "../../public/resources/annafreud-assets/well-done.png" })
+	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "../../public/resources/annafreud-assets/well-done.png" })
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "footer-navigation padding-bottom-80px padding-top-40px" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#work", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              "Return to case studies"
+	            )
 	          )
 	        )
 	      );
@@ -23647,6 +23766,8 @@
 	  _createClass(FoundersAndCoders, [{
 	    key: "render",
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "founders-and-coders", className: "main-article" },
@@ -23664,13 +23785,18 @@
 	            _react2.default.createElement(
 	              "em",
 	              null,
-	              "Founders & Coders offers a free 4-month programme in web development that prioritises a self-organising, peer-led approach to learning where each cohort delivers the next programme."
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://foundersandcoders.com/" },
+	                "Founders & Coders"
+	              ),
+	              " offers a free 4-month programme in web development that prioritises a self-organising, peer-led approach to learning where each cohort delivers the next programme."
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I joined as a student and became the facilitator of the programme after proposing and leading a re-design of the curriculum and its curriculum-planning process. Through this I acquired experience in business development, service design and community building."
+	            "I joined as a student and became the facilitator of the programme after proposing and leading a re-design of the curriculum and its curriculum-planning process."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23681,6 +23807,11 @@
 	              "Services:"
 	            ),
 	            " UX Research, Service Design, Facilitation, Community Building"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/founders-and-coders-assets/FAC9_Start.jpg" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23690,11 +23821,11 @@
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "content-background-colour" },
+	          { className: "content-background-colour padding-top-40px padding-bottom-80px" },
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I had observed repeated difficulties across a few cycles of the programme. Students paid forward by agreeing to mentor the next programme and without direction planned and rebuilt their assigned weeks based on their experience. Mentors looking for jobs felt burdened and often prepared content last minute, students received an uncoordinated experience, and much of the communities\u2019 past learning experiences went lost and unadapted."
+	            "I had observed repeated difficulties across a few cycles of the programme. Students agreed to mentor the next programme and without direction planned and rebuilt their assigned weeks with only their own experience to guide them. Mentors looking for jobs felt burdened and often prepared content last minute, students received an uncoordinated experience, and much of the communities\u2019 past learning experiences went lost and unadapted."
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23707,12 +23838,12 @@
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "section-header" },
+	            { className: "section-header padding-top-40px" },
 	            "discovery"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "padding-top-40px" },
 	            "Having recently mentored, I shared a survey around recent cohorts and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring."
 	          ),
 	          _react2.default.createElement(
@@ -23721,29 +23852,39 @@
 	            "From this, I plotted out a storyboard depicting the student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
 	          ),
 	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/founders-and-coders-assets/story-board.jpg" })
+	          ),
+	          _react2.default.createElement(
 	            "p",
-	            { className: "section-header" },
+	            { className: "section-header padding-top-40px" },
 	            "ideation"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "Me and a few others met to brainstorm ways we could address these pain-points. The theme of adapting agile and user-centred methodologies arose. We narrowed on thinking about how we might re-design curriculum planning to be leaner, where the entire bootcamp experience is tested by students and then iteratively improved by them as mentors in collaboration with alumni as carriers of organisational memory."
+	            { className: "padding-top-40px" },
+	            "Me and a few others from the focus group met to ideate ways we could address these pain-points. The theme of adapting agile and user-centred methodologies to the way we run the school soon arose."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Me and Eoin, the leader of our new school in Israel, ran a stakeholder interview with the Founders in which we presented our solution. To my surprise, they were delighted and offered me to lead the next course in London."
+	            "We narrowed on thinking about how we might re-design curriculum planning to be leaner, where the entire bootcamp experience is measured by the feedback of students who then iteratively improve it as mentors in collaboration with alumni as carriers of organisational memory."
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "section-header" },
+	            null,
+	            "After the session, Me and Eoin, the facilitator for our new campus in Israel, ran a stakeholder interview with the Founders in which we presented our solution. To my surprise, they were delighted and offered me to lead the next course in London."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-header padding-top-40px" },
 	            "implementation"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "We both created master documentation for the programme online to be consistent with its values. It would be open-source and transparent, changes to it could be discussed openly by anyone across our campuses, and the history of all changes recorded."
+	            { className: "padding-top-40px" },
+	            "We both created master documentation for the programme online on github to be consistent with the school's values. It would be open-source and transparent, changes to it could be discussed openly by anyone across our campuses, and the history of all changes recorded."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23754,6 +23895,11 @@
 	            "p",
 	            null,
 	            "We recruited alumni who would become maintainers for each week and help the assigned mentors to build it and in future iterations review the material with them and identify a few key areas for improvement. My role was to facilitate cross-week collaboration and cohesion."
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "../../public/resources/founders-and-coders-assets/master-reference.png" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23763,7 +23909,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "content-background-colour" },
+	          { className: "content-background-colour padding-top-40px" },
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-header" },
@@ -23771,13 +23917,29 @@
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "padding-top-40px" },
 	            "The structure of the curriculum, the course facilitator role, and the curriculum-planning process we communally designed then remains in its core aspects. The master-reference has since been used to build other campuses and the programme continues to improve in quality."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
 	            "During the next programme we led a re-design of the second half of the programme. We modified weeks 10-12 to become a design & build sprint for student\u2019s final projects taking them through the design thinking process from user research to rapid prototyping, testing and the agile build cycle. I\u2019m currently the alumni maintainer for these weeks."
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "../../public/resources/founders-and-coders-assets/FAC9.jpg" })
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "footer-navigation padding-bottom-80px padding-top-40px" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#work", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              "Return to case studies"
+	            )
 	          )
 	        )
 	      );
