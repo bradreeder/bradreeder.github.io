@@ -12,7 +12,7 @@ class AnnaFreud extends Component {
 
           <p className="padding-top-40px"><strong>Services:</strong> Front-end Development, Rapid Prototyping, Usability Testing</p>
           <div className="case-study-img-container">
-            <img className="portrait padding-top-40px padding-bottom-80px" src="../../public/resources/annafreud-assets/breathe-with-me.PNG"/>
+            <img className="portrait padding-top-40px padding-bottom-80px" src="public/resources/annafreud-assets/breathe-with-me.PNG"/>
           </div>
         </div>
         <h2>the challenge</h2>
@@ -21,7 +21,7 @@ class AnnaFreud extends Component {
           <p>We began with a discussion understanding the context of the problem, her organisational and user needs, and what is currently being done in the field to address them. We looked at a few relaxation apps to inspire us, then ran a brain-storming and ‘crazy-eights’ session to generate ideas and sketch some pages and flows.</p>
           <p>We all liked the app <a target="_blank" href="http://www.wired.co.uk/article/flowy">Flowy</a> and voted upon the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="../../public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
           </div>
         </div>
         <h2>the approach</h2>
@@ -33,7 +33,7 @@ class AnnaFreud extends Component {
           <p className="padding-top-40px">Our team then re-grouped to synthesise what we had learned, and conduct an affinity sorting session in which we identified themes, refined our insights, and broke-down our user stories and user flows for our prototype from the following journey:</p>
           <blockquote>“As a young person experiencing anxiety, I want to access guided relaxation techniques, so that in any moment of distress I can calm myself down."</blockquote>
           <div className="case-study-img-container">
-            <img className="padding-top-40px" src="../../public/resources/annafreud-assets/breathe-with-me-teamwork.PNG"/>
+            <img className="padding-top-40px" src="public/resources/annafreud-assets/breathe-with-me-teamwork.PNG"/>
           </div>
           <p className="section-header padding-top-40px">prototype</p>
           <p className="padding-top-40px">Our team built a usable prototype for our proposed solution in HTML5, CSS3, and Javascript.</p>
@@ -42,7 +42,7 @@ class AnnaFreud extends Component {
           <p className="padding-top-40px">The last phase of our challenge was to test the prototype with the same young people. Watching their delight playing with it stands out as among my fondest memories with usability testing.</p>
           <p>Some of the things we observed was a desire to choose other animals, for it to have a soundtrack, that some of the language didn’t appeal to males, and that they found the instructions too complicated - things we later adapted.</p>
           <div className="case-study-img-container">
-            <img className="portrait padding-top-40px" src="../../public/resources/annafreud-assets/breathing-avatar.PNG"/>
+            <img className="portrait padding-top-40px" src="public/resources/annafreud-assets/breathing-avatar.PNG"/>
           </div>
           <p className="section-header padding-top-40px">iterate</p>
           <p className="padding-top-40px">We demonstrated our prototype at the judging panel for the hackathon the following week and Breathe With Me won funding to become an MVP built over two build sprints.</p>
@@ -54,7 +54,7 @@ class AnnaFreud extends Component {
           <p>The Anna Freud Centre were impressed with us so much that they offered me and my colleague to lead their next hackathon. I facilitated the design sprint (see <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit#slide=id.g2244b19ab0_0_0">slidedeck</a>) and scrum-mastered a similar process as the above for the apps <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
           <p>I continue to be passionate about mental health and facilitate participatory design workshops (see <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">slidedeck</a>) on the design thinking process with young people and Anna Freud staff.</p>
           <div className="case-study-img-container">
-            <img className="portrait padding-top-40px" src="../../public/resources/annafreud-assets/well-done.PNG"/>
+            <img className="portrait padding-top-40px" src="public/resources/annafreud-assets/well-done.PNG"/>
           </div>
           <p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
         </div>
