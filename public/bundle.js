@@ -22379,22 +22379,32 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "my-story-img" },
-	              _react2.default.createElement("img", { src: "public/resources/me.PNG" })
+	              _react2.default.createElement("img", { src: "public/resources/me.JPG" })
 	            ),
 	            _react2.default.createElement(
+	              "h2",
+	              { id: "about-header" },
+	              _react2.default.createElement(
+	                "em",
+	                null,
+	                "Hi, my name is Bradley, and I am a UX Researcher."
+	              )
+	            ),
+	            _react2.default.createElement("hr", null),
+	            _react2.default.createElement(
 	              "p",
-	              { className: "padding-top-40px" },
-	              "Hi, my name is Bradley, and I am a UX Researcher. I graduated with a Master\u2019s degree in Literature passionate about\xA0visual storytelling, systems-thinking, and psychology."
+	              null,
+	              "I graduated with a Master\u2019s degree in Literature passionate about\xA0visual storytelling, systems-thinking, and psychology."
 	            ),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I went into web development to learn to build my own web comics, and discovered my calling working on\xA0projects across\xA0user research, facilitation, service design, community building and teaching."
+	              "I went into web development to learn to build my own web comics and discovered my calling working on\xA0projects across\xA0user research, facilitation, service design, community building and teaching."
 	            ),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "My goal is to master the design process so I can empower people to lead happier, safer, and healthier lives."
+	              "My goal is to use technology to empower people to lead happier, safer, and healthier lives."
 	            )
 	          )
 	        ),
@@ -22549,7 +22559,7 @@
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px" },
+	            { className: "padding-top-40px skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22566,7 +22576,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22577,7 +22587,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22588,7 +22598,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22599,7 +22609,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-bottom-80px" },
+	            { className: "padding-bottom-80px skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,

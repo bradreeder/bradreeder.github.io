@@ -66,6 +66,9 @@
     width: 90vw;
     margin: 0 auto; }
 
+@media only screen and (max-width: 736px) {
+  .menu {
+    text-align: center; } }
 @media only screen and (min-width: 737px) {
   .fixed {
     font-size: 24px; } }
@@ -101,8 +104,7 @@
   width: 90vw;
   height: auto;
   margin: auto;
-  margin-top: 14px;
-  box-shadow: 0px 3px 14px -2px rgba(0, 0, 0, 0.75); }
+  margin-top: 14px; }
   #content-container p {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -122,6 +124,11 @@
     padding: 5px 15px 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px; }
+  #content-container hr {
+    width: 15%;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 20px; }
   #content-container .content-background-colour {
     background-color: #222222; }
   #content-container .padding-top-2em {
@@ -132,7 +139,7 @@
     background-color: rgba(50, 50, 50, 0.97); }
   #content-container .section-header {
     font-family: "Open Sans", sans-serif;
-    color: #EDEDED;
+    color: white;
     text-align: center; }
   #content-container .my-story .my-story-img {
     width: 100%;
@@ -143,7 +150,13 @@
     min-width: 150px;
     height: auto;
     padding-top: 0px;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid white;
+    padding: 0px; }
   #content-container .workshops {
     display: flex;
     flex-direction: row;
@@ -158,6 +171,10 @@
     text-align: center; }
     #content-container .contact i {
       padding-right: 5px; }
+  #content-container #about-header {
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
   #content-container #contact-header {
     margin-top: 0px;
     color: #cfc7c7; }
@@ -185,7 +202,10 @@
       height: auto;
       text-align: center; }
   #content-container p {
-    padding: 5px 2em 5px 2em; }
+    padding: 5px 2em 5px 2em;
+    text-align: center; }
+  #content-container .skills {
+    text-align: left; }
   #content-container blockquote {
     padding: 5px 2em 5px 2em; }
   #content-container .padding-bottom-80px {
@@ -195,7 +215,7 @@
   #content-container .case-study-section h4 {
     color: #EDEDED;
     padding: 5px 2em 5px 2em;
-    text-align: left;
+    text-align: center;
     margin-bottom: 0px;
     margin-top: 0px; } }
 @media only screen and (min-width: 737px) {
@@ -268,12 +288,11 @@
 #footer p {
   padding: 5px 10px 5px 15px; }
 
+@media only screen and (max-width: 736px) {
+  #footer-content {
+    text-align: center; } }
 body {
-  background: url("../resources/glitch.PNG") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: linear-gradient(180deg, #B8B8B8, #585858);
   margin: 0px;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px; }
@@ -289,5 +308,13 @@ a {
 a:hover {
   color: #005E91;
   text-decoration: underline; }
+
+@media only screen and (min-width: 737px) {
+  body {
+    background: url("../resources/glitch.PNG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /*# sourceMappingURL=main.css.map */
