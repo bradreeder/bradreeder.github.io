@@ -6,11 +6,7 @@
 @import 'footer';
 
 body {
-  background: url('../resources/glitch.PNG') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: linear-gradient(180deg, #B8B8B8 , #585858);
   margin: 0px;
   font-family: $main-font;
   font-size: 18px;
@@ -26,4 +22,14 @@ a {
 a:hover {
   color: $link-colour-hover;
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 737px) {
+  body {
+    background: url('../resources/glitch.PNG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }

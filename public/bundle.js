@@ -22379,7 +22379,7 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "my-story-img" },
-	              _react2.default.createElement("img", { src: "public/resources/me.PNG" })
+	              _react2.default.createElement("img", { src: "public/resources/me.JPG" })
 	            ),
 	            _react2.default.createElement(
 	              "p",

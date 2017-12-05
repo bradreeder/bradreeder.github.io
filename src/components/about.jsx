@@ -10,7 +10,7 @@ class About extends Component {
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
             <div className="my-story-img">
-              <img src="public/resources/me.PNG"/>
+              <img src="public/resources/me.JPG"/>
             </div>
             <p className="padding-top-40px">Hi, my name is Bradley, and I am a UX Researcher. I
               graduated with a Master’s degree in Literature passionate about visual
