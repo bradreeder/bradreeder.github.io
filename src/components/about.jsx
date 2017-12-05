@@ -12,13 +12,14 @@ class About extends Component {
             <div className="my-story-img">
               <img src="public/resources/me.JPG"/>
             </div>
-            <p className="padding-top-40px">Hi, my name is Bradley, and I am a UX Researcher. I
-              graduated with a Master’s degree in Literature passionate about visual
+            <h2 id="about-header"><em>Hi, my name is Bradley, and I am a UX Researcher.</em></h2>
+            <hr />
+            <p>I graduated with a Master’s degree in Literature passionate about visual
               storytelling, systems-thinking, and psychology.</p>
-            <p>I went into web development to learn to build my own web comics, and
+            <p>I went into web development to learn to build my own web comics and
               discovered my calling working on projects across user research, facilitation, service
               design, community building and teaching.</p>
-            <p>My goal is to master the design process so I can empower people to
+            <p>My goal is to use technology to empower people to
               lead happier, safer, and healthier lives.</p>
           </div>
         </div>

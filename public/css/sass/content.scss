@@ -29,6 +29,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
   }
+  hr {
+    width: 15%;
+    margin: 0 auto;
+    color: $header-font-colour;
+    margin-bottom: 20px;
+  }
   .content-background-colour {
     background-color: $content-background-colour;
   }
@@ -43,7 +49,7 @@
   }
   .section-header {
     font-family: $secondary-font;
-    color: $tertiary-font-colour;
+    color: $main-font-colour;
     text-align: center;
   }
   .my-story {
@@ -62,7 +68,7 @@
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
-      border: 4px solid $tertiary-font-colour;
+      border: 4px solid $header-font-colour;
       padding: 0px;
     }
   }
@@ -84,6 +90,11 @@
     i {
       padding-right: 5px;
     }
+  }
+  #about-header {
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   #contact-header {
     margin-top: 0px;
