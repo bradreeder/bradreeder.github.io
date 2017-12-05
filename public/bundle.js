@@ -22559,7 +22559,7 @@
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px" },
+	            { className: "padding-top-40px skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22576,7 +22576,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22587,7 +22587,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22598,7 +22598,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            null,
+	            { className: "skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -22609,7 +22609,7 @@
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-bottom-80px" },
+	            { className: "padding-bottom-80px skills" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,

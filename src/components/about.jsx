@@ -64,15 +64,15 @@ class About extends Component {
         <div id="skills"></div>
         <h2>my toolkit</h2>
         <div className="content-background-colour">
-          <p className="padding-top-40px"><strong>Web Development:</strong> HTML5, CSS3, Responsive Web Design, Web Accessibility, Javascript, Node.js, SQL, Git, Linux CL (see <a target="_blank" href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin</a> for more.)</p>
+          <p className="padding-top-40px skills"><strong>Web Development:</strong> HTML5, CSS3, Responsive Web Design, Web Accessibility, Javascript, Node.js, SQL, Git, Linux CL (see <a target="_blank" href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin</a> for more.)</p>
           <p></p>
-          <p><strong>Methodologies:</strong> Design Thinking, User-centred Design, Scrum, Peer-led Education.  </p>
+          <p className="skills"><strong>Methodologies:</strong> Design Thinking, User-centred Design, Scrum, Peer-led Education.  </p>
           <p></p>
-          <p><strong>User Research:</strong> Design sprints, Ideation sessions, Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Secondary research.  </p>
+          <p className="skills"><strong>User Research:</strong> Design sprints, Ideation sessions, Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Secondary research.  </p>
           <p></p>
-          <p><strong>Solution Design:</strong> Affinity diagramming, Storyboards, Empathy maps, Personas, POV statements & How might we’s, User Journeys & Stories, Rapid Prototyping, Wireframes.  </p>
+          <p className="skills"><strong>Solution Design:</strong> Affinity diagramming, Storyboards, Empathy maps, Personas, POV statements & How might we’s, User Journeys & Stories, Rapid Prototyping, Wireframes.  </p>
           <p></p>
-          <p className="padding-bottom-80px"><strong>Software:</strong> Figma, Invision, Survey Monkey, Usability Hub, Google Analytics, Google Docs, Microsoft Office.</p>
+          <p className="padding-bottom-80px skills"><strong>Software:</strong> Figma, Invision, Survey Monkey, Usability Hub, Google Analytics, Google Docs, Microsoft Office.</p>
         </div>
         <div id="work"></div>
         <h2>ux case studies</h2>
