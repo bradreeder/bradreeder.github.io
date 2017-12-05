@@ -24033,7 +24033,7 @@
 	              null,
 	              _react2.default.createElement(
 	                "a",
-	                { href: "../../public/resources/Bradley_Reeder_CV_UX.pdf", download: true },
+	                { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
 	                "Download CV"
 	              )
 	            ),
