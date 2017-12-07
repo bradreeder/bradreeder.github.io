@@ -38,6 +38,7 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
+    "exif-js": "^2.3.0",
     "hapi": "^14.1.0",
     "inert": "^4.0.1",
     "react": "^15.3.0",

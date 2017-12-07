@@ -38,7 +38,7 @@ class Outlandish extends Component {
           <p className="padding-top-40px">After the initial secondary research, I met with the development team for the web extension. We agreed I should conduct a focused research sprint in order to answer: that there was a use-case before building, how members currently handle contracting and partnerships, and the kind of information they would be looking for prior to working together.</p>
           <p>From this, we would be able to confirm what data should be stored on the website and send a survey around the network to collect it.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px" src="public/resources/cotech-assets/planning-meeting.JPG"/>
+            <img className="padding-top-40px" src="public/resources/cotech-assets/planning-meeting.PNG"/>
           </div>
           <p className="section-header padding-top-40px">interviews</p>
           <p className="padding-top-40px">My <a target="_blank" href="https://docs.google.com/document/d/1CkcvXa6zjHNSIclHczGpIyHxLGy0GMZ5c3omO4r45jU/edit">research plan</a> and <a target="_blank" href="https://docs.google.com/document/d/1fLSg4qJ4O0Y5vg3wazeeTQ-AAWaAHNXxGoJ95nX6YtY/edit">discussion guide</a> was signed off quickly. I did 1:1 interviews with a member of each co-op to explore these themes as well as members’ perceptions of how the network was doing, their reasons for joining, and potential barriers to collaboration.</p>
@@ -50,7 +50,7 @@ class Outlandish extends Component {
           <p className="section-header padding-top-40px">synthesis</p>
           <p className="padding-top-40px">While interviewing, I met a senior researcher from <a target="_blank" href="http://weare.thesmallaxe.com/">the Small Axe</a>, Dan, who was doing his own research into the network and became a valuable source of guidance to me. We met to share and synthesise our findings on a few occasions during and after the interviews. We created an affinity diagram from these in which we grouped our observations and insights into themes.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="public/resources/cotech-assets/synthesis.JPG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="public/resources/cotech-assets/synthesis.PNG"/>
           </div>
         </div>
         <h2>the outcome</h2>
