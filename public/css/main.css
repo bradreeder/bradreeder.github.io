@@ -113,7 +113,7 @@
     padding: 1em 15px 1em 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 18pt;
     line-height: 1.4em;
     color: white; }
   #content-container blockquote {
@@ -137,7 +137,8 @@
   #content-container .padding-top-40px {
     padding-top: 40px; }
   #content-container .section-title {
-    background-color: rgba(50, 50, 50, 0.97); }
+    background-color: rgba(50, 50, 50, 0.97);
+    font-size: 21px; }
   #content-container .section-header {
     font-family: "Open Sans", sans-serif;
     color: white;

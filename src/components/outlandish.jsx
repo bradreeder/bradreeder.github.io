@@ -7,7 +7,7 @@ class Outlandish extends Component {
       <div id="outlandish" className="main-article">
         <h2 className="padding-top-2em">growing the cooperative technologists network</h2>
         <div className="content-background-colour">
-          <p className="padding-top-40px"><em><a target="_blank" href="https://www.coops.tech/">CoTech</a> is a young network of cooperatives, spearheaded by the agency <a target="_blank" href="https://outlandish.com/">Outlandish</a> to empower co-ops to collaborate on digital projects and build a tech industry that’s fairer and democratic.</em></p>
+          <p className="padding-top-40px"><em><a target="_blank" href="https://www.coops.tech/">CoTech</a> is a young network of cooperatives, spearheaded by the agency <a target="_blank" href="https://outlandish.com/">Outlandish</a> to empower co-ops to collaborate on digital projects and build a tech industry that’s fairer and more democratic.</em></p>
           <p>During my time as a UX Researcher for Outlandish I performed user research for application ideas, diagnosed the growth potential, and gave strategic guidance to the network.</p>
           <p className="padding-top-40px"><strong>Services:</strong> UX Research, Usability Testing, Business Strategy</p>
           <div className="case-study-img-container">
@@ -32,7 +32,7 @@ class Outlandish extends Component {
             <img className="padding-top-40px" src="public/resources/cotech-assets/discussion-forum.PNG"/>
           </div>
           <p className="section-header padding-top-40px">contextual enquiry</p>
-          <p className="padding-top-40px">I knew little about co-ops, and felt I also needed an inside understanding of how digital co-op’s experienced and perceived the network. I asked for a desk at Outlandish and through contacts there I was able to divide my working time between a few co-op spaces throughout research.</p>
+          <p className="padding-top-40px">I knew little about co-ops, and felt I also needed an inside understanding of how digital co-op’s experienced, perceived and participated within the network. I asked for a desk at Outlandish and through contacts there I was able to divide my working time between a few co-op spaces throughout research.</p>
           <p>This allowed me to sit-in on co-op ceremonies like consensus meetings, observe collaborations in progress, get invitations to networking events, and record insights into co-op culture and behaviour that informed my later personas and findings.</p>
           <p className="section-header padding-top-40px">research sprint</p>
           <p className="padding-top-40px">After the initial secondary research, I met with the development team for the web extension. We agreed I should conduct a focused research sprint in order to answer: that there was a use-case before building, how members currently handle contracting and partnerships, and the kind of information they would be looking for prior to working together.</p>
@@ -62,7 +62,7 @@ class Outlandish extends Component {
           <p className="section-header padding-top-40px">outcome</p>
           <p className="padding-top-40px">This feedback was adopted and resources re-directed towards <a target="_blank" href="http://space4.tech/">Space4</a> - a co-working space for co-ops Outlandish was then establishing.</p>
           <p>I took initiative in using the report to also detail insights into the core barriers the network was facing from the perception of its members. This was well received by the organiser for the network’s AGM and he invited me to present my findings at its planning meeting.</p>
-          <p>My suggestions had a positive outcome on the proposed structure for the event and its agenda. Afterwards, I was invited to attend the AGM and applied my research insights there towards aiding the formulation of the network's constitution.</p>
+          <p>My suggestions had a positive outcome on the proposed structure for the event and its agenda and I was afterwards invited to attend the AGM to present and represent my findings. I continue to remain involved and have since done further research for <a target="_blank" href="https://foundersandcoders.com/">Founders & Coders</a> on how to best place the school's developer graduates within CoTech.</p>
           <div className="case-study-img-container">
             <img className="padding-top-40px" src="public/resources/cotech-assets/wortley-hall-post-its.JPG"/>
           </div>

@@ -34,27 +34,27 @@ class About extends Component {
             and simplify complexities. This enables me to:</p>
           <p></p>
           <div className="my-process padding-bottom-80px">
-            <div className="my-process-column">
+            <div className="my-process-column purple">
               <h2><i className="fa fa-users" aria-hidden="true"></i></h2>
               <h2><strong>Listen</strong></h2>
               <p>Learn about the domain, product & stakeholders and plan & conduct user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
             </div>
-            <div className="my-process-column">
+            <div className="my-process-column green">
               <h2><i className="fa fa-area-chart" aria-hidden="true"></i></h2>
               <h2><strong>Synthesise</strong></h2>
               <p>Synthesise findings and model representative experiences and mindsets to articulate user needs and define the underlying problem.</p>
             </div>
-            <div className="my-process-column">
+            <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
               <h2><strong>Communicate</strong></h2>
               <p>Champion the user by effectively communicating findings across teams, mediums, acceptance criteria and artefacts.</p>
             </div>
-            <div className="my-process-column">
+            <div className="my-process-column purple">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
               <h2><strong>Collaborate</strong></h2>
               <p>Collaborate with others to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
             </div>
-            <div className="my-process-column">
+            <div className="my-process-column green">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
               <h2><strong>Learn</strong></h2>
               <p>Repeat this cycle, testing solutions with users to validate and inform the direction of this unfolding design process.</p>
@@ -81,7 +81,7 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Growing the Cooperative Technologists Network</h4>
-              <p>User-researched application ideas, diagnosed growth potential, and gave
+              <p>User-researched application ideas, diagnosed growth potential and gave
                 strategic guidance. <a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}>View case study.</a></p>
             </div>
             <div className="case-study-section">
@@ -110,7 +110,7 @@ class About extends Component {
             <div className="case-study-section">
               <h4>Relieve anxiety by Breathing With Me</h4>
               <p>Took a self-care themed design challenge through the design thinking
-                cycle of inspiration, ideation, and implementation. <a href="#breathe-with-me" onClick={() => this.props.changeContent('annaFreud')}>View case study.</a></p>
+                cycle of inspiration, ideation and implementation. <a href="#breathe-with-me" onClick={() => this.props.changeContent('annaFreud')}>View case study.</a></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -124,7 +124,7 @@ class About extends Component {
           <p className="section-title"><a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> & <a target="_blank" href="https://www.rethink.org/">Rethink</a>, Jul 2017</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
-              <p>Facilitated a design sprint workshop for NHS Digital and Rethink ideating digital solutions to bullying
+              <p>Co-facilitated a design sprint workshop for <a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> and <a target="_blank" href="https://www.rethink.org/">Rethink</a> ideating digital solutions to bullying
                 in schools.</p>
             </div>
             <div className="case-study-section">
@@ -150,7 +150,7 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <p>Main contributor to the school's 4 month web development <a target="_blank" href="https://github.com/foundersandcoders/master-reference">open-source curriculum</a>, co-designing and facilitating weeks on <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4">node.js</a> and <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12">design thinking & agile build cycles</a>.</p>
-              <p className="padding-top-40px">See <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking</a> slidedeck</p>
+              <p className="padding-top-40px">See our <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking week's</a> slidedeck</p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -163,7 +163,7 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <p>Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental
-                health in young people, and scrum-mastered resulting MVPs <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
+                health in young people and scrum-mastered resulting MVPs <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
               <p className="padding-top-40px">See <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit">Hackathon</a> & <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">Workshop</a> slidedecks</p>
             </div>
             <div className="case-study-section">

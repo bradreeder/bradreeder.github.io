@@ -22433,7 +22433,7 @@
 	            { className: "my-process padding-bottom-80px" },
 	            _react2.default.createElement(
 	              "div",
-	              { className: "my-process-column" },
+	              { className: "my-process-column purple" },
 	              _react2.default.createElement(
 	                "h2",
 	                null,
@@ -22456,7 +22456,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "my-process-column" },
+	              { className: "my-process-column green" },
 	              _react2.default.createElement(
 	                "h2",
 	                null,
@@ -22479,7 +22479,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "my-process-column" },
+	              { className: "my-process-column blue" },
 	              _react2.default.createElement(
 	                "h2",
 	                null,
@@ -22502,7 +22502,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "my-process-column" },
+	              { className: "my-process-column purple" },
 	              _react2.default.createElement(
 	                "h2",
 	                null,
@@ -22525,7 +22525,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "my-process-column" },
+	              { className: "my-process-column green" },
 	              _react2.default.createElement(
 	                "h2",
 	                null,
@@ -22651,7 +22651,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "User-researched application ideas, diagnosed growth potential, and gave strategic guidance. ",
+	                "User-researched application ideas, diagnosed growth potential and gave strategic guidance. ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { href: "#outlandish", onClick: function onClick() {
@@ -22739,7 +22739,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Took a self-care themed design challenge through the design thinking cycle of inspiration, ideation, and implementation. ",
+	                "Took a self-care themed design challenge through the design thinking cycle of inspiration, ideation and implementation. ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { href: "#breathe-with-me", onClick: function onClick() {
@@ -22793,7 +22793,19 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Facilitated a design sprint workshop for NHS Digital and Rethink ideating digital solutions to bullying in schools."
+	                "Co-facilitated a design sprint workshop for ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://digital.nhs.uk/" },
+	                  "NHS Digital"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://www.rethink.org/" },
+	                  "Rethink"
+	                ),
+	                " ideating digital solutions to bullying in schools."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22880,11 +22892,11 @@
 	              _react2.default.createElement(
 	                "p",
 	                { className: "padding-top-40px" },
-	                "See ",
+	                "See our ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00" },
-	                  "Design thinking"
+	                  "Design thinking week's"
 	                ),
 	                " slidedeck"
 	              )
@@ -22918,7 +22930,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental health in young people, and scrum-mastered resulting MVPs ",
+	                "Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental health in young people and scrum-mastered resulting MVPs ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { target: "_blank", href: "https://growgoals.co.uk/login" },
@@ -23104,7 +23116,7 @@
 	                { target: "_blank", href: "https://outlandish.com/" },
 	                "Outlandish"
 	              ),
-	              " to empower co-ops to collaborate on digital projects and build a tech industry that\u2019s fairer and democratic."
+	              " to empower co-ops to collaborate on digital projects and build a tech industry that\u2019s fairer and more democratic."
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -23209,7 +23221,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "I knew little about co-ops, and felt I also needed an inside understanding of how digital co-op\u2019s experienced and perceived the network. I asked for a desk at Outlandish and through contacts there I was able to divide my working time between a few co-op spaces throughout research."
+	            "I knew little about co-ops, and felt I also needed an inside understanding of how digital co-op\u2019s experienced, perceived and participated within the network. I asked for a desk at Outlandish and through contacts there I was able to divide my working time between a few co-op spaces throughout research."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23354,7 +23366,13 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "My suggestions had a positive outcome on the proposed structure for the event and its agenda. Afterwards, I was invited to attend the AGM and applied my research insights there towards aiding the formulation of the network's constitution."
+	            "My suggestions had a positive outcome on the proposed structure for the event and its agenda and I was afterwards invited to attend the AGM to present and represent my findings. I continue to remain involved and have since done further research for ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://foundersandcoders.com/" },
+	              "Founders & Coders"
+	            ),
+	            " on how to best place the school's developer graduates within CoTech."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23460,7 +23478,7 @@
 	              null,
 	              "Services:"
 	            ),
-	            " Front-end Development, Rapid Prototyping, Usability Testing"
+	            " Front-end Development, Responsive Web Design, Rapid Prototyping, Usability Testing"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23495,7 +23513,7 @@
 	              { target: "_blank", href: "http://www.wired.co.uk/article/flowy" },
 	              "Flowy"
 	            ),
-	            " and voted upon the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars."
+	            " and voted upon testing the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23554,12 +23572,12 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "Our team built a usable prototype for our proposed solution in HTML5, CSS3, and Javascript."
+	            "We then built a usable prototype for our proposed solution in HTML5 and CSS3. Our solution acts as an aid to deep breathing by enabling the user to breathe in sync with an animal avatar alongside text instructions."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We focused on creating a safe connection between the user and the app through a welcoming instructional narrative, the soft colourful ambience of flowing animations, and the calming rhythmic breathing of the avatar to sync their breath with."
+	            "We focused on creating a safe interpersonal connection between the user and the app through a welcoming instructional narrative, the soft colourful ambience of flowing animations, and the calming rhythmic breathing of the avatar."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23642,7 +23660,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I continue to be passionate about mental health and facilitate participatory design workshops (see ",
+	            "I continue to be passionate about mental health and have facilitatd participatory design workshops (see ",
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
@@ -23772,7 +23790,12 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I had observed repeated difficulties across a few cycles of the programme. Students agreed to mentor the next programme and without direction planned and rebuilt their assigned weeks with only their own experience to guide them. Mentors looking for jobs felt burdened and often prepared content last minute, students received an uncoordinated experience, and much of the communities\u2019 past learning experiences went lost and unadapted."
+	            "There was a repeating difficulty with each cycle of the programme. Students agreed to mentor the next programme but received minimum direction and planned & rebuilt their assigned weeks with only their own experience to guide them."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Mentors looking for jobs felt burdened and often prepared content last minute, students received an uncoordinated experience, and much of the communities\u2019 past learning experiences went lost and unrecorded."
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23791,12 +23814,12 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "Having recently mentored, I shared a survey around recent cohorts and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring."
+	            "Having recently mentored, I shared a survey around recent students & mentors and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "From this, I plotted out a storyboard depicting the student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
+	            "I then synthesised the findings by plotting out a storyboard depicting the common student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23811,17 +23834,17 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "Me and a few others from the focus group met to ideate ways we could address these pain-points. The theme of adapting agile and user-centred methodologies to the way we run the school soon arose."
+	            "Me and a few others from the focus group then met to ideate ways we could address these pain-points."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We narrowed on thinking about how we might re-design curriculum planning to be leaner, where the entire bootcamp experience is measured by the feedback of students who then iteratively improve it as mentors in collaboration with alumni as carriers of organisational memory."
+	            "We narrowed on thinking about how we might re-design curriculum planning to be like an agile product cycle, where the entire bootcamp experience is measured by the feedback of students who then iteratively improve it as mentors in collaboration with alumni as carriers of organisational memory."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "After the session, Me and Eoin, the facilitator for our new campus in Israel, ran a stakeholder interview with the Founders in which we presented our solution. To my surprise, they were delighted and offered me to lead the next course in London."
+	            "After the session, I drew up a new storyboard with a proposed solution. Me and Eoin, the facilitator for our new campus in Israel, then ran a stakeholder interview with the Founders in which we presented it. To my surprise, they were delighted and offered me to lead the next course in London."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23831,17 +23854,23 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "We both created master documentation for the programme online on github to be consistent with the school's values. It would be open-source and transparent, changes to it could be discussed openly by anyone across our campuses, and the history of all changes recorded."
+	            "We both created the ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
+	              "master-reference"
+	            ),
+	            " for the programme on github as a stable source of documentation. It would be open-source and transparent, changes to it could be discussed openly by anyone across our campuses, and the history of all changes recorded."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We started with a curriculum draft we created with the school\u2019s founders. I then ran a series of affinity sorting curriculum review sessions with alumni and students in which we reviewed it, grouped their feedback into themes and adapted their experience into the draft."
+	            "We started it with a curriculum draft we created with the school\u2019s founders. I then ran a series of affinity sorting curriculum review sessions with alumni and students in which we reviewed it, grouped their feedback into themes and adapted their experience into the draft."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We recruited alumni who would become maintainers for each week and help the assigned mentors to build it and in future iterations review the material with them and identify a few key areas for improvement. My role was to facilitate cross-week collaboration and cohesion."
+	            "We then recruited alumni who would become maintainers for each week of the curriculum. When students became assigned to mentor weeks, the maintainer would help them to build it and in future iterations review the material with them and identify a few key areas for improvement. My role was to facilitate cross-week collaboration and cohesion."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23865,12 +23894,29 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "The structure of the curriculum, the course facilitator role, and the curriculum-planning process we communally designed then remains in its core aspects. The master-reference has since been used to build other campuses and the programme continues to improve in quality."
+	            "The structure of the curriculum, the course facilitator role, and the curriculum-planning process we communally designed then remains in its core aspects and the programme continues to improve in quality."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "During the next programme we led a re-design of the second half of the programme. We modified weeks 10-12 to become a design & build sprint for student\u2019s final projects taking them through the design thinking process from user research to rapid prototyping, testing and the agile build cycle. I\u2019m currently the alumni maintainer for these weeks."
+	            "The ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
+	              "master-reference"
+	            ),
+	            " has since become a core source of documentation on the curriculum and the running of a campus that has been used to build other Founders & Coders schools in Israel."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "During the next programme I initiated a re-design of the second half of the programme. We modified weeks 10-12 to become a ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12" },
+	              "design & build sprint"
+	            ),
+	            " for student\u2019s final projects taking them through the design thinking process from user research to rapid prototyping, testing and the agile build cycle. I\u2019m currently the alumni maintainer for these weeks."
 	          ),
 	          _react2.default.createElement(
 	            "div",
