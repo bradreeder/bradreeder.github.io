@@ -10,7 +10,7 @@ class AnnaFreud extends Component {
           <p><em>Breathe With Me was the result of a team collaboration for a hackathon with the <a target="_blank" href="http://www.annafreud.org/">Anna Freud Centre</a> - a charity dedicated to providing training & support for child mental health services.</em></p>
           <p>My teammates and I took a self-care themed design challenge through the design thinking stages of inspiration, ideation, and implementation to create a prototype of our solution, which we were able to test with young people in services.</p>
 
-          <p className="padding-top-40px"><strong>Services:</strong> Front-end Development, Rapid Prototyping, Usability Testing</p>
+          <p className="padding-top-40px"><strong>Services:</strong> Front-end Development, Responsive Web Design, Rapid Prototyping, Usability Testing</p>
           <div className="case-study-img-container">
             <img className="portrait padding-top-40px padding-bottom-80px" src="public/resources/annafreud-assets/breathe-with-me.PNG"/>
           </div>
@@ -19,7 +19,7 @@ class AnnaFreud extends Component {
         <div className="content-background-colour padding-top-40px">
           <p>We began running a design sprint with our Anna Freud product owner, Charlotte. Her vision was to create a game that young people could access in moments of anxiety to learn stress-relieving techniques and build resilience.</p>
           <p>We began with a discussion understanding the context of the problem, her organisational and user needs, and what is currently being done in the field to address them. We looked at a few relaxation apps to inspire us, then ran a brain-storming and ‘crazy-eights’ session to generate ideas and sketch some pages and flows.</p>
-          <p>We all liked the app <a target="_blank" href="http://www.wired.co.uk/article/flowy">Flowy</a> and voted upon the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars.</p>
+          <p>We all liked the app <a target="_blank" href="http://www.wired.co.uk/article/flowy">Flowy</a> and voted upon testing the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars.</p>
           <div className="case-study-img-container">
             <img className="padding-top-40px padding-bottom-80px" src="public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
           </div>
@@ -36,8 +36,8 @@ class AnnaFreud extends Component {
             <img className="padding-top-40px" src="public/resources/annafreud-assets/breathe-with-me-teamwork.PNG"/>
           </div>
           <p className="section-header padding-top-40px">prototype</p>
-          <p className="padding-top-40px">Our team built a usable prototype for our proposed solution in HTML5, CSS3, and Javascript.</p>
-          <p>We focused on creating a safe connection between the user and the app through a welcoming instructional narrative, the soft colourful ambience of flowing animations, and the calming rhythmic breathing of the avatar to sync their breath with.</p>
+          <p className="padding-top-40px">We then built a usable prototype for our proposed solution in HTML5 and CSS3. Our solution acts as an aid to deep breathing by enabling the user to breathe in sync with an animal avatar alongside text instructions.</p>
+          <p>We focused on creating a safe interpersonal connection between the user and the app through a welcoming instructional narrative, the soft colourful ambience of flowing animations, and the calming rhythmic breathing of the avatar.</p>
           <p className="section-header padding-top-40px">test</p>
           <p className="padding-top-40px">The last phase of our challenge was to test the prototype with the same young people. Watching their delight playing with it stands out as among my fondest memories with usability testing.</p>
           <p>Some of the things we observed was a desire to choose other animals, for it to have a soundtrack, that some of the language didn’t appeal to males, and that they found the instructions too complicated - things we later adapted.</p>
@@ -52,7 +52,7 @@ class AnnaFreud extends Component {
         <div className="content-background-colour padding-top-40px">
           <p>Breathe With Me continues to be used by counsellors and youth workers as a tool for teaching young people relaxation techniques and has been put forward for bids for further development.</p>
           <p>The Anna Freud Centre were impressed with us so much that they offered me and my colleague to lead their next hackathon. I facilitated the design sprint (see <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit#slide=id.g2244b19ab0_0_0">slidedeck</a>) and scrum-mastered a similar process as the above for the apps <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
-          <p>I continue to be passionate about mental health and facilitate participatory design workshops (see <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">slidedeck</a>) on the design thinking process with young people and Anna Freud staff.</p>
+          <p>I continue to be passionate about mental health and have facilitatd participatory design workshops (see <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">slidedeck</a>) on the design thinking process with young people and Anna Freud staff.</p>
           <div className="case-study-img-container">
             <img className="portrait padding-top-40px" src="public/resources/annafreud-assets/well-done.PNG"/>
           </div>

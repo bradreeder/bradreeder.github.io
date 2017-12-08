@@ -15,7 +15,7 @@
     padding: 1em 15px 1em 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 18pt;
     line-height: 1.4em;
     color: $header-font-colour;
   }
@@ -47,12 +47,22 @@
   }
   .section-title {
     background-color: $main-background-colour;
+    font-size: 21px;
   }
   .section-header {
     font-family: $secondary-font;
     color: $header-font-colour;
     text-align: center;
   }
+  // .purple {
+  //   background-color: #5342a9;
+  // }
+  // .green {
+  //   background-color: #00a6ad;
+  // }
+  // .blue {
+  //   background-color: #2f9eef;
+  // }
   .my-story {
     .my-story-img {
       width: 100%;
