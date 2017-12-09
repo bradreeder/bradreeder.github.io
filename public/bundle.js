@@ -22711,7 +22711,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/founders-and-coders-assets/story-board.JPG" })
+	                _react2.default.createElement("img", { src: "public/resources/founders-and-coders-assets/fac9-start.JPG" })
 	              )
 	            )
 	          ),
@@ -23819,12 +23819,18 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I then synthesised the findings by plotting out a storyboard depicting the common student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
+	            "I then synthesised the findings by plotting out a ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://www.figma.com/file/eKDb558QpuIOSQb62LOBOC/Founders-%26-Coders-Mentorship-Storyboard" },
+	              "storyboard"
+	            ),
+	            " depicting the common student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/story-board.JPG" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/problem-storyboard.PNG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",

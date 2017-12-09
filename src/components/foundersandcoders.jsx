@@ -23,9 +23,9 @@ class FoundersAndCoders extends Component {
         <div className="content-background-colour">
           <p className="section-header padding-top-40px">discovery</p>
           <p className="padding-top-40px">Having recently mentored, I shared a survey around recent students & mentors and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring.</p>
-          <p>I then synthesised the findings by plotting out a storyboard depicting the common student’s journey through curriculum planning and mentorship along with the pain-points at each stage.</p>
+          <p>I then synthesised the findings by plotting out a <a target="_blank" href="https://www.figma.com/file/eKDb558QpuIOSQb62LOBOC/Founders-%26-Coders-Mentorship-Storyboard">storyboard</a> depicting the common student’s journey through curriculum planning and mentorship along with the pain-points at each stage.</p>
           <div className="case-study-img-container">
-            <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/story-board.JPG"/>
+            <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/problem-storyboard.PNG"/>
           </div>
           <p className="section-header padding-top-40px">ideation</p>
           <p className="padding-top-40px">Me and a few others from the focus group then met to ideate ways we could address these pain-points.</p>
