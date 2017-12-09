@@ -100,7 +100,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img src="public/resources/founders-and-coders-assets/story-board.JPG"/>
+                <img src="public/resources/founders-and-coders-assets/fac9-start.JPG"/>
               </div>
             </div>
           </div>
