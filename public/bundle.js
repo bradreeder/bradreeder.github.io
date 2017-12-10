@@ -23850,7 +23850,18 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "After the session, I drew up a new storyboard with a proposed solution. Me and Eoin, the facilitator for our new campus in Israel, then ran a stakeholder interview with the Founders in which we presented it. To my surprise, they were delighted and offered me to lead the next course in London."
+	            "After the session, I drew up a new ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://www.figma.com/file/Y5MW7eRSgryZ1Ze75mZm8v/Founders-%26-Coders-Mentorship-Storyboard" },
+	              "storyboard"
+	            ),
+	            " with a proposed solution. Me and Eoin, the facilitator for our new campus in Israel, then ran a stakeholder interview with the Founders in which we presented it. To my surprise, they were delighted and offered me to lead the next course in London."
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/solution-storyboard.PNG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
