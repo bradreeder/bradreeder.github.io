@@ -16,8 +16,8 @@ class FoundersAndCoders extends Component {
         </div>
         <h2>the challenge</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
-          <p>There was a repeating difficulty with each cycle of the programme. Students agreed to mentor the next programme but received minimum direction and planned & rebuilt their assigned weeks with only their own experience to guide them.</p>
-          <p>Mentors looking for jobs felt burdened and often prepared content last minute, students received an uncoordinated experience, and much of the communities’ past learning experiences went lost and unrecorded.</p>
+          <p>Students are responsible for breaking up into small groups to mentor each week of the following course. But they were receiving minimum direction or planning time and rebuilt weeks of the curriculum from scratch with only their own experience to guide them.</p>
+          <p>Groups of mentors, burdened by the pressure of looking for jobs, didn’t communicate with each other and often prepared content last minute. This led to students receiving an uncoordinated experience and much of the communities’ past learning experiences going lost and unrecorded.</p>
         </div>
         <h2>the approach</h2>
         <div className="content-background-colour">
@@ -28,18 +28,21 @@ class FoundersAndCoders extends Component {
             <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/problem-storyboard.PNG"/>
           </div>
           <p className="section-header padding-top-40px">ideation</p>
-          <p className="padding-top-40px">Me and a few others from the focus group then met to ideate ways we could address these pain-points.</p>
-          <p>We narrowed on thinking about how we might re-design curriculum planning to be like an agile product cycle, where the entire bootcamp experience is measured by the feedback of students who then iteratively improve it as mentors in collaboration with alumni as carriers of organisational memory.</p>
-          <p>After the session, I drew up a new <a target="_blank" href="https://www.figma.com/file/Y5MW7eRSgryZ1Ze75mZm8v/Founders-%26-Coders-Mentorship-Storyboard">storyboard</a> with a proposed solution. Me and Eoin, the facilitator for our new campus in Israel, then ran a stakeholder interview with the Founders in which we presented it. To my surprise, they were delighted and offered me to lead the next course in London.</p>
+          <p className="padding-top-40px">Me and a few others from the focus group then met to ideate ways we could address each of the pain-points and created a new <a target="_blank" href="https://www.figma.com/file/Y5MW7eRSgryZ1Ze75mZm8v/Founders-%26-Coders-Mentorship-Storyboard">storyboard</a> with our ideal solution.</p>
+          <p>We then ran a stakeholder interview with the organisation’s Founders in which we reviewed the history of the course’s development and presented our proposed plans. To my surprise, they were delighted and offered me to lead the next course in London.</p>
           <div className="case-study-img-container">
             <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/solution-storyboard.PNG"/>
           </div>
           <p className="section-header padding-top-40px">implementation</p>
-          <p className="padding-top-40px">We both created the <a target="_blank" href="https://github.com/foundersandcoders/master-reference">master-reference</a> for the programme on github as a stable source of documentation. It would be open-source and transparent, changes to it could be discussed openly by anyone across our campuses, and the history of all changes recorded.</p>
-          <p>We started it with a curriculum draft we created with the school’s founders. I then ran a series of affinity sorting curriculum review sessions with alumni and students in which we reviewed it, grouped their feedback into themes and adapted their experience into the draft.</p>
-          <p>We then recruited alumni who would become maintainers for each week of the curriculum. When students became assigned to mentor weeks, the maintainer would help them to build it and in future iterations review the material with them and identify a few key areas for improvement. My role was to facilitate cross-week collaboration and cohesion.</p>
+          <p className="padding-top-40px">The main ingredients of the solution storyboard were implemented as follows:</p>
+          <ul>
+            <li>We created a <a target="_blank" href="https://github.com/foundersandcoders/master-reference">master-reference repository</a> on github as a stable source of documentation for the programme’s curriculum, so that the history of all changes would be transparent and recorded.</li>
+            <li>We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible.</li>
+            <li>A week was carved out of the programme for curriculum planning. I modelled it on <a target="_blank" href="https://www.scrum.org/resources/what-is-sprint-planning">agile sprint-planning</a> so that the mentor's focus was on identifying high priority issues and improving existing material in time for the start of the next programme.</li>
+            <li>I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion.</li>
+          </ul>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="public/resources/founders-and-coders-assets/master-reference.PNG"/>
+            <img className="padding-bottom-80px" src="public/resources/founders-and-coders-assets/master-reference.PNG"/>
           </div>
         </div>
         <h2>the outcome</h2>

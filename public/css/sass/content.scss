@@ -11,6 +11,15 @@
     margin-bottom: 0px;
     color: $main-font-colour;
   }
+  ul {
+    margin-bottom: 30px;
+  }
+  li {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $main-font-colour;
+  }
   h2 {
     padding: 1em 15px 1em 15px;
     text-align: center;
@@ -146,6 +155,13 @@
       padding: 5px 2em 5px 2em;
       text-align: center;
     }
+    ul {
+      padding: 5px 2em 5px 3em;
+    }
+    li {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
     .skills {
       text-align: left;
     }
@@ -189,6 +205,13 @@
     }
     p {
       padding: 5px 150px 5px 150px;
+    }
+    ul {
+      padding: 5px 150px 5px 175px;
+    }
+    li {
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
     .padding-bottom-80px {
       padding-bottom: 80px;
