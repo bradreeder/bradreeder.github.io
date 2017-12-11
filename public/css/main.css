@@ -109,6 +109,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: #cfc7c7; }
+  #content-container ul {
+    margin-bottom: 30px; }
+  #content-container li {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #cfc7c7; }
   #content-container h2 {
     padding: 1em 15px 1em 15px;
     text-align: center;
@@ -206,6 +213,11 @@
   #content-container p {
     padding: 5px 2em 5px 2em;
     text-align: center; }
+  #content-container ul {
+    padding: 5px 2em 5px 3em; }
+  #content-container li {
+    padding-top: 5px;
+    padding-bottom: 5px; }
   #content-container .skills {
     text-align: left; }
   #content-container blockquote {
@@ -235,6 +247,11 @@
     margin: 0 auto; }
   #content-container p {
     padding: 5px 150px 5px 150px; }
+  #content-container ul {
+    padding: 5px 150px 5px 175px; }
+  #content-container li {
+    padding-top: 5px;
+    padding-bottom: 5px; }
   #content-container .padding-bottom-80px {
     padding-bottom: 80px; }
   #content-container .my-process {
@@ -292,7 +309,9 @@
 
 @media only screen and (max-width: 736px) {
   #footer-content {
-    text-align: center; } }
+    text-align: center; }
+    #footer-content p {
+      font-size: 16px; } }
 body {
   background: linear-gradient(180deg, #B8B8B8, #585858);
   margin: 0px;
