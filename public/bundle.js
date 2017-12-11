@@ -23790,12 +23790,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Students are responsible for breaking up into small groups to mentor each week of the following course. But they were receiving minimum direction or planning time and rebuilt weeks of the curriculum from scratch with only their own experience to guide them."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Groups of mentors, burdened by the pressure of looking for jobs, didn\u2019t communicate with each other and often prepared content last minute. This led to students receiving an uncoordinated experience and much of the communities\u2019 past learning experiences going lost and unrecorded."
+	            "Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time, groups of mentors didn\u2019t communicate with each other and often prepared their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities\u2019 past learning experiences going lost and unrecorded."
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23828,6 +23823,11 @@
 	            " depicting the common student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
 	          ),
 	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Students frequently complained that the curriculum coursebook was never up to date during the course, and of the inconsistency in preparation of mentors. Mentors on the other hand desired more support, clarity around their remit, and more time to be set aside for curriculum planning."
+	          ),
+	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
 	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/problem-storyboard.PNG" })
@@ -23851,7 +23851,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We then ran a stakeholder interview with the organisation\u2019s Founders in which we reviewed the history of the course\u2019s development and presented our proposed plans. To my surprise, they were delighted and offered me to lead the next course in London."
+	            "We presented this during a stakeholder interview with the organisation\u2019s Founders in which we reviewed the history of the course\u2019s development. To my surprise, they were delighted and offered me to lead the next course in London."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23864,13 +23864,8 @@
 	            "implementation"
 	          ),
 	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "The main ingredients of the solution storyboard were implemented as follows:"
-	          ),
-	          _react2.default.createElement(
 	            "ul",
-	            null,
+	            { className: "padding-top-40px" },
 	            _react2.default.createElement(
 	              "li",
 	              null,
@@ -23890,13 +23885,13 @@
 	            _react2.default.createElement(
 	              "li",
 	              null,
-	              "A week was carved out of the programme for curriculum planning. I modelled it on ",
+	              "A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://www.scrum.org/resources/what-is-sprint-planning" },
 	                "agile sprint-planning"
 	              ),
-	              " so that the mentor's focus was on identifying high priority issues and improving existing material in time for the start of the next programme."
+	              " so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme."
 	            ),
 	            _react2.default.createElement(
 	              "li",
