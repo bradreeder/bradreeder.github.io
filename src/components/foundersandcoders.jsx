@@ -16,7 +16,7 @@ class FoundersAndCoders extends Component {
         </div>
         <h2>the challenge</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
-          <p>Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time, groups of mentors didn’t communicate with each other and often prepared their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities’ past learning experiences going lost and unrecorded.</p>
+          <p>Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time groups of mentors would often not communicate with each other and prepare their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities’ past learning experiences going lost and unrecorded.</p>
         </div>
         <h2>the approach</h2>
         <div className="content-background-colour">
@@ -34,14 +34,12 @@ class FoundersAndCoders extends Component {
             <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/solution-storyboard.PNG"/>
           </div>
           <p className="section-header padding-top-40px">implementation</p>
-          <ul className="padding-top-40px">
-            <li>We created a <a target="_blank" href="https://github.com/foundersandcoders/master-reference">master-reference repository</a> on github as a stable source of documentation for the programme’s curriculum, so that the history of all changes would be transparent and recorded.</li>
-            <li>We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible.</li>
-            <li>A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on <a target="_blank" href="https://www.scrum.org/resources/what-is-sprint-planning">agile sprint-planning</a> so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme.</li>
-            <li>I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion.</li>
-          </ul>
+          <p className="padding-top-40px">We created a <a target="_blank" href="https://github.com/foundersandcoders/master-reference">master-reference repository</a> on github as a stable source of documentation for the programme’s curriculum, so that the history of all changes would be transparent and recorded.</p>
+          <p>We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible.</p>
+          <p>A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on <a target="_blank" href="https://www.scrum.org/resources/what-is-sprint-planning">agile sprint-planning</a> so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme.</p>
+          <p>I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion.</p>
           <div className="case-study-img-container">
-            <img className="padding-bottom-80px" src="public/resources/founders-and-coders-assets/master-reference.PNG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="public/resources/founders-and-coders-assets/master-reference.PNG"/>
           </div>
         </div>
         <h2>the outcome</h2>
