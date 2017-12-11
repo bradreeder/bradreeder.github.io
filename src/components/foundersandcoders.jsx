@@ -16,29 +16,28 @@ class FoundersAndCoders extends Component {
         </div>
         <h2>the challenge</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
-          <p>Students are responsible for breaking up into small groups to mentor each week of the following course. But they were receiving minimum direction or planning time and rebuilt weeks of the curriculum from scratch with only their own experience to guide them.</p>
-          <p>Groups of mentors, burdened by the pressure of looking for jobs, didn’t communicate with each other and often prepared content last minute. This led to students receiving an uncoordinated experience and much of the communities’ past learning experiences going lost and unrecorded.</p>
+          <p>Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time, groups of mentors didn’t communicate with each other and often prepared their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities’ past learning experiences going lost and unrecorded.</p>
         </div>
         <h2>the approach</h2>
         <div className="content-background-colour">
           <p className="section-header padding-top-40px">discovery</p>
           <p className="padding-top-40px">Having recently mentored, I shared a survey around recent students & mentors and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring.</p>
           <p>I then synthesised the findings by plotting out a <a target="_blank" href="https://www.figma.com/file/eKDb558QpuIOSQb62LOBOC/Founders-%26-Coders-Mentorship-Storyboard">storyboard</a> depicting the common student’s journey through curriculum planning and mentorship along with the pain-points at each stage.</p>
+          <p>Students frequently complained that the curriculum coursebook was never up to date during the course, and of the inconsistency in preparation of mentors. Mentors on the other hand desired more support, clarity around their remit, and more time to be set aside for curriculum planning.</p>
           <div className="case-study-img-container">
             <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/problem-storyboard.PNG"/>
           </div>
           <p className="section-header padding-top-40px">ideation</p>
           <p className="padding-top-40px">Me and a few others from the focus group then met to ideate ways we could address each of the pain-points and created a new <a target="_blank" href="https://www.figma.com/file/Y5MW7eRSgryZ1Ze75mZm8v/Founders-%26-Coders-Mentorship-Storyboard">storyboard</a> with our ideal solution.</p>
-          <p>We then ran a stakeholder interview with the organisation’s Founders in which we reviewed the history of the course’s development and presented our proposed plans. To my surprise, they were delighted and offered me to lead the next course in London.</p>
+          <p>We presented this during a stakeholder interview with the organisation’s Founders in which we reviewed the history of the course’s development. To my surprise, they were delighted and offered me to lead the next course in London.</p>
           <div className="case-study-img-container">
             <img className="padding-top-40px" src="public/resources/founders-and-coders-assets/solution-storyboard.PNG"/>
           </div>
           <p className="section-header padding-top-40px">implementation</p>
-          <p className="padding-top-40px">The main ingredients of the solution storyboard were implemented as follows:</p>
-          <ul>
+          <ul className="padding-top-40px">
             <li>We created a <a target="_blank" href="https://github.com/foundersandcoders/master-reference">master-reference repository</a> on github as a stable source of documentation for the programme’s curriculum, so that the history of all changes would be transparent and recorded.</li>
             <li>We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible.</li>
-            <li>A week was carved out of the programme for curriculum planning. I modelled it on <a target="_blank" href="https://www.scrum.org/resources/what-is-sprint-planning">agile sprint-planning</a> so that the mentor's focus was on identifying high priority issues and improving existing material in time for the start of the next programme.</li>
+            <li>A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on <a target="_blank" href="https://www.scrum.org/resources/what-is-sprint-planning">agile sprint-planning</a> so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme.</li>
             <li>I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion.</li>
           </ul>
           <div className="case-study-img-container">
