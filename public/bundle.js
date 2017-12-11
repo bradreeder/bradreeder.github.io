@@ -23790,7 +23790,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time, groups of mentors didn\u2019t communicate with each other and often prepared their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities\u2019 past learning experiences going lost and unrecorded."
+	            "Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time groups of mentors would often not communicate with each other and prepare their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities\u2019 past learning experiences going lost and unrecorded."
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23864,45 +23864,41 @@
 	            "implementation"
 	          ),
 	          _react2.default.createElement(
-	            "ul",
+	            "p",
 	            { className: "padding-top-40px" },
+	            "We created a ",
 	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "We created a ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
-	                "master-reference repository"
-	              ),
-	              " on github as a stable source of documentation for the programme\u2019s curriculum, so that the history of all changes would be transparent and recorded."
+	              "a",
+	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
+	              "master-reference repository"
 	            ),
+	            " on github as a stable source of documentation for the programme\u2019s curriculum, so that the history of all changes would be transparent and recorded."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on ",
 	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible."
+	              "a",
+	              { target: "_blank", href: "https://www.scrum.org/resources/what-is-sprint-planning" },
+	              "agile sprint-planning"
 	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.scrum.org/resources/what-is-sprint-planning" },
-	                "agile sprint-planning"
-	              ),
-	              " so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme."
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion."
-	            )
+	            " so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-bottom-80px", src: "public/resources/founders-and-coders-assets/master-reference.PNG" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/founders-and-coders-assets/master-reference.PNG" })
 	          )
 	        ),
 	        _react2.default.createElement(
