@@ -23790,7 +23790,12 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Students are responsible for breaking up into small groups to mentor each week of the following course. But without sufficient direction or planning time groups of mentors would often not communicate with each other and prepare their week's content last minute. This led to students receiving an inconsistent, uncoordinated experience and much of the communities\u2019 past learning experiences going lost and unrecorded."
+	            "As a student and mentor I observed repeating difficulties. Students were responsible for breaking up into small groups to prepare and mentor each week of the following course. They were given a lot of freedom and would re-invent great parts of each curriculum from scratch."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Without sufficient direction or planning time, groups of mentors would often not collaborate and prepare their week\u2019s content last minute. This led to students receiving an uncoordinated experience with inconsistent levels of quality and preparation and much of the communities\u2019s past learning experiences went lost and unrecorded."
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23809,23 +23814,23 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "Having recently mentored, I shared a survey around recent students & mentors and ran a focus group with a set of alumni across diverse cohorts to explore their experiences of the course and mentoring."
+	            "Having recently mentored, I had an empathetic connection with the current students and wanted to improve their experience of mentoring."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I then synthesised the findings by plotting out a ",
+	            "I shared a survey around them & current mentors and ran a focus group with a set of alumni from across the history of the programme to explore their experiences of the course, mentoring and to get a sense of the history of the course's development."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I then synthesised the findings by mapping out a ",
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "https://www.figma.com/file/eKDb558QpuIOSQb62LOBOC/Founders-%26-Coders-Mentorship-Storyboard" },
 	              "storyboard"
 	            ),
 	            " depicting the common student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Students frequently complained that the curriculum coursebook was never up to date during the course, and of the inconsistency in preparation of mentors. Mentors on the other hand desired more support, clarity around their remit, and more time to be set aside for curriculum planning."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23835,23 +23840,38 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-header padding-top-40px" },
+	            "secondary research"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px" },
+	            "A core insight from the research was that the problems students and mentors experienced were intrinsic to the level of freedom mentors had. Each course changed significantly from the last in a way which was too much work for mentors to prepare and coordinate in the time they had."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I began researching into agile & lean methodology to think about ways we could make mentor\u2019s contributions more iterative, where they would be responsible for identifying ways to improve existing material within a fixed sprint of time based on their recent user experience as students."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-header padding-top-40px" },
 	            "ideation"
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "Me and a few others from the focus group then met to ideate ways we could address each of the pain-points and created a new ",
+	            "A few others from the focus group became interested in the research and I met with them again to run an ideation session on ways we could address each of the pain-points. We produced a new ",
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "https://www.figma.com/file/Y5MW7eRSgryZ1Ze75mZm8v/Founders-%26-Coders-Mentorship-Storyboard" },
 	              "storyboard"
 	            ),
-	            " with our ideal solution."
+	            " with our leaner solution from the session."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We presented this during a stakeholder interview with the organisation\u2019s Founders in which we reviewed the history of the course\u2019s development. To my surprise, they were delighted and offered me to lead the next course in London."
+	            "We then organised a stakeholder interview with the school\u2019s Founders in which we presented our proposed solution. To my surprise, they were delighted and offered me to facilitate the next course in London."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23866,34 +23886,34 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "We created a ",
+	            "The first thing we did was create a ",
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
 	              "master-reference repository"
 	            ),
-	            " on github as a stable source of documentation for the programme\u2019s curriculum, so that the history of all changes would be transparent and recorded."
+	            " on github as a stable source of documentation for the programme and its curriculum."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni & students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft to ensure it was as representative as possible."
+	            "We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni and students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "A week was carved out of the programme for curriculum planning to build these weeks. I modelled it on ",
+	            "A week of the programme was dedicated towards curriculum planning to build this material on github. I modelled the process on ",
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "https://www.scrum.org/resources/what-is-sprint-planning" },
 	              "agile sprint-planning"
 	            ),
-	            " so in future iterations the mentor's focus would be on identifying high priority issues and improving existing material in time for the start of the next programme."
+	            " so in future iterations mentor's would focus on contributing to a backlog of issues, identifying high priority ones and improving existing material on github in time for the start of the next programme."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors, and ensure cross communication and cohesion."
+	            "Finally, I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors and ensure cross communication and cohesion."
 	          ),
 	          _react2.default.createElement(
 	            "div",
