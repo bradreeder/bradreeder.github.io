@@ -22892,13 +22892,17 @@
 	              _react2.default.createElement(
 	                "p",
 	                { className: "padding-top-40px" },
-	                "See our ",
 	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00" },
-	                  "Design thinking week's"
-	                ),
-	                " slidedeck"
+	                  "strong",
+	                  null,
+	                  "See our ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00" },
+	                    "Design thinking week's"
+	                  ),
+	                  " slidedeck"
+	                )
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22947,19 +22951,23 @@
 	              _react2.default.createElement(
 	                "p",
 	                { className: "padding-top-40px" },
-	                "See ",
 	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit" },
-	                  "Hackathon"
-	                ),
-	                " & ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
-	                  "Workshop"
-	                ),
-	                " slidedecks"
+	                  "strong",
+	                  null,
+	                  "See ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit" },
+	                    "Hackathon"
+	                  ),
+	                  " & ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
+	                    "Workshop"
+	                  ),
+	                  " slidedecks"
+	                )
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -23020,13 +23028,17 @@
 	              _react2.default.createElement(
 	                "p",
 	                { className: "padding-top-40px" },
-	                "See ",
 	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276" },
-	                  " Design sprint"
-	                ),
-	                " slidedeck"
+	                  "strong",
+	                  null,
+	                  "See ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276" },
+	                    " Design sprint"
+	                  ),
+	                  " slidedeck"
+	                )
 	              )
 	            ),
 	            _react2.default.createElement(
