@@ -14,20 +14,19 @@
     <script type="text/javascript" src="public/bundle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
-      // This script makes the menu element stick to the header of the page once
-      // the page scrolls to the main article.
+    /*Scroll transition to anchor*/
 
-      $(document).ready(function () {
-        $(window).trigger('scroll');
-        $(window).bind('scroll', function () {
-
-            if ($(window).scrollTop() >= $('.inspiration').offset().top) {
-                $('.menu-container').addClass('fixed');
-            } else {
-                $('.menu-container').removeClass('fixed');
-            }
-        });
-      });
+    $("a.toscroll").on('click', function(e) {
+      if (e.target.className === 'fa fa-angle-double-down') {
+        var hash = 'about';
+      } else {
+        var hash = e.target.innerHTML;
+      }
+      $('html, body').animate({
+        scrollTop: $('#' + hash).offset().top
+      }, 1000);
+      return false;
+    });
     </script>
   </body>
 </html>

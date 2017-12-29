@@ -24,7 +24,7 @@
     padding: 1em 15px 1em 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 20pt;
     line-height: 1.4em;
     color: $header-font-colour;
   }
@@ -63,35 +63,6 @@
     color: $header-font-colour;
     text-align: center;
   }
-  // .purple {
-  //   background-color: #5342a9;
-  // }
-  // .green {
-  //   background-color: #00a6ad;
-  // }
-  // .blue {
-  //   background-color: #2f9eef;
-  // }
-  .my-story {
-    .my-story-img {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-    }
-    img {
-      width: 15%;
-      min-width: 150px;
-      height: auto;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      box-sizing: border-box;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      border: 4px solid $header-font-colour;
-      padding: 0px;
-    }
-  }
   .workshops {
     display: flex;
     flex-direction: row;
@@ -112,7 +83,6 @@
     }
   }
   #about-header {
-    padding-top: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
   }

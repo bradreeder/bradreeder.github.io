@@ -3,11 +3,13 @@ import React, { Component } from 'react';
 
 class Inspiration extends Component {
   render() {
-    const quote = '"Most of the wonderful places in the world were not made by architects but by the people" - Christopher Alexander';
+    const quote = '"Understanding someone\'s suffering is the best gift you can give another person. Understanding is love\'s other name. If you don\'t understand, you can\'t love." - Thich Nhat Hanh';
     return (
       <div className="inspiration">
-        <div id="inspiration"><p>{quote}</p></div>
-        <div id="inspiration-mobile"><p>{quote}</p></div>
+        <div id="inspiration">
+          <p>{quote}</p>
+          <h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>
+        </div>
       </div>
     );
   }

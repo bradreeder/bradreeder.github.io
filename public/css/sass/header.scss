@@ -1,10 +1,12 @@
 #header {
   display: flex;
-  align-items: flex-end;
   background-color: $main-background-colour;
   color: $header-font-colour;
-  width: 90vw;
+  width: 100%;
+  height: 50vh;
   margin: auto;
+  border-bottom: 4px solid white;
+  position: relative;
   #header-me {
     padding-left: 15px;
     padding-bottom: 15px;
@@ -18,6 +20,22 @@
   }
   .header-name {
     font-size: 32px;
+    line-height: 1.2em;
+  }
+  img {
+    position: absolute;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 100px);
+    width: 200px;
+    height: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid $header-font-colour;
+    padding: 0px;
   }
   p {
     margin-bottom: 0px;
@@ -33,17 +51,28 @@
   }
 }
 
-@media only screen and (max-width: 442px) {
+@media only screen and (max-width: 690px) {
   #header {
-    height: 40vh;
+    p {
+      font-size: 18px;
+    }
   }
-  #email {
-    display: none;
+  #header-me {
+    margin-top: 50px;
+  }
+  #header-links {
+    margin-top: 50px;
   }
 }
 
-@media only screen and (min-width: 443px) {
+@media only screen and (min-width: 691px) {
+  .header-name {
+    font-size: 40px !important;
+  }
   #header {
-    height: 30vh;
+    align-items: flex-end;
+  }
+  #header p {
+    font-size: 20px;
   }
 }

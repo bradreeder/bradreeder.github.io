@@ -15,11 +15,11 @@ class Root extends Component {
   render() {
     return (
       <div>
-        <Header />
         <Menu
           changeContent={(section) => this.setState({ activeSection: section })}
           activeSection={this.state.activeSection}
         />
+        <Header />
         <Inspiration />
         <Content
           changeContent={(section) => this.setState({ activeSection: section })}

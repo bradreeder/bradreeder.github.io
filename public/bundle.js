@@ -105,13 +105,13 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(_menu2.default, {
 	          changeContent: function changeContent(section) {
 	            return _this2.setState({ activeSection: section });
 	          },
 	          activeSection: this.state.activeSection
 	        }),
+	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(_inspiration2.default, null),
 	        _react2.default.createElement(_content2.default, {
 	          changeContent: function changeContent(section) {
@@ -21991,7 +21991,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "ux researcher"
+	            "ux researcher & designer"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -21999,7 +21999,7 @@
 	            "london, uk. ",
 	            _react2.default.createElement(
 	              "a",
-	              { href: "tel:+447479507365" },
+	              { id: "phone-number", href: "tel:+447479507365" },
 	              "+44 7479 507365"
 	            )
 	          )
@@ -22029,17 +22029,26 @@
 	            "\xA0",
 	            _react2.default.createElement(
 	              "a",
-	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
-	              "bradjohnreeder@gmail.com "
-	            ),
-	            "\xA0",
-	            _react2.default.createElement(
-	              "a",
 	              { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
 	              "CV"
 	            ),
 	            "\xA0"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
+	              "bradjohnreeder@gmail.com "
+	            ),
+	            "\xA0"
 	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header-img" },
+	          _react2.default.createElement("img", { src: "public/resources/me.JPG" })
 	        )
 	      );
 	    }
@@ -22100,7 +22109,7 @@
 	            { className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "#about", onClick: function onClick() {
+	              { className: "toscroll", href: "#about", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
@@ -22115,7 +22124,7 @@
 	            { className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "#process", onClick: function onClick() {
+	              { className: "toscroll", href: "#process", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
@@ -22130,7 +22139,7 @@
 	            { className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "#skills", onClick: function onClick() {
+	              { className: "toscroll", href: "#skills", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
@@ -22145,13 +22154,28 @@
 	            { className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "#work", onClick: function onClick() {
+	              { className: "toscroll", href: "#work", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
 	                "p",
 	                null,
 	                "work"
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "menu-item" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "toscroll", href: "#contact", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "contact"
 	              )
 	            )
 	          )
@@ -22202,7 +22226,7 @@
 	  _createClass(Inspiration, [{
 	    key: 'render',
 	    value: function render() {
-	      var quote = '"Most of the wonderful places in the world were not made by architects but by the people" - Christopher Alexander';
+	      var quote = '"Understanding someone\'s suffering is the best gift you can give another person. Understanding is love\'s other name. If you don\'t understand, you can\'t love." - Thich Nhat Hanh';
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'inspiration' },
@@ -22213,15 +22237,15 @@
 	            'p',
 	            null,
 	            quote
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { id: 'inspiration-mobile' },
+	          ),
 	          _react2.default.createElement(
-	            'p',
+	            'h2',
 	            null,
-	            quote
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'toscroll bounce', href: '#about' },
+	              _react2.default.createElement('i', { className: 'fa fa-angle-double-down', 'aria-hidden': 'true' })
+	            )
 	          )
 	        )
 	      );
@@ -22377,17 +22401,12 @@
 	            "div",
 	            { className: "my-story padding-top-40px padding-bottom-80px" },
 	            _react2.default.createElement(
-	              "div",
-	              { className: "my-story-img" },
-	              _react2.default.createElement("img", { src: "public/resources/me.JPG" })
-	            ),
-	            _react2.default.createElement(
 	              "h2",
 	              { id: "about-header" },
 	              _react2.default.createElement(
 	                "em",
 	                null,
-	                "Hi, my name is Bradley, and I am a UX Researcher."
+	                "Hi, my name is Bradley, and I am a UX Researcher & Designer."
 	              )
 	            ),
 	            _react2.default.createElement("hr", null),
@@ -22445,7 +22464,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "Listen"
+	                  "listen"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22468,7 +22487,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "Synthesise"
+	                  "synthesise"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22491,7 +22510,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "Communicate"
+	                  "communicate"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22514,7 +22533,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "Collaborate"
+	                  "collaborate"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22537,7 +22556,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "Learn"
+	                  "learn"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22558,8 +22577,14 @@
 	          "div",
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            _react2.default.createElement("i", { className: "fa fa-wrench padding-top-40px", "aria-hidden": "true" })
+	          ),
+	          _react2.default.createElement("hr", null),
+	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px skills" },
+	            { className: "skills padding-top-40px" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
@@ -24039,6 +24064,7 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "contact" },
+	        _react2.default.createElement("div", { id: "contact" }),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
@@ -24086,6 +24112,7 @@
 	              _react2.default.createElement(
 	                "a",
 	                { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
+	                _react2.default.createElement("i", { className: "fa fa-download", "aria-hidden": "true" }),
 	                "Download CV"
 	              )
 	            ),
