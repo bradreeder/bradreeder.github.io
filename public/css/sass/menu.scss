@@ -1,8 +1,13 @@
 .menu {
-  background-color: $secondary-background-colour;
-  width: 90vw;
+  background-color: rgb(25, 25, 25);
+  width: 100%;
   margin: auto;
-  margin-top: 14px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
   .menu-item {
     display: inline-block;
     height: 100%;
@@ -10,7 +15,7 @@
   p {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 5px 15px 5px 15px;
+    padding: 10px 10px 10px 10px;
   }
   a {
     color: $main-font-colour;
@@ -24,26 +29,11 @@
   }
 }
 
-.fixed {
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  .menu {
-    width: 90vw;
-    margin: 0 auto;
-  }
-}
-
-@media only screen and (max-width: 736px) {
-  .menu {
-    text-align: center;
-  }
-}
-
 @media only screen and (min-width: 737px) {
+  .menu p {
+    font-size: 20px;
+    padding: 12px 15px 12px 15px;
+  }
   .fixed {
     font-size: 24px;
   }
