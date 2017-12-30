@@ -10,10 +10,10 @@ class Header extends Component {
           <p>ux researcher & designer</p>
           <p>london, uk.</p>
           <p>
-            <a id="email" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i> bradjohnreeder@gmail.com</a>&nbsp;
+            <a id="email" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a>&nbsp;
           </p>
           <p>
-            <a id="phone-number" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i> +44 7479 507365</a>&nbsp;
+            <a id="phone-number" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a>&nbsp;
           </p>
         </div>
         <div id="header-links">

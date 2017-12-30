@@ -84,11 +84,12 @@
   }
   #about-header {
     margin-top: 0px;
-    margin-bottom: 0px;
+    color: white;
+    text-align: center;
   }
   #contact-header {
     margin-top: 0px;
-    color: $main-font-colour;
+    color: white;
   }
   .footer-navigation {
     text-align: center;
@@ -96,6 +97,15 @@
 }
 
 @media only screen and (max-width: 736px) {
+  #bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9999;
+    padding: 0px !important;
+  }
   #content-container {
     .case-study-img-container {
       margin: 0 auto;
@@ -106,6 +116,12 @@
         padding-left: 0px;
         padding-right: 0px;
       }
+    }
+    #about-header {
+      padding: 5px 2em 5px 2em;
+    }
+    #contact-header {
+      padding: 5px 2em 5px 2em;
     }
     .portrait {
       width: 75% !important;
@@ -158,7 +174,16 @@
 }
 
 @media only screen and (min-width: 737px) {
+  #bg {
+    display: none;
+  }
   #content-container {
+    #about-header {
+      padding: 5px 150px 5px 150px;
+    }
+    #contact-header {
+      padding: 5px 150px 5px 150px;
+    }
     .case-study-img-container {
       margin: 0 auto;
       padding: 5px 150px 5px 150px;

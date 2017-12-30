@@ -6,10 +6,11 @@ class About extends Component {
     return (
       <div className="main-article">
         <div id="about"></div>
+        <img id="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
-            <h2 id="about-header"><em>Hi, my name is Bradley, and I am a UX Researcher & Designer.</em></h2>
+            <h3 id="about-header"><em>Hi, my name is Bradley, and I am a UX Researcher & Designer.</em></h3>
             <hr />
             <p>I graduated with a Master’s degree in Literature passionate about visual
               storytelling, systems-thinking, and psychology.</p>

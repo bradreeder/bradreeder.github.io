@@ -32,16 +32,18 @@
     margin-bottom: 0px;
     margin-top: 0px;
     color: #00c8fa; }
+  #header i {
+    padding-right: 5px; }
   #header a:hover {
     color: #005E91; }
 
 @media only screen and (max-width: 736px) {
   #header {
-    height: 75vh; }
+    height: 70vh; }
     #header p {
       font-size: 18px; }
     #header img {
-      top: calc(75vh - 100px);
+      top: calc(70vh - 100px);
       left: calc(50vw - 100px); }
 
   #header-me {
@@ -49,8 +51,7 @@
     text-align: center; }
 
   #header-links {
-    padding-top: 40px;
-    text-align: center; } }
+    display: none; } }
 @media only screen and (min-width: 737px) {
   .header-name {
     font-size: 40px !important; }
@@ -130,6 +131,9 @@
     color: white; }
   #inspiration a {
     color: white; }
+
+#thich-nhat-hanh {
+  color: white; }
 
 .bounce {
   position: absolute;
@@ -259,14 +263,24 @@
       padding-right: 5px; }
   #content-container #about-header {
     margin-top: 0px;
-    margin-bottom: 0px; }
+    color: white;
+    text-align: center; }
   #content-container #contact-header {
     margin-top: 0px;
-    color: #cfc7c7; }
+    color: white; }
   #content-container .footer-navigation {
     text-align: center; }
 
 @media only screen and (max-width: 736px) {
+  #bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9999;
+    padding: 0px !important; }
+
   #content-container .case-study-img-container {
     margin: 0 auto;
     padding: 5px 15px 5px 15px;
@@ -275,6 +289,10 @@
       width: 100%;
       padding-left: 0px;
       padding-right: 0px; }
+  #content-container #about-header {
+    padding: 5px 2em 5px 2em; }
+  #content-container #contact-header {
+    padding: 5px 2em 5px 2em; }
   #content-container .portrait {
     width: 75% !important;
     margin: 0 auto; }
@@ -310,6 +328,13 @@
     margin-bottom: 0px;
     margin-top: 0px; } }
 @media only screen and (min-width: 737px) {
+  #bg {
+    display: none; }
+
+  #content-container #about-header {
+    padding: 5px 150px 5px 150px; }
+  #content-container #contact-header {
+    padding: 5px 150px 5px 150px; }
   #content-container .case-study-img-container {
     margin: 0 auto;
     padding: 5px 150px 5px 150px;
