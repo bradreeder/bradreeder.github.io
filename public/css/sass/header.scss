@@ -1,30 +1,19 @@
 #header {
-  display: flex;
   background-color: $main-background-colour;
   color: $header-font-colour;
   width: 100%;
-  height: 50vh;
+  height: 47vh;
   margin: auto;
   border-bottom: 4px solid white;
   position: relative;
-  #header-me {
-    padding-left: 15px;
-    padding-bottom: 15px;
-    width: 50%;
-  }
-  #header-links {
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 50%;
-    text-align: right;
-  }
   .header-name {
     font-size: 32px;
     line-height: 1.2em;
+    padding-bottom: 10px;
   }
   img {
     position: absolute;
-    top: calc(50vh - 100px);
+    top: calc(47vh - 100px);
     left: calc(50vw - 100px);
     width: 200px;
     height: 200px;
@@ -38,6 +27,7 @@
     padding: 0px;
   }
   p {
+    padding-top: 5px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -51,26 +41,45 @@
   }
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 736px) {
   #header {
+    height: 75vh;
     p {
       font-size: 18px;
     }
+    img {
+      top: calc(75vh - 100px);
+      left: calc(50vw - 100px);
+    }
   }
   #header-me {
-    margin-top: 50px;
+    padding-top: 80px;
+    text-align: center;
   }
   #header-links {
-    margin-top: 50px;
+    padding-top: 40px;
+    text-align: center;
   }
 }
 
-@media only screen and (min-width: 691px) {
+@media only screen and (min-width: 737px) {
   .header-name {
     font-size: 40px !important;
   }
   #header {
+    display: flex;
     align-items: flex-end;
+    #header-me {
+      padding-left: 15px;
+      padding-bottom: 15px;
+      width: 50%;
+    }
+    #header-links {
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 50%;
+      text-align: right;
+    }
   }
   #header p {
     font-size: 20px;

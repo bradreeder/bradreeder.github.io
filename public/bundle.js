@@ -21996,12 +21996,29 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "london, uk. ",
+	            "london, uk."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
+	              _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
+	              " bradjohnreeder@gmail.com"
+	            ),
+	            "\xA0"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
 	            _react2.default.createElement(
 	              "a",
 	              { id: "phone-number", href: "tel:+447479507365" },
-	              "+44 7479 507365"
-	            )
+	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
+	              " +44 7479 507365"
+	            ),
+	            "\xA0"
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -22030,17 +22047,7 @@
 	            _react2.default.createElement(
 	              "a",
 	              { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
-	              "CV"
-	            ),
-	            "\xA0"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
-	              "bradjohnreeder@gmail.com "
+	              "cv"
 	            ),
 	            "\xA0"
 	          )
@@ -22103,10 +22110,10 @@
 	        { className: "menu-container" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "menu" },
+	          { className: "menu", id: "menu" },
 	          _react2.default.createElement(
 	            "div",
-	            { className: "menu-item" },
+	            { id: "menu-about", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
 	              { className: "toscroll", href: "#about", onClick: function onClick() {
@@ -22121,7 +22128,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "menu-item" },
+	            { id: "menu-process", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
 	              { className: "toscroll", href: "#process", onClick: function onClick() {
@@ -22136,7 +22143,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "menu-item" },
+	            { id: "menu-skills", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
 	              { className: "toscroll", href: "#skills", onClick: function onClick() {
@@ -22151,7 +22158,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "menu-item" },
+	            { id: "menu-work", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
 	              { className: "toscroll", href: "#work", onClick: function onClick() {
@@ -22166,7 +22173,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "menu-item" },
+	            { id: "menu-contact", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
 	              { className: "toscroll", href: "#contact", onClick: function onClick() {
@@ -22226,7 +22233,7 @@
 	  _createClass(Inspiration, [{
 	    key: 'render',
 	    value: function render() {
-	      var quote = '"Understanding someone\'s suffering is the best gift you can give another person. Understanding is love\'s other name. If you don\'t understand, you can\'t love." - Thich Nhat Hanh';
+	      var quote = '"Understanding someone\'s suffering is the best gift you can give another person. Understanding is love\'s other name. If you don\'t understand, you can\'t love."';
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'inspiration' },
@@ -22237,6 +22244,15 @@
 	            'p',
 	            null,
 	            quote
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            _react2.default.createElement(
+	              'strong',
+	              null,
+	              '- Thich Nhat Hanh'
+	            )
 	          ),
 	          _react2.default.createElement(
 	            'h2',
