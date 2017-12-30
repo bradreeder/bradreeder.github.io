@@ -21986,17 +21986,17 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "header-name" },
-	            "bradley reeder"
+	            "Bradley Reeder"
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "ux researcher & designer"
+	            "UX Researcher & Designer"
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "london, uk."
+	            "London, UK."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -22243,7 +22243,11 @@
 	          _react2.default.createElement(
 	            'p',
 	            null,
-	            quote
+	            _react2.default.createElement(
+	              'em',
+	              null,
+	              quote
+	            )
 	          ),
 	          _react2.default.createElement(
 	            'p',
@@ -22476,7 +22480,7 @@
 	                _react2.default.createElement("i", { className: "fa fa-users", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
-	                "h2",
+	                "h3",
 	                null,
 	                _react2.default.createElement(
 	                  "strong",
@@ -22499,7 +22503,7 @@
 	                _react2.default.createElement("i", { className: "fa fa-area-chart", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
-	                "h2",
+	                "h3",
 	                null,
 	                _react2.default.createElement(
 	                  "strong",
@@ -22522,7 +22526,7 @@
 	                _react2.default.createElement("i", { className: "fa fa-comments", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
-	                "h2",
+	                "h3",
 	                null,
 	                _react2.default.createElement(
 	                  "strong",
@@ -22545,7 +22549,7 @@
 	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
-	                "h2",
+	                "h3",
 	                null,
 	                _react2.default.createElement(
 	                  "strong",
@@ -22568,7 +22572,7 @@
 	                _react2.default.createElement("i", { className: "fa fa-repeat", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
-	                "h2",
+	                "h3",
 	                null,
 	                _react2.default.createElement(
 	                  "strong",
