@@ -2,7 +2,7 @@
   width: 100%;
   margin: auto;
   color: white;
-  margin-top: 140px;
+  margin-top: 130px;
   margin-bottom: 120px;
   p {
     padding: 5px 140px 5px 140px;
@@ -42,31 +42,34 @@
 
 @-webkit-keyframes bounce {
  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
- 40% {-webkit-transform: translateY(-30px);}
+ 40% {-webkit-transform: translateY(-25px);}
  60% {-webkit-transform: translateY(-15px);}
 }
 
 @-moz-keyframes bounce {
  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
- 40% {-moz-transform: translateY(-30px);}
+ 40% {-moz-transform: translateY(-25px);}
  60% {-moz-transform: translateY(-15px);}
 }
 
 @-o-keyframes bounce {
  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
- 40% {-o-transform: translateY(-30px);}
+ 40% {-o-transform: translateY(-25px);}
  60% {-o-transform: translateY(-15px);}
 }
 @keyframes bounce {
  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
- 40% {transform: translateY(-30px);}
+ 40% {transform: translateY(-25px);}
  60% {transform: translateY(-15px);}
 }
 
-@media only screen and (max-width: 634px) {
+@media only screen and (max-width: 736px) {
+  .bounce {
+    display: none;
+  }
   #inspiration {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 130px;
+    margin-bottom: 80px;
     p {
       padding: 0px 2em 10px 2em;
       margin-bottom: 0px;
@@ -78,7 +81,7 @@
   }
 }
 
-@media only screen and (min-width: 635px) {
+@media only screen and (min-width: 737px) {
   #inspiration {
     p {
       font-size: 20px;

@@ -20,14 +20,37 @@
   a {
     color: $main-font-colour;
   }
-  .menu-item:hover {
-    background-color: $menu-background-colour-hover;
+  #menu-about:hover {
+    background-color: #086788;
+  }
+  #menu-process:hover {
+    background-color: #d93b9d;
+  }
+  #menu-skills:hover {
+    background-color: #6ba753;
+  }
+  #menu-work:hover {
+    background-color: #E06C9F;
+  }
+  #menu-contact:hover {
+    background-color: #1ba4de;
   }
   a:hover {
-    color: $menu-link-colour-hover;
     text-decoration: none;
+    color: white;
   }
 }
+
+//used in conjunction with jQuery code in index.html. you'll need to re-think then
+//jQuery code in order to accomodate the 'rainbow' above.
+
+// .active {
+//   background-color: $menu-background-colour-hover;
+//   a {
+//     color: $menu-link-colour-hover;
+//     text-decoration: none;
+//   }
+// }
 
 @media only screen and (min-width: 737px) {
   .menu p {
