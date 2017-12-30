@@ -9,7 +9,7 @@ class Contact extends Component {
         <h2>contact</h2>
         <div className="content-background-colour">
           <div className="contact padding-top-40px padding-bottom-80px">
-            <h2 id="contact-header">I am open to new design challenges and would love to hear from you (:</h2>
+            <h3 id="contact-header">I am open to new design challenges and would love to hear from you (:</h3>
             <p><a href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a></p>
             <p><a href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a></p>
             <p>Based in London, UK</p>

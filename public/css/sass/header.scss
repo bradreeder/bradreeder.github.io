@@ -36,6 +36,9 @@
     margin-top: 0px;
     color: $link-colour-header;
   }
+  i {
+    padding-right: 5px;
+  }
   a:hover {
     color: $link-colour-hover;
   }
@@ -43,12 +46,12 @@
 
 @media only screen and (max-width: 736px) {
   #header {
-    height: 75vh;
+    height: 70vh;
     p {
       font-size: 18px;
     }
     img {
-      top: calc(75vh - 100px);
+      top: calc(70vh - 100px);
       left: calc(50vw - 100px);
     }
   }
@@ -57,8 +60,7 @@
     text-align: center;
   }
   #header-links {
-    padding-top: 40px;
-    text-align: center;
+    display: none;
   }
 }
 

@@ -22005,7 +22005,7 @@
 	              "a",
 	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
 	              _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
-	              " bradjohnreeder@gmail.com"
+	              "bradjohnreeder@gmail.com"
 	            ),
 	            "\xA0"
 	          ),
@@ -22016,7 +22016,7 @@
 	              "a",
 	              { id: "phone-number", href: "tel:+447479507365" },
 	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
-	              " +44 7479 507365"
+	              "+44 7479 507365"
 	            ),
 	            "\xA0"
 	          )
@@ -22250,7 +22250,7 @@
 	            null,
 	            _react2.default.createElement(
 	              'strong',
-	              null,
+	              { id: 'thich-nhat-hanh' },
 	              '- Thich Nhat Hanh'
 	            )
 	          ),
@@ -22405,6 +22405,7 @@
 	        "div",
 	        { className: "main-article" },
 	        _react2.default.createElement("div", { id: "about" }),
+	        _react2.default.createElement("img", { id: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
 	        _react2.default.createElement(
 	          "h2",
 	          { className: "padding-top-2em" },
@@ -22417,7 +22418,7 @@
 	            "div",
 	            { className: "my-story padding-top-40px padding-bottom-80px" },
 	            _react2.default.createElement(
-	              "h2",
+	              "h3",
 	              { id: "about-header" },
 	              _react2.default.createElement(
 	                "em",
@@ -24093,7 +24094,7 @@
 	            "div",
 	            { className: "contact padding-top-40px padding-bottom-80px" },
 	            _react2.default.createElement(
-	              "h2",
+	              "h3",
 	              { id: "contact-header" },
 	              "I am open to new design challenges and would love to hear from you (:"
 	            ),
