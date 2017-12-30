@@ -30,7 +30,7 @@ class AnnaFreud extends Component {
           <p className="padding-top-40px">Our team then went into a phase of discovery learning all we could about the scientific research behind these practices, how they’re taught in services, and existing apps for design inspiration.</p>
           <p>We crafted an interview guide from our notes and with Charlotte spoke with some young people to learn more about their experiences and behaviour. We did competitor analysis by watching them play with Flowy to identify their likes and dislikes, and showed them our paper prototypes to test our ideas and find areas for improvement.</p>
           <p className="section-header padding-top-40px">synthesis</p>
-          <p className="padding-top-40px">Our team then re-grouped to synthesise what we had learned, and conduct an affinity sorting session in which we identified themes, refined our insights, and broke-down our user stories and user flows for our prototype from the following journey:</p>
+          <p className="padding-top-40px">Our team then re-grouped to synthesise what we had learned, and to conduct an affinity sorting session in which we identified themes, refined our insights, and broke-down our user stories and user flows for our prototype from the following journey:</p>
           <blockquote>“As a young person experiencing anxiety, I want to access guided relaxation techniques, so that in any moment of distress I can calm myself down."</blockquote>
           <div className="case-study-img-container">
             <img className="padding-top-40px" src="public/resources/annafreud-assets/breathe-with-me-teamwork.PNG"/>
@@ -52,7 +52,7 @@ class AnnaFreud extends Component {
         <div className="content-background-colour padding-top-40px">
           <p>Breathe With Me continues to be used by counsellors and youth workers as a tool for teaching young people relaxation techniques and has been put forward for bids for further development.</p>
           <p>The Anna Freud Centre were impressed with us so much that they offered me and my colleague to lead their next hackathon. I facilitated the design sprint (see <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit#slide=id.g2244b19ab0_0_0">slidedeck</a>) and scrum-mastered a similar process as the above for the apps <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
-          <p>I continue to be passionate about mental health and have facilitatd participatory design workshops (see <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">slidedeck</a>) on the design thinking process with young people and Anna Freud staff.</p>
+          <p>I continue to be passionate about mental health and have facilitated participatory design workshops (see <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">slidedeck</a>) on the design thinking process with young people and Anna Freud staff.</p>
           <div className="case-study-img-container">
             <img className="portrait padding-top-40px" src="public/resources/annafreud-assets/well-done.PNG"/>
           </div>

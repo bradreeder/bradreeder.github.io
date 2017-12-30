@@ -314,10 +314,15 @@
       width: 90%;
       height: auto;
       text-align: center; }
+  #content-container .section-header {
+    font-size: 16px; }
   #content-container p {
     padding: 5px 2em 5px 2em; }
+  #content-container h2 {
+    font-size: 18px; }
   #content-container h3 {
-    text-align: center; }
+    text-align: center;
+    font-size: 16px; }
   #content-container ul {
     padding: 5px 2em 5px 3em;
     margin-top: 0px; }
@@ -425,7 +430,7 @@
 
 @media only screen and (max-width: 736px) {
   #footer-content p {
-    font-size: 16px; } }
+    font-size: 14px; } }
 body {
   background: url("//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -454,5 +459,9 @@ a {
 a:hover {
   color: #005E91;
   text-decoration: underline; }
+
+@media only screen and (max-width: 736px) {
+  body {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=main.css.map */

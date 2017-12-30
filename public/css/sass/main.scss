@@ -34,3 +34,9 @@ a:hover {
   color: $link-colour-hover;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 736px) {
+  body {
+    font-size: 14px;
+  }
+}
