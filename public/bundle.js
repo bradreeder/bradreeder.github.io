@@ -22639,7 +22639,7 @@
 	              null,
 	              "User Research:"
 	            ),
-	            " Design sprints, Ideation sessions, Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Secondary research.\u2028\u2028"
+	            " Design sprints, Ideation sessions, Presentations & Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Competitor Reviews, Secondary research.\u2028\u2028"
 	          ),
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
@@ -23610,7 +23610,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px" },
-	            "Our team then re-grouped to synthesise what we had learned, and conduct an affinity sorting session in which we identified themes, refined our insights, and broke-down our user stories and user flows for our prototype from the following journey:"
+	            "Our team then re-grouped to synthesise what we had learned, and to conduct an affinity sorting session in which we identified themes, refined our insights, and broke-down our user stories and user flows for our prototype from the following journey:"
 	          ),
 	          _react2.default.createElement(
 	            "blockquote",
@@ -23718,7 +23718,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I continue to be passionate about mental health and have facilitatd participatory design workshops (see ",
+	            "I continue to be passionate about mental health and have facilitated participatory design workshops (see ",
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
@@ -23877,7 +23877,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "I shared a survey around them & current mentors and ran a focus group with a set of alumni from across the history of the programme to explore their experiences of the course, mentoring and to get a sense of the history of the course's development."
+	            "I shared a survey around them & current mentors and ran a focus group with a set of alumni from across the history of the programme to explore their experiences of the course, mentoring and to get a sense of how the course had developed over time."
 	          ),
 	          _react2.default.createElement(
 	            "p",
