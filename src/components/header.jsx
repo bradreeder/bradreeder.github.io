@@ -6,9 +6,9 @@ class Header extends Component {
     return (
       <div id="header">
         <div id="header-me">
-          <p className="header-name">bradley reeder</p>
-          <p>ux researcher & designer</p>
-          <p>london, uk.</p>
+          <p className="header-name">Bradley Reeder</p>
+          <p>UX Researcher & Designer</p>
+          <p>London, UK.</p>
           <p>
             <a id="email" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a>&nbsp;
           </p>

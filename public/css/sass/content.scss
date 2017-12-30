@@ -28,6 +28,9 @@
     line-height: 1.4em;
     color: $header-font-colour;
   }
+  h3 {
+    font-size: 18px;
+  }
   blockquote {
     padding-right: 150px;
     padding-left: 150px;
@@ -56,12 +59,13 @@
   }
   .section-title {
     background-color: $main-background-colour;
-    font-size: 21px;
+    font-size: 18px;
   }
   .section-header {
     font-family: $secondary-font;
     color: $header-font-colour;
     text-align: center;
+    font-size: 18px;
   }
   .workshops {
     display: flex;
@@ -139,6 +143,8 @@
     }
     p {
       padding: 5px 2em 5px 2em;
+    }
+    h3 {
       text-align: center;
     }
     ul {
@@ -165,7 +171,6 @@
       h4 {
         color: $tertiary-font-colour;
         padding: 5px 2em 5px 2em;
-        text-align: center;
         margin-bottom: 0px;
         margin-top: 0px;
       }
@@ -223,6 +228,9 @@
       display: inline-block;
       width: 20%;
       h2 {
+        text-align: center;
+      }
+      h3 {
         text-align: center;
       }
       p {

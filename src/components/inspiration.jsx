@@ -7,7 +7,7 @@ class Inspiration extends Component {
     return (
       <div className="inspiration">
         <div id="inspiration">
-          <p>{quote}</p>
+          <p><em>{quote}</em></p>
           <p><strong id="thich-nhat-hanh">- Thich Nhat Hanh</strong></p>
           <h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>
         </div>
