@@ -5,6 +5,7 @@ class Outlandish extends Component {
   render() {
     return (
       <div id="outlandish" className="main-article">
+        <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">growing the cooperative technologists network</h2>
         <div className="content-background-colour">
           <p className="padding-top-40px"><em><a target="_blank" href="https://www.coops.tech/">CoTech</a> is a young network of cooperatives, spearheaded by the agency <a target="_blank" href="https://outlandish.com/">Outlandish</a> to empower co-ops to collaborate on digital projects and build a tech industry that’s fairer and more democratic.</em></p>

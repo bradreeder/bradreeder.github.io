@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="main-article">
         <div id="about"></div>
-        <img id="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
+        <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
@@ -33,7 +33,7 @@ class About extends Component {
           <p></p>
           <div className="my-process padding-bottom-80px">
             <div className="my-process-column purple">
-              <h2><i className="fa fa-users" aria-hidden="true"></i></h2>
+              <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
               <h3><strong>listen</strong></h3>
               <p>Learn about the domain, product & stakeholders and plan & conduct user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
             </div>
@@ -44,13 +44,13 @@ class About extends Component {
             </div>
             <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
-              <h3><strong>communicate</strong></h3>
-              <p>Champion the user by effectively communicating findings across teams, mediums, acceptance criteria and artefacts.</p>
+              <h3><strong>collaborate</strong></h3>
+              <p>Cross-collaborate across teams to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
             </div>
             <div className="my-process-column purple">
-              <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-              <h3><strong>collaborate</strong></h3>
-              <p>Collaborate with others to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
+              <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
+              <h3><strong>create</strong></h3>
+              <p>Build wireframes and prototype solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
@@ -150,7 +150,7 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <p>Main contributor to the school's 4 month web development <a target="_blank" href="https://github.com/foundersandcoders/master-reference">open-source curriculum</a>, co-designing and facilitating weeks on <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4">node.js</a> and <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12">design thinking & agile build cycles</a>.</p>
-              <p className="padding-top-40px"><strong>See our <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking week's</a> slidedeck</strong></p>
+              <p className="padding-top-20px"><strong>See our <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking week's</a> slidedeck</strong></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -164,7 +164,7 @@ class About extends Component {
             <div className="case-study-section">
               <p>Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental
                 health in young people and scrum-mastered resulting MVPs <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
-              <p className="padding-top-40px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit">Hackathon</a> & <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">Workshop</a> slidedecks</strong></p>
+              <p className="padding-top-20px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit">Hackathon</a> & <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">Workshop</a> slidedecks</strong></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -180,7 +180,7 @@ class About extends Component {
                 <a target="_blank" href="http://www.safelives.org.uk/"> SafeLives</a> and
                 <a target="_blank" href="http://www.worthwhile.org.uk/"> Worthwhile</a>, as a part of <a target="_blank" href="http://www.wearecast.org.uk/fuse">CAST's 2016 Digital Fuse Programme</a>.
               </p>
-              <p className="padding-top-40px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276"> Design sprint</a> slidedeck</strong></p>
+              <p className="padding-top-20px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276"> Design sprint</a> slidedeck</strong></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">

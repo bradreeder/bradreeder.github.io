@@ -54,6 +54,9 @@
   .padding-top-2em {
     padding-top: 2em;
   }
+  .padding-top-20px {
+    padding-top: 20px !important;
+  }
   .padding-top-40px {
     padding-top: 40px;
   }
@@ -101,7 +104,7 @@
 }
 
 @media only screen and (max-width: 736px) {
-  #bg {
+  .bg {
     position: fixed;
     top: 0;
     left: 0;
@@ -189,7 +192,7 @@
 }
 
 @media only screen and (min-width: 737px) {
-  #bg {
+  .bg {
     display: none;
   }
   #content-container {
@@ -228,25 +231,30 @@
     .padding-bottom-80px {
       padding-bottom: 80px;
     }
-    .my-process {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
-    }
     .my-process-column {
-      display: inline-block;
-      width: 20%;
-      h2 {
-        text-align: center;
-      }
       h3 {
         text-align: center;
       }
-      p {
-        padding: 5px 10px 15px 15px;
-      }
     }
+    // .my-process {
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: space-between;
+    //   width: 100%;
+    // }
+    // .my-process-column {
+    //   display: inline-block;
+    //   width: 20%;
+    //   h2 {
+    //     text-align: center;
+    //   }
+    //   h3 {
+    //     text-align: center;
+    //   }
+    //   p {
+    //     padding: 5px 10px 15px 15px;
+    //   }
+    // }
     .case-study {
       display: flex;
       flex-direction: row;

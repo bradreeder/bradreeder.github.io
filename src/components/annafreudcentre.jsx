@@ -5,6 +5,7 @@ class AnnaFreud extends Component {
   render() {
     return (
       <div id="breathe-with-me" className="main-article">
+        <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">Breathe With Me</h2>
         <div className="content-background-colour padding-top-40px">
           <p><em>Breathe With Me was the result of a team collaboration for a hackathon with the <a target="_blank" href="http://www.annafreud.org/">Anna Freud Centre</a> - a charity dedicated to providing training & support for child mental health services.</em></p>

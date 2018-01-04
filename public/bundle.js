@@ -22409,7 +22409,7 @@
 	        "div",
 	        { className: "main-article" },
 	        _react2.default.createElement("div", { id: "about" }),
-	        _react2.default.createElement("img", { id: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
+	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
 	        _react2.default.createElement(
 	          "h2",
 	          { className: "padding-top-2em" },
@@ -22477,7 +22477,7 @@
 	              _react2.default.createElement(
 	                "h2",
 	                null,
-	                _react2.default.createElement("i", { className: "fa fa-users", "aria-hidden": "true" })
+	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
 	                "h3",
@@ -22531,13 +22531,13 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "communicate"
+	                  "collaborate"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Champion the user by effectively communicating findings\xA0across teams, mediums, acceptance criteria\xA0and artefacts."
+	                "Cross-collaborate across teams to facilitate brainstorming and generate solutions that address user needs and business goals."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22546,7 +22546,7 @@
 	              _react2.default.createElement(
 	                "h2",
 	                null,
-	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
+	                _react2.default.createElement("i", { className: "fa fa-paint-brush", "aria-hidden": "true" })
 	              ),
 	              _react2.default.createElement(
 	                "h3",
@@ -22554,13 +22554,13 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "collaborate"
+	                  "create"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Collaborate with others to facilitate brainstorming and generate solutions that address user needs and business goals."
+	                "Build wireframes and prototype solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22937,7 +22937,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                { className: "padding-top-40px" },
+	                { className: "padding-top-20px" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
@@ -22996,7 +22996,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                { className: "padding-top-40px" },
+	                { className: "padding-top-20px" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
@@ -23073,7 +23073,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                { className: "padding-top-40px" },
+	                { className: "padding-top-20px" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
@@ -23149,6 +23149,7 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "outlandish", className: "main-article" },
+	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
 	        _react2.default.createElement(
 	          "h2",
 	          { className: "padding-top-2em" },
@@ -23500,6 +23501,7 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "breathe-with-me", className: "main-article" },
+	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
 	        _react2.default.createElement(
 	          "h2",
 	          { className: "padding-top-2em" },
@@ -23794,6 +23796,7 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "founders-and-coders", className: "main-article" },
+	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
 	        _react2.default.createElement(
 	          "h2",
 	          { className: "padding-top-2em" },
