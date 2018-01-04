@@ -22937,7 +22937,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                { className: "padding-top-40px" },
+	                { className: "padding-top-20px" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
@@ -22996,7 +22996,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                { className: "padding-top-40px" },
+	                { className: "padding-top-20px" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
@@ -23073,7 +23073,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                { className: "padding-top-40px" },
+	                { className: "padding-top-20px" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
