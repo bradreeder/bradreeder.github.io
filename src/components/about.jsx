@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="main-article">
         <div id="about"></div>
-        <img id="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
+        <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
@@ -33,7 +33,7 @@ class About extends Component {
           <p></p>
           <div className="my-process padding-bottom-80px">
             <div className="my-process-column purple">
-              <h2><i className="fa fa-users" aria-hidden="true"></i></h2>
+              <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
               <h3><strong>listen</strong></h3>
               <p>Learn about the domain, product & stakeholders and plan & conduct user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
             </div>
@@ -44,13 +44,13 @@ class About extends Component {
             </div>
             <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
-              <h3><strong>communicate</strong></h3>
-              <p>Champion the user by effectively communicating findings across teams, mediums, acceptance criteria and artefacts.</p>
+              <h3><strong>collaborate</strong></h3>
+              <p>Cross-collaborate across teams to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
             </div>
             <div className="my-process-column purple">
-              <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-              <h3><strong>collaborate</strong></h3>
-              <p>Collaborate with others to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
+              <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
+              <h3><strong>create</strong></h3>
+              <p>Build wireframes and prototype solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>

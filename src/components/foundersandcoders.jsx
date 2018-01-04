@@ -5,6 +5,7 @@ class FoundersAndCoders extends Component {
   render() {
     return (
       <div id="founders-and-coders" className="main-article">
+        <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">Maximising the impact of the Founders & Coders Web Development Programme</h2>
         <div className="content-background-colour">
           <p className="padding-top-40px"><em><a target="_blank" href="https://foundersandcoders.com/">Founders & Coders</a> offers a free 4-month programme in web development that prioritises a self-organising, peer-led approach to learning where each cohort delivers the next programme.</em></p>

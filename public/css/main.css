@@ -282,7 +282,7 @@
     text-align: center; }
 
 @media only screen and (max-width: 736px) {
-  #bg {
+  .bg {
     position: fixed;
     top: 0;
     left: 0;
@@ -345,7 +345,7 @@
     margin-bottom: 0px;
     margin-top: 0px; } }
 @media only screen and (min-width: 737px) {
-  #bg {
+  .bg {
     display: none; }
 
   #content-container #about-header {
@@ -374,20 +374,8 @@
     padding-bottom: 5px; }
   #content-container .padding-bottom-80px {
     padding-bottom: 80px; }
-  #content-container .my-process {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%; }
-  #content-container .my-process-column {
-    display: inline-block;
-    width: 20%; }
-    #content-container .my-process-column h2 {
-      text-align: center; }
-    #content-container .my-process-column h3 {
-      text-align: center; }
-    #content-container .my-process-column p {
-      padding: 5px 10px 15px 15px; }
+  #content-container .my-process-column h3 {
+    text-align: center; }
   #content-container .case-study {
     display: flex;
     flex-direction: row;
