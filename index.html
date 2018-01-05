@@ -24,6 +24,8 @@
     $("a.toscroll").on('click', function(e) {
       if (e.target.className === 'fa fa-angle-double-down') {
         var hash = 'about';
+      } else if (e.target.className.includes('towork')) {
+        var hash = 'work';
       } else {
         var hash = e.target.innerHTML;
       }

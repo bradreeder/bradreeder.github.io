@@ -10,15 +10,10 @@ class About extends Component {
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
-            <h3 id="about-header"><em>Hi, my name is Bradley, and I am a UX Researcher & Designer.</em></h3>
+            <h3 id="about-header"><em>Hi, my name is Bradley, and I am a UX Researcher & Designer</em></h3>
             <hr />
-            <p>I graduated with a Master’s degree in Literature passionate about visual
-              storytelling, systems-thinking, and psychology.</p>
-            <p>I went into web development to learn to build my own web comics and
-              discovered my calling working on projects across user research, facilitation, service
-              design, community building and teaching.</p>
-            <p>My goal is to use technology to empower people to
-              lead happier, safer, and healthier lives.</p>
+            <p>I transitioned into User-Centred Design after publishing a Master’s thesis combining webcomics, graphic design, and systems thinking.</p>
+            <p>I am a natural empath, mediator, and facilitator, in tune with people’s experiences and adept at balancing the needs of diverse stakeholders. Combined with a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions.</p>
           </div>
         </div>
         <div id="process"></div>
@@ -26,36 +21,36 @@ class About extends Component {
         <div className="content-background-colour">
           <p className="padding-top-40px">My experience has taught me that great design requires immersive
             contextual research and a tight feedback loop between the people building and the people using, testing and refining hypothesis until solutions melt into
-            user's lives.</p>
-          <p>I bring to this process natural empathy and mediation skills combined
-            with a curiosity to learn and a drive to understand the entire system
-            and simplify complexities. This enables me to:</p>
+            user's lives. My process always involves a combination of:</p>
           <p></p>
-          <div className="my-process padding-bottom-80px">
+          <div className="my-process">
             <div className="my-process-column purple">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-              <h3><strong>listen</strong></h3>
+              <h3><strong>listening</strong></h3>
               <p>Learn about the domain, product & stakeholders and plan & conduct user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-area-chart" aria-hidden="true"></i></h2>
-              <h3><strong>synthesise</strong></h3>
+              <h3><strong>synthesising</strong></h3>
               <p>Synthesise findings and model representative experiences and mindsets to articulate user needs and define the underlying problem.</p>
             </div>
             <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
-              <h3><strong>collaborate</strong></h3>
+              <h3><strong>collaborating</strong></h3>
               <p>Cross-collaborate across teams to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
             </div>
             <div className="my-process-column purple">
               <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
-              <h3><strong>create</strong></h3>
+              <h3><strong>creating</strong></h3>
               <p>Build wireframes and prototype solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work.</p>
             </div>
-            <div className="my-process-column green">
+            <div className="my-process-column green padding-bottom-80px">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
-              <h3><strong>learn</strong></h3>
+              <h3><strong>learning</strong></h3>
               <p>Repeat this cycle, testing solutions with users to validate and inform the direction of this unfolding design process.</p>
+            </div>
+            <div className="my-process-column padding-bottom-80px">
+              <h3><strong>My goal is to master this process so I can empower people to lead happier, safer, and healthier lives. <a className="toscroll towork" href="#work">See examples of how I have been doing this below.</a></strong></h3>
             </div>
           </div>
         </div>
