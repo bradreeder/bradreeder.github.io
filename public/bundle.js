@@ -22481,7 +22481,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Learn about the domain, product & stakeholders and plan & conduct user research, utilising a range of methods to discover\xA0user's thoughts, feelings, and actions."
+	                "Learning about the domain, product & stakeholders and planning & conducting user research, utilising a range of methods to discover\xA0user's thoughts, feelings, and actions."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22504,7 +22504,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Synthesise findings and model representative experiences and mindsets to articulate user needs and define\xA0the underlying problem."
+	                "Synthesising findings and modelling representative experiences and mindsets to articulate user needs and define\xA0the underlying problem."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22527,7 +22527,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Cross-collaborate across teams to facilitate brainstorming and generate solutions that address user needs and business goals."
+	                "Cross-collaborating across teams to facilitate brainstorming and generate solutions that address user needs and business goals."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22550,7 +22550,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Build wireframes and prototype solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work."
+	                "Drafting wireframes and prototyping solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22573,7 +22573,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Repeat this cycle, testing solutions with users to validate and inform the direction of this unfolding\xA0design process."
+	                "Repeating this cycle, testing solutions with users to validate and inform the direction of this unfolding\xA0design process."
 	              )
 	            ),
 	            _react2.default.createElement(

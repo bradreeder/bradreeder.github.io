@@ -27,27 +27,27 @@ class About extends Component {
             <div className="my-process-column purple">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
               <h3><strong>listening</strong></h3>
-              <p>Learn about the domain, product & stakeholders and plan & conduct user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
+              <p>Learning about the domain, product & stakeholders and planning & conducting user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-area-chart" aria-hidden="true"></i></h2>
               <h3><strong>synthesising</strong></h3>
-              <p>Synthesise findings and model representative experiences and mindsets to articulate user needs and define the underlying problem.</p>
+              <p>Synthesising findings and modelling representative experiences and mindsets to articulate user needs and define the underlying problem.</p>
             </div>
             <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
               <h3><strong>collaborating</strong></h3>
-              <p>Cross-collaborate across teams to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
+              <p>Cross-collaborating across teams to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
             </div>
             <div className="my-process-column purple">
               <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
               <h3><strong>creating</strong></h3>
-              <p>Build wireframes and prototype solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work.</p>
+              <p>Drafting wireframes and prototyping solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work.</p>
             </div>
             <div className="my-process-column green padding-bottom-80px">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
               <h3><strong>learning</strong></h3>
-              <p>Repeat this cycle, testing solutions with users to validate and inform the direction of this unfolding design process.</p>
+              <p>Repeating this cycle, testing solutions with users to validate and inform the direction of this unfolding design process.</p>
             </div>
             <div className="my-process-column padding-bottom-80px">
               <h3><strong>My goal is to master this process so I can empower people to lead happier, safer, and healthier lives. <a className="toscroll towork" href="#work">See examples of how I have been doing this below.</a></strong></h3>
