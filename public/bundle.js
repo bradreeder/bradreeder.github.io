@@ -22662,7 +22662,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "web developepment"
+	                  "web development"
 	                ),
 	                " aids in communicating with designers and engineers and building ",
 	                _react2.default.createElement(
