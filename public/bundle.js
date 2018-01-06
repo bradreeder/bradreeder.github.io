@@ -22427,19 +22427,30 @@
 	              _react2.default.createElement(
 	                "em",
 	                null,
-	                "Hi, my name is Bradley, and I am a UX Researcher & Designer"
+	                "hi, my name is Bradley, and I am a UX Researcher & Designer"
 	              )
 	            ),
 	            _react2.default.createElement("hr", null),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I transitioned into User-Centred Design after publishing a Master\u2019s thesis combining webcomics, graphic design, and systems thinking."
+	              "I transitioned into Web Development & User-Centred Design after publishing a Master\u2019s thesis combining webcomics, graphic design, and systems thinking."
 	            ),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I am a natural empath, mediator, and facilitator, in tune with people\u2019s experiences and adept at balancing the needs of diverse stakeholders. Combined with a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions."
+	              "I am a natural empath, mediator, and facilitator, compassionate about people\u2019s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions."
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "I am a visual story-teller, a mindfulness practitioner, and a lover of the design theories of ",
+	              _react2.default.createElement(
+	                "a",
+	                { href: "http://zeta.math.utsa.edu/~yxk833/Chris.text.html", target: "_blank" },
+	                "Christopher Alexander"
+	              ),
+	              "."
 	            )
 	          )
 	        ),
@@ -22453,11 +22464,19 @@
 	          "div",
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "My experience has taught me that great design requires immersive contextual research and a tight feedback\xA0loop between the people building and the people using, testing and refining hypothesis until\xA0solutions melt into user's lives. My process always involves a combination of:"
+	            "div",
+	            { className: "my-process-column padding-top-40px" },
+	            _react2.default.createElement(
+	              "h3",
+	              { className: "process-heading" },
+	              _react2.default.createElement(
+	                "strong",
+	                null,
+	                "my working process always involves a combination of:"
+	              )
+	            ),
+	            _react2.default.createElement("p", null)
 	          ),
-	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "my-process" },
@@ -22475,13 +22494,43 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "listening"
+	                  "1. listening"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Learning about the domain, product & stakeholders and planning & conducting user research, utilising a range of methods to discover\xA0user's thoughts, feelings, and actions."
+	                "I learn about the domain, product & stakeholders by planning and conducting immersive ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "secondary"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "user research"
+	                ),
+	                ". Utilising methods such as ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "interviews"
+	                ),
+	                ", ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "contextual enquiries"
+	                ),
+	                ", and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "focus groups"
+	                ),
+	                ", I value deep listening to empathise with and discover user's thoughts, feelings, and pains."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22498,13 +22547,43 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "synthesising"
+	                  "2. thinking"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Synthesising findings and modelling representative experiences and mindsets to articulate user needs and define\xA0the underlying problem."
+	                "I synthesise findings and model representative experiences and mindsets. Using tools like ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "personas"
+	                ),
+	                ", ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "storyboards"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "affinity mapping sessions"
+	                ),
+	                ", I help articulate user needs, identify common patterns, and define the underlying problem. My ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "reporting"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "public speaking"
+	                ),
+	                " skills ensure findings are accessible and clearly communicated."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22521,13 +22600,30 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "collaborating"
+	                  "3. collaborating"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Cross-collaborating across teams to facilitate brainstorming and generate solutions that address user needs and business goals."
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "Cross-collaborating"
+	                ),
+	                " across teams, I ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "facilitate brainstorming"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "co-design solutions"
+	                ),
+	                " that address user needs and business goals. I believe in involving relevant teams in research, synthesis, and ideation sessions where possible as the best means of saturating user understanding across an organisation."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22544,13 +22640,37 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "creating"
+	                  "4. creating"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Drafting wireframes and prototyping solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work."
+	                "I draft ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "wireframes"
+	                ),
+	                " and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "prototype"
+	                ),
+	                " solutions to gather feedback from users and stakeholders and develop a shared understanding of how the interface will work. My experience in ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "web developepment"
+	                ),
+	                " aids in communicating with designers and engineers and building ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "high fidelity prototypes"
+	                ),
+	                " where needed."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22567,13 +22687,31 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "learning"
+	                  "5. learning"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Repeating this cycle, testing solutions with users to validate and inform the direction of this unfolding\xA0design process."
+	                "Repeating this iterative feedback cycle between the people building and the people using, I ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "usability test"
+	                ),
+	                " solutions, ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "refine hypothesis"
+	                ),
+	                " and models, and ",
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "guide pivoting"
+	                ),
+	                " over time until solutions melt into user\u2019s lives."
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22581,15 +22719,15 @@
 	              { className: "my-process-column padding-bottom-80px" },
 	              _react2.default.createElement(
 	                "h3",
-	                null,
+	                { className: "process-heading" },
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "My goal is to master this process so I can empower people to lead happier, safer, and healthier lives. ",
+	                  "my goal is to master this process so I can empower people to lead happier, safer, and healthier lives. ",
 	                  _react2.default.createElement(
 	                    "a",
 	                    { className: "toscroll towork", href: "#work" },
-	                    "See examples of how I have been doing this below."
+	                    "See examples of how I have been practicing this below."
 	                  )
 	                )
 	              )

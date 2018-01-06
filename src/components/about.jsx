@@ -10,47 +10,48 @@ class About extends Component {
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
-            <h3 id="about-header"><em>Hi, my name is Bradley, and I am a UX Researcher & Designer</em></h3>
+            <h3 id="about-header"><em>hi, my name is Bradley, and I am a UX Researcher & Designer</em></h3>
             <hr />
-            <p>I transitioned into User-Centred Design after publishing a Master’s thesis combining webcomics, graphic design, and systems thinking.</p>
-            <p>I am a natural empath, mediator, and facilitator, in tune with people’s experiences and adept at balancing the needs of diverse stakeholders. Combined with a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions.</p>
+            <p>I transitioned into Web Development & User-Centred Design after publishing a Master’s thesis combining webcomics, graphic design, and systems thinking.</p>
+            <p>I am a natural empath, mediator, and facilitator, compassionate about people’s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions.</p>
+            <p>I am a visual story-teller, a mindfulness practitioner, and a lover of the design theories of <a href="http://zeta.math.utsa.edu/~yxk833/Chris.text.html" target="_blank">Christopher Alexander</a>.</p>
           </div>
         </div>
         <div id="process"></div>
         <h2>my process</h2>
         <div className="content-background-colour">
-          <p className="padding-top-40px">My experience has taught me that great design requires immersive
-            contextual research and a tight feedback loop between the people building and the people using, testing and refining hypothesis until solutions melt into
-            user's lives. My process always involves a combination of:</p>
-          <p></p>
+          <div className="my-process-column padding-top-40px">
+            <h3 className="process-heading"><strong>my working process always involves a combination of:</strong></h3>
+            <p></p>
+          </div>
           <div className="my-process">
             <div className="my-process-column purple">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-              <h3><strong>listening</strong></h3>
-              <p>Learning about the domain, product & stakeholders and planning & conducting user research, utilising a range of methods to discover user's thoughts, feelings, and actions.</p>
+              <h3><strong>1. listening</strong></h3>
+              <p>I learn about the domain, product & stakeholders by planning and conducting immersive <strong>secondary</strong> and <strong>user research</strong>. Utilising methods such as <strong>interviews</strong>, <strong>contextual enquiries</strong>, and <strong>focus groups</strong>, I value deep listening to empathise with and discover user's thoughts, feelings, and pains.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-area-chart" aria-hidden="true"></i></h2>
-              <h3><strong>synthesising</strong></h3>
-              <p>Synthesising findings and modelling representative experiences and mindsets to articulate user needs and define the underlying problem.</p>
+              <h3><strong>2. thinking</strong></h3>
+              <p>I synthesise findings and model representative experiences and mindsets. Using tools like <strong>personas</strong>, <strong>storyboards</strong> and <strong>affinity mapping sessions</strong>, I help articulate user needs, identify common patterns, and define the underlying problem. My <strong>reporting</strong> and <strong>public speaking</strong> skills ensure findings are accessible and clearly communicated.</p>
             </div>
             <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
-              <h3><strong>collaborating</strong></h3>
-              <p>Cross-collaborating across teams to facilitate brainstorming and generate solutions that address user needs and business goals.</p>
+              <h3><strong>3. collaborating</strong></h3>
+              <p><strong>Cross-collaborating</strong> across teams, I <strong>facilitate brainstorming</strong> and <strong>co-design solutions</strong> that address user needs and business goals. I believe in involving relevant teams in research, synthesis, and ideation sessions where possible as the best means of saturating user understanding across an organisation.</p>
             </div>
             <div className="my-process-column purple">
               <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
-              <h3><strong>creating</strong></h3>
-              <p>Drafting wireframes and prototyping solutions to gather feedback from stakeholders and users and develop a shared understanding of how the interface will work.</p>
+              <h3><strong>4. creating</strong></h3>
+              <p>I draft <strong>wireframes</strong> and <strong>prototype</strong> solutions to gather feedback from users and stakeholders and develop a shared understanding of how the interface will work. My experience in <strong>web developepment</strong> aids in communicating with designers and engineers and building <strong>high fidelity prototypes</strong> where needed.</p>
             </div>
             <div className="my-process-column green padding-bottom-80px">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
-              <h3><strong>learning</strong></h3>
-              <p>Repeating this cycle, testing solutions with users to validate and inform the direction of this unfolding design process.</p>
+              <h3><strong>5. learning</strong></h3>
+              <p>Repeating this iterative feedback cycle between the people building and the people using, I <strong>usability test</strong> solutions, <strong>refine hypothesis</strong> and models, and <strong>guide pivoting</strong> over time until solutions melt into user’s lives.</p>
             </div>
             <div className="my-process-column padding-bottom-80px">
-              <h3><strong>My goal is to master this process so I can empower people to lead happier, safer, and healthier lives. <a className="toscroll towork" href="#work">See examples of how I have been doing this below.</a></strong></h3>
+              <h3 className="process-heading"><strong>my goal is to master this process so I can empower people to lead happier, safer, and healthier lives. <a className="toscroll towork" href="#work">See examples of how I have been practicing this below.</a></strong></h3>
             </div>
           </div>
         </div>
