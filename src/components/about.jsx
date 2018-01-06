@@ -43,7 +43,7 @@ class About extends Component {
             <div className="my-process-column purple">
               <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
               <h3><strong>4. creating</strong></h3>
-              <p>I draft <strong>wireframes</strong> and <strong>prototype</strong> solutions to gather feedback from users and stakeholders and develop a shared understanding of how the interface will work. My experience in <strong>web developepment</strong> aids in communicating with designers and engineers and building <strong>high fidelity prototypes</strong> where needed.</p>
+              <p>I draft <strong>wireframes</strong> and <strong>prototype</strong> solutions to gather feedback from users and stakeholders and develop a shared understanding of how the interface will work. My experience in <strong>web development</strong> aids in communicating with designers and engineers and building <strong>high fidelity prototypes</strong> where needed.</p>
             </div>
             <div className="my-process-column green padding-bottom-80px">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
