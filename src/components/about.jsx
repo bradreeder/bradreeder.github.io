@@ -14,7 +14,7 @@ class About extends Component {
             <hr />
             <p>I transitioned into Web Development & User-Centred Design after publishing a Master’s thesis combining webcomics, graphic design, and systems thinking.</p>
             <p>I am a natural empath, mediator, and facilitator, compassionate about people’s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions.</p>
-            <p>I am a visual story-teller, a mindfulness practitioner, and a lover of the design theories of <a href="http://zeta.math.utsa.edu/~yxk833/Chris.text.html" target="_blank">Christopher Alexander</a>.</p>
+            <p>I love visual story-telling, mindfulness practice, and the design theories of <a href="http://zeta.math.utsa.edu/~yxk833/Chris.text.html" target="_blank">Christopher Alexander</a>.</p>
           </div>
         </div>
         <div id="process"></div>
