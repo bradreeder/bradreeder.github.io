@@ -35,6 +35,10 @@
       return false;
     });
 
+    $(window).scroll(function() {
+      $(".bounce").css("opacity", 1 - $(window).scrollTop() / 250);
+    });
+
     // the following code will highlight the relevant item on the navbar menuItem
     // once its section of the page is scrolled past. Bugs are currently created
     // when the user navigates to one of the case study pages, however, so this
