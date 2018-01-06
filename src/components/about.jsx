@@ -51,7 +51,7 @@ class About extends Component {
               <p>Repeating this iterative feedback cycle between the people building and the people using, I <strong>usability test</strong> solutions, <strong>refine hypothesis</strong> and models, and <strong>guide pivoting</strong> over time until solutions melt into user’s lives.</p>
             </div>
             <div className="my-process-column padding-bottom-80px">
-              <h3 className="process-heading"><strong>my goal is to master this process so I can empower people to lead happier, safer, and healthier lives. <a className="toscroll towork" href="#work">See examples of how I have been practicing this below.</a></strong></h3>
+              <h3 className="process-heading"><strong>my goal is to master this process so I can empower people to lead happier, safer, and healthier lives. <a className="toscroll towork" href="#work">see examples of how I have been practicing this below.</a></strong></h3>
             </div>
           </div>
         </div>
