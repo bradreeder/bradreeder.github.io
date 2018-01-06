@@ -275,6 +275,10 @@
       padding-right: 5px; }
   #content-container .skills {
     line-height: 1.45; }
+  #content-container .process-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px; }
   #content-container #about-header {
     margin-top: 0px;
     color: white;
