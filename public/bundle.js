@@ -22439,18 +22439,19 @@
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I am a natural empath, mediator, and facilitator, compassionate about people\u2019s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions."
+	              "I am a natural empath, mediator, and facilitator, compassionate about people\u2019s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered design opportunities."
 	            ),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I love visual story-telling, mindfulness practice, and the design theories of ",
+	              "In my spare time I enjoy visual story-telling, mindfulness practice, and studying service design and community development ala the design theories of ",
 	              _react2.default.createElement(
 	                "a",
 	                { href: "http://zeta.math.utsa.edu/~yxk833/Chris.text.html", target: "_blank" },
 	                "Christopher Alexander"
 	              ),
-	              "."
+	              ". ",
+	              _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
 	            )
 	          )
 	        ),
@@ -22494,7 +22495,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "1. listening"
+	                  "listening"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22547,7 +22548,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "2. thinking"
+	                  "thinking"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22600,7 +22601,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "3. collaborating"
+	                  "collaborating"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22640,7 +22641,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "4. creating"
+	                  "creating"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22687,7 +22688,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "5. learning"
+	                  "learning"
 	                )
 	              ),
 	              _react2.default.createElement(

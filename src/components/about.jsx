@@ -13,8 +13,8 @@ class About extends Component {
             <h3 id="about-header"><em>hi, my name is Bradley, and I am a UX Researcher & Designer</em></h3>
             <hr />
             <p>I transitioned into Web Development & User-Centred Design after publishing a Master’s thesis combining webcomics, graphic design, and systems thinking.</p>
-            <p>I am a natural empath, mediator, and facilitator, compassionate about people’s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered solutions.</p>
-            <p>I love visual story-telling, mindfulness practice, and the design theories of <a href="http://zeta.math.utsa.edu/~yxk833/Chris.text.html" target="_blank">Christopher Alexander</a>.</p>
+            <p>I am a natural empath, mediator, and facilitator, compassionate about people’s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered design opportunities.</p>
+            <p>In my spare time I enjoy visual story-telling, mindfulness practice, and studying service design and community development ala the design theories of <a href="http://zeta.math.utsa.edu/~yxk833/Chris.text.html" target="_blank">Christopher Alexander</a>. <i className="fa fa-heart" aria-hidden="true"></i></p>
           </div>
         </div>
         <div id="process"></div>
@@ -27,27 +27,27 @@ class About extends Component {
           <div className="my-process">
             <div className="my-process-column purple">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-              <h3><strong>1. listening</strong></h3>
+              <h3><strong>listening</strong></h3>
               <p>I learn about the domain, product & stakeholders by planning and conducting immersive <strong>secondary</strong> and <strong>user research</strong>. Utilising methods such as <strong>interviews</strong>, <strong>contextual enquiries</strong>, and <strong>focus groups</strong>, I value deep listening to empathise with and discover user's thoughts, feelings, and pains.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-area-chart" aria-hidden="true"></i></h2>
-              <h3><strong>2. thinking</strong></h3>
+              <h3><strong>thinking</strong></h3>
               <p>I synthesise findings and model representative experiences and mindsets. Using tools like <strong>personas</strong>, <strong>storyboards</strong> and <strong>affinity mapping sessions</strong>, I help articulate user needs, identify common patterns, and define the underlying problem. My <strong>reporting</strong> and <strong>public speaking</strong> skills ensure findings are accessible and clearly communicated.</p>
             </div>
             <div className="my-process-column blue">
               <h2><i className="fa fa-comments" aria-hidden="true"></i></h2>
-              <h3><strong>3. collaborating</strong></h3>
+              <h3><strong>collaborating</strong></h3>
               <p><strong>Cross-collaborating</strong> across teams, I <strong>facilitate brainstorming</strong> and <strong>co-design solutions</strong> that address user needs and business goals. I believe in involving relevant teams in research, synthesis, and ideation sessions where possible as the best means of saturating user understanding across an organisation.</p>
             </div>
             <div className="my-process-column purple">
               <h2><i className="fa fa-paint-brush" aria-hidden="true"></i></h2>
-              <h3><strong>4. creating</strong></h3>
+              <h3><strong>creating</strong></h3>
               <p>I draft <strong>wireframes</strong> and <strong>prototype</strong> solutions to gather feedback from users and stakeholders and develop a shared understanding of how the interface will work. My experience in <strong>web development</strong> aids in communicating with designers and engineers and building <strong>high fidelity prototypes</strong> where needed.</p>
             </div>
             <div className="my-process-column green padding-bottom-80px">
               <h2><i className="fa fa-repeat" aria-hidden="true"></i></h2>
-              <h3><strong>5. learning</strong></h3>
+              <h3><strong>learning</strong></h3>
               <p>Repeating this iterative feedback cycle between the people building and the people using, I <strong>usability test</strong> solutions, <strong>refine hypothesis</strong> and models, and <strong>guide pivoting</strong> over time until solutions melt into user’s lives.</p>
             </div>
             <div className="my-process-column padding-bottom-80px">
