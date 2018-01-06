@@ -22444,7 +22444,7 @@
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I am a visual story-teller, a mindfulness practitioner, and a lover of the design theories of ",
+	              "I love visual story-telling, mindfulness practice, and the design theories of ",
 	              _react2.default.createElement(
 	                "a",
 	                { href: "http://zeta.math.utsa.edu/~yxk833/Chris.text.html", target: "_blank" },
@@ -22727,7 +22727,7 @@
 	                  _react2.default.createElement(
 	                    "a",
 	                    { className: "toscroll towork", href: "#work" },
-	                    "See examples of how I have been practicing this below."
+	                    "see examples of how I have been practicing this below."
 	                  )
 	                )
 	              )
