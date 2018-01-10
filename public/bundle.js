@@ -24360,7 +24360,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "handcrafted by bradley reeder \xA9 2017"
+	            "handcrafted by bradley reeder \xA9 2018"
 	          )
 	        )
 	      );
