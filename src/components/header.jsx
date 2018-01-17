@@ -21,7 +21,7 @@ class Header extends Component {
           <p>
             <a href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin </a>&nbsp;
             <a href="https://github.com/bradreeder">github </a>&nbsp;
-            <a href="public/resources/bradley-reeder-cv-ux.PDF" download>cv</a>&nbsp;
+            <a href="public/resources/bradley-reeder-cv-ux.PDF" onClick={ga(‘send’, ‘event’, ‘PDF’, ‘Download’, ‘CV – PDF Download’);} download>cv</a>&nbsp;
           </p>
         </div>
         <div className="header-img">
