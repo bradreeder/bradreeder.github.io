@@ -56,7 +56,7 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _header = __webpack_require__(184);
+	var _header = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./components/header.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	var _header2 = _interopRequireDefault(_header);
 	
@@ -21941,132 +21941,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 184 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var Header = function (_Component) {
-	  _inherits(Header, _Component);
-	
-	  function Header() {
-	    _classCallCheck(this, Header);
-	
-	    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
-	  }
-	
-	  _createClass(Header, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2.default.createElement(
-	        "div",
-	        { id: "header" },
-	        _react2.default.createElement(
-	          "div",
-	          { id: "header-me" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "header-name" },
-	            "Bradley Reeder"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "UX Researcher & Designer"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "London, UK."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
-	              _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
-	              "bradjohnreeder@gmail.com"
-	            ),
-	            "\xA0"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { id: "phone-number", href: "tel:+447479507365" },
-	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
-	              "+44 7479 507365"
-	            ),
-	            "\xA0"
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { id: "header-links" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "bradley @"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { href: "https://uk.linkedin.com/in/bradley-reeder-246623119" },
-	              "linkedin "
-	            ),
-	            "\xA0",
-	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/bradreeder" },
-	              "github "
-	            ),
-	            "\xA0",
-	            _react2.default.createElement(
-	              "a",
-	              { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
-	              "cv"
-	            ),
-	            "\xA0"
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "header-img" },
-	          _react2.default.createElement("img", { src: "public/resources/me.JPG" })
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Header;
-	}(_react.Component);
-	
-	exports.default = Header;
-
-/***/ }),
+/* 184 */,
 /* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22309,7 +22184,7 @@
 	
 	var _foundersandcoders2 = _interopRequireDefault(_foundersandcoders);
 	
-	var _contact = __webpack_require__(192);
+	var _contact = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./contact.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	var _contact2 = _interopRequireDefault(_contact);
 	
@@ -24196,125 +24071,7 @@
 	exports.default = FoundersAndCoders;
 
 /***/ }),
-/* 192 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var Contact = function (_Component) {
-	  _inherits(Contact, _Component);
-	
-	  function Contact() {
-	    _classCallCheck(this, Contact);
-	
-	    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
-	  }
-	
-	  _createClass(Contact, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2.default.createElement(
-	        "div",
-	        { className: "contact" },
-	        _react2.default.createElement("div", { id: "contact" }),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "contact"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "contact padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "h3",
-	              { id: "contact-header" },
-	              "I am open to new design challenges and would love to hear from you (:"
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              _react2.default.createElement(
-	                "a",
-	                { href: "mailto:bradjohnreeder@gmail.com" },
-	                _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
-	                "bradjohnreeder@gmail.com"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              _react2.default.createElement(
-	                "a",
-	                { href: "tel:+447479507365" },
-	                _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
-	                "+44 7479 507365"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "Based in London, UK"
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              _react2.default.createElement(
-	                "a",
-	                { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
-	                _react2.default.createElement("i", { className: "fa fa-download", "aria-hidden": "true" }),
-	                "Download CV"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "padding-top-40px" },
-	              "See source code for my projects on ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://github.com/bradreeder" },
-	                "github"
-	              ),
-	              " and endorsements on ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://uk.linkedin.com/in/bradley-reeder-246623119" },
-	                "linkedin"
-	              )
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Contact;
-	}(_react.Component);
-	
-	exports.default = Contact;
-
-/***/ }),
+/* 192 */,
 /* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
