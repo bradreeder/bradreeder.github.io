@@ -10,7 +10,7 @@ class About extends Component {
         <h2 className="padding-top-2em">my story</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
-            <h3 id="about-header"><em>hi, my name is Bradley, and I am a UX Researcher & Designer</em></h3>
+            <h3 id="about-header"><em>hi, my name is Bradley, and I am a UX Consultant</em></h3>
             <hr />
             <p>I transitioned into Web Development & User-Centred Design after publishing a Master’s thesis combining webcomics, graphic design, and systems thinking.</p>
             <p>I am a natural empath, mediator, and facilitator, compassionate about people’s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered design opportunities.</p>
