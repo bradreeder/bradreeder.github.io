@@ -21991,7 +21991,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "UX Researcher & Designer"
+	            "UX Consultant"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -22427,7 +22427,7 @@
 	              _react2.default.createElement(
 	                "em",
 	                null,
-	                "hi, my name is Bradley, and I am a UX Researcher & Designer"
+	                "hi, my name is Bradley, and I am a UX Consultant"
 	              )
 	            ),
 	            _react2.default.createElement("hr", null),
@@ -22529,7 +22529,7 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "focus groups"
+	                  "user experience mapping"
 	                ),
 	                ", I value deep listening to empathise with and discover user's thoughts, feelings, and pains."
 	              )
@@ -22786,7 +22786,7 @@
 	              null,
 	              "User Research:"
 	            ),
-	            " Design sprints, Ideation sessions, Presentations & Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Competitor Reviews, Secondary research.\u2028\u2028"
+	            " Design sprints, Ideation sessions, Presentations & Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual Enquiries, User Experience Mapping, Focus Groups, Pop-up Research, Competitor Reviews, Secondary Research.\u2028\u2028"
 	          ),
 	          _react2.default.createElement("p", null),
 	          _react2.default.createElement(
