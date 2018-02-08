@@ -28,7 +28,7 @@ class About extends Component {
             <div className="my-process-column purple">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
               <h3><strong>listening</strong></h3>
-              <p>I learn about the domain, product & stakeholders by planning and conducting immersive <strong>secondary</strong> and <strong>user research</strong>. Utilising methods such as <strong>interviews</strong>, <strong>contextual enquiries</strong>, and <strong>focus groups</strong>, I value deep listening to empathise with and discover user's thoughts, feelings, and pains.</p>
+              <p>I learn about the domain, product & stakeholders by planning and conducting immersive <strong>secondary</strong> and <strong>user research</strong>. Utilising methods such as <strong>interviews</strong>, <strong>contextual enquiries</strong>, and <strong>user experience mapping</strong>, I value deep listening to empathise with and discover user's thoughts, feelings, and pains.</p>
             </div>
             <div className="my-process-column green">
               <h2><i className="fa fa-area-chart" aria-hidden="true"></i></h2>
@@ -64,7 +64,7 @@ class About extends Component {
           <p></p>
           <p className="skills"><strong>Methodologies:</strong> Design Thinking, User-centred Design, Scrum, Peer-led Education.  </p>
           <p></p>
-          <p className="skills"><strong>User Research:</strong> Design sprints, Ideation sessions, Presentations & Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual inquiries, Pop-up research, Competitor Reviews, Secondary research.  </p>
+          <p className="skills"><strong>User Research:</strong> Design sprints, Ideation sessions, Presentations & Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual Enquiries, User Experience Mapping, Focus Groups, Pop-up Research, Competitor Reviews, Secondary Research.  </p>
           <p></p>
           <p className="skills"><strong>Solution Design:</strong> Affinity diagramming, Storyboards, Empathy maps, Personas, POV statements & How might we’s, User Journeys & Stories, Rapid Prototyping, Wireframes.  </p>
           <p></p>
