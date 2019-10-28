@@ -1,7 +1,6 @@
 #content-container {
   background-color: $main-background-colour;
   display: block;
-  width: 90vw;
   height: auto;
   margin: auto;
   margin-top: 14px;
@@ -14,6 +13,10 @@
   ul {
     margin-bottom: 30px;
   }
+  .no-margin-bottom {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
   li {
     font-size: 18px;
     margin-top: 0px;
@@ -21,15 +24,15 @@
     color: $main-font-colour;
   }
   h2 {
-    padding: 1em 15px 1em 15px;
+    padding: 2em 15px 2em 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 30px;
     line-height: 1.4em;
     color: $header-font-colour;
   }
   h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   blockquote {
     padding-right: 150px;
@@ -37,7 +40,6 @@
     color: $main-font-colour;
   }
   img {
-    padding: 5px 15px 5px 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     image-orientation: from-image;
@@ -48,27 +50,67 @@
     color: $header-font-colour;
     margin-bottom: 20px;
   }
+  #top-h2 {
+    margin-top: 0px !important;
+    margin-bottom: 0px!important;
+  }
+  .my-story-image {
+    float: right;
+    width: 25%;
+    margin-right: 10%;
+  }
+//  .img-text {
+//    position: absolute;
+//    top: 50%;
+//    left: 50%;
+//    transform: translate(-50%, -50%);
+//  }
+  .img-border {
+    border: 6px solid white;
+  }
+  .service-text {
+    font-size: 18px;
+    line-height: 1.6em;
+  }
   .content-background-colour {
     background-color: $content-background-colour;
   }
   .padding-top-2em {
-    padding-top: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .padding-top-20px {
     padding-top: 20px !important;
   }
+  .no-margins {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
   .padding-top-40px {
     padding-top: 40px;
   }
+  .section-sub-heading {
+    background-color: $main-background-colour;
+    color: white;
+    line-height: 1.5em;
+    font-size: 24px;
+  }
+  .footer-text {
+    font-size: 20px !important;
+  }
   .section-title {
     background-color: $main-background-colour;
-    font-size: 18px;
+    color: white;
+    line-height: 1.5em;
+    font-size: 30px;
   }
   .section-header {
     font-family: $secondary-font;
     color: $header-font-colour;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
   }
   .workshops {
     display: flex;
@@ -125,10 +167,13 @@
     z-index: -9999;
     padding: 0px !important;
   }
+  .service-text {
+    font-size: 16px !important;;
+  }
   #content-container {
     .case-study-img-container {
       margin: 0 auto;
-      padding: 5px 15px 5px 15px;
+      padding: 5px 25px 5px 25px;
       text-align: center;
       img {
         width: 100%;
@@ -147,6 +192,7 @@
       margin: 0 auto;
     }
     .img-container {
+      position: relative;
       text-align: center;
       padding-top: 20px;
       padding-bottom: 0px;
@@ -156,30 +202,45 @@
         text-align: center;
       }
     }
+    .my-story-image {
+      padding: 5px 1.5em 5px 2em !important;
+      width: 35% !important;
+    }
     .section-header {
-      font-size: 16px;
+      font-size: 20px;
     }
     .section-title {
-      font-size: 16px;
+      font-size: 24px;
     }
     p {
       padding: 5px 2em 5px 2em;
+      font-size: 16px;
+      line-height: 1.5em;
+
     }
     h2 {
-      font-size: 18px;
+      font-size: 24px;
+      line-height: 1.5em;
     }
     h3 {
       text-align: center;
-      font-size: 16px;
+      font-size: 20px;
+      line-height: 1.5em;
       padding: 5px 2em 5px 2em;
+    }
+    h4 {
+      font-size: 18px;
+      line-height: 1.5em;
     }
     ul {
       padding: 5px 2em 5px 3em;
       margin-top: 0px;
     }
     li {
+      font-size: 16px;
       padding-top: 5px;
       padding-bottom: 5px;
+      line-height: 1.5em;
     }
     .skills {
       text-align: left;
@@ -190,13 +251,21 @@
     .padding-bottom-80px {
       padding-bottom: 40px;
     }
+    .my-process-column {
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+    }
     .case-study {
       padding-top: 30px;
     }
     .case-study-section {
       h4 {
         color: $tertiary-font-colour;
-        padding: 5px 2em 5px 2em;
+        padding: 5px 2em 5px 1.8em;
         margin-bottom: 0px;
         margin-top: 0px;
       }
@@ -217,10 +286,9 @@
     }
     .case-study-img-container {
       margin: 0 auto;
-      padding: 5px 150px 5px 150px;
+      padding: 5px 25px 5px 25px;
       text-align: center;
       img {
-        width: 100%;
         max-height: 30em;
         padding-left: 0px;
         padding-right: 0px;
@@ -249,6 +317,13 @@
         text-align: center;
         padding: 5px 150px 5px 150px;
       }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 300px;
+        width: auto;
+      }
     }
     // .my-process {
     //   display: flex;
@@ -276,24 +351,33 @@
       justify-content: space-between;
       width: 100%;
     }
+    .my-story-image {
+      padding-left: 1em !important;
+      padding-bottom: 1em !important;
+    }
     .case-study-section {
       display: inline-block;
       width: 50%;
+      line-height: 1.8em;
       p {
-        padding: 5px 10px 5px 150px;
+        padding: 5px 10px 20px 150px;
+        font-size: 20px !important;
       }
       h4 {
-        padding: 5px 10px 5px 150px;
+        font-size: 24px !important;
+        padding: 5px 10px 20px 150px;
         color: $tertiary-font-colour;
         text-align: left;
         margin-bottom: 0px;
         margin-top: 0px;
       }
       .img-container {
+        position: relative;
         width: 75%;
         height: auto;
         float: left;
-        padding-right: 150px;
+        padding-right: 25px;
+        padding-left: 50px;
         padding-top: 0px;
         padding-bottom: 0px;
         overflow: hidden;
@@ -306,10 +390,26 @@
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .decrease-padding {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
 @media only screen and (min-width: 1350px) {
   .case-study-img-container {
     img {
       max-height: 40em !important;
     }
+  }
+  .my-story-image {
+    width: 15% !important;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .my-story-image {
+    width: 8% !important;
   }
 }

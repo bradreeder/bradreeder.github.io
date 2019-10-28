@@ -7,9 +7,9 @@ class Menu extends Component {
       <div className="menu-container">
       <div className="menu" id="menu">
         <div id="menu-about" className="menu-item"><a className="toscroll" href="#about" onClick={() => this.props.changeContent('about')}><p>about</p></a></div>
-        <div id="menu-process" className="menu-item"><a className="toscroll" href="#process" onClick={() => this.props.changeContent('about')}><p>process</p></a></div>
-        <div id="menu-skills" className="menu-item"><a className="toscroll" href="#skills" onClick={() => this.props.changeContent('about')}><p>skills</p></a></div>
-        <div id="menu-work" className="menu-item"><a className="toscroll" href="#work" onClick={() => this.props.changeContent('about')}><p>work</p></a></div>
+        <div id="menu-experience" className="menu-item"><a className="toscroll" href="#experience" onClick={() => this.props.changeContent('about')}><p>experience</p></a></div>
+        <div id="menu-services" className="menu-item"><a className="toscroll" href="#services" onClick={() => this.props.changeContent('about')}><p>services</p></a></div>
+        <div id="menu-pricing" className="menu-item"><a className="toscroll" href="#pricing" onClick={() => this.props.changeContent('about')}><p>pricing</p></a></div>
         <div id="menu-contact" className="menu-item"><a className="toscroll" href="#contact" onClick={() => this.props.changeContent('about')}><p>contact</p></a></div>
       </div>
     </div>

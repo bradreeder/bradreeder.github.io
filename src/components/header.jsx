@@ -7,25 +7,22 @@ class Header extends Component {
       <div id="header">
         <div id="header-me">
           <p className="header-name">Bradley Reeder</p>
-          <p>UX Consultant</p>
+          <p>Shamanic practitioner & Energy healer</p>
           <p>London, UK.</p>
           <p>
-            <a id="email" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a>&nbsp;
+            <a target="_blank" id="email" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a>&nbsp;
           </p>
           <p>
-            <a id="phone-number" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a>&nbsp;
+            <a target="_blank" id="phone-number" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a>&nbsp;
           </p>
         </div>
         <div id="header-links">
           <p>bradley @</p>
           <p>
-            <a href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin </a>&nbsp;
-            <a href="https://github.com/bradreeder">github </a>&nbsp;
-            <a href="public/resources/bradley-reeder-cv-ux.PDF" download>cv</a>&nbsp;
+            <a href="">medium </a>&nbsp;
+            <a href="">facebook </a>&nbsp;
+            <a href="">meetup </a>&nbsp;
           </p>
-        </div>
-        <div className="header-img">
-          <img src="public/resources/me.JPG"/>
         </div>
       </div>
     );
@@ -33,3 +30,7 @@ class Header extends Component {
 }
 
 export default Header;
+
+// <div className="header-img">
+//  <img src="public/resources/red-kite.JPG"/>
+//</div>

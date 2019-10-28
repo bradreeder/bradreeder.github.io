@@ -1,9 +1,13 @@
 #inspiration {
+  height: 550px;
   width: 100%;
+  margin-bottom: -15px !important;
   margin: auto;
   color: white;
-  margin-top: 130px;
-  margin-bottom: 120px;
+  background-image: url(../../public/resources/Energy-healing-1.JPG);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   p {
     padding: 5px 140px 5px 140px;
     margin-bottom: 0px;
@@ -23,6 +27,9 @@
   }
   a {
     color: $header-font-colour;
+  }
+  img {
+    max-width: 100%;
   }
 }
 
@@ -76,8 +83,6 @@
     display: none;
   }
   #inspiration {
-    margin-top: 130px;
-    margin-bottom: 80px;
     p {
       padding: 0px 2em 10px 2em;
       margin-bottom: 0px;

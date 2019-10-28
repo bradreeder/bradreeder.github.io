@@ -7,9 +7,6 @@ class Inspiration extends Component {
     return (
       <div className="inspiration">
         <div id="inspiration">
-          <p><em>{quote}</em></p>
-          <p><strong id="thich-nhat-hanh">- Thich Nhat Hanh</strong></p>
-          <h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>
         </div>
       </div>
     );
@@ -17,3 +14,10 @@ class Inspiration extends Component {
 }
 
 export default Inspiration;
+
+// <img src="public/resources/Healing-1.JPG"/>
+
+//<p><em>{quote}</em></p>
+//<p><strong id="thich-nhat-hanh">- Thich Nhat Hanh</strong></p>
+//<h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>
+//<h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>

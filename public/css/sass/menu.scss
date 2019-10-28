@@ -1,5 +1,5 @@
 .menu {
-  background-color: rgb(25, 25, 25);
+  background-color: #02205B;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -17,6 +17,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 10px 10px 10px 10px;
+    color: white;
   }
   a {
     color: $main-font-colour;
@@ -24,13 +25,13 @@
   #menu-about:hover {
     background-color: #086788;
   }
-  #menu-process:hover {
+  #menu-experience:hover {
     background-color: #d93b9d;
   }
-  #menu-skills:hover {
+  #menu-services:hover {
     background-color: #6ba753;
   }
-  #menu-work:hover {
+  #menu-pricing:hover {
     background-color: #E06C9F;
   }
   #menu-contact:hover {
@@ -52,6 +53,18 @@
 //     text-decoration: none;
 //   }
 // }
+
+@media only screen and (max-width: 736px) {
+  .menu p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .menu p {
+    font-size: 12px;
+  }
+}
 
 @media only screen and (min-width: 737px) {
   .menu p {

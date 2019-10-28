@@ -9,12 +9,11 @@ class Contact extends Component {
         <h2>contact</h2>
         <div className="content-background-colour">
           <div className="contact padding-top-40px padding-bottom-80px">
-            <h3 id="contact-header">I am open to new design challenges and would love to hear from you (:</h3>
-            <p><a href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a></p>
-            <p><a href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a></p>
-            <p>Based in London, UK</p>
-            <p><a href="public/resources/bradley-reeder-cv-ux.PDF" download><i className="fa fa-download" aria-hidden="true"></i>Download CV</a></p>
-            <p className="padding-top-40px">See source code for my projects on <a target="_blank" href="https://github.com/bradreeder">github</a> and endorsements on <a target="_blank" href="https://uk.linkedin.com/in/bradley-reeder-246623119">linkedin</a></p>
+            <h3 id="contact-header">For more info or to book an appointment, contact me on the following and I will be in touch shortly:</h3>
+            <p className="footer-text"><a target="_blank" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a></p>
+            <p className="footer-text"><a target="_blank" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a></p>
+            <p className="footer-text">Based in London, UK</p>
+            <p className="padding-top-40px footer-text">See further information on my service @ <a href="">facebook</a> and on my future events @ <a href="">meetup</a></p>
           </div>
         </div>
       </div>

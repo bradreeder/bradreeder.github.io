@@ -30,11 +30,12 @@
     <script>
     /*Scroll transition to anchor*/
 
+
     $("a.toscroll").on('click', function(e) {
       if (e.target.className === 'fa fa-angle-double-down') {
         var hash = 'about';
       } else if (e.target.className.includes('towork')) {
-        var hash = 'work';
+        var hash = 'pricing';
       } else {
         var hash = e.target.innerHTML;
       }
@@ -43,6 +44,19 @@
       }, 1000);
       return false;
     });
+
+    //$(window).scroll( function() {
+    //if($(this).scrollTop() > $('#header').height() - $('.menu').height() + 4) {
+    //  console.log($('#header').height());
+    //  console.log($(this).scrollTop());
+    //    $('#inspiration').css('background-attachment','fixed');
+    //    $('#inspiration').css('background-position', 'top');
+    //} else {
+    //    console.log($('#header').height());
+    //    console.log($(this).scrollTop());
+    //    $('#inspiration').css('background-attachment','none');
+    //}
+   //});
 
     $(window).scroll(function() {
       $(".bounce").css("opacity", 1 - $(window).scrollTop() / 250);

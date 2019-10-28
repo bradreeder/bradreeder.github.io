@@ -21991,7 +21991,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "UX Consultant"
+	            "Shamanic practitioner & Energy healer"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -22003,7 +22003,7 @@
 	            null,
 	            _react2.default.createElement(
 	              "a",
-	              { id: "email", href: "mailto:bradjohnreeder@gmail.com" },
+	              { target: "_blank", id: "email", href: "mailto:bradjohnreeder@gmail.com" },
 	              _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
 	              "bradjohnreeder@gmail.com"
 	            ),
@@ -22014,7 +22014,7 @@
 	            null,
 	            _react2.default.createElement(
 	              "a",
-	              { id: "phone-number", href: "tel:+447479507365" },
+	              { target: "_blank", id: "phone-number", href: "tel:+447479507365" },
 	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
 	              "+44 7479 507365"
 	            ),
@@ -22034,28 +22034,23 @@
 	            null,
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://uk.linkedin.com/in/bradley-reeder-246623119" },
-	              "linkedin "
+	              { href: "" },
+	              "medium "
 	            ),
 	            "\xA0",
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://github.com/bradreeder" },
-	              "github "
+	              { href: "" },
+	              "facebook "
 	            ),
 	            "\xA0",
 	            _react2.default.createElement(
 	              "a",
-	              { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
-	              "cv"
+	              { href: "" },
+	              "meetup "
 	            ),
 	            "\xA0"
 	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "header-img" },
-	          _react2.default.createElement("img", { src: "public/resources/me.JPG" })
 	        )
 	      );
 	    }
@@ -22065,6 +22060,10 @@
 	}(_react.Component);
 	
 	exports.default = Header;
+	
+	// <div className="header-img">
+	//  <img src="public/resources/red-kite.JPG"/>
+	//</div>
 
 /***/ }),
 /* 185 */
@@ -22128,46 +22127,46 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { id: "menu-process", className: "menu-item" },
+	            { id: "menu-experience", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { className: "toscroll", href: "#process", onClick: function onClick() {
+	              { className: "toscroll", href: "#experience", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "process"
+	                "experience"
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { id: "menu-skills", className: "menu-item" },
+	            { id: "menu-services", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { className: "toscroll", href: "#skills", onClick: function onClick() {
+	              { className: "toscroll", href: "#services", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "skills"
+	                "services"
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { id: "menu-work", className: "menu-item" },
+	            { id: "menu-pricing", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { className: "toscroll", href: "#work", onClick: function onClick() {
+	              { className: "toscroll", href: "#pricing", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "work"
+	                "pricing"
 	              )
 	            )
 	          ),
@@ -22237,37 +22236,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'inspiration' },
-	        _react2.default.createElement(
-	          'div',
-	          { id: 'inspiration' },
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            _react2.default.createElement(
-	              'em',
-	              null,
-	              quote
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            _react2.default.createElement(
-	              'strong',
-	              { id: 'thich-nhat-hanh' },
-	              '- Thich Nhat Hanh'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'h2',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { className: 'toscroll bounce', href: '#about' },
-	              _react2.default.createElement('i', { className: 'fa fa-angle-double-down', 'aria-hidden': 'true' })
-	            )
-	          )
-	        )
+	        _react2.default.createElement('div', { id: 'inspiration' })
 	      );
 	    }
 	  }]);
@@ -22276,6 +22245,13 @@
 	}(_react.Component);
 	
 	exports.default = Inspiration;
+	
+	// <img src="public/resources/Healing-1.JPG"/>
+	
+	//<p><em>{quote}</em></p>
+	//<p><strong id="thich-nhat-hanh">- Thich Nhat Hanh</strong></p>
+	//<h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>
+	//<h2><a className="toscroll bounce" href="#about"><i className="fa fa-angle-double-down" aria-hidden="true"></i></a></h2>
 
 /***/ }),
 /* 187 */
@@ -22412,8 +22388,8 @@
 	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
 	        _react2.default.createElement(
 	          "h2",
-	          { className: "padding-top-2em" },
-	          "my story"
+	          { id: "top-h2", className: "padding-top-2em" },
+	          "about me"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -22427,39 +22403,61 @@
 	              _react2.default.createElement(
 	                "em",
 	                null,
-	                "hi, my name is Bradley, and I am a UX Consultant"
+	                "hi, my name is Bradley, and I am a shamanic practitioner, energy healer & writer"
 	              )
 	            ),
 	            _react2.default.createElement("hr", null),
+	            _react2.default.createElement("img", { className: "my-story-image", src: "../../public/resources/me2.JPG" }),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I transitioned into Web Development & User-Centred Design after publishing a Master\u2019s thesis combining webcomics, graphic design, and systems thinking."
+	              "Throughout the last few years, I\u2019ve been blessed to undertake training with master shamans in a broad range of traditional & indigenous healing and esoteric modalities."
 	            ),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I am a natural empath, mediator, and facilitator, compassionate about people\u2019s experiences and adept at balancing the needs of diverse stakeholders. With a big picture intuition and a drive to understand entire systems, I love simplifying complexities down to insights for human-centered design opportunities."
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "In my spare time I enjoy visual story-telling, mindfulness practice, and studying service design and community development ala the design theories of ",
+	              "In 2019, I was formally initiated into the ",
 	              _react2.default.createElement(
 	                "a",
-	                { href: "http://zeta.math.utsa.edu/~yxk833/Chris.text.html", target: "_blank" },
-	                "Christopher Alexander"
+	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
+	                "Andean (Q\u2019ero) shamanic lineage"
 	              ),
-	              ". ",
-	              _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
+	              " of Peru as an authentic practitioner of this tradition. I\u2019ve since been on pilgrimage to Peru to learn from Q\u2019ero maestro ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://pumadventuresperu.com/our-team" },
+	                "Puma Fredy Quispe Singona"
+	              ),
+	              ", where I received the healing energies that I primarily work with today."
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "I\u2019m always supplementing this foundation with further training, most recently in energy healing as a student of ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://copaldaselva.com/" },
+	                "Copal Daselva"
+	              ),
+	              ". And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery."
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "I\u2019m deeply humbled to put this together in service to you. I do so with the utmost integrity and heart-felt intention to enable your healing, transformation and connection with the best version of yourself possible. :-)"
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Till we meet, Haux Haux!"
 	            )
 	          )
 	        ),
-	        _react2.default.createElement("div", { id: "process" }),
+	        _react2.default.createElement("div", { id: "experience" }),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "my process"
+	          "affiliated with"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -22473,7 +22471,7 @@
 	              _react2.default.createElement(
 	                "strong",
 	                null,
-	                "my working process always involves a combination of:"
+	                "I have completed certified training as a shamanic practitioner and am humbled to be associated with:"
 	              )
 	            ),
 	            _react2.default.createElement("p", null)
@@ -22495,327 +22493,56 @@
 	                _react2.default.createElement(
 	                  "strong",
 	                  null,
-	                  "listening"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "I learn about the domain, product & stakeholders by planning and conducting immersive ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "secondary"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "user research"
-	                ),
-	                ". Utilising methods such as ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "interviews"
-	                ),
-	                ", ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "contextual enquiries"
-	                ),
-	                ", and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "user experience mapping"
-	                ),
-	                ", I value deep listening to empathise with and discover user's thoughts, feelings, and pains."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column green" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-area-chart", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "thinking"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "I synthesise findings and model representative experiences and mindsets. Using tools like ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "personas"
-	                ),
-	                ", ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "storyboards"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "affinity mapping sessions"
-	                ),
-	                ", I help articulate user needs, identify common patterns, and define the underlying problem. My ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "reporting"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "public speaking"
-	                ),
-	                " skills ensure findings are accessible and clearly communicated."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column blue" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-comments", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "collaborating"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "Cross-collaborating"
-	                ),
-	                " across teams, I ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "facilitate brainstorming"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "co-design solutions"
-	                ),
-	                " that address user needs and business goals. I believe in involving relevant teams in research, synthesis, and ideation sessions where possible as the best means of saturating user understanding across an organisation."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column purple" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-paint-brush", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "creating"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "I draft ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "wireframes"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "prototype"
-	                ),
-	                " solutions to gather feedback from users and stakeholders and develop a shared understanding of how the interface will work. My experience in ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "web development"
-	                ),
-	                " aids in communicating with designers and engineers and building ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "high fidelity prototypes"
-	                ),
-	                " where needed."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column green padding-bottom-80px" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-repeat", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "learning"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Repeating this iterative feedback cycle between the people building and the people using, I ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "usability test"
-	                ),
-	                " solutions, ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "refine hypothesis"
-	                ),
-	                " and models, and ",
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "guide pivoting"
-	                ),
-	                " over time until solutions melt into user\u2019s lives."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column padding-bottom-80px" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "process-heading" },
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "my goal is to master this process so I can empower people to lead happier, safer, and healthier lives. ",
+	                  "Graduate of ",
 	                  _react2.default.createElement(
 	                    "a",
-	                    { className: "toscroll towork", href: "#work" },
-	                    "see examples of how I have been practicing this below."
+	                    { target: "_blank", href: "https://ayni.foundation/nwl/" },
+	                    "Natural Wisdom Leaders"
+	                  ),
+	                  " programme"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://ayni.foundation/" },
+	                _react2.default.createElement("img", { src: "../../public/resources/Ayni-foundation.PNG" })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "padding-bottom-80px my-process-column green" },
+	              _react2.default.createElement(
+	                "h2",
+	                null,
+	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
+	              ),
+	              _react2.default.createElement(
+	                "h3",
+	                null,
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "Current student of ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://copaldaselva.com/" },
+	                    "Shamanic energy healing"
 	                  )
 	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://copaldaselva.com/" },
+	                _react2.default.createElement("img", { src: "../../public/resources/copal.JPEG" })
 	              )
 	            )
 	          )
 	        ),
-	        _react2.default.createElement("div", { id: "skills" }),
+	        _react2.default.createElement("div", { id: "services" }),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "my toolkit"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "h2",
-	            null,
-	            _react2.default.createElement("i", { className: "fa fa-wrench padding-top-40px", "aria-hidden": "true" })
-	          ),
-	          _react2.default.createElement("hr", null),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "skills padding-top-40px" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Web Development:"
-	            ),
-	            " HTML5, CSS3, Responsive Web Design, Web Accessibility, Javascript, Node.js, SQL, Git, Linux CL (see ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://uk.linkedin.com/in/bradley-reeder-246623119" },
-	              "linkedin"
-	            ),
-	            " for more.)"
-	          ),
-	          _react2.default.createElement("p", null),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "skills" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Methodologies:"
-	            ),
-	            " Design Thinking, User-centred Design, Scrum, Peer-led Education.\u2028\u2028"
-	          ),
-	          _react2.default.createElement("p", null),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "skills" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "User Research:"
-	            ),
-	            " Design sprints, Ideation sessions, Presentations & Workshops, Facilitation, Usability Testing, User & Stakeholder Interviews, Surveys, Contextual Enquiries, User Experience Mapping, Focus Groups, Pop-up Research, Competitor Reviews, Secondary Research.\u2028\u2028"
-	          ),
-	          _react2.default.createElement("p", null),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "skills" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Solution Design:"
-	            ),
-	            " Affinity diagramming, Storyboards, Empathy maps, Personas, POV statements & How might we\u2019s, User Journeys & Stories, Rapid Prototyping, Wireframes.\u2028\u2028"
-	          ),
-	          _react2.default.createElement("p", null),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-bottom-80px skills" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Software:"
-	            ),
-	            " Figma, Invision, Survey Monkey, Usability Hub, Google Analytics, Google Docs, Microsoft Office."
-	          )
-	        ),
-	        _react2.default.createElement("div", { id: "work" }),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "ux case studies"
+	          "services"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -22825,10 +22552,16 @@
 	            { className: "section-title" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "https://outlandish.com/" },
-	              "Outlandish"
-	            ),
-	            ", Jun 2017 - Nov 2017"
+	              { href: "#outlandish", onClick: function onClick() {
+	                  return _this2.props.changeContent('outlandish');
+	                } },
+	              "Shamanic Energy Healing"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-sub-heading" },
+	            "Free for up to 1 hour in-person"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22839,18 +22572,23 @@
 	              _react2.default.createElement(
 	                "h4",
 	                null,
-	                "Growing the Cooperative Technologists Network"
+	                "Shamanic Energy Healing"
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "User-researched application ideas, diagnosed growth potential and gave strategic guidance. ",
+	                "Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "I am currently offering in-person healings for free for those living in London. ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { href: "#outlandish", onClick: function onClick() {
 	                      return _this2.props.changeContent('outlandish');
 	                    } },
-	                  "View case study."
+	                  "Read more here."
 	                )
 	              )
 	            ),
@@ -22860,7 +22598,13 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/cotech-assets/services.PNG" })
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "#outlandish", onClick: function onClick() {
+	                      return _this2.props.changeContent('outlandish');
+	                    } },
+	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-9.JPG" })
+	                )
 	              )
 	            )
 	          ),
@@ -22869,10 +22613,16 @@
 	            { className: "section-title" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", href: "https://foundersandcoders.com/" },
-	              "Founders & Coders"
-	            ),
-	            ", Nov 2016 - Jun 2017"
+	              { href: "#outlandish", onClick: function onClick() {
+	                  return _this2.props.changeContent('outlandish');
+	                } },
+	              "Shamanic Distance Healing"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-sub-heading" },
+	            "Free for up to 30 minutes online or remotely"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22883,18 +22633,23 @@
 	              _react2.default.createElement(
 	                "h4",
 	                null,
-	                "Maximising the impact of the Founders & Coders Web Development Programme"
+	                "Shamanic Distance Healing"
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Led a user-centred re-design of a full-stack javascript programme and its curriculum-planning processes. ",
+	                "If you don\u2019t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. ",
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "#founders-and-coders", onClick: function onClick() {
-	                      return _this2.props.changeContent('foundersAndCoders');
+	                  { href: "#outlandish", onClick: function onClick() {
+	                      return _this2.props.changeContent('outlandish');
 	                    } },
-	                  "View case study."
+	                  "Read more here."
 	                )
 	              )
 	            ),
@@ -22904,19 +22659,25 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/founders-and-coders-assets/fac9-start.JPG" })
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "#outlandish", onClick: function onClick() {
+	                      return _this2.props.changeContent('outlandish');
+	                    } },
+	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/mesa.JPEG" })
+	                )
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "http://www.annafreud.org/" },
-	              "Anna Freud Centre"
-	            ),
-	            ", Aug 2016 - Nov 2016"
+	            "Despacho Ceremony"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-sub-heading" },
+	            "More information coming soon!"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22927,19 +22688,17 @@
 	              _react2.default.createElement(
 	                "h4",
 	                null,
-	                "Relieve anxiety by Breathing With Me"
+	                "Despacho ceremony"
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Took a self-care themed design challenge through the design thinking cycle of inspiration, ideation and implementation. ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { href: "#breathe-with-me", onClick: function onClick() {
-	                      return _this2.props.changeContent('annaFreud');
-	                    } },
-	                  "View case study."
-	                )
+	                "A traditional Andean ceremony that blesses & ensures good fortune to new ventures. Perfect for: opening a new business, a wedding, a newborn child, or moving to a new home."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "The ceremony usually lasts 2-3 hours and can be held at your address or mine (in London) if preferred. More information coming soon!"
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -22948,35 +22707,26 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/annafreud-assets/breathe-with-me-teamwork.PNG" })
+	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/despacho.JPEG" })
 	              )
 	            )
 	          )
 	        ),
+	        _react2.default.createElement("div", { id: "pricing" }),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "workshops"
+	          "pricing"
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "content-background-colour padding-top-40px" },
 	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://digital.nhs.uk/" },
-	              "NHS Digital"
-	            ),
-	            " & ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.rethink.org/" },
-	              "Rethink"
-	            ),
-	            ", Jul 2017"
+	            "h2",
+	            { className: "no-margins" },
+	            "For a limited time, I will be offering shamanic healings free of any financial charge"
 	          ),
+	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study padding-top-40px padding-bottom-80px" },
@@ -22984,117 +22734,31 @@
 	              "div",
 	              { className: "case-study-section" },
 	              _react2.default.createElement(
-	                "p",
+	                "strong",
 	                null,
-	                "Co-facilitated a design sprint workshop for ",
 	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://digital.nhs.uk/" },
-	                  "NHS Digital"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://www.rethink.org/" },
-	                  "Rethink"
-	                ),
-	                " ideating digital solutions to bullying in schools."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/nhs-digital.JPG" })
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "http://www.mulberry.towerhamlets.sch.uk/" },
-	              "Mulberry School"
-	            ),
-	            ", Jun 2017"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Ran an introductory class taking sixth form students through building & hosting static web pages with HTML5, CSS3, and Github."
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/mulberry-school.JPG" })
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://foundersandcoders.com/" },
-	              "Founders & Coders"
-	            ),
-	            ", Nov 2016 - Jun 2017"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Main contributor to the school's 4 month web development ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
-	                  "open-source curriculum"
-	                ),
-	                ", co-designing and facilitating weeks on ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4" },
-	                  "node.js"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12" },
-	                  "design thinking & agile build cycles"
-	                ),
-	                "."
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "By way of reciprocity, in return for our time together I ask you help me by:"
+	                )
 	              ),
 	              _react2.default.createElement(
-	                "p",
-	                { className: "padding-top-20px" },
+	                "ul",
+	                { className: "no-margins decrease-padding" },
 	                _react2.default.createElement(
-	                  "strong",
+	                  "li",
 	                  null,
-	                  "See our ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00" },
-	                    "Design thinking week's"
-	                  ),
-	                  " slidedeck"
+	                  "Providing your feedback on the healing session and/or this website."
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Giving a testimonial or review that I can include on my public facing materials."
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Allowing me to add your email to my mailing list to be updated of future events."
 	                )
 	              )
 	            ),
@@ -23104,143 +22768,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/founders-and-coders-assets/fac10-start.JPG" })
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "http://www.annafreud.org/" },
-	              "Anna Freud Centre"
-	            ),
-	            ", Jan 2017 - May 2017"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental health in young people and scrum-mastered resulting MVPs ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://growgoals.co.uk/login" },
-	                  "Grow"
-	                ),
-	                " and ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "https://welcome-in.herokuapp.com/" },
-	                  "Getting to Know You"
-	                ),
-	                "."
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "padding-top-20px" },
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "See ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit" },
-	                    "Hackathon"
-	                  ),
-	                  " & ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
-	                    "Workshop"
-	                  ),
-	                  " slidedecks"
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/annafreud-assets/anna-freud-hackathon.JPG" })
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.wearecast.org.uk/" },
-	              "CAST"
-	            ),
-	            ", Aug 2016 - Oct 2016"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Facilitated design sprints, built and tested prototypes for, ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "http://safertogether.org.uk/" },
-	                  "SaferTogether"
-	                ),
-	                ",",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "http://www.safelives.org.uk/" },
-	                  " SafeLives"
-	                ),
-	                " and",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "http://www.worthwhile.org.uk/" },
-	                  " Worthwhile"
-	                ),
-	                ", as a part of ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { target: "_blank", href: "http://www.wearecast.org.uk/fuse" },
-	                  "CAST's 2016 Digital Fuse Programme"
-	                ),
-	                "."
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "padding-top-20px" },
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "See ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276" },
-	                    " Design sprint"
-	                  ),
-	                  " slidedeck"
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { src: "public/resources/cast.JPG" })
+	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
 	              )
 	            )
 	          )
@@ -23253,6 +22781,77 @@
 	}(_react.Component);
 	
 	exports.default = About;
+	
+	//<h2>workshops</h2>
+	//<div className="content-background-colour padding-top-40px">
+	//  <p className="section-title"><a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> & <a target="_blank" href="https://www.rethink.org/">Rethink</a>, Jul 2017</p>
+	//  <div className="case-study padding-top-40px padding-bottom-80px">
+	//    <div className="case-study-section">
+	//      <p>Co-facilitated a design sprint workshop for <a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> and <a target="_blank" href="https://www.rethink.org/">Rethink</a> ideating digital solutions to bullying
+	//        in schools.</p>
+	//    </div>
+	//    <div className="case-study-section">
+	//      <div className="img-container">
+	//        <img src="public/resources/nhs-digital.JPG"/>
+	//      </div>
+	//    </div>
+	//  </div>
+	
+	//  <p className="section-title"><a target="_blank" href="http://www.mulberry.towerhamlets.sch.uk/">Mulberry School</a>, Jun 2017</p>
+	//  <div className="case-study padding-top-40px padding-bottom-80px">
+	//    <div className="case-study-section">
+	//      <p>Ran an introductory class taking sixth form students through building & hosting static web pages with HTML5, CSS3, and Github.</p>
+	//    </div>
+	//    <div className="case-study-section">
+	//      <div className="img-container">
+	//        <img src="public/resources/mulberry-school.JPG"/>
+	//      </div>
+	//    </div>
+	//  </div>
+	
+	//  <p className="section-title"><a target="_blank" href="https://foundersandcoders.com/">Founders & Coders</a>, Nov 2016 - Jun 2017</p>
+	//  <div className="case-study padding-top-40px padding-bottom-80px">
+	//    <div className="case-study-section">
+	//      <p>Main contributor to the school's 4 month web development <a target="_blank" href="https://github.com/foundersandcoders/master-reference">open-source curriculum</a>, co-designing and facilitating weeks on <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4">node.js</a> and <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12">design thinking & agile build cycles</a>.</p>
+	//      <p className="padding-top-20px"><strong>See our <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking week's</a> slidedeck</strong></p>
+	//    </div>
+	//    <div className="case-study-section">
+	//      <div className="img-container">
+	//        <img src="public/resources/founders-and-coders-assets/fac10-start.JPG"/>
+	//      </div>
+	//    </div>
+	//  </div>
+	
+	//  <p className="section-title"><a target="_blank" href="http://www.annafreud.org/">Anna Freud Centre</a>, Jan 2017 - May 2017</p>
+	//  <div className="case-study padding-top-40px padding-bottom-80px">
+	//    <div className="case-study-section">
+	//      <p>Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental
+	//        health in young people and scrum-mastered resulting MVPs <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
+	//      <p className="padding-top-20px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit">Hackathon</a> & <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">Workshop</a> slidedecks</strong></p>
+	//    </div>
+	//    <div className="case-study-section">
+	//      <div className="img-container">
+	//        <img src="public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
+	//      </div>
+	//    </div>
+	//  </div>
+	
+	//  <p className="section-title"><a target="_blank" href="https://www.wearecast.org.uk/">CAST</a>, Aug 2016 - Oct 2016</p>
+	//  <div className="case-study padding-top-40px padding-bottom-80px">
+	//    <div className="case-study-section">
+	//      <p>Facilitated design sprints, built and tested prototypes for, <a target="_blank" href="http://safertogether.org.uk/">SaferTogether</a>,
+	//        <a target="_blank" href="http://www.safelives.org.uk/"> SafeLives</a> and
+	//        <a target="_blank" href="http://www.worthwhile.org.uk/"> Worthwhile</a>, as a part of <a target="_blank" href="http://www.wearecast.org.uk/fuse">CAST's 2016 Digital Fuse Programme</a>.
+	//      </p>
+	//      <p className="padding-top-20px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276"> Design sprint</a> slidedeck</strong></p>
+	//    </div>
+	//    <div className="case-study-section">
+	//      <div className="img-container">
+	//        <img src="public/resources/cast.JPG"/>
+	//      </div>
+	//    </div>
+	//  </div>
+	//</div>
 
 /***/ }),
 /* 189 */
@@ -23291,8 +22890,6 @@
 	  _createClass(Outlandish, [{
 	    key: "render",
 	    value: function render() {
-	      var _this2 = this;
-	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "outlandish", className: "main-article" },
@@ -23300,95 +22897,93 @@
 	        _react2.default.createElement(
 	          "h2",
 	          { className: "padding-top-2em" },
-	          "growing the cooperative technologists network"
+	          "shamanic energy healing"
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px" },
-	            _react2.default.createElement(
-	              "em",
-	              null,
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.coops.tech/" },
-	                "CoTech"
-	              ),
-	              " is a young network of cooperatives, spearheaded by the agency ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://outlandish.com/" },
-	                "Outlandish"
-	              ),
-	              " to empower co-ops to collaborate on digital projects and build a tech industry that\u2019s fairer and more democratic."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "During my time as a UX Researcher for Outlandish I performed user research for application ideas, diagnosed the growth potential, and gave strategic guidance to the network."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
+	            { className: "padding-top-40px service-text" },
 	            _react2.default.createElement(
 	              "strong",
 	              null,
-	              "Services:"
-	            ),
-	            " UX Research, Usability Testing, Business Strategy"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/cotech-assets/cotech.PNG" })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the challenge"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "The project began with a stakeholder interview with my client, Harry. I was interested to know more about their goals for CoTech and the progress the network had made. We agreed upon the design challenge:"
-	          ),
-	          _react2.default.createElement(
-	            "blockquote",
-	            null,
-	            _react2.default.createElement(
-	              "em",
-	              null,
-	              "\u201CHow might we enable digital co-ops to collaborate on projects and share their human resources for hire with other co-ops?\u201D"
+	              "Shamanic healing can help find solutions to any range of challenges or obstacles be they physical, emotional, mental or spiritual. I\u2019m a deep believer in self-empowerment and that all the answers and capacity to connect, grow and heal lies within each of us."
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "His idea he wanted me to do discovery phase research for was to build a \u2018skills-finder\u2019 extension to the ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.coops.tech/" },
-	              "CoTech website"
-	            ),
-	            " that would allow members to search and learn about each other\u2019s businesses, people & skills to enable them to identify others to hire or go into collaborative bids with."
+	            { className: "service-text" },
+	            "My role is to hold and create space for you for this healing within yourself to occur. I tune-in to the underlying root cause of your issue to channel the exact healing and guidance you need in that moment for your highest good & well-being."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/cotech-assets/services.PNG" })
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/Energy-healing-5.JPG" })
 	          )
 	        ),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "the approach"
+	          "benefits"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            "Some of the many benefits that can result from a shamanic healing include:"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            { className: "padding-bottom-80px no-margin-bottom" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Increased sense of well-being"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Renewed energy levels"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Clarity of purpose, concentration & focus"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Reignites passion, optimism & enthusiasm"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Relieves symptoms of depression & anxiety"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Feelings of relaxation, calm & positive thinking"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Aids in letting go of addictive patterns, habits & behaviours"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Releases traumas, negative energies, stuckness and blocks"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "session format"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -23396,204 +22991,203 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-header padding-top-40px" },
-	            "secondary research"
+	            "shamanic energy healing"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px" },
-	            "While my task was specific, the underlying goal related to broader questions of how to enable the network\u2019s core purpose of collaboration. So I started by learning all I could about the network."
+	            { className: "padding-top-40px service-text" },
+	            "I am available to do in-person healing sessions on evenings and weekends at your home address, or another suitable location, for those living in and around London."
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "I asked for an invitation into ",
+	            { className: "service-text" },
+	            "Each healing session is a one-time occurrence, or \u201Cceremony\u201D, that is tailored to your individual needs. Sessions usually last up to an hour and I draw on a range of techniques that may include:"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            { className: "no-margin-bottom" },
 	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://wiki.coops.tech/wiki/Infrastructure_and_Communication" },
-	              "CoTech\u2019s channels"
+	              "li",
+	              null,
+	              "Smudging & space clearing"
 	            ),
-	            " and spent a few days researching into the history of the network, and its existing artefacts, minutes and many online discussions. I wanted a systems-level overview of what was happening to contextualise my research within and began observing potential barriers to organisations working together I could probe later on."
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Energy healing"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Chakra cleansing & activation"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Spinal alignment"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Blessings"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Shamanic tools: feathers, rattle, stones, pendulum"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            "The session will include time for you to integrate and I will be available to offer after-care guidance and suggestions based on what I observed during the healing. I will make sure to check-in with you within a week of the session to check-in & provide any after-care that is needed."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/cotech-assets/discussion-forum.PNG" })
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/Energy-healing-9.JPG" })
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-header padding-top-40px" },
-	            "contextual enquiry"
+	            "shamanic distance healing"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px" },
-	            "I knew little about co-ops, and felt I also needed an inside understanding of how digital co-op\u2019s experienced, perceived and participated within the network. I asked for a desk at Outlandish and through contacts there I was able to divide my working time between a few co-op spaces throughout research."
+	            { className: "padding-top-40px service-text" },
+	            "If you don\u2019t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing."
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "This allowed me to sit-in on co-op ceremonies like consensus meetings, observe collaborations in progress, get invitations to networking events, and record insights into co-op culture and behaviour that informed my later personas and findings."
+	            { className: "service-text" },
+	            "We can do the session over an online video-call or in the evening while you're sleeping if you prefer that. Otherwise, after arranging a mutually convenient time, you would be asked to lie down and rest and I will tune-in to you remotely to conduct the healing."
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "research sprint"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "After the initial secondary research, I met with the development team for the web extension. We agreed I should conduct a focused research sprint in order to answer: that there was a use-case before building, how members currently handle contracting and partnerships, and the kind of information they would be looking for prior to working together."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "From this, we would be able to confirm what data should be stored on the website and send a survey around the network to collect it."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/cotech-assets/planning-meeting.PNG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "interviews"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "My ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://docs.google.com/document/d/1CkcvXa6zjHNSIclHczGpIyHxLGy0GMZ5c3omO4r45jU/edit" },
-	              "research plan"
-	            ),
-	            " and ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://docs.google.com/document/d/1fLSg4qJ4O0Y5vg3wazeeTQ-AAWaAHNXxGoJ95nX6YtY/edit" },
-	              "discussion guide"
-	            ),
-	            " was signed off quickly. I did 1:1 interviews with a member of each co-op to explore these themes as well as members\u2019 perceptions of how the network was doing, their reasons for joining, and potential barriers to collaboration."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I recruited a mixed demographic, aiming for project managers and human resources, via telephone, email, and the network\u2019s ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://community.coops.tech/" },
-	              "discussion board"
-	            ),
-	            "."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "The majority of interviews were conducted by phone. I had noticed during research that the website already provided member profiles and a basic skills filter, so I complemented the interviews with a few remote usability tests on the website to measure how well it was performing this function already."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "synthesis"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "While interviewing, I met a senior researcher from ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "http://weare.thesmallaxe.com/" },
-	              "the Small Axe"
-	            ),
-	            ", Dan, who was doing his own research into the network and became a valuable source of guidance to me. We met to share and synthesise our findings on a few occasions during and after the interviews. We created an affinity diagram from these in which we grouped our observations and insights into themes."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/cotech-assets/synthesis.PNG" })
+	            { className: "service-text padding-bottom-80px" },
+	            "I will be in touch at a convenient time after the session to provide any insight based on what I observed and to offer after-care guidance and suggestions."
 	          )
 	        ),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "the outcome"
+	          "what to expect"
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "findings"
+	            { className: "padding-top-40px service-text" },
+	            "Healing differs from person to person. However, it\u2019s common for people to report experiencing some of the following during a healing:"
 	          ),
 	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "We then translated these themes into a ",
+	            "ul",
+	            { className: "no-margin-bottom" },
 	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://docs.google.com/document/d/1s6NEu8lrcT7F0OhfSErQJImlAqA9ekJf8YoPzi20FV8/edit" },
-	              "report"
+	              "li",
+	              null,
+	              "Relaxation, sleepiness, feelings of calm"
 	            ),
-	            " I fleshed out to communicate my findings to the network."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "A core insight of the research was that most members would not work with other organisations prior to building personal relationships of trust. The usability tests also revealed that the website was not well used and contained minimum viable information to facilitate communication."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I advised Outlandish not to build the extension as the evidence implied it would not impact the goal of increasing collaborations and these resources would be better invested in improving the network\u2019s social capital through a variety of networking events and co-working spaces instead."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "outcome"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "This feedback was adopted and resources re-directed towards ",
 	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "http://space4.tech/" },
-	              "Space4"
+	              "li",
+	              null,
+	              "Soothing of stress and tension"
 	            ),
-	            " - a co-working space for co-ops Outlandish was then establishing."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I took initiative in using the report to also detail insights into the core barriers the network was facing from the perception of its members. This was well received by the organiser for the network\u2019s AGM and he invited me to present my findings at its planning meeting."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "My suggestions had a positive outcome on the proposed structure for the event and its agenda and I was afterwards invited to attend the AGM to present and represent my findings. I continue to remain involved and have since done further research for ",
 	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://foundersandcoders.com/" },
-	              "Founders & Coders"
+	              "li",
+	              null,
+	              "Emotional release"
 	            ),
-	            " on how to best place the school's developer graduates within CoTech."
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Heat or coolness"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Tingling, pins & needles, or goosebumps"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Feelings of vibrational buzzing or electric currents in the body"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Visions, imagery, hearing inner voices & guidance"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Among other effects"
+	            )
 	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text padding-bottom-80px" },
+	            "Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it\u2019s advised to take good care of your mind & body in this time to best integrate it."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "pricing"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "h2",
+	            { className: "no-margins" },
+	            "For a limited time, I will be offering shamanic healings free of any financial charge"
+	          ),
+	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/cotech-assets/wortley-hall-post-its.JPG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "footer-navigation padding-bottom-80px padding-top-40px" },
+	            { className: "case-study padding-top-40px padding-bottom-80px" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "#work", onClick: function onClick() {
-	                  return _this2.props.changeContent('about');
-	                } },
-	              "return to case studies"
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "strong",
+	                null,
+	                _react2.default.createElement(
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "By way of reciprocity, in return for our time together I ask you help me by:"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "ul",
+	                { className: "no-margins decrease-padding" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Providing your feedback on the healing session and/or this website."
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Giving a testimonial or review that I can include on my public facing materials."
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Allowing me to add your email to my mailing list to be updated of future events."
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "img-container" },
+	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
+	              )
 	            )
 	          )
 	        )
@@ -23605,6 +23199,8 @@
 	}(_react.Component);
 	
 	exports.default = Outlandish;
+	
+	//<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
 
 /***/ }),
 /* 190 */
@@ -24250,57 +23846,47 @@
 	            _react2.default.createElement(
 	              "h3",
 	              { id: "contact-header" },
-	              "I am open to new design challenges and would love to hear from you (:"
+	              "For more info or to book an appointment, contact me on the following and I will be in touch shortly:"
 	            ),
 	            _react2.default.createElement(
 	              "p",
-	              null,
+	              { className: "footer-text" },
 	              _react2.default.createElement(
 	                "a",
-	                { href: "mailto:bradjohnreeder@gmail.com" },
+	                { target: "_blank", href: "mailto:bradjohnreeder@gmail.com" },
 	                _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
 	                "bradjohnreeder@gmail.com"
 	              )
 	            ),
 	            _react2.default.createElement(
 	              "p",
-	              null,
+	              { className: "footer-text" },
 	              _react2.default.createElement(
 	                "a",
-	                { href: "tel:+447479507365" },
+	                { target: "_blank", href: "tel:+447479507365" },
 	                _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
 	                "+44 7479 507365"
 	              )
 	            ),
 	            _react2.default.createElement(
 	              "p",
-	              null,
+	              { className: "footer-text" },
 	              "Based in London, UK"
 	            ),
 	            _react2.default.createElement(
 	              "p",
-	              null,
+	              { className: "padding-top-40px footer-text" },
+	              "See further information on my service @ ",
 	              _react2.default.createElement(
 	                "a",
-	                { href: "public/resources/bradley-reeder-cv-ux.PDF", download: true },
-	                _react2.default.createElement("i", { className: "fa fa-download", "aria-hidden": "true" }),
-	                "Download CV"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "padding-top-40px" },
-	              "See source code for my projects on ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://github.com/bradreeder" },
-	                "github"
+	                { href: "" },
+	                "facebook"
 	              ),
-	              " and endorsements on ",
+	              " and on my future events @ ",
 	              _react2.default.createElement(
 	                "a",
-	                { target: "_blank", href: "https://uk.linkedin.com/in/bradley-reeder-246623119" },
-	                "linkedin"
+	                { href: "" },
+	                "meetup"
 	              )
 	            )
 	          )
@@ -24360,7 +23946,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "handcrafted by bradley reeder \xA9 2018"
+	            "handcrafted with love by bradley reeder \xA9 2019"
 	          )
 	        )
 	      );
