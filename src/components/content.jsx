@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import About from './about.jsx';
-import Outlandish from './outlandish.jsx';
+import Healing from './healing.jsx';
 import AnnaFreud from './annafreudcentre.jsx';
 import FoundersAndCoders from './foundersandcoders.jsx';
 import Contact from './contact.jsx';
@@ -21,8 +21,8 @@ class Content extends Component {
       case 'about':
         return <About changeContent={this.props.changeContent}/>
         break;
-      case 'outlandish':
-        return <Outlandish changeContent={this.props.changeContent}/>
+      case 'healing':
+        return <Healing changeContent={this.props.changeContent}/>
         break;
       case 'annaFreud':
         return <AnnaFreud changeContent={this.props.changeContent}/>

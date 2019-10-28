@@ -1,10 +1,10 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 
-class Outlandish extends Component {
+class Healing extends Component {
   render() {
     return (
-      <div id="outlandish" className="main-article">
+      <div id="healing" className="main-article">
         <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <h2 className="padding-top-2em">shamanic energy healing</h2>
         <div className="content-background-colour">
@@ -90,6 +90,6 @@ class Outlandish extends Component {
   }
 }
 
-export default Outlandish;
+export default Healing;
 
 //<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>

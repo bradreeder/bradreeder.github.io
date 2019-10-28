@@ -43,32 +43,32 @@ class About extends Component {
         <div id="services"></div>
         <h2>services</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
-          <p className="section-title"><a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}>Shamanic Energy Healing</a></p>
+          <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Energy Healing</a></p>
             <p className="section-sub-heading">Free for up to 1 hour in-person</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Energy Healing</h4>
               <p>Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual.</p>
-              <p>I am currently offering in-person healings for free for those living in London. <a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}>Read more here.</a></p>
+              <p>I am currently offering in-person healings for free for those living in London. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}><img className="img-border" src="public/resources/Energy-healing-9.JPG"/></a>
+                <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/Energy-healing-9.JPG"/></a>
               </div>
             </div>
           </div>
 
-          <p className="section-title"><a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}>Shamanic Distance Healing</a></p>
+          <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Healing</a></p>
           <p className="section-sub-heading">Free for up to 30 minutes online or remotely</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Distance Healing</h4>
               <p>If you don’t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location.</p>
-              <p>Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. <a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}>Read more here.</a></p>
+              <p>Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <a href="#outlandish" onClick={() => this.props.changeContent('outlandish')}><img className="img-border" src="public/resources/mesa.JPEG"/></a>
+                <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/mesa.JPEG"/></a>
               </div>
             </div>
           </div>
