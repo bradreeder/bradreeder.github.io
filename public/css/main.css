@@ -500,8 +500,9 @@
   .my-story-image {
     width: 15% !important; } }
 @media only screen and (min-width: 1550px) {
-  .my-story-image {
-    width: 8% !important; } }
+  body {
+    width: 60%;
+    margin: auto !important; } }
 #footer #footer-content {
   margin: auto;
   background-color: black;
