@@ -14,7 +14,7 @@ class Header extends Component {
         <div id="header-links">
           <p>bradley @</p>
           <p>
-            <a href="">medium </a>&nbsp;
+            <a target="_blank" href="https://medium.com/@bradjohnreeder">medium </a>&nbsp;
             <a href="">facebook </a>&nbsp;
             <a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/">meetup </a>&nbsp;
           </p>

@@ -22029,7 +22029,7 @@
 	            null,
 	            _react2.default.createElement(
 	              "a",
-	              { href: "" },
+	              { target: "_blank", href: "https://medium.com/@bradjohnreeder" },
 	              "medium "
 	            ),
 	            "\xA0",
