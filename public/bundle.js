@@ -21977,6 +21977,8 @@
 	  _createClass(Header, [{
 	    key: "render",
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "header" },
@@ -21999,26 +22001,19 @@
 	            "London, UK."
 	          ),
 	          _react2.default.createElement(
-	            "p",
-	            null,
+	            "div",
+	            { id: "menu-contact", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { target: "_blank", id: "email", href: "mailto:bradjohnreeder@gmail.com" },
-	              _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
-	              "bradjohnreeder@gmail.com"
-	            ),
-	            "\xA0"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", id: "phone-number", href: "tel:+447479507365" },
-	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
-	              "+44 7479 507365"
-	            ),
-	            "\xA0"
+	              { className: "toscroll", href: "#contact", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "Out of office until July 2020"
+	              )
+	            )
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -22046,7 +22041,7 @@
 	            "\xA0",
 	            _react2.default.createElement(
 	              "a",
-	              { href: "" },
+	              { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
 	              "meetup "
 	            ),
 	            "\xA0"
@@ -22064,6 +22059,13 @@
 	// <div className="header-img">
 	//  <img src="public/resources/red-kite.JPG"/>
 	//</div>
+	
+	/*<p>
+	  <a target="_blank" id="email" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a>&nbsp;
+	</p>
+	<p>
+	  <a target="_blank" id="phone-number" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a>&nbsp;
+	</p>*/
 
 /***/ }),
 /* 185 */
@@ -22273,7 +22275,7 @@
 	
 	var _about2 = _interopRequireDefault(_about);
 	
-	var _healing = __webpack_require__(194);
+	var _healing = __webpack_require__(189);
 	
 	var _healing2 = _interopRequireDefault(_healing);
 	
@@ -22854,7 +22856,355 @@
 	//</div>
 
 /***/ }),
-/* 189 */,
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
+	
+	
+	var Healing = function (_Component) {
+	  _inherits(Healing, _Component);
+	
+	  function Healing() {
+	    _classCallCheck(this, Healing);
+	
+	    return _possibleConstructorReturn(this, (Healing.__proto__ || Object.getPrototypeOf(Healing)).apply(this, arguments));
+	  }
+	
+	  _createClass(Healing, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { id: "healing", className: "main-article" },
+	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
+	        _react2.default.createElement(
+	          "h2",
+	          { className: "padding-top-2em" },
+	          "shamanic energy healing"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "strong",
+	              null,
+	              "Shamanic healing can help find solutions to any range of challenges or obstacles be they physical, emotional, mental or spiritual. I\u2019m a deep believer in self-empowerment and that all the answers and capacity to connect, grow and heal lies within each of us."
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            "My role is to hold and create space for you for this healing within yourself to occur. I tune-in to the underlying root cause of your issue to channel the exact healing and guidance you need in that moment for your highest good & well-being."
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/Energy-healing-5.JPG" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "benefits"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            "Some of the many benefits that can result from a shamanic healing include:"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            { className: "padding-bottom-80px no-margin-bottom" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Increased sense of well-being"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Renewed energy levels"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Clarity of purpose, concentration & focus"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Reignites passion, optimism & enthusiasm"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Relieves symptoms of depression & anxiety"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Feelings of relaxation, calm & positive thinking"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Aids in letting go of addictive patterns, habits & behaviours"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Releases traumas, negative energies, stuckness and blocks"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "session format"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-header padding-top-40px" },
+	            "shamanic energy healing"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            "I am available to do in-person healing sessions on evenings and weekends at your home address, or another suitable location, for those living in and around London."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            "Each healing session is a one-time occurrence, or \u201Cceremony\u201D, that is tailored to your individual needs. Sessions usually last up to an hour and I draw on a range of techniques that may include:"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            { className: "no-margin-bottom" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Smudging & space clearing"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Energy healing"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Chakra cleansing & activation"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Spinal alignment"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Blessings"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Shamanic tools: feathers, rattle, stones, pendulum"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            "The session will include time for you to integrate and I will be available to offer after-care guidance and suggestions based on what I observed during the healing. I will make sure to check-in with you within a week of the session to check-in & provide any after-care that is needed."
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/Energy-healing-9.JPG" })
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-header padding-top-40px" },
+	            "shamanic distance healing"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            "If you don\u2019t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            "We can do the session over an online video-call or in the evening while you're sleeping if you prefer that. Otherwise, after arranging a mutually convenient time, you would be asked to lie down and rest and I will tune-in to you remotely to conduct the healing."
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text padding-bottom-80px" },
+	            "I will be in touch at a convenient time after the session to provide any insight based on what I observed and to offer after-care guidance and suggestions."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "what to expect"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            "Healing differs from person to person. However, it\u2019s common for people to report experiencing some of the following during a healing:"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            { className: "no-margin-bottom" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Relaxation, sleepiness, feelings of calm"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Soothing of stress and tension"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Emotional release"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Heat or coolness"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Tingling, pins & needles, or goosebumps"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Feelings of vibrational buzzing or electric currents in the body"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Visions, imagery, hearing inner voices & guidance"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Among other effects"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text padding-bottom-80px" },
+	            "Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it\u2019s advised to take good care of your mind & body in this time to best integrate it."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "pricing"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "h2",
+	            { className: "no-margins" },
+	            "For a limited time, I will be offering shamanic healings free of any financial charge"
+	          ),
+	          _react2.default.createElement("hr", null),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study padding-top-40px padding-bottom-80px" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "strong",
+	                null,
+	                _react2.default.createElement(
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "By way of reciprocity, in return for our time together I ask you help me by:"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "ul",
+	                { className: "no-margins decrease-padding" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Providing your feedback on the healing session and/or this website."
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Giving a testimonial or review that I can include on my public facing materials."
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Allowing me to add your email to my mailing list to be updated of future events."
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "img-container" },
+	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Healing;
+	}(_react.Component);
+	
+	exports.default = Healing;
+	
+	//<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
+
+/***/ }),
 /* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23498,27 +23848,7 @@
 	            _react2.default.createElement(
 	              "h3",
 	              { id: "contact-header" },
-	              "For more info or to book an appointment, contact me on the following and I will be in touch shortly:"
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "footer-text" },
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "mailto:bradjohnreeder@gmail.com" },
-	                _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
-	                "bradjohnreeder@gmail.com"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "footer-text" },
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "tel:+447479507365" },
-	                _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
-	                "+44 7479 507365"
-	              )
+	              "I am currently on pilgrimage in Peru and will be resuming my practice upon my return in July 2020"
 	            ),
 	            _react2.default.createElement(
 	              "p",
@@ -23537,7 +23867,7 @@
 	              " and on my future events @ ",
 	              _react2.default.createElement(
 	                "a",
-	                { href: "" },
+	                { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
 	                "meetup"
 	              )
 	            )
@@ -23551,6 +23881,9 @@
 	}(_react.Component);
 	
 	exports.default = Contact;
+	
+	/* <p className="footer-text"><a target="_blank" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a></p>
+	<p className="footer-text"><a target="_blank" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a></p> */
 
 /***/ }),
 /* 193 */
@@ -23609,355 +23942,6 @@
 	}(_react.Component);
 	
 	exports.default = Footer;
-
-/***/ }),
-/* 194 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var Healing = function (_Component) {
-	  _inherits(Healing, _Component);
-	
-	  function Healing() {
-	    _classCallCheck(this, Healing);
-	
-	    return _possibleConstructorReturn(this, (Healing.__proto__ || Object.getPrototypeOf(Healing)).apply(this, arguments));
-	  }
-	
-	  _createClass(Healing, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2.default.createElement(
-	        "div",
-	        { id: "healing", className: "main-article" },
-	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
-	        _react2.default.createElement(
-	          "h2",
-	          { className: "padding-top-2em" },
-	          "shamanic energy healing"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px service-text" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Shamanic healing can help find solutions to any range of challenges or obstacles be they physical, emotional, mental or spiritual. I\u2019m a deep believer in self-empowerment and that all the answers and capacity to connect, grow and heal lies within each of us."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text" },
-	            "My role is to hold and create space for you for this healing within yourself to occur. I tune-in to the underlying root cause of your issue to channel the exact healing and guidance you need in that moment for your highest good & well-being."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/Energy-healing-5.JPG" })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "benefits"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px service-text" },
-	            "Some of the many benefits that can result from a shamanic healing include:"
-	          ),
-	          _react2.default.createElement(
-	            "ul",
-	            { className: "padding-bottom-80px no-margin-bottom" },
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Increased sense of well-being"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Renewed energy levels"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Clarity of purpose, concentration & focus"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Reignites passion, optimism & enthusiasm"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Relieves symptoms of depression & anxiety"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Feelings of relaxation, calm & positive thinking"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Aids in letting go of addictive patterns, habits & behaviours"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Releases traumas, negative energies, stuckness and blocks"
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "session format"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "shamanic energy healing"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px service-text" },
-	            "I am available to do in-person healing sessions on evenings and weekends at your home address, or another suitable location, for those living in and around London."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text" },
-	            "Each healing session is a one-time occurrence, or \u201Cceremony\u201D, that is tailored to your individual needs. Sessions usually last up to an hour and I draw on a range of techniques that may include:"
-	          ),
-	          _react2.default.createElement(
-	            "ul",
-	            { className: "no-margin-bottom" },
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Smudging & space clearing"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Energy healing"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Chakra cleansing & activation"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Spinal alignment"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Blessings"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Shamanic tools: feathers, rattle, stones, pendulum"
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text" },
-	            "The session will include time for you to integrate and I will be available to offer after-care guidance and suggestions based on what I observed during the healing. I will make sure to check-in with you within a week of the session to check-in & provide any after-care that is needed."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/Energy-healing-9.JPG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "shamanic distance healing"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px service-text" },
-	            "If you don\u2019t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text" },
-	            "We can do the session over an online video-call or in the evening while you're sleeping if you prefer that. Otherwise, after arranging a mutually convenient time, you would be asked to lie down and rest and I will tune-in to you remotely to conduct the healing."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text padding-bottom-80px" },
-	            "I will be in touch at a convenient time after the session to provide any insight based on what I observed and to offer after-care guidance and suggestions."
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "what to expect"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px service-text" },
-	            "Healing differs from person to person. However, it\u2019s common for people to report experiencing some of the following during a healing:"
-	          ),
-	          _react2.default.createElement(
-	            "ul",
-	            { className: "no-margin-bottom" },
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Relaxation, sleepiness, feelings of calm"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Soothing of stress and tension"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Emotional release"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Heat or coolness"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Tingling, pins & needles, or goosebumps"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Feelings of vibrational buzzing or electric currents in the body"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Visions, imagery, hearing inner voices & guidance"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Among other effects"
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text padding-bottom-80px" },
-	            "Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it\u2019s advised to take good care of your mind & body in this time to best integrate it."
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "pricing"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "h2",
-	            { className: "no-margins" },
-	            "For a limited time, I will be offering shamanic healings free of any financial charge"
-	          ),
-	          _react2.default.createElement("hr", null),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "By way of reciprocity, in return for our time together I ask you help me by:"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "ul",
-	                { className: "no-margins decrease-padding" },
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Providing your feedback on the healing session and/or this website."
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Giving a testimonial or review that I can include on my public facing materials."
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Allowing me to add your email to my mailing list to be updated of future events."
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
-	              )
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Healing;
-	}(_react.Component);
-	
-	exports.default = Healing;
-	
-	//<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
 
 /***/ })
 /******/ ]);
