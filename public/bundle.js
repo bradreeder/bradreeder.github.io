@@ -23959,7 +23959,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "handcrafted by bradley reeder \xA9 2019"
+	            "handcrafted by bradley reeder \xA9 2020"
 	          )
 	        )
 	      );
