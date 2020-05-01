@@ -44,7 +44,7 @@ class About extends Component {
         <h2>services</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
           <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Energy Healing</a></p>
-            <p className="section-sub-heading">Free for up to 1 hour in-person</p>
+            <p className="section-sub-heading">1 hour to 90 minutes in-person</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Energy Healing</h4>
@@ -59,7 +59,7 @@ class About extends Component {
           </div>
 
           <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Healing</a></p>
-          <p className="section-sub-heading">Free for up to 30 minutes online or remotely</p>
+          <p className="section-sub-heading">30 minutes to an hour online or remotely</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Distance Healing</h4>
@@ -92,11 +92,12 @@ class About extends Component {
         <div id="pricing"></div>
         <h2>pricing</h2>
         <div className="content-background-colour padding-top-40px">
-          <h2 className="no-margins">For a limited time, I will be offering shamanic healings free of any financial charge</h2>
+          <h2 className="no-margins">I am currently offering shamanic distance healing only by donation (via paypal)</h2>
           <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">By way of reciprocity, in return for our time together I ask you help me by:</p></strong>
+                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you can. You can also help me by:</p></strong>
+                <strong><p className="decrease-padding"></p></strong>
                 <ul className="no-margins decrease-padding">
                   <li>Providing your feedback on the healing session and/or this website.</li>
                   <li>Giving a testimonial or review that I can include on my public facing materials.</li>

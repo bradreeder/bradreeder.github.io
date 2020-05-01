@@ -67,11 +67,11 @@ class Healing extends Component {
         </div>
         <h2>pricing</h2>
           <div className="content-background-colour">
-            <h2 className="no-margins">For a limited time, I will be offering shamanic healings free of any financial charge</h2>
+            <h2 className="no-margins">I am currently offering shamanic distance healing only by donation (via paypal)</h2>
             <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">By way of reciprocity, in return for our time together I ask you help me by:</p></strong>
+                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you can. You can also help me by:</p></strong>
                 <ul className="no-margins decrease-padding">
                   <li>Providing your feedback on the healing session and/or this website.</li>
                   <li>Giving a testimonial or review that I can include on my public facing materials.</li>

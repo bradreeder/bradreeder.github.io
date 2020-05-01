@@ -21977,8 +21977,6 @@
 	  _createClass(Header, [{
 	    key: "render",
 	    value: function render() {
-	      var _this2 = this;
-	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "header" },
@@ -22001,19 +21999,24 @@
 	            "London, UK."
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { id: "menu-contact", className: "menu-item" },
+	            "p",
+	            null,
 	            _react2.default.createElement(
 	              "a",
-	              { className: "toscroll", href: "#contact", onClick: function onClick() {
-	                  return _this2.props.changeContent('about');
-	                } },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Out of office until July 2020"
-	              )
+	              { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
+	              "bradjohnreeder@gmail.com"
 	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", id: "phone-number", href: "tel:+447479507365" },
+	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
+	              "+44 7479 507365"
+	            ),
+	            "\xA0"
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -22563,7 +22566,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-sub-heading" },
-	            "Free for up to 1 hour in-person"
+	            "1 hour to 90 minutes in-person"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22624,7 +22627,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-sub-heading" },
-	            "Free for up to 30 minutes online or remotely"
+	            "30 minutes to an hour online or remotely"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22726,7 +22729,7 @@
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "For a limited time, I will be offering shamanic healings free of any financial charge"
+	            "I am currently offering shamanic distance healing only by donation (via paypal)"
 	          ),
 	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
@@ -22741,8 +22744,13 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "By way of reciprocity, in return for our time together I ask you help me by:"
+	                  "Suggested \xA320 for 30 minute distance healing but give what you can. You can also help me by:"
 	                )
+	              ),
+	              _react2.default.createElement(
+	                "strong",
+	                null,
+	                _react2.default.createElement("p", { className: "decrease-padding" })
 	              ),
 	              _react2.default.createElement(
 	                "ul",
@@ -23144,7 +23152,7 @@
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "For a limited time, I will be offering shamanic healings free of any financial charge"
+	            "I am currently offering shamanic distance healing only by donation (via paypal)"
 	          ),
 	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
@@ -23159,7 +23167,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "By way of reciprocity, in return for our time together I ask you help me by:"
+	                  "Suggested \xA320 for 30 minute distance healing but give what you can. You can also help me by:"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -23848,7 +23856,27 @@
 	            _react2.default.createElement(
 	              "h3",
 	              { id: "contact-header" },
-	              "I am currently on pilgrimage in Peru and will be resuming my practice upon my return in July 2020"
+	              "For more info or to book an appointment, contact me on the following and I will be in touch shortly:"
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "footer-text" },
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "mailto:bradjohnreeder@gmail.com" },
+	                _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
+	                "bradjohnreeder@gmail.com"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "footer-text" },
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "tel:+447479507365" },
+	                _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
+	                "+44 7479 507365"
+	              )
 	            ),
 	            _react2.default.createElement(
 	              "p",
