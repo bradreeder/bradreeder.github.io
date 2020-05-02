@@ -30,25 +30,19 @@ class Healing extends Component {
         </div>
         <h2>session format</h2>
         <div className="content-background-colour">
-          <p className="section-header padding-top-40px">shamanic energy healing</p>
-          <p className="padding-top-40px service-text">I am available to do in-person healing sessions on evenings and weekends at your home address, or another suitable location, for those living in and around London.</p>
-          <p className="service-text">Each healing session is a one-time occurrence, or “ceremony”, that is tailored to your individual needs. Sessions usually last up to an hour and I draw on a range of techniques that may include:</p>
-          <ul className="no-margin-bottom">
-            <li>Smudging & space clearing</li>
-            <li>Energy healing</li>
-            <li>Chakra cleansing & activation</li>
-            <li>Spinal alignment</li>
-            <li>Blessings</li>
-            <li>Shamanic tools: feathers, rattle, stones, pendulum</li>
-          </ul>
-          <p className="service-text">The session will include time for you to integrate and I will be available to offer after-care guidance and suggestions based on what I observed during the healing. I will make sure to check-in with you within a week of the session to check-in & provide any after-care that is needed.</p>
-            <div className="case-study-img-container">
-              <img className="padding-top-40px" src="public/resources/Energy-healing-9.JPG"/>
-            </div>
           <p className="section-header padding-top-40px">shamanic distance healing</p>
-          <p className="padding-top-40px service-text">If you don’t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing.</p>
-          <p className="service-text">We can do the session over an online video-call or in the evening while you're sleeping if you prefer that. Otherwise, after arranging a mutually convenient time, you would be asked to lie down and rest and I will tune-in to you remotely to conduct the healing.</p>
-          <p className="service-text padding-bottom-80px">I will be in touch at a convenient time after the session to provide any insight based on what I observed and to offer after-care guidance and suggestions.</p>
+          <p className="padding-top-40px service-text">I am available to do distance healing sessions Monday - Saturday at a time that is suitable for you. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing.</p>
+          <p className="service-text">After agreeing a time and an intention for what you would like help with, you would be asked to lie down and rest or meditate from a quiet location. I will then tune-in to you remotely from my altar (pictured) to conduct the healing (only your name, picture, and location is needed). This usually involves a combination of:</p>
+          <ul className="no-margin-bottom">
+            <li>Energy healing</li>
+            <li>Elemental healing</li>
+            <li>Healing prayers, songs (icaros), and/or chants</li>
+            <li>Chakra cleansing & activation</li>
+          </ul>
+          <p className="service-text">The session will normally last 30 minutes followed by 15 minutes for you to rest and integrate. I will then be in touch at a convenient time after the session to check-in with you to discuss anything we experienced and to provide any insight or guidance based on what I observed.</p>
+            <div className="case-study-img-container">
+              <img className="padding-top-40px padding-bottom-80px" src="public/resources/mesa-2.JPEG"/>
+            </div>
         </div>
         <h2>what to expect</h2>
         <div className="content-background-colour">
@@ -60,20 +54,27 @@ class Healing extends Component {
             <li>Heat or coolness</li>
             <li>Tingling, pins & needles, or goosebumps</li>
             <li>Feelings of vibrational buzzing or electric currents in the body</li>
-            <li>Visions, imagery, hearing inner voices & guidance</li>
+            <li>Visions, imagery, colours, hearing inner voices & guidance</li>
             <li>Among other effects</li>
           </ul>
-          <p className="service-text padding-bottom-80px">Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it’s advised to take good care of your mind & body in this time to best integrate it.</p>
+          <p className="service-text padding-bottom-80px">Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it’s advised to take good care of your mind & body and to pay attention to your dreams in this time to best integrate it.</p>
+        </div>
+        <h2>reviews</h2>
+        <div className="content-background-colour">
+          <p className="padding-top-40px service-text"><i>"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me. An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing."</i>  -- Gabriella Thompson</p>
+          <p className="padding-top-40px service-text"><i>"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really intersting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others."</i>  -- Hannan Benjelloul</p>
+          <p className="padding-top-40px service-text"><i>"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspect. Thank you so much for this."</i>  -- Snigdha Jaiswal</p>
+          <p className="padding-top-40px padding-bottom-80px service-text"><i>“My experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.”</i>  -- Corrie Nielsen</p>
         </div>
         <h2>pricing</h2>
           <div className="content-background-colour">
-            <h2 className="no-margins">I am currently offering shamanic distance healing only by donation (via paypal)</h2>
+            <h2 className="no-margins">I am currently offering shamanic distance healing only <i>by donation</i></h2>
             <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you can. You can also help me by:</p></strong>
+                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you are able to. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. I also welcome non-financial contributions such as:</p></strong>
                 <ul className="no-margins decrease-padding">
-                  <li>Providing your feedback on the healing session and/or this website.</li>
+                  <li>Providing feedback on the healing session and/or this website.</li>
                   <li>Giving a testimonial or review that I can include on my public facing materials.</li>
                   <li>Allowing me to add your email to my mailing list to be updated of future events.</li>
                 </ul>

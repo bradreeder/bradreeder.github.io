@@ -10,12 +10,12 @@ class About extends Component {
         <h2 id="top-h2" className="padding-top-2em">about me</h2>
         <div className="content-background-colour">
           <div className="my-story padding-top-40px padding-bottom-80px">
-            <h3 id="about-header"><em>hi, my name is Bradley, and I am a shamanic practitioner, energy healer & writer</em></h3>
+            <h3 id="about-header"><em>hi, my name is Bradley, and I am a shamanic practitioner & energy healer</em></h3>
             <hr />
             <img className="my-story-image" src="../../public/resources/me2.JPG"/>
             <p>Throughout the last few years, I’ve been blessed to undertake training with master shamans in a broad range of traditional & indigenous healing and esoteric modalities.</p>
-            <p>In 2019, I was formally initiated into the <a target="_blank" href="https://en.wikipedia.org/wiki/Q%27ero">Andean (Q’ero) shamanic lineage</a> of Peru as an authentic practitioner of this tradition. I’ve since been on pilgrimage to Peru to learn from Q’ero maestro <a target="_blank" href="https://pumadventuresperu.com/our-team">Puma Fredy Quispe Singona</a>, where I received the healing energies that I primarily work with today.</p>
-            <p>I’m always supplementing this foundation with further training, most recently in energy healing as a student of <a target="_blank" href="https://copaldaselva.com/">Copal Daselva</a>. And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery.</p>
+            <p>In 2019, I was formally initiated into the <a target="_blank" href="https://en.wikipedia.org/wiki/Q%27ero">Andean (Q’ero) shamanic lineage</a> of Peru as an authentic practitioner -- or <a target="_blank" href="http://andeanmasters.com/andean-paqo-shaman/">Paqo</a> -- of this tradition. I’ve since been on pilgrimages to Peru to learn from Q’ero maestro <a target="_blank" href="https://pumadventuresperu.com/our-team">Puma Fredy Quispe Singona</a> & Shipibo maestro <a target="_blank" href="https://www.ayahuascaretreat.pe/maestro-heberto-garcia/">Heberto Garcia</a>, where I received the healing energies that I primarily work with today.</p>
+            <p>I’m always supplementing this foundation with further training, most recently in energy healing & natural medicine as a student of <a target="_blank" href="https://copaldaselva.com/">Copal Daselva</a> & <a target="_blank" href="https://www.eleanorsara.com/">Eleanor Sara Darley</a>. And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery.</p>
             <p>I’m deeply humbled to put this together in service to you. I do so with the utmost integrity and heart-felt intention to enable your healing, transformation and connection with the best version of yourself possible. :-)</p>
             <p>Till we meet, Haux Haux!</p>
           </div>
@@ -33,10 +33,15 @@ class About extends Component {
               <h3><strong>Graduate of <a target="_blank" href="https://ayni.foundation/nwl/">Natural Wisdom Leaders</a> programme</strong></h3>
               <a target="_blank" href="https://ayni.foundation/"><img src="../../public/resources/Ayni-foundation.PNG"/></a>
             </div>
-            <div className="padding-bottom-80px my-process-column green">
+            <div className="my-process-column green">
               <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
               <h3><strong>Current student of <a target="_blank" href="https://copaldaselva.com/">Shamanic energy healing</a></strong></h3>
               <a target="_blank" href="https://copaldaselva.com/"><img src="../../public/resources/copal.JPEG"/></a>
+            </div>
+            <div className="padding-bottom-80px my-process-column green">
+              <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
+              <h3><strong>Founding member of <a target="_blank" href="https://brightsky.community/">BrightSky Community</a></strong></h3>
+              <a target="_blank" href="https://brightsky.community/"><img src="../../public/resources/bright-sky.PNG"/></a>
             </div>
           </div>
         </div>
@@ -49,7 +54,7 @@ class About extends Component {
             <div className="case-study-section">
               <h4>Shamanic Energy Healing</h4>
               <p>Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual.</p>
-              <p>I am currently offering in-person healings for free for those living in London. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
+              <p>I am currently only offering distance healing due to Covid-19 lock-down. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -59,7 +64,7 @@ class About extends Component {
           </div>
 
           <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Healing</a></p>
-          <p className="section-sub-heading">30 minutes to an hour online or remotely</p>
+          <p className="section-sub-heading">30 minutes to 1 hour online or remotely</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Distance Healing</h4>
@@ -68,7 +73,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/mesa.JPEG"/></a>
+                <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/mesa-2.JPEG"/></a>
               </div>
             </div>
           </div>
@@ -89,17 +94,26 @@ class About extends Component {
           </div>
         </div>
 
+        <div id="reviews"></div>
+        <h2>reviews</h2>
+        <div className="content-background-colour padding-top-40px">
+          <p className="padding-top-40px service-text"><i>"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me. An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing."</i>  -- Gabriella Thompson</p>
+          <p className="padding-top-40px service-text"><i>"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really intersting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others."</i>  -- Hannan Benjelloul</p>
+          <p className="padding-top-40px service-text"><i>"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspect. Thank you so much for this."</i>  -- Snigdha Jaiswal</p>
+          <p className="padding-top-40px padding-bottom-80px service-text"><i>“My experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.”</i>  -- Corrie Nielsen</p>
+        </div>
+
         <div id="pricing"></div>
         <h2>pricing</h2>
         <div className="content-background-colour padding-top-40px">
-          <h2 className="no-margins">I am currently offering shamanic distance healing only by donation (via paypal)</h2>
+          <h2 className="no-margins">I am currently offering <a href="#healing" onClick={() => this.props.changeContent('healing')}>shamanic distance healing</a> only <i>by donation</i></h2>
           <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you can. You can also help me by:</p></strong>
+                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you are able to. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. I also welcome non-financial contributions such as:</p></strong>
                 <strong><p className="decrease-padding"></p></strong>
                 <ul className="no-margins decrease-padding">
-                  <li>Providing your feedback on the healing session and/or this website.</li>
+                  <li>Providing feedback on the healing session and/or this website.</li>
                   <li>Giving a testimonial or review that I can include on my public facing materials.</li>
                   <li>Allowing me to add your email to my mailing list to be updated of future events.</li>
                 </ul>

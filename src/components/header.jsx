@@ -10,7 +10,7 @@ class Header extends Component {
           <p>Shamanic practitioner & Energy healer</p>
           <p>London, UK.</p>
           <p>
-            <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a>
+            <a target="_blank" href="mailto: bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a>
           </p>
           <p>
             <a target="_blank" id="phone-number" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a>&nbsp;

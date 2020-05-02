@@ -22004,6 +22004,7 @@
 	            _react2.default.createElement(
 	              "a",
 	              { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
+	              _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
 	              "bradjohnreeder@gmail.com"
 	            )
 	          ),
@@ -22408,7 +22409,7 @@
 	              _react2.default.createElement(
 	                "em",
 	                null,
-	                "hi, my name is Bradley, and I am a shamanic practitioner, energy healer & writer"
+	                "hi, my name is Bradley, and I am a shamanic practitioner & energy healer"
 	              )
 	            ),
 	            _react2.default.createElement("hr", null),
@@ -22427,22 +22428,40 @@
 	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
 	                "Andean (Q\u2019ero) shamanic lineage"
 	              ),
-	              " of Peru as an authentic practitioner of this tradition. I\u2019ve since been on pilgrimage to Peru to learn from Q\u2019ero maestro ",
+	              " of Peru as an authentic practitioner -- or ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "http://andeanmasters.com/andean-paqo-shaman/" },
+	                "Paqo"
+	              ),
+	              " -- of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from Q\u2019ero maestro ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://pumadventuresperu.com/our-team" },
 	                "Puma Fredy Quispe Singona"
+	              ),
+	              " & Shipibo maestro ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.ayahuascaretreat.pe/maestro-heberto-garcia/" },
+	                "Heberto Garcia"
 	              ),
 	              ", where I received the healing energies that I primarily work with today."
 	            ),
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "I\u2019m always supplementing this foundation with further training, most recently in energy healing as a student of ",
+	              "I\u2019m always supplementing this foundation with further training, most recently in energy healing & natural medicine as a student of ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://copaldaselva.com/" },
 	                "Copal Daselva"
+	              ),
+	              " & ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.eleanorsara.com/" },
+	                "Eleanor Sara Darley"
 	              ),
 	              ". And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery."
 	            ),
@@ -22515,7 +22534,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "padding-bottom-80px my-process-column green" },
+	              { className: "my-process-column green" },
 	              _react2.default.createElement(
 	                "h2",
 	                null,
@@ -22539,6 +22558,34 @@
 	                "a",
 	                { target: "_blank", href: "https://copaldaselva.com/" },
 	                _react2.default.createElement("img", { src: "../../public/resources/copal.JPEG" })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "padding-bottom-80px my-process-column green" },
+	              _react2.default.createElement(
+	                "h2",
+	                null,
+	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
+	              ),
+	              _react2.default.createElement(
+	                "h3",
+	                null,
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "Founding member of ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://brightsky.community/" },
+	                    "BrightSky Community"
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://brightsky.community/" },
+	                _react2.default.createElement("img", { src: "../../public/resources/bright-sky.PNG" })
 	              )
 	            )
 	          )
@@ -22587,7 +22634,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "I am currently offering in-person healings for free for those living in London. ",
+	                "I am currently only offering distance healing due to Covid-19 lock-down. ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { href: "#healing", onClick: function onClick() {
@@ -22627,7 +22674,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-sub-heading" },
-	            "30 minutes to an hour online or remotely"
+	            "30 minutes to 1 hour online or remotely"
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22669,7 +22716,7 @@
 	                  { href: "#healing", onClick: function onClick() {
 	                      return _this2.props.changeContent('healing');
 	                    } },
-	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/mesa.JPEG" })
+	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/mesa-2.JPEG" })
 	                )
 	              )
 	            )
@@ -22717,6 +22764,56 @@
 	            )
 	          )
 	        ),
+	        _react2.default.createElement("div", { id: "reviews" }),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "reviews"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour padding-top-40px" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me. An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing.\""
+	            ),
+	            "  -- Gabriella Thompson"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really intersting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others.\""
+	            ),
+	            "  -- Hannan Benjelloul"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspect. Thank you so much for this.\""
+	            ),
+	            "  -- Snigdha Jaiswal"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px padding-bottom-80px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\u201CMy experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.\u201D"
+	            ),
+	            "  -- Corrie Nielsen"
+	          )
+	        ),
 	        _react2.default.createElement("div", { id: "pricing" }),
 	        _react2.default.createElement(
 	          "h2",
@@ -22729,7 +22826,20 @@
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "I am currently offering shamanic distance healing only by donation (via paypal)"
+	            "I am currently offering ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#healing", onClick: function onClick() {
+	                  return _this2.props.changeContent('healing');
+	                } },
+	              "shamanic distance healing"
+	            ),
+	            " only ",
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "by donation"
+	            )
 	          ),
 	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
@@ -22744,7 +22854,13 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "Suggested \xA320 for 30 minute distance healing but give what you can. You can also help me by:"
+	                  "Suggested \xA320 for 30 minute distance healing but give what you are able to. Donations can be made via paypal ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
+	                    "here"
+	                  ),
+	                  " before or after sessions. I also welcome non-financial contributions such as:"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -22758,7 +22874,7 @@
 	                _react2.default.createElement(
 	                  "li",
 	                  null,
-	                  "Providing your feedback on the healing session and/or this website."
+	                  "Providing feedback on the healing session and/or this website."
 	                ),
 	                _react2.default.createElement(
 	                  "li",
@@ -23001,26 +23117,21 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-header padding-top-40px" },
-	            "shamanic energy healing"
+	            "shamanic distance healing"
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "padding-top-40px service-text" },
-	            "I am available to do in-person healing sessions on evenings and weekends at your home address, or another suitable location, for those living in and around London."
+	            "I am available to do distance healing sessions Monday - Saturday at a time that is suitable for you. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing."
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "service-text" },
-	            "Each healing session is a one-time occurrence, or \u201Cceremony\u201D, that is tailored to your individual needs. Sessions usually last up to an hour and I draw on a range of techniques that may include:"
+	            "After agreeing a time and an intention for what you would like help with, you would be asked to lie down and rest or meditate from a quiet location. I will then tune-in to you remotely from my altar (pictured) to conduct the healing (only your name, picture, and location is needed). This usually involves a combination of:"
 	          ),
 	          _react2.default.createElement(
 	            "ul",
 	            { className: "no-margin-bottom" },
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Smudging & space clearing"
-	            ),
 	            _react2.default.createElement(
 	              "li",
 	              null,
@@ -23029,53 +23140,28 @@
 	            _react2.default.createElement(
 	              "li",
 	              null,
+	              "Elemental healing"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Healing prayers, songs (icaros), and/or chants"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
 	              "Chakra cleansing & activation"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Spinal alignment"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Blessings"
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
-	              "Shamanic tools: feathers, rattle, stones, pendulum"
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            { className: "service-text" },
-	            "The session will include time for you to integrate and I will be available to offer after-care guidance and suggestions based on what I observed during the healing. I will make sure to check-in with you within a week of the session to check-in & provide any after-care that is needed."
+	            "The session will normally last 30 minutes followed by 15 minutes for you to rest and integrate. I will then be in touch at a convenient time after the session to check-in with you to discuss anything we experienced and to provide any insight or guidance based on what I observed."
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/Energy-healing-9.JPG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "shamanic distance healing"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px service-text" },
-	            "If you don\u2019t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text" },
-	            "We can do the session over an online video-call or in the evening while you're sleeping if you prefer that. Otherwise, after arranging a mutually convenient time, you would be asked to lie down and rest and I will tune-in to you remotely to conduct the healing."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "service-text padding-bottom-80px" },
-	            "I will be in touch at a convenient time after the session to provide any insight based on what I observed and to offer after-care guidance and suggestions."
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/mesa-2.JPEG" })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23127,7 +23213,7 @@
 	            _react2.default.createElement(
 	              "li",
 	              null,
-	              "Visions, imagery, hearing inner voices & guidance"
+	              "Visions, imagery, colours, hearing inner voices & guidance"
 	            ),
 	            _react2.default.createElement(
 	              "li",
@@ -23138,7 +23224,56 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "service-text padding-bottom-80px" },
-	            "Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it\u2019s advised to take good care of your mind & body in this time to best integrate it."
+	            "Most effects will ground shortly after the session. However, the healing will be working within you in the days following so it\u2019s advised to take good care of your mind & body and to pay attention to your dreams in this time to best integrate it."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "reviews"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me. An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing.\""
+	            ),
+	            "  -- Gabriella Thompson"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really intersting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others.\""
+	            ),
+	            "  -- Hannan Benjelloul"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspect. Thank you so much for this.\""
+	            ),
+	            "  -- Snigdha Jaiswal"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-top-40px padding-bottom-80px service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "\u201CMy experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.\u201D"
+	            ),
+	            "  -- Corrie Nielsen"
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -23152,7 +23287,12 @@
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "I am currently offering shamanic distance healing only by donation (via paypal)"
+	            "I am currently offering shamanic distance healing only ",
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "by donation"
+	            )
 	          ),
 	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
@@ -23167,7 +23307,13 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "Suggested \xA320 for 30 minute distance healing but give what you can. You can also help me by:"
+	                  "Suggested \xA320 for 30 minute distance healing but give what you are able to. Donations can be made via paypal ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
+	                    "here"
+	                  ),
+	                  " before or after sessions. I also welcome non-financial contributions such as:"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -23176,7 +23322,7 @@
 	                _react2.default.createElement(
 	                  "li",
 	                  null,
-	                  "Providing your feedback on the healing session and/or this website."
+	                  "Providing feedback on the healing session and/or this website."
 	                ),
 	                _react2.default.createElement(
 	                  "li",
