@@ -22133,21 +22133,6 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { id: "menu-experience", className: "menu-item" },
-	            _react2.default.createElement(
-	              "a",
-	              { className: "toscroll", href: "#experience", onClick: function onClick() {
-	                  return _this2.props.changeContent('about');
-	                } },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "experience"
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
 	            { id: "menu-services", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
@@ -22158,6 +22143,21 @@
 	                "p",
 	                null,
 	                "services"
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { id: "menu-reviews", className: "menu-item" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "toscroll", href: "#reviews", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "reviews"
 	              )
 	            )
 	          ),

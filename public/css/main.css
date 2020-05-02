@@ -96,9 +96,9 @@
     color: #cfc7c7; }
   .menu #menu-about:hover {
     background-color: #086788; }
-  .menu #menu-experience:hover {
-    background-color: #d93b9d; }
   .menu #menu-services:hover {
+    background-color: #d93b9d; }
+  .menu #menu-reviews:hover {
     background-color: #6ba753; }
   .menu #menu-pricing:hover {
     background-color: #E06C9F; }
