@@ -72,7 +72,7 @@ class Healing extends Component {
             <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">Suggested £20 for 30 minute distance healing but give what you are able to. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. I also welcome non-financial contributions such as:</p></strong>
+                <strong><p className="decrease-padding">Suggested minimum of £20 for 30 minute distance healing but give what you are able to. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. I also welcome non-financial contributions such as:</p></strong>
                 <ul className="no-margins decrease-padding">
                   <li>Providing feedback on the healing session and/or this website.</li>
                   <li>Giving a testimonial or review that I can include on my public facing materials.</li>
