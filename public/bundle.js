@@ -22854,7 +22854,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "Suggested minimum of \xA320 for 30 minute distance healing but give what you are able to. Donations can be made via paypal ",
+	                  "Suggested minimum of \xA320 for 30 minute distance healing but give what you can. Donations can be made via paypal ",
 	                  _react2.default.createElement(
 	                    "a",
 	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
@@ -23307,7 +23307,7 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "Suggested minimum of \xA320 for 30 minute distance healing but give what you are able to. Donations can be made via paypal ",
+	                  "Suggested minimum of \xA320 for 30 minute distance healing but give what you can. Donations can be made via paypal ",
 	                  _react2.default.createElement(
 	                    "a",
 	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
