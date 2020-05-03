@@ -17,7 +17,7 @@ class Healing extends Component {
         <h2>benefits</h2>
         <div className="content-background-colour">
           <p className="padding-top-40px service-text">Some of the many benefits that can result from a shamanic healing include:</p>
-          <ul className="padding-bottom-80px no-margin-bottom">
+          <ul className="no-margin-bottom">
             <li>Increased sense of well-being</li>
             <li>Renewed energy levels</li>
             <li>Clarity of purpose, concentration & focus</li>
@@ -27,6 +27,9 @@ class Healing extends Component {
             <li>Aids in letting go of addictive patterns, habits & behaviours</li>
             <li>Releases traumas, negative energies, stuckness and blocks</li>
           </ul>
+          <div className="case-study-img-container">
+            <img className="padding-top-40px padding-bottom-80px" src="public/resources/Energy-healing-4.JPG"/>
+          </div>
         </div>
         <h2>session format</h2>
         <div className="content-background-colour">

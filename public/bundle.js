@@ -23123,7 +23123,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "ul",
-	            { className: "padding-bottom-80px no-margin-bottom" },
+	            { className: "no-margin-bottom" },
 	            _react2.default.createElement(
 	              "li",
 	              null,
@@ -23164,6 +23164,11 @@
 	              null,
 	              "Releases traumas, negative energies, stuckness and blocks"
 	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study-img-container" },
+	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/Energy-healing-4.JPG" })
 	          )
 	        ),
 	        _react2.default.createElement(
