@@ -28,7 +28,7 @@ class Healing extends Component {
             <li>Releases traumas, negative energies, stuckness and blocks</li>
           </ul>
           <div className="case-study-img-container">
-            <img className="padding-top-40px padding-bottom-80px" src="public/resources/Energy-healing-4.JPG"/>
+            <img className="padding-top-40px padding-bottom-80px" src="public/resources/energy-healing-4.JPG"/>
           </div>
         </div>
         <h2>session format</h2>
