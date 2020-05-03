@@ -68,12 +68,27 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Distance Healing</h4>
-              <p>If you don’t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location.</p>
+              <p>If you don’t live in London, are in hospital or are unable to travel, we can do a distance healing from your current location.</p>
               <p>Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
                 <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/mesa-2.JPEG"/></a>
+              </div>
+            </div>
+          </div>
+
+          <p className="section-title">Group ceremonies & meditations</p>
+          <p className="section-sub-heading">Run monthly through <a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/">meetup</a></p>
+          <div className="case-study padding-top-40px padding-bottom-80px">
+            <div className="case-study-section">
+              <h4>Group ceremonies & meditations</h4>
+              <p>I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events in London.</p>
+              <p>Join my new <a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/">meetup group</a> or <a className="toscroll" href="#contact" onClick={() => this.props.changeContent('about')}>subscribe to my mailing list</a> to receive monthly updates!</p>
+            </div>
+            <div className="case-study-section">
+              <div className="img-container">
+                <img className="img-border" src="public/resources/ceremony.JPG"/>
               </div>
             </div>
           </div>
@@ -88,7 +103,7 @@ class About extends Component {
             </div>
             <div className="case-study-section">
               <div className="img-container">
-                <img className="img-border" src="public/resources/despacho.JPEG"/>
+                <img className="img-border" src="public/resources/despacho.JPG"/>
               </div>
             </div>
           </div>

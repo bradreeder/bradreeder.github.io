@@ -118,8 +118,7 @@
 	            return _this2.setState({ activeSection: section });
 	          },
 	          activeSection: this.state.activeSection
-	        }),
-	        _react2.default.createElement(_footer2.default, null)
+	        })
 	      );
 	    }
 	  }]);
@@ -22690,7 +22689,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "If you don\u2019t live in London, are in hospital or are too ill to travel, we can do a distance healing from your current location."
+	                "If you don\u2019t live in London, are in hospital or are unable to travel, we can do a distance healing from your current location."
 	              ),
 	              _react2.default.createElement(
 	                "p",
@@ -22718,6 +22717,67 @@
 	                    } },
 	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/mesa-2.JPEG" })
 	                )
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-title" },
+	            "Group ceremonies & meditations"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-sub-heading" },
+	            "Run monthly through ",
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
+	              "meetup"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study padding-top-40px padding-bottom-80px" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "h4",
+	                null,
+	                "Group ceremonies & meditations"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events in London."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "Join my new ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
+	                  "meetup group"
+	                ),
+	                " or ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { className: "toscroll", href: "#contact", onClick: function onClick() {
+	                      return _this2.props.changeContent('about');
+	                    } },
+	                  "subscribe to my mailing list"
+	                ),
+	                " to receive monthly updates!"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "img-container" },
+	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/ceremony.JPG" })
 	              )
 	            )
 	          ),
@@ -22759,7 +22819,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "img-container" },
-	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/despacho.JPEG" })
+	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/despacho.JPG" })
 	              )
 	            )
 	          )
@@ -24105,7 +24165,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "handcrafted by bradley reeder \xA9 2020"
+	            "\xA92020 Bradley Reeder. All Rights Reserved"
 	          )
 	        )
 	      );

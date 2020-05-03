@@ -25,7 +25,6 @@ class Root extends Component {
           changeContent={(section) => this.setState({ activeSection: section })}
           activeSection={this.state.activeSection}
         />
-        <Footer />
       </div>
     );
   }

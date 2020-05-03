@@ -6,7 +6,9 @@
   text-align: center;
   }
   p {
-    padding: 5px 10px 5px 15px;
+    padding: 25px 10px 25px 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -14,6 +16,47 @@
   #footer-content {
     p {
       font-size: 14px;
+    }
+  }
+}
+
+#mc_embed_signup {
+  background-color: rgba(50, 50, 50, 0.90) !important;
+  #label-style {
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 20px !important;
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+    line-height: 1.5em !important;
+  }
+  .button {
+    background-color: #0088cc !important;
+    font-family: "Open Sans", sans-serif !important;
+    margin-bottom: 40px !important;
+  }
+  .button:hover {
+    background-color: #005E91 !important;
+  }
+  .email {
+    font-family: "Open Sans", sans-serif !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mc_embed_signup {
+    .button {
+      width: 50% !important;
+    }
+    .email {
+      width: 50% !important;
+    }
+    #label-style {
+      line-height: 1.5em;
+      padding-left: 2em !important;
+      padding-right: 2em !important;
     }
   }
 }
