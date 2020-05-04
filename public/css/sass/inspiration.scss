@@ -134,6 +134,12 @@
  60% {transform: translateY(-15px);}
 }
 
+@media only screen and (max-width: 370px) {
+  .absolute {
+    top: 55% !important;
+  }
+}
+
 @media only screen and (max-width: 736px) {
   .bounce {
     display: none;
@@ -150,7 +156,7 @@
     .absolute {
       width: 80%;
       left: 10%;
-      top: 50% !important;
+      top: 55% !important;
     }
   }
 }

@@ -43,6 +43,9 @@
     color: #005E91; }
 
 @media only screen and (max-width: 370px) {
+  #header {
+    height: 29vh !important; }
+
   .header-subtext {
     font-size: 14px !important; }
 
@@ -283,6 +286,9 @@
     transform: translateY(-25px); }
   60% {
     transform: translateY(-15px); } }
+@media only screen and (max-width: 370px) {
+  .absolute {
+    top: 55% !important; } }
 @media only screen and (max-width: 736px) {
   .bounce {
     display: none; }
@@ -296,7 +302,7 @@
   #inspiration .absolute {
     width: 80%;
     left: 10%;
-    top: 50% !important; } }
+    top: 55% !important; } }
 @media only screen and (min-width: 737px) {
   #inspiration p {
     font-size: 20px; } }
