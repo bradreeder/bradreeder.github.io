@@ -48,21 +48,6 @@ class About extends Component {
         <div id="services"></div>
         <h2>services</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
-          <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Energy Healing</a></p>
-            <p className="section-sub-heading">1 hour to 90 minutes in-person</p>
-          <div className="case-study padding-top-40px padding-bottom-80px">
-            <div className="case-study-section">
-              <h4>Shamanic Energy Healing</h4>
-              <p>Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual.</p>
-              <p>I am currently only offering distance healing due to Covid-19 lock-down. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
-            </div>
-            <div className="case-study-section">
-              <div className="img-container">
-                <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/Energy-healing-9.JPG"/></a>
-              </div>
-            </div>
-          </div>
-
           <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Healing</a></p>
           <p className="section-sub-heading">30 minutes to 1 hour online or remotely</p>
           <div className="case-study padding-top-40px padding-bottom-80px">
@@ -83,7 +68,7 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Group ceremonies & meditations</h4>
-              <p>I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events in London.</p>
+              <p>I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events online and in London.</p>
               <p>Join my new <a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/">meetup group</a> or <a className="toscroll" href="#contact" onClick={() => this.props.changeContent('about')}>subscribe to my mailing list</a> to receive monthly updates!</p>
             </div>
             <div className="case-study-section">
@@ -121,17 +106,13 @@ class About extends Component {
         <div id="pricing"></div>
         <h2>pricing</h2>
         <div className="content-background-colour padding-top-40px">
-          <h2 className="no-margins">I am currently offering <a href="#healing" onClick={() => this.props.changeContent('healing')}>shamanic distance healing</a> only <i>by donation</i></h2>
+          <h2 className="no-margins">I am currently offering <a href="#healing" onClick={() => this.props.changeContent('healing')}>shamanic distance healing</a> <i>by donation</i></h2>
           <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">Suggested minimum of £20 for 30 minute distance healing but give what you can. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. I also welcome non-financial contributions such as:</p></strong>
-                <strong><p className="decrease-padding"></p></strong>
-                <ul className="no-margins decrease-padding">
-                  <li>Providing feedback on the healing session and/or this website.</li>
-                  <li>Giving a testimonial or review that I can include on my public facing materials.</li>
-                  <li>Allowing me to add your email to my mailing list to be updated of future events.</li>
-                </ul>
+                <strong><p className="decrease-padding">I am offering 30 minute distance healings by donation to be of service during the global pandemic.</p></strong>
+                <strong><p className="decrease-padding">Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. Give what you are able to. I also welcome contributions such as reviews.</p></strong>
+                <strong><p className="decrease-padding">To book a session contact me <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
               </div>
               <div className="case-study-section">
                 <div className="img-container">
@@ -146,6 +127,30 @@ class About extends Component {
 }
 
 export default About;
+
+
+//<ul className="no-margins decrease-padding">
+//  <li>Providing feedback on the healing session and/or this website.</li>
+//  <li>Giving a testimonial or review that I can include on my public facing materials.</li>
+//  <li>Allowing me to add your email to my mailing list to be updated of future events.</li>
+//</ul>
+
+
+//<p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Energy Healing</a></p>
+//  <p className="section-sub-heading">1 hour to 90 minutes in-person</p>
+//<div className="case-study padding-top-40px padding-bottom-80px">
+//  <div className="case-study-section">
+//    <h4>Shamanic Energy Healing</h4>
+//    <p>Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual.</p>
+//    <p>I am currently only offering distance healing due to Covid-19 lock-down. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
+//  </div>
+//  <div className="case-study-section">
+//    <div className="img-container">
+//      <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/Energy-healing-9.JPG"/></a>
+//    </div>
+//  </div>
+//</div>
+
 
 //<h2>workshops</h2>
 //<div className="content-background-colour padding-top-40px">

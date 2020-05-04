@@ -22606,67 +22606,6 @@
 	              { href: "#healing", onClick: function onClick() {
 	                  return _this2.props.changeContent('healing');
 	                } },
-	              "Shamanic Energy Healing"
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-sub-heading" },
-	            "1 hour to 90 minutes in-person"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "h4",
-	                null,
-	                "Shamanic Energy Healing"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual."
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "I am currently only offering distance healing due to Covid-19 lock-down. ",
-	                _react2.default.createElement(
-	                  "a",
-	                  { href: "#healing", onClick: function onClick() {
-	                      return _this2.props.changeContent('healing');
-	                    } },
-	                  "Read more here."
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement(
-	                  "a",
-	                  { href: "#healing", onClick: function onClick() {
-	                      return _this2.props.changeContent('healing');
-	                    } },
-	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-9.JPG" })
-	                )
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#healing", onClick: function onClick() {
-	                  return _this2.props.changeContent('healing');
-	                } },
 	              "Shamanic Distance Healing"
 	            )
 	          ),
@@ -22749,7 +22688,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events in London."
+	                "I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events online and in London."
 	              ),
 	              _react2.default.createElement(
 	                "p",
@@ -22894,7 +22833,7 @@
 	                } },
 	              "shamanic distance healing"
 	            ),
-	            " only ",
+	            " ",
 	            _react2.default.createElement(
 	              "i",
 	              null,
@@ -22914,37 +22853,37 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "Suggested minimum of \xA320 for 30 minute distance healing but give what you can. Donations can be made via paypal ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
-	                    "here"
-	                  ),
-	                  " before or after sessions. I also welcome non-financial contributions such as:"
+	                  "I am offering 30 minute distance healings by donation to be of service during the global pandemic."
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "strong",
 	                null,
-	                _react2.default.createElement("p", { className: "decrease-padding" })
+	                _react2.default.createElement(
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "Donations can be made via paypal ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
+	                    "here"
+	                  ),
+	                  " before or after sessions. Give what you are able to. I also welcome contributions such as reviews."
+	                )
 	              ),
 	              _react2.default.createElement(
-	                "ul",
-	                { className: "no-margins decrease-padding" },
+	                "strong",
+	                null,
 	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Providing feedback on the healing session and/or this website."
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Giving a testimonial or review that I can include on my public facing materials."
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Allowing me to add your email to my mailing list to be updated of future events."
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "To book a session contact me ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
+	                    "bradjohnreeder@gmail.com"
+	                  ),
+	                  " with a short description of what you'd like help with and I will be in touch!"
 	                )
 	              )
 	            ),
@@ -22967,6 +22906,29 @@
 	}(_react.Component);
 	
 	exports.default = About;
+	
+	//<ul className="no-margins decrease-padding">
+	//  <li>Providing feedback on the healing session and/or this website.</li>
+	//  <li>Giving a testimonial or review that I can include on my public facing materials.</li>
+	//  <li>Allowing me to add your email to my mailing list to be updated of future events.</li>
+	//</ul>
+	
+	
+	//<p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Energy Healing</a></p>
+	//  <p className="section-sub-heading">1 hour to 90 minutes in-person</p>
+	//<div className="case-study padding-top-40px padding-bottom-80px">
+	//  <div className="case-study-section">
+	//    <h4>Shamanic Energy Healing</h4>
+	//    <p>Shamanic healing can help reveal solutions & offer guidance for any range of challenges or obstacles be they physical, emotional, mental, or spiritual.</p>
+	//    <p>I am currently only offering distance healing due to Covid-19 lock-down. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
+	//  </div>
+	//  <div className="case-study-section">
+	//    <div className="img-container">
+	//      <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/Energy-healing-9.JPG"/></a>
+	//    </div>
+	//  </div>
+	//</div>
+	
 	
 	//<h2>workshops</h2>
 	//<div className="content-background-colour padding-top-40px">
@@ -23352,7 +23314,7 @@
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "I am currently offering shamanic distance healing only ",
+	            "I am currently offering shamanic distance healing ",
 	            _react2.default.createElement(
 	              "i",
 	              null,
@@ -23372,32 +23334,37 @@
 	                _react2.default.createElement(
 	                  "p",
 	                  { className: "decrease-padding" },
-	                  "Suggested minimum of \xA320 for 30 minute distance healing but give what you can. Donations can be made via paypal ",
+	                  "I am offering 30 minute distance healings by donation to be of service during the global pandemic."
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "strong",
+	                null,
+	                _react2.default.createElement(
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "Donations can be made via paypal ",
 	                  _react2.default.createElement(
 	                    "a",
 	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
 	                    "here"
 	                  ),
-	                  " before or after sessions. I also welcome non-financial contributions such as:"
+	                  " before or after sessions. Give what you are able to. I also welcome contributions such as reviews."
 	                )
 	              ),
 	              _react2.default.createElement(
-	                "ul",
-	                { className: "no-margins decrease-padding" },
+	                "strong",
+	                null,
 	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Providing feedback on the healing session and/or this website."
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Giving a testimonial or review that I can include on my public facing materials."
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  "Allowing me to add your email to my mailing list to be updated of future events."
+	                  "p",
+	                  { className: "decrease-padding" },
+	                  "To book a session contact me ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
+	                    "bradjohnreeder@gmail.com"
+	                  ),
+	                  " with a short description of what you'd like help with and I will be in touch!"
 	                )
 	              )
 	            ),

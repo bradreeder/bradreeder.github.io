@@ -71,16 +71,13 @@ class Healing extends Component {
         </div>
         <h2>pricing</h2>
           <div className="content-background-colour">
-            <h2 className="no-margins">I am currently offering shamanic distance healing only <i>by donation</i></h2>
+            <h2 className="no-margins">I am currently offering shamanic distance healing <i>by donation</i></h2>
             <hr />
             <div className="case-study padding-top-40px padding-bottom-80px">
               <div className="case-study-section">
-                <strong><p className="decrease-padding">Suggested minimum of £20 for 30 minute distance healing but give what you can. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. I also welcome non-financial contributions such as:</p></strong>
-                <ul className="no-margins decrease-padding">
-                  <li>Providing feedback on the healing session and/or this website.</li>
-                  <li>Giving a testimonial or review that I can include on my public facing materials.</li>
-                  <li>Allowing me to add your email to my mailing list to be updated of future events.</li>
-                </ul>
+                <strong><p className="decrease-padding">I am offering 30 minute distance healings by donation to be of service during the global pandemic.</p></strong>
+                <strong><p className="decrease-padding">Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. Give what you are able to. I also welcome contributions such as reviews.</p></strong>
+                <strong><p className="decrease-padding">To book a session contact me <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
               </div>
               <div className="case-study-section">
                 <div className="img-container">
