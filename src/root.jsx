@@ -19,8 +19,14 @@ class Root extends Component {
           changeContent={(section) => this.setState({ activeSection: section })}
           activeSection={this.state.activeSection}
         />
-        <Header />
-        <Inspiration />
+        <Header
+          changeContent={(section) => this.setState({ activeSection: section })}
+          activeSection={this.state.activeSection}
+        />
+        <Inspiration
+          changeContent={(section) => this.setState({ activeSection: section })}
+          activeSection={this.state.activeSection} 
+        />
         <Content
           changeContent={(section) => this.setState({ activeSection: section })}
           activeSection={this.state.activeSection}

@@ -31,6 +31,62 @@
   img {
     max-width: 100%;
   }
+  .absolute {
+    background-color: rgba(50, 50, 50, 0.70);
+    position: absolute;
+    top: 33%;
+    width: 42%;
+    padding-bottom: 20px;
+  }
+  .absolute-text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .absolute-anchor {
+    color: #00c8fa;
+  }
+  .absolute-anchor:hover {
+    color: $link-colour-hover;
+  }
+  .insp-anchor {
+    color: #00c8fa;
+  }
+  .insp-anchor:hover {
+    color: $link-colour-hover;
+  }
+  #absolute-img-1 {
+    width: 5%;
+    position: absolute;
+    left: 94%;
+    top: 33%;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+  }
+  #absolute-img-1 img:hover {
+    width: 7%;
+  }
+  #absolute-img-2 {
+    width: 5%;
+    position: absolute;
+    left: 94%;
+    top: 45%;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+  }
+  #absolute-img-2 img:hover {
+    width: 7%;
+  }
+  #absolute-img-3 {
+    width: 5%;
+    position: absolute;
+    left: 94%;
+    top: 59%;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+  }
+  #absolute-img-3 img:hover {
+    width: 7%;
+  }
 }
 
 #thich-nhat-hanh {
@@ -91,6 +147,11 @@
       padding: 0em 2em 0em 2em;
       margin-top: 0px;
     }
+    .absolute {
+      width: 80%;
+      left: 10%;
+      top: 50% !important;
+    }
   }
 }
 
@@ -98,6 +159,23 @@
   #inspiration {
     p {
       font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #inspiration h2 {
+    padding: 0px;
+  }
+  #inspiration .absolute {
+    top: 28%;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  #inspiration {
+    .absolute {
+      width: 25%;
     }
   }
 }

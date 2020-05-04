@@ -1,5 +1,5 @@
 .menu {
-  background-color: #02205B;
+  background-color: #003E71;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -7,10 +7,17 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 9998;
   .menu-item {
     display: inline-block;
     height: 100%;
+  }
+  .social-media-icons {
+    max-height: 30px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
   }
   p {
     font-family: $secondary-font;
@@ -54,9 +61,21 @@
 //   }
 // }
 
+@media only screen and (max-width: 370px) {
+  .menu p {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
 @media only screen and (max-width: 736px) {
   .menu p {
     font-size: 16px;
+  }
+  .menu .social-media-icons {
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 25px;
   }
 }
 

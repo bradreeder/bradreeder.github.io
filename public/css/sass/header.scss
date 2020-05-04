@@ -2,10 +2,11 @@
   background-color: #003E71;
   color: $header-font-colour;
   width: 100%;
-  height: 40vh;
+  height: 24vh;
   margin: auto;
   border-bottom: 4px solid white;
   position: relative;
+  z-index: 9997;
   .header-name {
     font-size: 32px;
     line-height: 1.2em;
@@ -47,10 +48,31 @@
   }
 }
 
+@media only screen and (max-width: 370px) {
+  .header-subtext {
+    font-size: 14px !important;
+  }
+  #header a {
+    font-size: 14px !important;
+  }
+  #header p {
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+  }
+  #header-links {
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
 @media only screen and (max-width: 736px) {
   #header {
+    height: 27vh;
     p {
       font-size: 18px;
+      padding-top: 5px !important;
+      padding-bottom: 0px !important;
     }
     img {
       top: calc(50vh - 80px);
@@ -61,8 +83,13 @@
     padding-top: 45px;
     text-align: center;
   }
-  #header-links {
+  .booking-info {
     display: none;
+  }
+  #header-links {
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
   }
 }
 

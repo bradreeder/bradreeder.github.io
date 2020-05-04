@@ -111,8 +111,18 @@
 	          },
 	          activeSection: this.state.activeSection
 	        }),
-	        _react2.default.createElement(_header2.default, null),
-	        _react2.default.createElement(_inspiration2.default, null),
+	        _react2.default.createElement(_header2.default, {
+	          changeContent: function changeContent(section) {
+	            return _this2.setState({ activeSection: section });
+	          },
+	          activeSection: this.state.activeSection
+	        }),
+	        _react2.default.createElement(_inspiration2.default, {
+	          changeContent: function changeContent(section) {
+	            return _this2.setState({ activeSection: section });
+	          },
+	          activeSection: this.state.activeSection
+	        }),
 	        _react2.default.createElement(_content2.default, {
 	          changeContent: function changeContent(section) {
 	            return _this2.setState({ activeSection: section });
@@ -21985,17 +21995,21 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "header-name" },
-	            "Bradley Reeder"
+	            "Pachakuti healing"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "Shamanic practitioner & Energy healer"
-	          ),
+	            { className: "header-subtext" },
+	            "Shamanic & energy healing. London UK"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { id: "header-links" },
 	          _react2.default.createElement(
 	            "p",
-	            null,
-	            "London, UK."
+	            { className: "booking-info" },
+	            "For bookings or more info:"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -22015,37 +22029,6 @@
 	              { target: "_blank", id: "phone-number", href: "tel:+447479507365" },
 	              _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
 	              "+44 7479 507365"
-	            ),
-	            "\xA0"
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { id: "header-links" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "bradley @"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://medium.com/@bradjohnreeder" },
-	              "medium "
-	            ),
-	            "\xA0",
-	            _react2.default.createElement(
-	              "a",
-	              { href: "" },
-	              "facebook "
-	            ),
-	            "\xA0",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
-	              "meetup "
 	            ),
 	            "\xA0"
 	          )
@@ -22117,21 +22100,6 @@
 	          { className: "menu", id: "menu" },
 	          _react2.default.createElement(
 	            "div",
-	            { id: "menu-about", className: "menu-item" },
-	            _react2.default.createElement(
-	              "a",
-	              { className: "toscroll", href: "#about", onClick: function onClick() {
-	                  return _this2.props.changeContent('about');
-	                } },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "about"
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
 	            { id: "menu-services", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
@@ -22189,6 +22157,33 @@
 	                "contact"
 	              )
 	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { id: "menu-fb", className: "menu-item" },
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "" },
+	              _react2.default.createElement("img", { className: "social-media-icons", src: "public/resources/facebook-icon.PNG" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { id: "menu-medium", className: "menu-item" },
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://medium.com/@bradjohnreeder/what-is-natural-wisdom-b861383a8368" },
+	              _react2.default.createElement("img", { className: "social-media-icons", src: "public/resources/medium-icon.PNG" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { id: "menu-meetup", className: "menu-item" },
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
+	              _react2.default.createElement("img", { className: "social-media-icons", src: "public/resources/meetup-icon.PNG" })
+	            )
 	          )
 	        )
 	      );
@@ -22199,6 +22194,8 @@
 	}(_react.Component);
 	
 	exports.default = Menu;
+	
+	//<div id="menu-about" className="menu-item"><a className="toscroll" href="#about" onClick={() => this.props.changeContent('about')}><p>about</p></a></div>
 
 /***/ }),
 /* 186 */
@@ -22237,11 +22234,56 @@
 	  _createClass(Inspiration, [{
 	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+	
 	      var quote = '"Understanding someone\'s suffering is the best gift you can give another person. Understanding is love\'s other name. If you don\'t understand, you can\'t love."';
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'inspiration' },
-	        _react2.default.createElement('div', { id: 'inspiration' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'inspiration' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'absolute' },
+	            _react2.default.createElement(
+	              'h2',
+	              null,
+	              'Welcome, my Global Community'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'absolute-text' },
+	              'My name is Bradley, I am an authentic lineage holder & healer of the Inca ',
+	              _react2.default.createElement(
+	                'a',
+	                { className: 'insp-anchor', target: '_blank', href: 'https://en.wikipedia.org/wiki/Q%27ero' },
+	                '(Q\'ero)'
+	              ),
+	              ' shamanic tradition of Peru.'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'absolute-text padding-bottom-40px' },
+	              'I have certified training with master shamans in a range of healing methods and offer healing sessions & sacred ceremonies tailored to your individual needs.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: 'anchor-header' },
+	              _react2.default.createElement(
+	                'a',
+	                { className: 'toscroll', href: '#services', onClick: function onClick() {
+	                    return _this2.props.changeContent('about');
+	                  } },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'absolute-text absolute-anchor' },
+	                  'Read more below.'
+	                )
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -22250,6 +22292,10 @@
 	}(_react.Component);
 	
 	exports.default = Inspiration;
+	
+	//<a target="_blank" href=""><img id="absolute-img-1" src="public/resources/facebook.PNG"/></a>
+	//<a target="_blank" href="https://medium.com/@bradjohnreeder/what-is-natural-wisdom-b861383a8368"><img id="absolute-img-2" src="public/resources/medium.PNG"/></a>
+	//<a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/"><img id="absolute-img-3" src="public/resources/meetup.PNG"/></a>
 	
 	// <img src="public/resources/Healing-1.JPG"/>
 	
@@ -22389,210 +22435,11 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "main-article" },
-	        _react2.default.createElement("div", { id: "about" }),
 	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
-	        _react2.default.createElement(
-	          "h2",
-	          { id: "top-h2", className: "padding-top-2em" },
-	          "about me"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "my-story padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "h3",
-	              { id: "about-header" },
-	              _react2.default.createElement(
-	                "em",
-	                null,
-	                "hi, my name is Bradley, and I am a shamanic practitioner & energy healer"
-	              )
-	            ),
-	            _react2.default.createElement("hr", null),
-	            _react2.default.createElement("img", { className: "my-story-image", src: "../../public/resources/me2.JPG" }),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "Throughout the last few years, I\u2019ve been blessed to undertake training with master shamans in a broad range of traditional & indigenous healing and esoteric modalities."
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "In 2019, I was formally initiated into the ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
-	                "Andean (Q\u2019ero) shamanic lineage"
-	              ),
-	              " of Peru as an authentic practitioner -- or ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "http://andeanmasters.com/andean-paqo-shaman/" },
-	                "Paqo"
-	              ),
-	              " -- of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from Q\u2019ero maestro ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://pumadventuresperu.com/our-team" },
-	                "Puma Fredy Quispe Singona"
-	              ),
-	              " & Shipibo maestro ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.ayahuascaretreat.pe/maestro-heberto-garcia/" },
-	                "Heberto Garcia"
-	              ),
-	              ", where I received the healing energies that I primarily work with today."
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "I\u2019m always supplementing this foundation with further training, most recently in energy healing & natural medicine as a student of ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://copaldaselva.com/" },
-	                "Copal Daselva"
-	              ),
-	              " & ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.eleanorsara.com/" },
-	                "Eleanor Sara Darley"
-	              ),
-	              ". And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery."
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "I\u2019m deeply humbled to put this together in service to you. I do so with the utmost integrity and heart-felt intention to enable your healing, transformation and connection with the best version of yourself possible. :-)"
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              null,
-	              "Till we meet, Haux Haux!"
-	            )
-	          )
-	        ),
-	        _react2.default.createElement("div", { id: "experience" }),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "affiliated with"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "my-process-column padding-top-40px" },
-	            _react2.default.createElement(
-	              "h3",
-	              { className: "process-heading" },
-	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                "I have completed certified training as a shamanic practitioner and am humbled to be associated with:"
-	              )
-	            ),
-	            _react2.default.createElement("p", null)
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "my-process" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column purple" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "Graduate of ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://ayni.foundation/nwl/" },
-	                    "Natural Wisdom Leaders"
-	                  ),
-	                  " programme"
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://ayni.foundation/" },
-	                _react2.default.createElement("img", { src: "../../public/resources/Ayni-foundation.PNG" })
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "my-process-column green" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "Current student of ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://copaldaselva.com/" },
-	                    "Shamanic energy healing"
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://copaldaselva.com/" },
-	                _react2.default.createElement("img", { src: "../../public/resources/copal.JPEG" })
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "padding-bottom-80px my-process-column green" },
-	              _react2.default.createElement(
-	                "h2",
-	                null,
-	                _react2.default.createElement("i", { className: "fa fa-heart", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "h3",
-	                null,
-	                _react2.default.createElement(
-	                  "strong",
-	                  null,
-	                  "Founding member of ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://brightsky.community/" },
-	                    "BrightSky Community"
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://brightsky.community/" },
-	                _react2.default.createElement("img", { src: "../../public/resources/bright-sky.PNG" })
-	              )
-	            )
-	          )
-	        ),
 	        _react2.default.createElement("div", { id: "services" }),
 	        _react2.default.createElement(
 	          "h2",
-	          null,
+	          { id: "top-h2", className: "padding-top-2em" },
 	          "services"
 	        ),
 	        _react2.default.createElement(
@@ -22612,7 +22459,16 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "section-sub-heading" },
-	            "30 minutes to 1 hour online or remotely"
+	            "30 min to 1 hour online ",
+	            _react2.default.createElement(
+	              "strong",
+	              null,
+	              _react2.default.createElement(
+	                "i",
+	                null,
+	                "by donation"
+	              )
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -22628,7 +22484,7 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "If you don\u2019t live in London, are in hospital or are unable to travel, we can do a distance healing from your current location."
+	                "I offer powerful distance healing sessions that can be done remotely from your location. By donation and based on what you can afford."
 	              ),
 	              _react2.default.createElement(
 	                "p",
@@ -22676,7 +22532,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
+	            { className: "case-study padding-top-40px" },
 	            _react2.default.createElement(
 	              "div",
 	              { className: "case-study-section" },
@@ -22702,9 +22558,7 @@
 	                " or ",
 	                _react2.default.createElement(
 	                  "a",
-	                  { className: "toscroll", href: "#contact", onClick: function onClick() {
-	                      return _this2.props.changeContent('about');
-	                    } },
+	                  { target: "_blank", href: "https://github.us4.list-manage.com/subscribe/post?u=7281ec38aacaa29248a5bf895&id=c2698af877" },
 	                  "subscribe to my mailing list"
 	                ),
 	                " to receive monthly updates!"
@@ -22717,48 +22571,6 @@
 	                "div",
 	                { className: "img-container" },
 	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/ceremony.JPG" })
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-title" },
-	            "Despacho Ceremony"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-sub-heading" },
-	            "More information coming soon!"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "h4",
-	                null,
-	                "Despacho ceremony"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "A traditional Andean ceremony that blesses & ensures good fortune to new ventures. Perfect for: opening a new business, a wedding, a newborn child, or moving to a new home."
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "The ceremony usually lasts 2-3 hours and can be held at your address or mine (in London) if preferred. More information coming soon!"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/despacho.JPG" })
 	              )
 	            )
 	          )
@@ -22778,7 +22590,16 @@
 	            _react2.default.createElement(
 	              "i",
 	              null,
-	              "\"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me. An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing.\""
+	              "\"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me."
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
+	              "An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing.\""
 	            ),
 	            "  -- Gabriella Thompson"
 	          ),
@@ -22906,6 +22727,63 @@
 	}(_react.Component);
 	
 	exports.default = About;
+	
+	//<p className="section-title">Despacho Ceremony</p>
+	//<p className="section-sub-heading">More information coming soon!</p>
+	//<div className="case-study padding-top-40px">
+	//  <div className="case-study-section">
+	//    <h4>Despacho ceremony</h4>
+	//    <p>A traditional Andean ceremony that blesses & ensures good fortune to new ventures. Perfect for: opening a new business, a wedding, a newborn child, or moving to a new home.</p>
+	//    <p>The ceremony usually lasts 2-3 hours and can be held at your address or mine (in London) if preferred. More information coming soon!</p>
+	//  </div>
+	//  <div className="case-study-section">
+	//    <div className="img-container">
+	//      <img className="img-border" src="public/resources/despacho.JPG"/>
+	//    </div>
+	//  </div>
+	//</div>
+	
+	
+	//<div id="about"></div>
+	//<img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
+	//<h2 id="top-h2" className="padding-top-2em">about me</h2>
+	//<div className="content-background-colour">
+	//  <div className="my-story padding-top-40px padding-bottom-80px">
+	//    <h3 id="about-header"><em>hi, my name is Bradley, and I am a shamanic practitioner & energy healer</em></h3>
+	//    <hr />
+	//    <img className="my-story-image" src="../../public/resources/me2.JPG"/>
+	//    <p>Throughout the last few years, I’ve been blessed to undertake training with master shamans in a broad range of traditional & indigenous healing and esoteric modalities.</p>
+	//    <p>In 2019, I was formally initiated into the <a target="_blank" href="https://en.wikipedia.org/wiki/Q%27ero">Andean (Q’ero) shamanic lineage</a> of Peru as an authentic practitioner -- or <a target="_blank" href="http://andeanmasters.com/andean-paqo-shaman/">Paqo</a> -- of this tradition. I’ve since been on pilgrimages to Peru to learn from Q’ero maestro <a target="_blank" href="https://pumadventuresperu.com/our-team">Puma Fredy Quispe Singona</a> & Shipibo maestro <a target="_blank" //href="https://www.ayahuascaretreat.pe/maestro-heberto-garcia/">Heberto Garcia</a>, where I received the healing energies that I primarily work with today.</p>
+	//    <p>I’m always supplementing this foundation with further training, most recently in energy healing & natural medicine as a student of <a target="_blank" href="https://copaldaselva.com/">Copal Daselva</a> & <a target="_blank" href="https://www.eleanorsara.com/">Eleanor Sara Darley</a>. And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery.</p>
+	//    <p>I’m deeply humbled to put this together in service to you. I do so with the utmost integrity and heart-felt intention to enable your healing, transformation and connection with the best version of yourself possible. :-)</p>
+	//    <p>Till we meet, Haux Haux!</p>
+	//  </div>
+	//</div>
+	//<div id="experience"></div>
+	//<h2>affiliated with</h2>
+	//<div className="content-background-colour">
+	//  <div className="my-process-column padding-top-40px">
+	//    <h3 className="process-heading"><strong>I have completed certified training as a shamanic practitioner and am humbled to be associated with:</strong></h3>
+	//    <p></p>
+	//  </div>
+	//  <div className="my-process">
+	//    <div className="my-process-column purple">
+	//      <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
+	//      <h3><strong>Graduate of <a target="_blank" href="https://ayni.foundation/nwl/">Natural Wisdom Leaders</a> programme</strong></h3>
+	//      <a target="_blank" href="https://ayni.foundation/"><img src="../../public/resources/Ayni-foundation.PNG"/></a>
+	//    </div>
+	//    <div className="my-process-column green">
+	//      <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
+	//      <h3><strong>Current student of <a target="_blank" href="https://copaldaselva.com/">Shamanic energy healing</a></strong></h3>
+	//      <a target="_blank" href="https://copaldaselva.com/"><img src="../../public/resources/copal.JPEG"/></a>
+	//    </div>
+	//    <div className="padding-bottom-80px my-process-column green">
+	//      <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
+	//      <h3><strong>Founding member of <a target="_blank" href="https://brightsky.community/">BrightSky Community</a></strong></h3>
+	//      <a target="_blank" href="https://brightsky.community/"><img src="../../public/resources/bright-sky.PNG"/></a>
+	//    </div>
+	//  </div>
+	//</div>
 	
 	//<ul className="no-margins decrease-padding">
 	//  <li>Providing feedback on the healing session and/or this website.</li>

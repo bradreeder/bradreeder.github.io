@@ -2,10 +2,11 @@
   background-color: #003E71;
   color: white;
   width: 100%;
-  height: 40vh;
+  height: 24vh;
   margin: auto;
   border-bottom: 4px solid white;
   position: relative;
+  z-index: 9997;
   /*  img {
       position: absolute;
       top: calc(40vh - 100px);
@@ -41,19 +42,43 @@
   #header a:hover {
     color: #005E91; }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 370px) {
+  .header-subtext {
+    font-size: 14px !important; }
+
+  #header a {
+    font-size: 14px !important; }
+
   #header p {
-    font-size: 18px; }
-  #header img {
-    top: calc(50vh - 80px);
-    left: calc(50vw - 105px); }
+    padding-top: 2px !important;
+    padding-bottom: 0px !important; }
+
+  #header-links {
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important; } }
+@media only screen and (max-width: 736px) {
+  #header {
+    height: 27vh; }
+    #header p {
+      font-size: 18px;
+      padding-top: 5px !important;
+      padding-bottom: 0px !important; }
+    #header img {
+      top: calc(50vh - 80px);
+      left: calc(50vw - 105px); }
 
   #header-me {
     padding-top: 45px;
     text-align: center; }
 
+  .booking-info {
+    display: none; }
+
   #header-links {
-    display: none; } }
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important; } }
 @media only screen and (min-width: 737px) {
   .header-name {
     font-size: 40px !important; }
@@ -74,7 +99,7 @@
   #header p {
     font-size: 20px; } }
 .menu {
-  background-color: #02205B;
+  background-color: #003E71;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -82,10 +107,16 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999; }
+  z-index: 9998; }
   .menu .menu-item {
     display: inline-block;
     height: 100%; }
+  .menu .social-media-icons {
+    max-height: 30px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px; }
   .menu p {
     font-family: "Open Sans", sans-serif;
     margin-top: 0px;
@@ -108,9 +139,18 @@
     text-decoration: none;
     color: white; }
 
+@media only screen and (max-width: 370px) {
+  .menu p {
+    padding-left: 5px !important;
+    padding-right: 5px !important; } }
 @media only screen and (max-width: 736px) {
   .menu p {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .menu .social-media-icons {
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 25px; } }
 @media only screen and (max-width: 375px) {
   .menu p {
     font-size: 12px; } }
@@ -150,6 +190,50 @@
     color: white; }
   #inspiration img {
     max-width: 100%; }
+  #inspiration .absolute {
+    background-color: rgba(50, 50, 50, 0.7);
+    position: absolute;
+    top: 33%;
+    width: 42%;
+    padding-bottom: 20px; }
+  #inspiration .absolute-text {
+    padding-left: 15px;
+    padding-right: 15px; }
+  #inspiration .absolute-anchor {
+    color: #00c8fa; }
+  #inspiration .absolute-anchor:hover {
+    color: #005E91; }
+  #inspiration .insp-anchor {
+    color: #00c8fa; }
+  #inspiration .insp-anchor:hover {
+    color: #005E91; }
+  #inspiration #absolute-img-1 {
+    width: 5%;
+    position: absolute;
+    left: 94%;
+    top: 33%;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s; }
+  #inspiration #absolute-img-1 img:hover {
+    width: 7%; }
+  #inspiration #absolute-img-2 {
+    width: 5%;
+    position: absolute;
+    left: 94%;
+    top: 45%;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s; }
+  #inspiration #absolute-img-2 img:hover {
+    width: 7%; }
+  #inspiration #absolute-img-3 {
+    width: 5%;
+    position: absolute;
+    left: 94%;
+    top: 59%;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s; }
+  #inspiration #absolute-img-3 img:hover {
+    width: 7%; }
 
 #thich-nhat-hanh {
   color: white;
@@ -208,10 +292,23 @@
     margin-bottom: 0px; }
   #inspiration h2 {
     padding: 0em 2em 0em 2em;
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  #inspiration .absolute {
+    width: 80%;
+    left: 10%;
+    top: 50% !important; } }
 @media only screen and (min-width: 737px) {
   #inspiration p {
     font-size: 20px; } }
+@media only screen and (max-width: 1000px) {
+  #inspiration h2 {
+    padding: 0px; }
+
+  #inspiration .absolute {
+    top: 28%; } }
+@media only screen and (min-width: 1550px) {
+  #inspiration .absolute {
+    width: 25%; } }
 #content-container {
   background-color: rgba(50, 50, 50, 0.9);
   display: block;
@@ -287,6 +384,8 @@
     font-size: 24px; }
   #content-container .footer-text {
     font-size: 20px !important; }
+  #content-container .font-16px {
+    font-size: 16px !important; }
   #content-container .section-title {
     background-color: rgba(50, 50, 50, 0.9);
     color: white;
