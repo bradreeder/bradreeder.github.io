@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 370px) {
   #header {
-    height: 31vh !important; }
+    height: 33vh !important; }
 
   .header-subtext {
     font-size: 14px !important; }
@@ -62,7 +62,7 @@
     padding-bottom: 0px !important; } }
 @media only screen and (max-width: 736px) {
   #header {
-    height: 27vh; }
+    height: 30vh; }
     #header p {
       font-size: 18px;
       padding-top: 5px !important;
