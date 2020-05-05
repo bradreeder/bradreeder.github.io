@@ -9,9 +9,8 @@ import Contact from './contact.jsx';
 class Content extends Component {
   render() {
     return (
-      <div id="content-container">
+      <div id="margin-top" className="content-container">
         {this.getContent()}
-        <Contact/>
       </div>
     );
   }

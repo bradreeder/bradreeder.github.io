@@ -22363,9 +22363,8 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { id: 'content-container' },
-	        this.getContent(),
-	        _react2.default.createElement(_contact2.default, null)
+	        { id: 'margin-top', className: 'content-container' },
+	        this.getContent()
 	      );
 	    }
 	  }, {
@@ -22439,7 +22438,7 @@
 	        _react2.default.createElement("div", { id: "services" }),
 	        _react2.default.createElement(
 	          "h2",
-	          { id: "top-h2", className: "padding-top-2em" },
+	          { className: "padding-top-2em top-h2" },
 	          "services"
 	        ),
 	        _react2.default.createElement(
@@ -22726,75 +22725,6 @@
 	              "Corrie Nielsen (London, UK)"
 	            )
 	          )
-	        ),
-	        _react2.default.createElement("div", { id: "booking" }),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "booking"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "h2",
-	            { className: "no-margins" },
-	            "I am offering one hour ",
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#healing", onClick: function onClick() {
-	                  return _this2.props.changeContent('healing');
-	                } },
-	              "1-1 shamanic distance energy healing sessions"
-	            ),
-	            " ",
-	            _react2.default.createElement(
-	              "i",
-	              null,
-	              "by donation"
-	            )
-	          ),
-	          _react2.default.createElement("hr", null),
-	          _react2.default.createElement(
-	            "strong",
-	            null,
-	            _react2.default.createElement(
-	              "p",
-	              { className: "decrease-padding padding-bottom-20px" },
-	              "I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
-	                "here"
-	              ),
-	              " before or after sessions."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "strong",
-	            null,
-	            _react2.default.createElement(
-	              "p",
-	              { className: "decrease-padding padding-bottom-20px" },
-	              "Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "strong",
-	            null,
-	            _react2.default.createElement(
-	              "p",
-	              { className: "decrease-padding" },
-	              "Book a slot below or write to me at ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
-	                "bradjohnreeder@gmail.com"
-	              ),
-	              " with a short description of what you'd like help with and I will be in touch!"
-	            )
-	          ),
-	          _react2.default.createElement("div", { id: "calendly-inline-widget", className: "calendly-inline-widget padding-bottom-80px", "data-url": "https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2" })
 	        )
 	      );
 	    }
@@ -23007,8 +22937,6 @@
 	  _createClass(Healing, [{
 	    key: "render",
 	    value: function render() {
-	      var _this2 = this;
-	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "healing", className: "main-article" },
@@ -23376,75 +23304,6 @@
 	              "Corrie Nielsen (London, UK)"
 	            )
 	          )
-	        ),
-	        _react2.default.createElement("div", { id: "booking" }),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "booking"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "h2",
-	            { className: "no-margins" },
-	            "I am offering one hour ",
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#healing", onClick: function onClick() {
-	                  return _this2.props.changeContent('healing');
-	                } },
-	              "1-1 shamanic distance energy healing sessions"
-	            ),
-	            " ",
-	            _react2.default.createElement(
-	              "i",
-	              null,
-	              "by donation"
-	            )
-	          ),
-	          _react2.default.createElement("hr", null),
-	          _react2.default.createElement(
-	            "strong",
-	            null,
-	            _react2.default.createElement(
-	              "p",
-	              { className: "decrease-padding padding-bottom-20px" },
-	              "I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
-	                "here"
-	              ),
-	              " before or after sessions."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "strong",
-	            null,
-	            _react2.default.createElement(
-	              "p",
-	              { className: "decrease-padding padding-bottom-20px" },
-	              "Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "strong",
-	            null,
-	            _react2.default.createElement(
-	              "p",
-	              { className: "decrease-padding" },
-	              "Book a slot below or write to me at ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
-	                "bradjohnreeder@gmail.com"
-	              ),
-	              " with a short description of what you'd like help with and I will be in touch!"
-	            )
-	          ),
-	          _react2.default.createElement("div", { className: "calendly-inline-widget padding-bottom-80px", "data-url": "https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2" })
 	        )
 	      );
 	    }
@@ -24118,7 +23977,7 @@
 	            { className: "contact padding-top-40px padding-bottom-80px" },
 	            _react2.default.createElement(
 	              "h3",
-	              { id: "contact-header" },
+	              { className: "contact-header" },
 	              "For more info or to book an appointment, contact me on the following and I will be in touch shortly:"
 	            ),
 	            _react2.default.createElement(

@@ -7,7 +7,7 @@ class About extends Component {
       <div className="main-article">
         <img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
         <div id="services"></div>
-        <h2 id="top-h2" className="padding-top-2em">services</h2>
+        <h2 className="padding-top-2em top-h2">services</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
           <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Energy Healing</a></p>
           <p className="section-sub-heading">30 min to 1 hour online <strong><i>by donation</i></strong></p>
@@ -65,17 +65,6 @@ class About extends Component {
           <p className="padding-bottom-20px service-text"><i>“My experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.”</i></p>
           <strong><hr/></strong>
           <strong><p className="service-text review-header padding-bottom-80px">Corrie Nielsen (London, UK)</p></strong>
-        </div>
-
-        <div id="booking"></div>
-        <h2>booking</h2>
-        <div className="content-background-colour padding-top-40px">
-          <h2 className="no-margins">I am offering one hour <a href="#healing" onClick={() => this.props.changeContent('healing')}>1-1 shamanic distance energy healing sessions</a> <i>by donation</i></h2>
-          <hr />
-          <strong><p className="decrease-padding padding-bottom-20px">I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions.</p></strong>
-          <strong><p className="decrease-padding padding-bottom-20px">Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss.</p></strong>
-          <strong><p className="decrease-padding">Book a slot below or write to me at <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
-          <div id="calendly-inline-widget" className="calendly-inline-widget padding-bottom-80px" data-url="https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2"></div>
         </div>
       </div>
     );

@@ -1,9 +1,12 @@
-#content-container {
+#margin-top {
+  margin-top: 15px;
+}
+
+.content-container {
   background-color: $main-background-colour;
   display: block;
   height: auto;
   margin: auto;
-  margin-top: 14px;
   // box-shadow: $box-shadow;
   p {
     margin-top: 0px;
@@ -50,7 +53,7 @@
     color: $header-font-colour;
     margin-bottom: 20px;
   }
-  #top-h2 {
+  .top-h2 {
     margin-top: 0px !important;
     margin-bottom: 0px!important;
   }
@@ -165,7 +168,7 @@
     color: white;
     text-align: center;
   }
-  #contact-header {
+  .contact-header {
     margin-top: 0px;
     color: white;
   }
@@ -194,7 +197,7 @@
   .review-header {
     text-align: center;
   }
-  #content-container {
+  .content-container {
     .case-study-img-container {
       margin: 0 auto;
       padding: 5px 25px 5px 25px;
@@ -226,7 +229,7 @@
     #about-header {
       padding: 5px 2em 5px 2em;
     }
-    #contact-header {
+    .contact-header {
       padding: 5px 2em 5px 2em;
     }
     .portrait {
@@ -319,11 +322,11 @@
   .bg {
     display: none;
   }
-  #content-container {
+  .content-container {
     #about-header {
       padding: 5px 150px 5px 150px;
     }
-    #contact-header {
+    .contact-header {
       padding: 5px 150px 5px 150px;
     }
     .case-study-img-container {
@@ -437,7 +440,7 @@
     padding-left: 50px !important;
     padding-right: 50px !important;
   }
-  #content-container {
+  .content-container {
     p {
       padding-left: 50px;
     }

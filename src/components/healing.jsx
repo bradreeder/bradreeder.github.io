@@ -88,16 +88,6 @@ class Healing extends Component {
           <strong><hr/></strong>
           <strong><p className="service-text review-header padding-bottom-80px">Corrie Nielsen (London, UK)</p></strong>
         </div>
-        <div id="booking"></div>
-        <h2>booking</h2>
-        <div className="content-background-colour padding-top-40px">
-          <h2 className="no-margins">I am offering one hour <a href="#healing" onClick={() => this.props.changeContent('healing')}>1-1 shamanic distance energy healing sessions</a> <i>by donation</i></h2>
-          <hr />
-          <strong><p className="decrease-padding padding-bottom-20px">I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions.</p></strong>
-          <strong><p className="decrease-padding padding-bottom-20px">Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss.</p></strong>
-          <strong><p className="decrease-padding">Book a slot below or write to me at <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
-          <div className="calendly-inline-widget padding-bottom-80px" data-url="https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2"></div>
-        </div>
       </div>
     );
   }
