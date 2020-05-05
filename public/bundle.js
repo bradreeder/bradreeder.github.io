@@ -22249,7 +22249,7 @@
 	            _react2.default.createElement(
 	              'h2',
 	              null,
-	              'Welcome'
+	              'Welcome, my Global Community'
 	            ),
 	            _react2.default.createElement(
 	              'p',
@@ -22585,12 +22585,17 @@
 	          "div",
 	          { className: "content-background-colour padding-top-40px" },
 	          _react2.default.createElement(
+	            "h3",
+	            { className: "review-title" },
+	            "Shamanic Distance Healing Reviews"
+	          ),
+	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px service-text" },
+	            { className: "service-text review-header" },
 	            _react2.default.createElement(
-	              "i",
+	              "strong",
 	              null,
-	              "\"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me."
+	              "An overall brilliant experience"
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22599,39 +22604,127 @@
 	            _react2.default.createElement(
 	              "i",
 	              null,
+	              "\"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me."
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text padding-bottom-20px" },
+	            _react2.default.createElement(
+	              "i",
+	              null,
 	              "An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing.\""
-	            ),
-	            "  -- Gabriella Thompson"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement("hr", null)
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "service-text review-header" },
+	              "Gabriella Thompson (London, UK)"
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px service-text" },
+	            { className: "service-text review-header padding-top-60px" },
+	            _react2.default.createElement(
+	              "strong",
+	              null,
+	              "Really interesting and inspiring"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text padding-bottom-20px" },
 	            _react2.default.createElement(
 	              "i",
 	              null,
-	              "\"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really intersting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others.\""
-	            ),
-	            "  -- Hannan Benjelloul"
+	              "\"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really interesting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others.\""
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement("hr", null)
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "service-text review-header" },
+	              "Hannan Benjelloul (London, UK)"
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px service-text" },
+	            { className: "service-text review-header padding-top-60px" },
+	            _react2.default.createElement(
+	              "strong",
+	              null,
+	              "I felt very positive in all aspects"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text padding-bottom-20px" },
 	            _react2.default.createElement(
 	              "i",
 	              null,
-	              "\"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspect. Thank you so much for this.\""
-	            ),
-	            "  -- Snigdha Jaiswal"
+	              "\"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspects. Thank you so much for this.\""
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement("hr", null)
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "service-text review-header" },
+	              "Snigdha Jaiswal (London, UK)"
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "padding-top-40px padding-bottom-80px service-text" },
+	            { className: "service-text review-header padding-top-60px" },
+	            _react2.default.createElement(
+	              "strong",
+	              null,
+	              "A knowledgeable professional energy healer"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "padding-bottom-20px service-text" },
 	            _react2.default.createElement(
 	              "i",
 	              null,
 	              "\u201CMy experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.\u201D"
-	            ),
-	            "  -- Corrie Nielsen"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement("hr", null)
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "service-text review-header padding-bottom-80px" },
+	              "Corrie Nielsen (London, UK)"
+	            )
 	          )
 	        ),
 	        _react2.default.createElement("div", { id: "pricing" }),

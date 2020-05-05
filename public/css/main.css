@@ -366,9 +366,19 @@
     margin-right: 10%; }
   #content-container .img-border {
     border: 6px solid white; }
+  #content-container .padding-bottom-20px {
+    padding-bottom: 20px; }
   #content-container .service-text {
     font-size: 18px;
     line-height: 1.6em; }
+  #content-container .review-header {
+    text-align: center;
+    padding-bottom: 20px; }
+  #content-container .review-title {
+    text-align: center;
+    color: white; }
+  #content-container .padding-top-60px {
+    padding-top: 60px; }
   #content-container .content-background-colour {
     background-color: #222222; }
   #content-container .padding-top-2em {
@@ -447,6 +457,9 @@
 
   .service-text {
     font-size: 16px !important; }
+
+  .review-header {
+    text-align: center; }
 
   #content-container .case-study-img-container {
     margin: 0 auto;

@@ -68,9 +68,23 @@
   .img-border {
     border: 6px solid white;
   }
+  .padding-bottom-20px {
+    padding-bottom: 20px;
+  }
   .service-text {
     font-size: 18px;
     line-height: 1.6em;
+  }
+  .review-header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .review-title {
+    text-align: center;
+    color: white;
+  }
+  .padding-top-60px {
+    padding-top: 60px;
   }
   .content-background-colour {
     background-color: $content-background-colour;
@@ -172,6 +186,9 @@
   }
   .service-text {
     font-size: 16px !important;;
+  }
+  .review-header {
+    text-align: center;
   }
   #content-container {
     .case-study-img-container {

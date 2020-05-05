@@ -43,11 +43,28 @@ class About extends Component {
         <div id="reviews"></div>
         <h2>reviews</h2>
         <div className="content-background-colour padding-top-40px">
-          <p className="padding-top-40px service-text"><i>"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me.</i></p>
-          <p className="service-text"><i>An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing."</i>  -- Gabriella Thompson</p>
-          <p className="padding-top-40px service-text"><i>"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really intersting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others."</i>  -- Hannan Benjelloul</p>
-          <p className="padding-top-40px service-text"><i>"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspect. Thank you so much for this."</i>  -- Snigdha Jaiswal</p>
-          <p className="padding-top-40px padding-bottom-80px service-text"><i>“My experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.”</i>  -- Corrie Nielsen</p>
+
+          <h3 className="review-title">Shamanic Distance Healing Reviews</h3>
+          <p className="service-text review-header"><strong>An overall brilliant experience</strong></p>
+          <p className="service-text"><i>"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me.</i></p>
+          <p className="service-text padding-bottom-20px"><i>An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing."</i></p>
+          <strong><hr/></strong>
+          <strong><p className="service-text review-header">Gabriella Thompson (London, UK)</p></strong>
+
+          <p className="service-text review-header padding-top-60px"><strong>Really interesting and inspiring</strong></p>
+          <p className="service-text padding-bottom-20px"><i>"I found Bradley to be incredibly helpful and warm. He explained everything in detail. I had distant healing which is something I have never had before so I really didnt know what to expect. My overall experience was really interesting and inspiring. It's something I'm now interested in exploring further. I feel Bradley is incredibly intuitive and I would happily work with him again and highly recommend him to others."</i></p>
+          <strong><hr/></strong>
+          <strong><p className="service-text review-header">Hannan Benjelloul (London, UK)</p></strong>
+
+          <p className="service-text review-header padding-top-60px"><strong>I felt very positive in all aspects</strong></p>
+          <p className="service-text padding-bottom-20px"><i>"The healing session was very peaceful. Throughout the day after the session I felt so energetic and got all things done very smoothly. I felt very positive in all aspects. Thank you so much for this."</i></p>
+          <strong><hr/></strong>
+          <strong><p className="service-text review-header">Snigdha Jaiswal (London, UK)</p></strong>
+
+          <p className="service-text review-header padding-top-60px"><strong>A knowledgeable professional energy healer</strong></p>
+          <p className="padding-bottom-20px service-text"><i>“My experience so far with Bradley Reeder, is that not only is he a knowledgeable professional energy healer, but also teaches one about their own sovereign and standing in ones own power. He also teaches how the energy that resides in each of us corresponds with the universe for self growth and evolution.”</i></p>
+          <strong><hr/></strong>
+          <strong><p className="service-text review-header padding-bottom-80px">Corrie Nielsen (London, UK)</p></strong>
         </div>
 
         <div id="pricing"></div>
