@@ -22000,7 +22000,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "header-subtext" },
-	            "Shamanic & energy healing. London UK"
+	            "Shamanic energy healing. London UK"
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -22254,7 +22254,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text' },
-	              'My name is Bradley, I am an authentic lineage holder & healer of the Inca ',
+	              'My name is Bradley, I am an authentic lineage holder & practitioner of the Inca ',
 	              _react2.default.createElement(
 	                'a',
 	                { className: 'insp-anchor', target: '_blank', href: 'https://en.wikipedia.org/wiki/Q%27ero' },
@@ -22265,7 +22265,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text padding-bottom-40px' },
-	              'I have certified training with master shamans in a range of healing methods and offer healing sessions & sacred ceremonies tailored to your individual needs.'
+	              'I have certified training with master shamans in a range of healing methods and offer energy healing sessions & sacred ceremonies for your healing, transformation, and self-empowerment.'
 	            ),
 	            _react2.default.createElement(
 	              'div',

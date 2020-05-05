@@ -9,8 +9,8 @@ class Inspiration extends Component {
         <div id="inspiration">
           <div className="absolute">
             <h2>Welcome, my Global Community</h2>
-            <p className="absolute-text">My name is Bradley, I am an authentic lineage holder & healer of the Inca <a className="insp-anchor" target="_blank" href="https://en.wikipedia.org/wiki/Q%27ero">(Q'ero)</a> shamanic tradition of Peru.</p>
-            <p className="absolute-text padding-bottom-40px">I have certified training with master shamans in a range of healing methods and offer healing sessions & sacred ceremonies tailored to your individual needs.</p>
+            <p className="absolute-text">My name is Bradley, I am an authentic lineage holder & practitioner of the Inca <a className="insp-anchor" target="_blank" href="https://en.wikipedia.org/wiki/Q%27ero">(Q'ero)</a> shamanic tradition of Peru.</p>
+            <p className="absolute-text padding-bottom-40px">I have certified training with master shamans in a range of healing methods and offer energy healing sessions & sacred ceremonies for your healing, transformation, and self-empowerment.</p>
             <div id="anchor-header"><a className="toscroll" href="#services" onClick={() => this.props.changeContent('about')}><p className="absolute-text absolute-anchor">Read more below.</p></a></div>
           </div>
         </div>

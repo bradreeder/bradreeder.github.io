@@ -7,7 +7,7 @@ class Header extends Component {
       <div id="header">
         <div id="header-me">
           <p className="header-name">Pachakuti healing</p>
-          <p className="header-subtext">Shamanic & energy healing. London UK</p>
+          <p className="header-subtext">Shamanic energy healing. London UK</p>
         </div>
         <div id="header-links">
           <p className="booking-info">For bookings or more info:</p>
