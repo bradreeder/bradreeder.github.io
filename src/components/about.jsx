@@ -9,12 +9,12 @@ class About extends Component {
         <div id="services"></div>
         <h2 id="top-h2" className="padding-top-2em">services</h2>
         <div className="content-background-colour padding-top-40px padding-bottom-80px">
-          <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Healing</a></p>
+          <p className="section-title"><a href="#healing" onClick={() => this.props.changeContent('healing')}>Shamanic Distance Energy Healing</a></p>
           <p className="section-sub-heading">30 min to 1 hour online <strong><i>by donation</i></strong></p>
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
-              <h4>Shamanic Distance Healing</h4>
-              <p>I offer powerful distance healing sessions that can be done remotely from your location. By donation and based on what you can afford.</p>
+              <h4>Shamanic Distance Energy Healing</h4>
+              <p>I offer powerful distance energy healing sessions that can be done remotely from your location. By donation and based on what you can afford.</p>
               <p>Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
             </div>
             <div className="case-study-section">
@@ -44,7 +44,7 @@ class About extends Component {
         <h2>reviews</h2>
         <div className="content-background-colour padding-top-40px">
 
-          <h3 className="review-title">Shamanic Distance Healing Reviews</h3>
+          <h3 className="review-title">Shamanic Distance Energy Healing Reviews</h3>
           <p className="service-text review-header"><strong>An overall brilliant experience</strong></p>
           <p className="service-text"><i>"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me.</i></p>
           <p className="service-text padding-bottom-20px"><i>An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing."</i></p>
@@ -67,30 +67,35 @@ class About extends Component {
           <strong><p className="service-text review-header padding-bottom-80px">Corrie Nielsen (London, UK)</p></strong>
         </div>
 
-        <div id="pricing"></div>
-        <h2>pricing</h2>
+        <div id="booking"></div>
+        <h2>booking</h2>
         <div className="content-background-colour padding-top-40px">
-          <h2 className="no-margins">I am currently offering <a href="#healing" onClick={() => this.props.changeContent('healing')}>shamanic distance healing</a> <i>by donation</i></h2>
+          <h2 className="no-margins">I am offering one hour <a href="#healing" onClick={() => this.props.changeContent('healing')}>1-1 shamanic distance energy healing sessions</a> <i>by donation</i></h2>
           <hr />
-            <div className="case-study padding-top-40px padding-bottom-80px">
-              <div className="case-study-section">
-                <strong><p className="decrease-padding">I am offering 30 minute distance healings by donation to be of service during the global pandemic.</p></strong>
-                <strong><p className="decrease-padding">Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. Give what you are able to. I also welcome contributions such as reviews.</p></strong>
-                <strong><p className="decrease-padding">To book a session contact me <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
-              </div>
-              <div className="case-study-section">
-                <div className="img-container">
-                  <img className="img-border" src="public/resources/Energy-healing-6.JPG"/>
-                </div>
-              </div>
-            </div>
-          </div>
+          <strong><p className="decrease-padding padding-bottom-20px">I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions.</p></strong>
+          <strong><p className="decrease-padding padding-bottom-20px">Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss.</p></strong>
+          <strong><p className="decrease-padding">Book a slot below or write to me at <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
+          <div id="calendly-inline-widget" className="calendly-inline-widget padding-bottom-80px" data-url="https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2"></div>
         </div>
+      </div>
     );
   }
 }
 
 export default About;
+
+//<div className="case-study padding-top-40px">
+//  <div className="case-study-section">
+//    <strong><p className="decrease-padding">I am offering distance energy healings by donation to be of service during the global pandemic.</p></strong>
+//    <strong><p className="decrease-padding">Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. Give what you are able to. I also welcome contributions such as reviews.</p></strong>
+//    <strong><p className="decrease-padding">Book a slot below or write to me at <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
+//  </div>
+//  <div className="case-study-section">
+//    <div className="img-container">
+//      <img className="img-border" src="public/resources/Energy-healing-6.JPG"/>
+//    </div>
+//  </div>
+//</div>
 
 
 //<p className="section-title">Despacho Ceremony</p>

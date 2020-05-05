@@ -22130,16 +22130,16 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { id: "menu-pricing", className: "menu-item" },
+	            { id: "menu-booking", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
-	              { className: "toscroll", href: "#pricing", onClick: function onClick() {
+	              { className: "toscroll", href: "#booking", onClick: function onClick() {
 	                  return _this2.props.changeContent('about');
 	                } },
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "pricing"
+	                "booking"
 	              )
 	            )
 	          ),
@@ -22260,12 +22260,12 @@
 	                { className: 'insp-anchor', target: '_blank', href: 'https://en.wikipedia.org/wiki/Q%27ero' },
 	                '(Q\'ero)'
 	              ),
-	              ' shamanic tradition of Peru.'
+	              ' shamanic traditions of Peru.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text padding-bottom-40px' },
-	              'I have certified training with master shamans in a range of healing methods and offer energy healing sessions & sacred ceremonies for your healing, transformation, and self-empowerment.'
+	              'I have certified training with master shamans in a range of healing methods and offer distance energy healing sessions by donation for your healing, transformation, and self-empowerment.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -22453,7 +22453,7 @@
 	              { href: "#healing", onClick: function onClick() {
 	                  return _this2.props.changeContent('healing');
 	                } },
-	              "Shamanic Distance Healing"
+	              "Shamanic Distance Energy Healing"
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22479,12 +22479,12 @@
 	              _react2.default.createElement(
 	                "h4",
 	                null,
-	                "Shamanic Distance Healing"
+	                "Shamanic Distance Energy Healing"
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "I offer powerful distance healing sessions that can be done remotely from your location. By donation and based on what you can afford."
+	                "I offer powerful distance energy healing sessions that can be done remotely from your location. By donation and based on what you can afford."
 	              ),
 	              _react2.default.createElement(
 	                "p",
@@ -22587,7 +22587,7 @@
 	          _react2.default.createElement(
 	            "h3",
 	            { className: "review-title" },
-	            "Shamanic Distance Healing Reviews"
+	            "Shamanic Distance Energy Healing Reviews"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -22727,11 +22727,11 @@
 	            )
 	          )
 	        ),
-	        _react2.default.createElement("div", { id: "pricing" }),
+	        _react2.default.createElement("div", { id: "booking" }),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "pricing"
+	          "booking"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -22739,13 +22739,13 @@
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "I am currently offering ",
+	            "I am offering one hour ",
 	            _react2.default.createElement(
 	              "a",
 	              { href: "#healing", onClick: function onClick() {
 	                  return _this2.props.changeContent('healing');
 	                } },
-	              "shamanic distance healing"
+	              "1-1 shamanic distance energy healing sessions"
 	            ),
 	            " ",
 	            _react2.default.createElement(
@@ -22756,61 +22756,45 @@
 	          ),
 	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
+	            "strong",
+	            null,
 	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
+	              "p",
+	              { className: "decrease-padding padding-bottom-20px" },
+	              "I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal ",
 	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "I am offering 30 minute distance healings by donation to be of service during the global pandemic."
-	                )
+	                "a",
+	                { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
+	                "here"
 	              ),
-	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "Donations can be made via paypal ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
-	                    "here"
-	                  ),
-	                  " before or after sessions. Give what you are able to. I also welcome contributions such as reviews."
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "To book a session contact me ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
-	                    "bradjohnreeder@gmail.com"
-	                  ),
-	                  " with a short description of what you'd like help with and I will be in touch!"
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
-	              )
+	              " before or after sessions."
 	            )
-	          )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "decrease-padding padding-bottom-20px" },
+	              "Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss."
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "decrease-padding" },
+	              "Book a slot below or write to me at ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
+	                "bradjohnreeder@gmail.com"
+	              ),
+	              " with a short description of what you'd like help with and I will be in touch!"
+	            )
+	          ),
+	          _react2.default.createElement("div", { id: "calendly-inline-widget", className: "calendly-inline-widget padding-bottom-80px", "data-url": "https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2" })
 	        )
 	      );
 	    }
@@ -22820,6 +22804,20 @@
 	}(_react.Component);
 	
 	exports.default = About;
+	
+	//<div className="case-study padding-top-40px">
+	//  <div className="case-study-section">
+	//    <strong><p className="decrease-padding">I am offering distance energy healings by donation to be of service during the global pandemic.</p></strong>
+	//    <strong><p className="decrease-padding">Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. Give what you are able to. I also welcome contributions such as reviews.</p></strong>
+	//    <strong><p className="decrease-padding">Book a slot below or write to me at <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
+	//  </div>
+	//  <div className="case-study-section">
+	//    <div className="img-container">
+	//      <img className="img-border" src="public/resources/Energy-healing-6.JPG"/>
+	//    </div>
+	//  </div>
+	//</div>
+	
 	
 	//<p className="section-title">Despacho Ceremony</p>
 	//<p className="section-sub-heading">More information coming soon!</p>
@@ -23009,6 +23007,8 @@
 	  _createClass(Healing, [{
 	    key: "render",
 	    value: function render() {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { id: "healing", className: "main-article" },
@@ -23274,18 +23274,27 @@
 	            "  -- Corrie Nielsen"
 	          )
 	        ),
+	        _react2.default.createElement("div", { id: "booking" }),
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "pricing"
+	          "booking"
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "content-background-colour" },
+	          { className: "content-background-colour padding-top-40px" },
 	          _react2.default.createElement(
 	            "h2",
 	            { className: "no-margins" },
-	            "I am currently offering shamanic distance healing ",
+	            "I am offering one hour ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#healing", onClick: function onClick() {
+	                  return _this2.props.changeContent('healing');
+	                } },
+	              "1-1 shamanic distance energy healing sessions"
+	            ),
+	            " ",
 	            _react2.default.createElement(
 	              "i",
 	              null,
@@ -23294,61 +23303,45 @@
 	          ),
 	          _react2.default.createElement("hr", null),
 	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study padding-top-40px padding-bottom-80px" },
+	            "strong",
+	            null,
 	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
+	              "p",
+	              { className: "decrease-padding padding-bottom-20px" },
+	              "I am offering distance energy healings by donation to be of service during the global pandemic. Donations can be made via paypal ",
 	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "I am offering 30 minute distance healings by donation to be of service during the global pandemic."
-	                )
+	                "a",
+	                { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
+	                "here"
 	              ),
-	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "Donations can be made via paypal ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "https://www.paypal.me/bradleyreeder" },
-	                    "here"
-	                  ),
-	                  " before or after sessions. Give what you are able to. I also welcome contributions such as reviews."
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "strong",
-	                null,
-	                _react2.default.createElement(
-	                  "p",
-	                  { className: "decrease-padding" },
-	                  "To book a session contact me ",
-	                  _react2.default.createElement(
-	                    "a",
-	                    { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
-	                    "bradjohnreeder@gmail.com"
-	                  ),
-	                  " with a short description of what you'd like help with and I will be in touch!"
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "case-study-section" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "img-container" },
-	                _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
-	              )
+	              " before or after sessions."
 	            )
-	          )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "decrease-padding padding-bottom-20px" },
+	              "Give based on what you can afford right now. I also welcome non-financial contributions for our time together such as reviews, which we could discuss."
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            _react2.default.createElement(
+	              "p",
+	              { className: "decrease-padding" },
+	              "Book a slot below or write to me at ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "mailto: bradjohnreeder@gmail.com" },
+	                "bradjohnreeder@gmail.com"
+	              ),
+	              " with a short description of what you'd like help with and I will be in touch!"
+	            )
+	          ),
+	          _react2.default.createElement("div", { id: "calendly-inline-widget", className: "calendly-inline-widget padding-bottom-80px", "data-url": "https://calendly.com/bradley-reeder/shamanic-distance-healing?background_color=333333&text_color=ffffff&primary_color=0088e2" })
 	        )
 	      );
 	    }
@@ -23358,6 +23351,24 @@
 	}(_react.Component);
 	
 	exports.default = Healing;
+	
+	//<h2>pricing</h2>
+	//  <div className="content-background-colour">
+	//    <h2 className="no-margins">I am currently offering shamanic distance healing <i>by donation</i></h2>
+	//    <hr />
+	//    <div className="case-study padding-top-40px padding-bottom-80px">
+	//      <div className="case-study-section">
+	//        <strong><p className="decrease-padding">I am offering 30 minute distance healings by donation to be of service during the global pandemic.</p></strong>
+	//        <strong><p className="decrease-padding">Donations can be made via paypal <a target="_blank" href="https://www.paypal.me/bradleyreeder">here</a> before or after sessions. Give what you are able to. I also welcome contributions such as reviews.</p></strong>
+	//        <strong><p className="decrease-padding">To book a session contact me <a target="_blank" href="mailto: bradjohnreeder@gmail.com">bradjohnreeder@gmail.com</a> with a short description of what you'd like help with and I will be in touch!</p></strong>
+	//      </div>
+	//      <div className="case-study-section">
+	//        <div className="img-container">
+	//          <img className="img-border" src="public/resources/Energy-healing-6.JPG"/>
+	//        </div>
+	//      </div>
+	//    </div>
+	//  </div>
 	
 	//<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
 

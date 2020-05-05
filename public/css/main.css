@@ -134,7 +134,7 @@
     background-color: #d93b9d; }
   .menu #menu-reviews:hover {
     background-color: #6ba753; }
-  .menu #menu-pricing:hover {
+  .menu #menu-booking:hover {
     background-color: #E06C9F; }
   .menu #menu-contact:hover {
     background-color: #1ba4de; }
@@ -144,8 +144,8 @@
 
 @media only screen and (max-width: 370px) {
   .menu p {
-    padding-left: 5px !important;
-    padding-right: 5px !important; } }
+    padding-left: 4px !important;
+    padding-right: 4px !important; } }
 @media only screen and (max-width: 736px) {
   .menu p {
     font-size: 16px; }
@@ -364,6 +364,9 @@
     float: right;
     width: 25%;
     margin-right: 10%; }
+  #content-container .calendly-inline-widget {
+    min-width: 320px;
+    height: 700px; }
   #content-container .img-border {
     border: 6px solid white; }
   #content-container .padding-bottom-20px {
@@ -469,6 +472,17 @@
       width: 100%;
       padding-left: 0px;
       padding-right: 0px; }
+  #content-container .padding-bottom-20px {
+    padding-bottom: 20px !important; }
+  #content-container .padding-top-60px {
+    padding-top: 60px !important; }
+  #content-container .padding-bottom-80px {
+    padding-bottom: 80px !important; }
+  #content-container .calendly-inline-widget {
+    min-width: 320px;
+    height: 1000px !important;
+    padding-top: 40px;
+    padding-bottom: 40px; }
   #content-container #about-header {
     padding: 5px 2em 5px 2em; }
   #content-container #contact-header {
@@ -493,7 +507,7 @@
   #content-container .section-title {
     font-size: 24px; }
   #content-container p {
-    padding: 5px 2em 5px 2em;
+    padding: 5px 1.5em 5px 1.5em !important;
     font-size: 16px;
     line-height: 1.5em; }
   #content-container h2 {
@@ -503,7 +517,7 @@
     text-align: center;
     font-size: 20px;
     line-height: 1.5em;
-    padding: 5px 2em 5px 2em; }
+    padding: 5px 1.5em 5px 1.5em !important; }
   #content-container h4 {
     font-size: 18px;
     line-height: 1.5em; }
@@ -530,7 +544,7 @@
     padding-top: 30px; }
   #content-container .case-study-section h4 {
     color: #EDEDED;
-    padding: 5px 2em 5px 1.8em;
+    padding: 5px 1.5em 5px 1.5em !important;
     margin-bottom: 0px;
     margin-top: 0px; } }
 @media only screen and (min-width: 737px) {
@@ -610,7 +624,20 @@
 @media only screen and (max-width: 1000px) {
   .decrease-padding {
     padding-left: 50px !important;
-    padding-right: 50px !important; } }
+    padding-right: 50px !important; }
+
+  #content-container p {
+    padding-left: 50px; }
+  #content-container .service-text {
+    padding-right: 50px; }
+  #content-container .calendly-inline-widget {
+    min-width: 320px;
+    height: 1100px;
+    padding-bottom: 40px; }
+  #content-container .case-study-section p {
+    padding-left: 50px; }
+  #content-container .case-study-section h4 {
+    padding-left: 50px; } }
 @media only screen and (min-width: 1350px) {
   .case-study-img-container img {
     max-height: 40em !important; }
