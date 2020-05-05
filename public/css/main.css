@@ -302,7 +302,8 @@
   #inspiration .absolute {
     width: 80%;
     left: 10%;
-    top: 57% !important; } }
+    top: 57% !important;
+    padding-bottom: 0px !important; } }
 @media only screen and (min-width: 737px) {
   #inspiration p {
     font-size: 20px; } }
@@ -474,6 +475,8 @@
       padding-right: 0px; }
   #content-container .padding-bottom-20px {
     padding-bottom: 20px !important; }
+  #content-container .padding-top-40px {
+    padding-top: 40px !important; }
   #content-container .padding-top-60px {
     padding-top: 60px !important; }
   #content-container .padding-bottom-80px {
