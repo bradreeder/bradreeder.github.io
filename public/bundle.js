@@ -22249,7 +22249,7 @@
 	            _react2.default.createElement(
 	              'h2',
 	              null,
-	              'Welcome, my Global Community'
+	              'Welcome'
 	            ),
 	            _react2.default.createElement(
 	              'p',
