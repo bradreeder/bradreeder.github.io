@@ -14,8 +14,8 @@ class About extends Component {
           <div className="case-study padding-top-40px padding-bottom-80px">
             <div className="case-study-section">
               <h4>Shamanic Distance Energy Healing</h4>
-              <p>I offer powerful distance energy healing sessions that can be done remotely from your location. By donation and based on what you can afford.</p>
-              <p>Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
+              <p>I offer powerful distance energy healing sessions that can be done remotely from your location. No fixed costs - all by donation.</p>
+              <p>Healing is only limited by the imagination and you can expect the same benefits as an in-person healing. <a href="#healing" onClick={() => this.props.changeContent('healing')}>Read more here.</a></p>
             </div>
             <div className="case-study-section">
               <div className="img-container">
@@ -29,8 +29,8 @@ class About extends Component {
           <div className="case-study padding-top-40px">
             <div className="case-study-section">
               <h4>Group ceremonies & meditations</h4>
-              <p>I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events online and in London.</p>
-              <p>Join my new <a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/">meetup group</a> or <a target="_blank" href="https://github.us4.list-manage.com/subscribe/post?u=7281ec38aacaa29248a5bf895&amp;id=c2698af877">subscribe to my mailing list</a> to receive monthly updates!</p>
+              <p>I run regular shamanic ceremonies, group meditations, and other events online and in London.</p>
+              <p>Join my <a target="_blank" href="https://www.meetup.com/London-Shamanic-Community/">meetup group</a> or <a target="_blank" href="https://github.us4.list-manage.com/subscribe/post?u=7281ec38aacaa29248a5bf895&amp;id=c2698af877">subscribe to my mailing list</a> to receive monthly updates!</p>
             </div>
             <div className="case-study-section">
               <div className="img-container">

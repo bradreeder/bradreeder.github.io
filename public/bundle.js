@@ -22157,33 +22157,6 @@
 	                "contact"
 	              )
 	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { id: "menu-fb", className: "menu-item" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "" },
-	              _react2.default.createElement("img", { className: "social-media-icons", src: "public/resources/facebook-icon.PNG" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { id: "menu-medium", className: "menu-item" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://medium.com/@bradjohnreeder/what-is-natural-wisdom-b861383a8368" },
-	              _react2.default.createElement("img", { className: "social-media-icons", src: "public/resources/medium-icon.PNG" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { id: "menu-meetup", className: "menu-item" },
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
-	              _react2.default.createElement("img", { className: "social-media-icons", src: "public/resources/meetup-icon.PNG" })
-	            )
 	          )
 	        )
 	      );
@@ -22260,12 +22233,12 @@
 	                { className: 'insp-anchor', target: '_blank', href: 'https://en.wikipedia.org/wiki/Q%27ero' },
 	                '(Q\'ero)'
 	              ),
-	              ' shamanic traditions of Peru.'
+	              ' shamanic tradition of Peru.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text padding-bottom-40px' },
-	              'I have certified training with master shamans in a range of healing methods and offer distance energy healing sessions by donation for your healing, transformation, and self-empowerment.'
+	              'I have certified training with master shamans in a range of healing methods and am offering distance energy healing sessions by donation to support you during lockdown.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -22483,12 +22456,12 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "I offer powerful distance energy healing sessions that can be done remotely from your location. By donation and based on what you can afford."
+	                "I offer powerful distance energy healing sessions that can be done remotely from your location. No fixed costs - all by donation."
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing. ",
+	                "Healing is only limited by the imagination and you can expect the same benefits as an in-person healing. ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { href: "#healing", onClick: function onClick() {
@@ -22543,12 +22516,12 @@
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "I run regular shamanic ceremonies, group meditations & prayer circles, healing clinics and other events online and in London."
+	                "I run regular shamanic ceremonies, group meditations, and other events online and in London."
 	              ),
 	              _react2.default.createElement(
 	                "p",
 	                null,
-	                "Join my new ",
+	                "Join my ",
 	                _react2.default.createElement(
 	                  "a",
 	                  { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },

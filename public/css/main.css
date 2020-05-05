@@ -653,30 +653,67 @@
   body {
     width: 60%;
     margin: auto !important; } }
-#footer #footer-content {
-  margin: auto;
-  background-color: black;
-  color: #cfc7c7;
+.column {
+  width: 5%;
+  padding: 5px;
+  padding-bottom: 10px;
+  display: inline-block; }
+
+.row {
   text-align: center; }
-#footer p {
-  padding: 25px 10px 25px 15px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+#footer {
+  background-color: #003E71; }
+  #footer #footer-content {
+    color: white;
+    text-align: center; }
+  #footer p {
+    padding: 25px 10px 25px 15px;
+    line-height: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  #footer img {
+    max-height: 30px;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px; }
 
 @media only screen and (max-width: 736px) {
   #footer-content p {
     font-size: 14px; } }
 #mc_embed_signup {
-  background-color: rgba(50, 50, 50, 0.9) !important; }
-  #mc_embed_signup #label-style {
+  background-color: rgba(50, 50, 50, 0.7) !important;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px; }
+  #mc_embed_signup a {
+    color: #00c8fa !important; }
+  #mc_embed_signup p {
+    text-align: left !important;
+    line-height: 1.5em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    padding-top: 1em !important;
+    font-size: 18px !important;
+    font-family: "Raleway", "Open Sans", sans-serif !important; }
+  #mc_embed_signup .label {
     color: white !important;
     font-family: 'Raleway', sans-serif !important;
     font-size: 20px !important;
-    padding-left: 150px !important;
     padding-right: 150px !important;
     padding-top: 40px !important;
     padding-bottom: 20px !important;
     line-height: 1.5em !important; }
+  #mc_embed_signup .indicates-required {
+    color: white; }
   #mc_embed_signup .button {
     background-color: #0088cc !important;
     font-family: "Open Sans", sans-serif !important;
@@ -686,15 +723,31 @@
   #mc_embed_signup .email {
     font-family: "Open Sans", sans-serif !important; }
 
+.contact-background-color {
+  background-image: url(../../public/resources/bluebells-2.JPG);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 @media only screen and (max-width: 768px) {
-  #mc_embed_signup .button {
-    width: 50% !important; }
-  #mc_embed_signup .email {
-    width: 50% !important; }
-  #mc_embed_signup #label-style {
-    line-height: 1.5em;
-    padding-left: 2em !important;
-    padding-right: 2em !important; } }
+  #mc_embed_signup {
+    width: 85%; }
+    #mc_embed_signup p {
+      font-size: 12px !important; }
+    #mc_embed_signup .label {
+      font-size: 16px !important;
+      padding-right: 85px !important; }
+    #mc_embed_signup .button {
+      width: 50% !important; }
+    #mc_embed_signup .email {
+      width: 50% !important; }
+    #mc_embed_signup #label-style {
+      line-height: 1.5em;
+      padding-left: 2em !important;
+      padding-right: 2em !important; }
+
+  .column {
+    width: 15%; } }
 body {
   background: url("//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
