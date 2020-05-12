@@ -2,6 +2,23 @@
   margin-top: 15px;
 }
 
+#bio-header {
+  padding-left: 150px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.padding-bottom-40px {
+  padding-bottom: 40px;
+}
+
+.padding-top-40px {
+  padding-top: 40px;
+}
+
 .content-container {
   background-color: $main-background-colour;
   display: block;
@@ -58,9 +75,9 @@
     margin-bottom: 0px!important;
   }
   .my-story-image {
-    float: right;
     width: 25%;
-    margin-right: 10%;
+    float: right;
+    margin-right: 50px;
   }
 //  .img-text {
 //    position: absolute;
@@ -182,6 +199,10 @@
 }
 
 @media only screen and (max-width: 736px) {
+  #bio-header {
+    padding-left: 0px !important;
+    text-align: center;
+  }
   .bg {
     position: fixed;
     top: 0;
@@ -196,6 +217,12 @@
   }
   .review-header {
     text-align: center;
+  }
+  .affiliated-img {
+    width: 50% !important;
+  }
+  #bright-sky {
+    width: 100% !important;
   }
   .content-container {
     .case-study-img-container {
@@ -249,7 +276,12 @@
     }
     .my-story-image {
       padding: 5px 1.5em 5px 2em !important;
-      width: 35% !important;
+      width: 50% !important;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      float: none;
     }
     .section-header {
       font-size: 20px;
@@ -438,6 +470,22 @@
 @media only screen and (max-width: 1000px) {
   .decrease-padding {
     padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  #bio-header {
+    padding-left: 0px !important;
+    text-align: center;
+  }
+  .my-story-image {
+    padding: 5px 1.5em 5px 2em !important;
+    width: 40% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px !important;
+    float: none !important;
+  }
+  .bio-text {
     padding-right: 50px !important;
   }
   .content-container {

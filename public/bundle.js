@@ -22100,6 +22100,21 @@
 	          { className: "menu", id: "menu" },
 	          _react2.default.createElement(
 	            "div",
+	            { id: "menu-bio", className: "menu-item" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "toscroll", href: "#about", onClick: function onClick() {
+	                  return _this2.props.changeContent('about');
+	                } },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "about"
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
 	            { id: "menu-services", className: "menu-item" },
 	            _react2.default.createElement(
 	              "a",
@@ -22245,7 +22260,7 @@
 	              { id: 'anchor-header' },
 	              _react2.default.createElement(
 	                'a',
-	                { className: 'toscroll', href: '#services', onClick: function onClick() {
+	                { className: 'toscroll', href: '#about', onClick: function onClick() {
 	                    return _this2.props.changeContent('about');
 	                  } },
 	                _react2.default.createElement(
@@ -22301,18 +22316,6 @@
 	
 	var _healing2 = _interopRequireDefault(_healing);
 	
-	var _annafreudcentre = __webpack_require__(190);
-	
-	var _annafreudcentre2 = _interopRequireDefault(_annafreudcentre);
-	
-	var _foundersandcoders = __webpack_require__(191);
-	
-	var _foundersandcoders2 = _interopRequireDefault(_foundersandcoders);
-	
-	var _contact = __webpack_require__(192);
-	
-	var _contact2 = _interopRequireDefault(_contact);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22349,12 +22352,6 @@
 	          break;
 	        case 'healing':
 	          return _react2.default.createElement(_healing2.default, { changeContent: this.props.changeContent });
-	          break;
-	        case 'annaFreud':
-	          return _react2.default.createElement(_annafreudcentre2.default, { changeContent: this.props.changeContent });
-	          break;
-	        case 'foundersAndCoders':
-	          return _react2.default.createElement(_foundersandcoders2.default, { changeContent: this.props.changeContent });
 	          break;
 	      }
 	    }
@@ -22408,10 +22405,199 @@
 	        "div",
 	        { className: "main-article" },
 	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
+	        _react2.default.createElement("div", { id: "about" }),
+	        _react2.default.createElement(
+	          "h2",
+	          { id: "top-h2", className: "padding-top-2em" },
+	          "about me"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "my-story padding-top-40px padding-bottom-80px" },
+	            _react2.default.createElement("img", { className: "my-story-image", src: "../../public/resources/me2.JPG" }),
+	            _react2.default.createElement(
+	              "h2",
+	              { id: "bio-header" },
+	              _react2.default.createElement(
+	                "em",
+	                null,
+	                "Bradley John Reeder"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "bio-text" },
+	              "Throughout the last few years, I\u2019ve been blessed to undertake training with master shamans Davina Mackail & Nizami Ele of the ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://ayni.foundation/about-us/" },
+	                "Ayni Foundation"
+	              ),
+	              " in a broad range of traditional & indigenous healing and esoteric modalities."
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "bio-text" },
+	              "In 2019, I was formally initiated into the ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
+	                "Andean (Q\u2019ero) shamanic lineage"
+	              ),
+	              " of Peru as an authentic practitioner -- or ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "http://andeanmasters.com/andean-paqo-shaman/" },
+	                "Paqo"
+	              ),
+	              " -- of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from Q\u2019ero maestro ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://pumadventuresperu.com/our-team" },
+	                "Puma Fredy Quispe Singona"
+	              ),
+	              " & Shipibo maestro ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.ayahuascaretreat.pe/maestro-heberto-garcia/" },
+	                "Heberto Garcia"
+	              ),
+	              ", where I received the healing energies that I primarily work with today."
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "bio-text" },
+	              "I\u2019m always supplementing this foundation with further training, most recently in energy healing & natural medicine as a student of ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://copaldaselva.com/" },
+	                "Copal Daselva"
+	              ),
+	              " & ",
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.eleanorsara.com/" },
+	                "Eleanor Sara Darley"
+	              ),
+	              ". And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery."
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "bio-text" },
+	              "I\u2019m deeply humbled to put this together as Pachakuti Healing in service to you. I do so with the utmost integrity and heart-felt intention to enable your healing, transformation and connection with the best version of yourself possible. :-)"
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { className: "bio-text" },
+	              "Till we meet, Haux Haux!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement("div", { id: "experience" }),
+	        _react2.default.createElement(
+	          "h2",
+	          null,
+	          "affiliated with"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content-background-colour" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "my-process-column padding-top-40px" },
+	            _react2.default.createElement(
+	              "h3",
+	              { className: "process-heading" },
+	              _react2.default.createElement(
+	                "strong",
+	                null,
+	                "I have completed certified training as a shamanic practitioner and am humbled to be associated with:"
+	              )
+	            ),
+	            _react2.default.createElement("p", null)
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "my-process" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "my-process-column purple padding-top-40px padding-bottom-40px" },
+	              _react2.default.createElement(
+	                "h3",
+	                null,
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "Graduate of ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://ayni.foundation/nwl/" },
+	                    "Natural Wisdom Leaders"
+	                  ),
+	                  " programme"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://ayni.foundation/" },
+	                _react2.default.createElement("img", { className: "affiliated-img", src: "../../public/resources/Ayni-foundation.PNG" })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "my-process-column green padding-bottom-40px" },
+	              _react2.default.createElement(
+	                "h3",
+	                null,
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "Current student of ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://copaldaselva.com/" },
+	                    "Shamanic energy healing"
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://copaldaselva.com/" },
+	                _react2.default.createElement("img", { className: "affiliated-img", src: "../../public/resources/copal.JPEG" })
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "padding-bottom-80px my-process-column green" },
+	              _react2.default.createElement(
+	                "h3",
+	                null,
+	                _react2.default.createElement(
+	                  "strong",
+	                  null,
+	                  "Founding member of ",
+	                  _react2.default.createElement(
+	                    "a",
+	                    { target: "_blank", href: "https://brightsky.community/" },
+	                    "BrightSky Community"
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://brightsky.community/" },
+	                _react2.default.createElement("img", { id: "bright-sky", src: "../../public/resources/bright-sky.PNG" })
+	              )
+	            )
+	          )
+	        ),
 	        _react2.default.createElement("div", { id: "services" }),
 	        _react2.default.createElement(
 	          "h2",
-	          { className: "padding-top-2em top-h2" },
+	          { className: "padding-top-2em" },
 	          "services"
 	        ),
 	        _react2.default.createElement(
@@ -22708,6 +22894,9 @@
 	
 	exports.default = About;
 	
+	//<h3 id="about-header"><em>hi, my name is Bradley, and I am a shamanic practitioner & energy healer</em></h3>
+	//<hr />
+	
 	//<div className="case-study padding-top-40px">
 	//  <div className="case-study-section">
 	//    <strong><p className="decrease-padding">I am offering distance energy healings by donation to be of service during the global pandemic.</p></strong>
@@ -22738,47 +22927,6 @@
 	//</div>
 	
 	
-	//<div id="about"></div>
-	//<img className="bg" src="//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg"/>
-	//<h2 id="top-h2" className="padding-top-2em">about me</h2>
-	//<div className="content-background-colour">
-	//  <div className="my-story padding-top-40px padding-bottom-80px">
-	//    <h3 id="about-header"><em>hi, my name is Bradley, and I am a shamanic practitioner & energy healer</em></h3>
-	//    <hr />
-	//    <img className="my-story-image" src="../../public/resources/me2.JPG"/>
-	//    <p>Throughout the last few years, I’ve been blessed to undertake training with master shamans in a broad range of traditional & indigenous healing and esoteric modalities.</p>
-	//    <p>In 2019, I was formally initiated into the <a target="_blank" href="https://en.wikipedia.org/wiki/Q%27ero">Andean (Q’ero) shamanic lineage</a> of Peru as an authentic practitioner -- or <a target="_blank" href="http://andeanmasters.com/andean-paqo-shaman/">Paqo</a> -- of this tradition. I’ve since been on pilgrimages to Peru to learn from Q’ero maestro <a target="_blank" href="https://pumadventuresperu.com/our-team">Puma Fredy Quispe Singona</a> & Shipibo maestro <a target="_blank" //href="https://www.ayahuascaretreat.pe/maestro-heberto-garcia/">Heberto Garcia</a>, where I received the healing energies that I primarily work with today.</p>
-	//    <p>I’m always supplementing this foundation with further training, most recently in energy healing & natural medicine as a student of <a target="_blank" href="https://copaldaselva.com/">Copal Daselva</a> & <a target="_blank" href="https://www.eleanorsara.com/">Eleanor Sara Darley</a>. And continuing to cultivate and put into practice the wisdom from my (thus far) life-long passion for spirituality, philosophy, psychology, creativity, and self-mastery.</p>
-	//    <p>I’m deeply humbled to put this together in service to you. I do so with the utmost integrity and heart-felt intention to enable your healing, transformation and connection with the best version of yourself possible. :-)</p>
-	//    <p>Till we meet, Haux Haux!</p>
-	//  </div>
-	//</div>
-	//<div id="experience"></div>
-	//<h2>affiliated with</h2>
-	//<div className="content-background-colour">
-	//  <div className="my-process-column padding-top-40px">
-	//    <h3 className="process-heading"><strong>I have completed certified training as a shamanic practitioner and am humbled to be associated with:</strong></h3>
-	//    <p></p>
-	//  </div>
-	//  <div className="my-process">
-	//    <div className="my-process-column purple">
-	//      <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-	//      <h3><strong>Graduate of <a target="_blank" href="https://ayni.foundation/nwl/">Natural Wisdom Leaders</a> programme</strong></h3>
-	//      <a target="_blank" href="https://ayni.foundation/"><img src="../../public/resources/Ayni-foundation.PNG"/></a>
-	//    </div>
-	//    <div className="my-process-column green">
-	//      <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-	//      <h3><strong>Current student of <a target="_blank" href="https://copaldaselva.com/">Shamanic energy healing</a></strong></h3>
-	//      <a target="_blank" href="https://copaldaselva.com/"><img src="../../public/resources/copal.JPEG"/></a>
-	//    </div>
-	//    <div className="padding-bottom-80px my-process-column green">
-	//      <h2><i className="fa fa-heart" aria-hidden="true"></i></h2>
-	//      <h3><strong>Founding member of <a target="_blank" href="https://brightsky.community/">BrightSky Community</a></strong></h3>
-	//      <a target="_blank" href="https://brightsky.community/"><img src="../../public/resources/bright-sky.PNG"/></a>
-	//    </div>
-	//  </div>
-	//</div>
-	
 	//<ul className="no-margins decrease-padding">
 	//  <li>Providing feedback on the healing session and/or this website.</li>
 	//  <li>Giving a testimonial or review that I can include on my public facing materials.</li>
@@ -22797,78 +22945,6 @@
 	//  <div className="case-study-section">
 	//    <div className="img-container">
 	//      <a href="#healing" onClick={() => this.props.changeContent('healing')}><img className="img-border" src="public/resources/Energy-healing-9.JPG"/></a>
-	//    </div>
-	//  </div>
-	//</div>
-	
-	
-	//<h2>workshops</h2>
-	//<div className="content-background-colour padding-top-40px">
-	//  <p className="section-title"><a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> & <a target="_blank" href="https://www.rethink.org/">Rethink</a>, Jul 2017</p>
-	//  <div className="case-study padding-top-40px padding-bottom-80px">
-	//    <div className="case-study-section">
-	//      <p>Co-facilitated a design sprint workshop for <a target="_blank" href="https://digital.nhs.uk/">NHS Digital</a> and <a target="_blank" href="https://www.rethink.org/">Rethink</a> ideating digital solutions to bullying
-	//        in schools.</p>
-	//    </div>
-	//    <div className="case-study-section">
-	//      <div className="img-container">
-	//        <img src="public/resources/nhs-digital.JPG"/>
-	//      </div>
-	//    </div>
-	//  </div>
-	
-	//  <p className="section-title"><a target="_blank" href="http://www.mulberry.towerhamlets.sch.uk/">Mulberry School</a>, Jun 2017</p>
-	//  <div className="case-study padding-top-40px padding-bottom-80px">
-	//    <div className="case-study-section">
-	//      <p>Ran an introductory class taking sixth form students through building & hosting static web pages with HTML5, CSS3, and Github.</p>
-	//    </div>
-	//    <div className="case-study-section">
-	//      <div className="img-container">
-	//        <img src="public/resources/mulberry-school.JPG"/>
-	//      </div>
-	//    </div>
-	//  </div>
-	
-	//  <p className="section-title"><a target="_blank" href="https://foundersandcoders.com/">Founders & Coders</a>, Nov 2016 - Jun 2017</p>
-	//  <div className="case-study padding-top-40px padding-bottom-80px">
-	//    <div className="case-study-section">
-	//      <p>Main contributor to the school's 4 month web development <a target="_blank" href="https://github.com/foundersandcoders/master-reference">open-source curriculum</a>, co-designing and facilitating weeks on <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/week-4">node.js</a> and <a target="_blank" href="https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12">design thinking & agile build cycles</a>.</p>
-	//      <p className="padding-top-20px"><strong>See our <a target="_blank" href="https://docs.google.com/presentation/d/1CiYH-jdV3OojT3mUITuTBCao6IeZyNkI8xF2G2B6vDA/edit#slide=id.g35f391192_00">Design thinking week's</a> slidedeck</strong></p>
-	//    </div>
-	//    <div className="case-study-section">
-	//      <div className="img-container">
-	//        <img src="public/resources/founders-and-coders-assets/fac10-start.JPG"/>
-	//      </div>
-	//    </div>
-	//  </div>
-	
-	//  <p className="section-title"><a target="_blank" href="http://www.annafreud.org/">Anna Freud Centre</a>, Jan 2017 - May 2017</p>
-	//  <div className="case-study padding-top-40px padding-bottom-80px">
-	//    <div className="case-study-section">
-	//      <p>Facilitated a hackathon, ran training workshops on design thinking around themes of stigma & mental
-	//        health in young people and scrum-mastered resulting MVPs <a target="_blank" href="https://growgoals.co.uk/login">Grow</a> and <a target="_blank" href="https://welcome-in.herokuapp.com/">Getting to Know You</a>.</p>
-	//      <p className="padding-top-20px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit">Hackathon</a> & <a target="_blank" href="https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0">Workshop</a> slidedecks</strong></p>
-	//    </div>
-	//    <div className="case-study-section">
-	//      <div className="img-container">
-	//        <img src="public/resources/annafreud-assets/anna-freud-hackathon.JPG"/>
-	//      </div>
-	//    </div>
-	//  </div>
-	
-	//  <p className="section-title"><a target="_blank" href="https://www.wearecast.org.uk/">CAST</a>, Aug 2016 - Oct 2016</p>
-	//  <div className="case-study padding-top-40px padding-bottom-80px">
-	//    <div className="case-study-section">
-	//      <p>Facilitated design sprints, built and tested prototypes for, <a target="_blank" href="http://safertogether.org.uk/">SaferTogether</a>,
-	//        <a target="_blank" href="http://www.safelives.org.uk/"> SafeLives</a> and
-	//        <a target="_blank" href="http://www.worthwhile.org.uk/"> Worthwhile</a>, as a part of <a target="_blank" href="http://www.wearecast.org.uk/fuse">CAST's 2016 Digital Fuse Programme</a>.
-	//      </p>
-	//      <p className="padding-top-20px"><strong>See <a target="_blank" href="https://docs.google.com/presentation/d/1GNmREakxU_ZmAznivu7ef0ENWoTqCK-zsbOWGrit6ec/edit#slide=id.g157dffee2d_0_276"> Design sprint</a> slidedeck</strong></p>
-	//    </div>
-	//    <div className="case-study-section">
-	//      <div className="img-container">
-	//        <img src="public/resources/cast.JPG"/>
-	//      </div>
 	//    </div>
 	//  </div>
 	//</div>
@@ -23308,707 +23384,9 @@
 	//<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
 
 /***/ }),
-/* 190 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var AnnaFreud = function (_Component) {
-	  _inherits(AnnaFreud, _Component);
-	
-	  function AnnaFreud() {
-	    _classCallCheck(this, AnnaFreud);
-	
-	    return _possibleConstructorReturn(this, (AnnaFreud.__proto__ || Object.getPrototypeOf(AnnaFreud)).apply(this, arguments));
-	  }
-	
-	  _createClass(AnnaFreud, [{
-	    key: "render",
-	    value: function render() {
-	      var _this2 = this;
-	
-	      return _react2.default.createElement(
-	        "div",
-	        { id: "breathe-with-me", className: "main-article" },
-	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
-	        _react2.default.createElement(
-	          "h2",
-	          { className: "padding-top-2em" },
-	          "Breathe With Me"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            _react2.default.createElement(
-	              "em",
-	              null,
-	              "Breathe With Me was the result of a team collaboration for a hackathon with the ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "http://www.annafreud.org/" },
-	                "Anna Freud Centre"
-	              ),
-	              " - a charity dedicated to providing training & support for child mental health services."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "My teammates and I took a self-care themed design challenge through the design thinking stages of inspiration, ideation, and implementation to create a prototype of our solution, which we were able to test with young people in services."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Services:"
-	            ),
-	            " Front-end Development, Responsive Web Design, Rapid Prototyping, Usability Testing"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px padding-bottom-80px", src: "public/resources/annafreud-assets/breathe-with-me.PNG" })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the challenge"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We began running a design sprint with our Anna Freud product owner, Charlotte. Her vision was to create a game that young people could access in moments of anxiety to learn stress-relieving techniques and build resilience."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We began with a discussion understanding the context of the problem, her organisational and user needs, and what is currently being done in the field to address them. We looked at a few relaxation apps to inspire us, then ran a brain-storming and \u2018crazy-eights\u2019 session to generate ideas and sketch some pages and flows."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We all liked the app ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "http://www.wired.co.uk/article/flowy" },
-	              "Flowy"
-	            ),
-	            " and voted upon testing the idea of a tool for learning deep breathing & mindfulness visually guided by the focal point of breathing animal avatars."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/annafreud-assets/anna-freud-hackathon.JPG" })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the approach"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header" },
-	            "empathy"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "Our team then went into a phase of discovery learning all we could about the scientific research behind these practices, how they\u2019re taught in services, and existing apps for design inspiration."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We crafted an interview guide from our notes and with Charlotte spoke with some young people to learn more about their experiences and behaviour. We did competitor analysis by watching them play with Flowy to identify their likes and dislikes, and showed them our paper prototypes to test our ideas and find areas for improvement."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "synthesis"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "Our team then re-grouped to synthesise what we had learned, and to conduct an affinity sorting session in which we identified themes, refined our insights, and broke-down our user stories and user flows for our prototype from the following journey:"
-	          ),
-	          _react2.default.createElement(
-	            "blockquote",
-	            null,
-	            "\u201CAs a young person experiencing anxiety, I want to access guided relaxation techniques, so that in any moment of distress I can calm myself down.\""
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/annafreud-assets/breathe-with-me-teamwork.PNG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "prototype"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "We then built a usable prototype for our proposed solution in HTML5 and CSS3. Our solution acts as an aid to deep breathing by enabling the user to breathe in sync with an animal avatar alongside text instructions."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We focused on creating a safe interpersonal connection between the user and the app through a welcoming instructional narrative, the soft colourful ambience of flowing animations, and the calming rhythmic breathing of the avatar."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "test"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "The last phase of our challenge was to test the prototype with the same young people. Watching their delight playing with it stands out as among my fondest memories with usability testing."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Some of the things we observed was a desire to choose other animals, for it to have a soundtrack, that some of the language didn\u2019t appeal to males, and that they found the instructions too complicated - things we later adapted."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "public/resources/annafreud-assets/breathing-avatar.PNG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "iterate"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "We demonstrated our prototype at the judging panel for the hackathon the following week and Breathe With Me won funding to become an MVP built over two build sprints."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-bottom-80px" },
-	            "We continued to build in an agile iterative cycle in close contact with Charlotte and different usability testing groups. The final version can be found ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://breathewithme.co.uk/" },
-	              "here"
-	            ),
-	            " and was built as a Progressive Web App to be responsive, accessible, and offline-first across browsers, desktop, mobile, and tablet."
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the outcome"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Breathe With Me continues to be used by counsellors and youth workers as a tool for teaching young people relaxation techniques and has been put forward for bids for further development."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "The Anna Freud Centre were impressed with us so much that they offered me and my colleague to lead their next hackathon. I facilitated the design sprint (see ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://docs.google.com/presentation/d/1GdD6KVaRyf1VuzzSS0-LUoNITjtjr38hhbn2YeF2NO4/edit#slide=id.g2244b19ab0_0_0" },
-	              "slidedeck"
-	            ),
-	            ") and scrum-mastered a similar process as the above for the apps ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://growgoals.co.uk/login" },
-	              "Grow"
-	            ),
-	            " and ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://welcome-in.herokuapp.com/" },
-	              "Getting to Know You"
-	            ),
-	            "."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I continue to be passionate about mental health and have facilitated participatory design workshops (see ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://docs.google.com/presentation/d/1pXw-1476S-CM776Kh3TAlHqUmA79AS3XezpHm9BECWY/edit#slide=id.gc6f73a04f_0_0" },
-	              "slidedeck"
-	            ),
-	            ") on the design thinking process with young people and Anna Freud staff."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "portrait padding-top-40px", src: "public/resources/annafreud-assets/well-done.PNG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "footer-navigation padding-bottom-80px padding-top-40px" },
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#work", onClick: function onClick() {
-	                  return _this2.props.changeContent('about');
-	                } },
-	              "return to case studies"
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return AnnaFreud;
-	}(_react.Component);
-	
-	exports.default = AnnaFreud;
-
-/***/ }),
-/* 191 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var FoundersAndCoders = function (_Component) {
-	  _inherits(FoundersAndCoders, _Component);
-	
-	  function FoundersAndCoders() {
-	    _classCallCheck(this, FoundersAndCoders);
-	
-	    return _possibleConstructorReturn(this, (FoundersAndCoders.__proto__ || Object.getPrototypeOf(FoundersAndCoders)).apply(this, arguments));
-	  }
-	
-	  _createClass(FoundersAndCoders, [{
-	    key: "render",
-	    value: function render() {
-	      var _this2 = this;
-	
-	      return _react2.default.createElement(
-	        "div",
-	        { id: "founders-and-coders", className: "main-article" },
-	        _react2.default.createElement("img", { className: "bg", src: "//uploads.strikinglycdn.com/static/backgrounds/blurred-bg/58.jpg" }),
-	        _react2.default.createElement(
-	          "h2",
-	          { className: "padding-top-2em" },
-	          "Maximising the impact of the Founders & Coders Web Development Programme"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            _react2.default.createElement(
-	              "em",
-	              null,
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://foundersandcoders.com/" },
-	                "Founders & Coders"
-	              ),
-	              " offers a free 4-month programme in web development that prioritises a self-organising, peer-led approach to learning where each cohort delivers the next programme."
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I joined as a student and became the facilitator of the programme after proposing and leading a re-design of the curriculum and its curriculum-planning process."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            _react2.default.createElement(
-	              "strong",
-	              null,
-	              "Services:"
-	            ),
-	            " UX Research, Service Design, Facilitation, Community Building"
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/founders-and-coders-assets/fac9-start.JPG" })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the challenge"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px padding-bottom-80px" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "As a student and mentor I observed repeating difficulties. Students were responsible for breaking up into small groups to prepare and mentor each week of the following course. They were given a lot of freedom and would re-invent great parts of each curriculum from scratch."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Without sufficient direction or planning time, groups of mentors would often not collaborate and prepare their week\u2019s content last minute. This led to students receiving an uncoordinated experience with inconsistent levels of quality and preparation and much of the communities\u2019s past learning experiences went lost and unrecorded."
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the approach"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "discovery"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "Having recently mentored, I had an empathetic connection with the current students and wanted to improve their experience of mentoring."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I shared a survey around them & current mentors and ran a focus group with a set of alumni from across the history of the programme to explore their experiences of the course, mentoring and to get a sense of how the course had developed over time."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I then synthesised the findings by mapping out a ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.figma.com/file/eKDb558QpuIOSQb62LOBOC/Founders-%26-Coders-Mentorship-Storyboard" },
-	              "storyboard"
-	            ),
-	            " depicting the common student\u2019s journey through curriculum planning and mentorship along with the pain-points at each stage."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/problem-storyboard.PNG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "secondary research"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "A core insight from the research was that the problems students and mentors experienced were intrinsic to the level of freedom mentors had. Each course changed significantly from the last in a way which was too much work for mentors to prepare and coordinate in the time they had."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "I began researching into agile & lean methodology to think about ways we could make mentor\u2019s contributions more iterative, where they would be responsible for identifying ways to improve existing material within a fixed sprint of time based on their recent user experience as students."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "ideation"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "A few others from the focus group became interested in the research and I met with them again to run an ideation session on ways we could address each of the pain-points. We produced a new ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.figma.com/file/Y5MW7eRSgryZ1Ze75mZm8v/Founders-%26-Coders-Mentorship-Storyboard" },
-	              "storyboard"
-	            ),
-	            " with our leaner solution from the session."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We then organised a stakeholder interview with the school\u2019s Founders in which we presented our proposed solution. To my surprise, they were delighted and offered me to facilitate the next course in London."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/solution-storyboard.PNG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "implementation"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "The first thing we did was create a ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
-	              "master-reference repository"
-	            ),
-	            " on github as a stable source of documentation for the programme and its curriculum."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "We initiated it by creating a curriculum draft based on the last programme. I then ran a series of affinity sorting sessions with stakeholders, alumni and students in which we reviewed it, grouped their feedback into themes, and adapted their experience into the draft."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "A week of the programme was dedicated towards curriculum planning to build this material on github. I modelled the process on ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://www.scrum.org/resources/what-is-sprint-planning" },
-	              "agile sprint-planning"
-	            ),
-	            " so in future iterations mentor's would focus on contributing to a backlog of issues, identifying high priority ones and improving existing material on github in time for the start of the next programme."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Finally, I recruited alumni to become a maintainer for each week of the curriculum to support mentors and ensure involvement from those with experience and organisational memory. My role as facilitator was to collaborate across weeks to support students and mentors and ensure cross communication and cohesion."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/founders-and-coders-assets/master-reference.PNG" })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "the outcome"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour padding-top-40px" },
-	          _react2.default.createElement(
-	            "p",
-	            { className: "section-header" },
-	            "outcome"
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "padding-top-40px" },
-	            "The structure of the curriculum, the course facilitator role, and the curriculum-planning process we communally designed then remains in its core aspects and the programme continues to improve in quality."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "The ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference" },
-	              "master-reference"
-	            ),
-	            " has since become a core source of documentation on the curriculum and the running of a campus that has been used to build other Founders & Coders schools in Israel."
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "During the next programme I initiated a re-design of the second half of the programme. We modified weeks 10-12 to become a ",
-	            _react2.default.createElement(
-	              "a",
-	              { target: "_blank", href: "https://github.com/foundersandcoders/master-reference/tree/master/coursebook/weeks-10-12" },
-	              "design & build sprint"
-	            ),
-	            " for student\u2019s final projects taking them through the design thinking process from user research to rapid prototyping, testing and the agile build cycle. I\u2019m currently the alumni maintainer for these weeks."
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "case-study-img-container" },
-	            _react2.default.createElement("img", { className: "padding-top-40px", src: "public/resources/founders-and-coders-assets/fac9.JPG" })
-	          ),
-	          _react2.default.createElement(
-	            "p",
-	            { className: "footer-navigation padding-bottom-80px padding-top-40px" },
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#work", onClick: function onClick() {
-	                  return _this2.props.changeContent('about');
-	                } },
-	              "return to case studies"
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return FoundersAndCoders;
-	}(_react.Component);
-	
-	exports.default = FoundersAndCoders;
-
-/***/ }),
-/* 192 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prefer-stateless-function */
-	
-	
-	var Contact = function (_Component) {
-	  _inherits(Contact, _Component);
-	
-	  function Contact() {
-	    _classCallCheck(this, Contact);
-	
-	    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
-	  }
-	
-	  _createClass(Contact, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2.default.createElement(
-	        "div",
-	        { className: "contact" },
-	        _react2.default.createElement("div", { id: "contact" }),
-	        _react2.default.createElement(
-	          "h2",
-	          null,
-	          "contact"
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "content-background-colour" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "contact padding-top-40px padding-bottom-80px" },
-	            _react2.default.createElement(
-	              "h3",
-	              { className: "contact-header" },
-	              "For more info or to book an appointment, contact me on the following and I will be in touch shortly:"
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "footer-text" },
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "mailto:bradjohnreeder@gmail.com" },
-	                _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" }),
-	                "bradjohnreeder@gmail.com"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "footer-text" },
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "tel:+447479507365" },
-	                _react2.default.createElement("i", { className: "fa fa-mobile", "aria-hidden": "true" }),
-	                "+44 7479 507365"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "footer-text" },
-	              "Based in London, UK"
-	            ),
-	            _react2.default.createElement(
-	              "p",
-	              { className: "padding-top-40px footer-text" },
-	              "See further information on my service @ ",
-	              _react2.default.createElement(
-	                "a",
-	                { href: "" },
-	                "facebook"
-	              ),
-	              " and on my future events @ ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "https://www.meetup.com/London-Shamanic-Community/" },
-	                "meetup"
-	              )
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Contact;
-	}(_react.Component);
-	
-	exports.default = Contact;
-	
-	/* <p className="footer-text"><a target="_blank" href="mailto:bradjohnreeder@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i>bradjohnreeder@gmail.com</a></p>
-	<p className="footer-text"><a target="_blank" href="tel:+447479507365"><i className="fa fa-mobile" aria-hidden="true"></i>+44 7479 507365</a></p> */
-
-/***/ }),
+/* 190 */,
+/* 191 */,
+/* 192 */,
 /* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 

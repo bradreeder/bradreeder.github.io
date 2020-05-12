@@ -6,6 +6,7 @@ class Menu extends Component {
     return (
       <div className="menu-container">
       <div className="menu" id="menu">
+        <div id="menu-bio" className="menu-item"><a className="toscroll" href="#about" onClick={() => this.props.changeContent('about')}><p>about</p></a></div>
         <div id="menu-services" className="menu-item"><a className="toscroll" href="#services" onClick={() => this.props.changeContent('about')}><p>services</p></a></div>
         <div id="menu-reviews" className="menu-item"><a className="toscroll" href="#reviews" onClick={() => this.props.changeContent('about')}><p>reviews</p></a></div>
         <div id="menu-booking" className="menu-item"><a className="toscroll" href="#booking" onClick={() => this.props.changeContent('about')}><p>booking</p></a></div>

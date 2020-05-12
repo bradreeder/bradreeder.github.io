@@ -128,7 +128,7 @@
     color: white; }
   .menu a {
     color: #cfc7c7; }
-  .menu #menu-about:hover {
+  .menu #menu-bio:hover {
     background-color: #086788; }
   .menu #menu-services:hover {
     background-color: #d93b9d; }
@@ -319,6 +319,20 @@
 #margin-top {
   margin-top: 15px; }
 
+#bio-header {
+  padding-left: 150px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  text-align: left; }
+
+.padding-bottom-40px {
+  padding-bottom: 40px; }
+
+.padding-top-40px {
+  padding-top: 40px; }
+
 .content-container {
   background-color: rgba(50, 50, 50, 0.9);
   display: block;
@@ -364,9 +378,9 @@
     margin-top: 0px !important;
     margin-bottom: 0px !important; }
   .content-container .my-story-image {
-    float: right;
     width: 25%;
-    margin-right: 10%; }
+    float: right;
+    margin-right: 50px; }
   .content-container .calendly-inline-widget {
     min-width: 320px;
     height: 700px; }
@@ -452,6 +466,10 @@
     text-align: center; }
 
 @media only screen and (max-width: 736px) {
+  #bio-header {
+    padding-left: 0px !important;
+    text-align: center; }
+
   .bg {
     position: fixed;
     top: 0;
@@ -466,6 +484,12 @@
 
   .review-header {
     text-align: center; }
+
+  .affiliated-img {
+    width: 50% !important; }
+
+  #bright-sky {
+    width: 100% !important; }
 
   .content-container .case-study-img-container {
     margin: 0 auto;
@@ -506,7 +530,12 @@
       text-align: center; }
   .content-container .my-story-image {
     padding: 5px 1.5em 5px 2em !important;
-    width: 35% !important; }
+    width: 50% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    float: none; }
   .content-container .section-header {
     font-size: 20px; }
   .content-container .section-title {
@@ -629,6 +658,22 @@
 @media only screen and (max-width: 1000px) {
   .decrease-padding {
     padding-left: 50px !important;
+    padding-right: 50px !important; }
+
+  #bio-header {
+    padding-left: 0px !important;
+    text-align: center; }
+
+  .my-story-image {
+    padding: 5px 1.5em 5px 2em !important;
+    width: 40% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px !important;
+    float: none !important; }
+
+  .bio-text {
     padding-right: 50px !important; }
 
   .content-container p {
