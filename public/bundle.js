@@ -72,7 +72,7 @@
 	
 	var _content2 = _interopRequireDefault(_content);
 	
-	var _footer = __webpack_require__(193);
+	var _footer = __webpack_require__(190);
 	
 	var _footer2 = _interopRequireDefault(_footer);
 	
@@ -22253,7 +22253,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text padding-bottom-40px' },
-	              'I have certified training with master shamans in a range of healing methods and am offering distance energy healing sessions by donation to support you during lockdown.'
+	              'I have certified training with master shamans in a range of healing methods and am offering distance energy healing sessions by donation to support you post-lockdown.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -23384,10 +23384,7 @@
 	//<p className="footer-navigation padding-bottom-80px padding-top-40px"><a href="#work" onClick={() => this.props.changeContent('about')}>return to case studies</a></p>
 
 /***/ }),
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
