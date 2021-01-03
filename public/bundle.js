@@ -22242,18 +22242,12 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text' },
-	              'My name is Bradley, I am an authentic lineage holder & practitioner of the Inca ',
-	              _react2.default.createElement(
-	                'a',
-	                { className: 'insp-anchor', target: '_blank', href: 'https://en.wikipedia.org/wiki/Q%27ero' },
-	                '(Q\'ero)'
-	              ),
-	              ' shamanic tradition of Peru.'
+	              'My name is Bradley, I am an authentic practitioner & lineage holder of the shamanic traditions of Peru.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text padding-bottom-40px' },
-	              'I have certified training with master shamans in a range of healing methods and am offering distance energy healing sessions by donation to support you post-lockdown.'
+	              'I have certified training with master shamans in a range of healing methods and am offering distance energy healing sessions by donation to support you during lockdown.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -22353,6 +22347,9 @@
 	        case 'healing':
 	          return _react2.default.createElement(_healing2.default, { changeContent: this.props.changeContent });
 	          break;
+	        case 'despacho':
+	          return _react2.default.createElement(Despacho, { changeContent: this.props.changeContent });
+	          break;
 	      }
 	    }
 	  }]);
@@ -22441,19 +22438,13 @@
 	            _react2.default.createElement(
 	              "p",
 	              { className: "bio-text" },
-	              "In 2019, I was formally initiated into the ",
+	              "In 2019, I was initiated into the ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
-	                "Andean (Q\u2019ero) shamanic lineage"
+	                "Andean shamanic lineage"
 	              ),
-	              " of Peru as an authentic practitioner -- or ",
-	              _react2.default.createElement(
-	                "a",
-	                { target: "_blank", href: "http://andeanmasters.com/andean-paqo-shaman/" },
-	                "Paqo"
-	              ),
-	              " -- of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from Q\u2019ero maestro ",
+	              " of Peru as an authentic practitioner of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from maestro ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://pumadventuresperu.com/our-team" },

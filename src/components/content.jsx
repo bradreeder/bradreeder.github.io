@@ -20,6 +20,9 @@ class Content extends Component {
       case 'healing':
         return <Healing changeContent={this.props.changeContent}/>
         break;
+      case 'despacho':
+        return <Despacho changeContent={this.props.changeContent}/>
+        break;
     }
   }
 }
