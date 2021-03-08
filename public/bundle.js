@@ -22242,7 +22242,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text' },
-	              'My name is Bradley, I am an authentic practitioner & lineage holder of the shamanic traditions of Peru.'
+	              'My name is Bradley, I am an authentic practitioner of the shamanic traditions of Peru.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
@@ -22438,11 +22438,11 @@
 	            _react2.default.createElement(
 	              "p",
 	              { className: "bio-text" },
-	              "In 2019, I was initiated into the ",
+	              "In 2019, I received initiations in the ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
-	                "Andean shamanic lineage"
+	                "Andean shamanic traditions"
 	              ),
 	              " of Peru as an authentic practitioner of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from maestro ",
 	              _react2.default.createElement(
