@@ -22242,12 +22242,12 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text' },
-	              'My name is Bradley, I am an authentic practitioner of the shamanic traditions of Peru.'
+	              'My name is Bradley, I am a shamanic practitioner of the indigenous traditions of Peru.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'absolute-text padding-bottom-40px' },
-	              'I have certified training with master shamans in a range of healing methods and am offering distance energy healing sessions by donation to support you during lockdown.'
+	              'I have certified training with master shamans in a range of healing methods and am offering energy healing sessions by donation to support you at this time.'
 	            ),
 	            _react2.default.createElement(
 	              'div',
@@ -22444,7 +22444,7 @@
 	                { target: "_blank", href: "https://en.wikipedia.org/wiki/Q%27ero" },
 	                "Andean shamanic traditions"
 	              ),
-	              " of Peru as an authentic practitioner of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from maestro ",
+	              " of Peru as a shamanic practitioner of this tradition. I\u2019ve since been on pilgrimages to Peru to learn from maestro ",
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://pumadventuresperu.com/our-team" },
@@ -22456,7 +22456,7 @@
 	                { target: "_blank", href: "https://www.ayahuascaretreat.pe/maestro-heberto-garcia/" },
 	                "Heberto Garcia"
 	              ),
-	              ", where I received the healing energies that I primarily work with today."
+	              ", where I received the \"mesa\" & healing energies that I primarily work with today."
 	            ),
 	            _react2.default.createElement(
 	              "p",
@@ -22602,6 +22602,76 @@
 	              { href: "#healing", onClick: function onClick() {
 	                  return _this2.props.changeContent('healing');
 	                } },
+	              "Shamanic Energy Healing"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-sub-heading" },
+	            "30 min to 2 hour in-person ",
+	            _react2.default.createElement(
+	              "strong",
+	              null,
+	              _react2.default.createElement(
+	                "i",
+	                null,
+	                "by donation"
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "case-study padding-top-40px padding-bottom-80px" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "h4",
+	                null,
+	                "Shamanic Energy Healing"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "I offer in-person shamanic energy healing sessions from my peaceful home location in Richmond. No fixed costs - all by donation."
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "I am happy to do home visits in London for a minimum donation of \xA345. ",
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "#healing", onClick: function onClick() {
+	                      return _this2.props.changeContent('healing');
+	                    } },
+	                  "Read more here."
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "case-study-section" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "img-container" },
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "#healing", onClick: function onClick() {
+	                      return _this2.props.changeContent('healing');
+	                    } },
+	                  _react2.default.createElement("img", { className: "img-border", src: "public/resources/Energy-healing-6.JPG" })
+	                )
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "section-title" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#healing", onClick: function onClick() {
+	                  return _this2.props.changeContent('healing');
+	                } },
 	              "Shamanic Distance Energy Healing"
 	            )
 	          ),
@@ -22736,7 +22806,7 @@
 	          _react2.default.createElement(
 	            "h3",
 	            { className: "review-title" },
-	            "Shamanic Distance Energy Healing Reviews"
+	            "Shamanic Energy Healing Reviews"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23075,20 +23145,15 @@
 	        _react2.default.createElement(
 	          "h2",
 	          null,
-	          "session format"
+	          "shamanic distance healing"
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "content-background-colour" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "section-header padding-top-40px" },
-	            "shamanic distance healing"
-	          ),
-	          _react2.default.createElement(
-	            "p",
 	            { className: "padding-top-40px service-text" },
-	            "I am available to do distance healing sessions Monday - Saturday at a time that is suitable for you. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing."
+	            "In my experience healing is only limited by the imagination and you can expect the same benefits and effects over distance as an in-person healing."
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -23122,7 +23187,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "service-text" },
-	            "The session will normally last 30 minutes followed by 15 minutes for you to rest and integrate. I will then be in touch at a convenient time after the session to check-in with you to discuss anything we experienced and to provide any insight or guidance based on what I observed."
+	            "The healing will normally last 30-40 minutes followed by 15 minutes for integration and for us to discuss what we both observed."
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -23354,6 +23419,8 @@
 	
 	exports.default = Healing;
 	
+	//<p className="section-header padding-top-40px">shamanic distance healing</p>
+	
 	//<h2>pricing</h2>
 	//  <div className="content-background-colour">
 	//    <h2 className="no-margins">I am currently offering shamanic distance healing <i>by donation</i></h2>
@@ -23420,7 +23487,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "\xA92020 Bradley Reeder. All Rights Reserved"
+	            "\xA92021 Bradley Reeder. All Rights Reserved"
 	          )
 	        )
 	      );

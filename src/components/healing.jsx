@@ -31,10 +31,9 @@ class Healing extends Component {
             <img className="padding-top-40px padding-bottom-80px" src="public/resources/energy-healing-4.JPG"/>
           </div>
         </div>
-        <h2>session format</h2>
+        <h2>shamanic distance healing</h2>
         <div className="content-background-colour">
-          <p className="section-header padding-top-40px">shamanic distance healing</p>
-          <p className="padding-top-40px service-text">I am available to do distance healing sessions Monday - Saturday at a time that is suitable for you. In my experience healing is only limited by the imagination and you can expect the same benefits and effects as an in-person healing.</p>
+          <p className="padding-top-40px service-text">In my experience healing is only limited by the imagination and you can expect the same benefits and effects over distance as an in-person healing.</p>
           <p className="service-text">After agreeing a time and an intention for what you would like help with, you would be asked to lie down and rest or meditate from a quiet location. I will then tune-in to you remotely from my altar (pictured) to conduct the healing (only your name, picture, and location is needed). This usually involves a combination of:</p>
           <ul className="no-margin-bottom">
             <li>Energy healing</li>
@@ -42,7 +41,7 @@ class Healing extends Component {
             <li>Healing prayers, songs (icaros), and/or chants</li>
             <li>Chakra cleansing & activation</li>
           </ul>
-          <p className="service-text">The session will normally last 30 minutes followed by 15 minutes for you to rest and integrate. I will then be in touch at a convenient time after the session to check-in with you to discuss anything we experienced and to provide any insight or guidance based on what I observed.</p>
+          <p className="service-text">The healing will normally last 30-40 minutes followed by 15 minutes for integration and for us to discuss what we both observed.</p>
             <div className="case-study-img-container">
               <img className="padding-top-40px padding-bottom-80px" src="public/resources/mesa-2.JPEG"/>
             </div>
@@ -94,6 +93,8 @@ class Healing extends Component {
 }
 
 export default Healing;
+
+//<p className="section-header padding-top-40px">shamanic distance healing</p>
 
 //<h2>pricing</h2>
 //  <div className="content-background-colour">
