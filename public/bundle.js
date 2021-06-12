@@ -23074,6 +23074,11 @@
 	            "My role is to hold and create space for you for this healing within yourself to occur. I tune-in to the underlying root cause of your issue to channel the exact healing and guidance you need in that moment for your highest good & well-being."
 	          ),
 	          _react2.default.createElement(
+	            "p",
+	            { className: "service-text" },
+	            "For in-person healings I primarily work with hands-on energy healing and a range of shamanic tools, techniques and songs (icaros)."
+	          ),
+	          _react2.default.createElement(
 	            "div",
 	            { className: "case-study-img-container" },
 	            _react2.default.createElement("img", { className: "padding-top-40px padding-bottom-80px", src: "public/resources/Energy-healing-5.JPG" })
@@ -23270,7 +23275,7 @@
 	          _react2.default.createElement(
 	            "h3",
 	            { className: "review-title" },
-	            "Shamanic Distance Energy Healing Reviews"
+	            "Shamanic Energy Healing Reviews"
 	          ),
 	          _react2.default.createElement(
 	            "p",

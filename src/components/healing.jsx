@@ -10,6 +10,7 @@ class Healing extends Component {
         <div className="content-background-colour">
           <p className="padding-top-40px service-text"><strong>Shamanic healing can help find solutions to any range of challenges or obstacles be they physical, emotional, mental or spiritual. I’m a deep believer in self-empowerment and that all the answers and capacity to connect, grow and heal lies within each of us.</strong></p>
           <p className="service-text">My role is to hold and create space for you for this healing within yourself to occur. I tune-in to the underlying root cause of your issue to channel the exact healing and guidance you need in that moment for your highest good & well-being.</p>
+          <p className="service-text">For in-person healings I primarily work with hands-on energy healing and a range of shamanic tools, techniques and songs (icaros).</p>
           <div className="case-study-img-container">
             <img className="padding-top-40px padding-bottom-80px" src="public/resources/Energy-healing-5.JPG"/>
           </div>
@@ -65,7 +66,7 @@ class Healing extends Component {
         <h2>reviews</h2>
         <div className="content-background-colour padding-top-40px">
 
-          <h3 className="review-title">Shamanic Distance Energy Healing Reviews</h3>
+          <h3 className="review-title">Shamanic Energy Healing Reviews</h3>
           <p className="service-text review-header"><strong>An overall brilliant experience</strong></p>
           <p className="service-text"><i>"The healing itself was very powerful and profound, I am still integrating the experience now. Bradley told me about the visions and energies he felt during the healing and they all matched with things I had been previously told or visions and inuitions I had. Following the healing I had very vivid and profound dreams which shed light on a lot of difficult issues my life, they also directly correlated with Bradley's visions and the two together have provided deep insight for me.</i></p>
           <p className="service-text padding-bottom-20px"><i>An overall brilliant experience that I feel has shed clarity on my path, illuminated reasons for past difficulties as well as affirmed things I already knew. Bradley is a talented and very connected energy healer, I would recommend him to anyone looking for shamanic healing."</i></p>
